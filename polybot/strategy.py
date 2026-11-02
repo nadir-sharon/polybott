@@ -107,7 +107,16 @@ def decide(mk: Market, fc: Forecast, yes_book: Book, no_book: Book,
                         market_mid=mid)
     avg = spent / shares
     if book.min_order_size and shares < book.min_order_size:
-        return Decision(False, "below venue minimum order size", market_mid=mid)
+        # Venue needs a minimum number of shares. Size up to it only if that still
+        # fits under MAX_STAKE_USD and our cash; otherwise skip.
+        need_usd = book.min_order_size * avg * 1.01
+        if need_usd > min(s.MAX_STAKE_USD, cash):
+            return Decision(False, f"venue minimum ({book.min_order_size:g} shares ≈ ${need_usd:.2f}) "
+                            f"is above the ${s.MAX_STAKE_USD:.2f} max bet", market_mid=mid)
+        shares, spent = walk_book(book.asks, need_usd, max_px)
+        if shares < book.min_order_size:
+            return Decision(False, "order book too thin for venue minimum", market_mid=mid)
+        avg = spent / shares
     fee = taker_fee(shares, avg, fee_rate)
     real_edge = fair - (avg + fee / shares)
     if real_edge < s.MIN_EDGE:

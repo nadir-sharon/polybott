@@ -23,6 +23,12 @@ QUESTION: {question}
 RESOLUTION RULES (read carefully, the exact wording decides the outcome):
 {rules}
 
+IMPORTANT: Do NOT use prediction-market prices, betting odds, or bookmaker lines
+(Polymarket, Kalshi, PredictIt, sportsbooks, "markets give X%"). If a search result
+quotes them, ignore those numbers. We already know the market price; your value is an
+INDEPENDENT estimate built from primary evidence (official results, polls, filings,
+schedules, statements, expert models that are not betting markets).
+
 How to work:
 1. Search the web for the most recent, authoritative information (official sources, \
    major outlets). Prefer facts from the last few days.
@@ -39,6 +45,12 @@ Confidence:
 Finish with ONE JSON object and nothing after it:
 {{"probability": <0.01-0.99>, "confidence": "low|medium|high", \
 "summary": "<2-3 sentences>", "key_facts": ["..."], "sources": ["<url>", "..."]}}"""
+
+
+BETTING_DOMAINS = [
+    "polymarket.com", "kalshi.com", "manifold.markets", "predictit.org",
+    "metaculus.com", "oddschecker.com", "polymarketanalytics.com", "betfair.com",
+]
 
 
 @dataclass
@@ -126,6 +138,8 @@ class Researcher:
                 "type": "web_search_20250305",
                 "name": "web_search",
                 "max_uses": self.s.MAX_SEARCHES_PER_FORECAST,
+                # Keep the AI independent: no peeking at betting odds.
+                "blocked_domains": BETTING_DOMAINS,
             }],
         )
         cost, searches = self.estimate_cost(resp.usage)

@@ -227,3 +227,34 @@ def test_live_refuses_on_ci(tmp_path, monkeypatch):
     monkeypatch.setenv("GITHUB_ACTIONS", "true")
     with pytest.raises(LiveBrokerRefused):
         LiveBroker(settings(tmp_path, LIVE_TRADING_CONFIRMED=True, POLYMARKET_PRIVATE_KEY="x"))
+
+
+def test_min_order_size_bumps_within_cap(tmp_path):
+    s = settings(tmp_path)
+    b = Book(0.29, 0.30, 500, [(0.30, 500)], min_order_size=5)  # 5 sh * 0.30 = $1.50 <= $2
+    d = decide(market(yes=0.3), Forecast(0.65, "high", ""), b, book(0.69, 0.71), 20, 20, 0.05, s)
+    assert d.trade and d.shares >= 5
+
+
+def test_min_order_size_too_expensive_skips(tmp_path):
+    s = settings(tmp_path)
+    no = Book(0.67, 0.68, 500, [(0.68, 500)], min_order_size=5)  # 5 * 0.68 = $3.40 > $2
+    d = decide(market(yes=0.32), Forecast(0.05, "high", ""), book(0.31, 0.33), no, 20, 20, 0.05, s)
+    assert not d.trade and "minimum" in d.reason
+
+
+def test_search_blocks_betting_sites():
+    from types import SimpleNamespace as N
+    from polybot.research import Researcher
+    seen = {}
+
+    class C:
+        class messages:
+            @staticmethod
+            def create(**kw):
+                seen.update(kw)
+                return N(usage=N(input_tokens=1, output_tokens=1),
+                         content=[N(type="text", text='{"probability":0.4,"confidence":"low"}')])
+    Researcher(Settings(), C()).forecast(market())
+    assert "polymarket.com" in seen["tools"][0]["blocked_domains"]
+    assert "Do NOT use prediction-market prices" in seen["messages"][0]["content"]
