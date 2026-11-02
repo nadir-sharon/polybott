@@ -1,4 +1,7 @@
-﻿.env
-trades_log.json
+.env
 __pycache__/
 *.pyc
+.pytest_cache/
+STOP
+data/live/
+*.tmp
