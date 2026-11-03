@@ -127,11 +127,70 @@
    "decision": "AI 0.79 vs market 0.79: agrees with market",
    "traded": false,
    "url": "https://polymarket.com/event/michigan-senate-election-winner"
+  },
+  {
+   "ts": "2026-11-03T06:34:05+00:00",
+   "market_id": "630963",
+   "question": "Will the Democrats win the Texas Senate race in 2026?",
+   "end_date": "2026-11-04T04:59:00+00:00",
+   "ai_prob": 0.68,
+   "confidence": "medium",
+   "market_mid": 0.745,
+   "summary": "Final polls show Talarico (D) ahead of Paxton (R) by about 2.5 to 4 points on average, in a favorable midterm environment for Democrats and against a weak GOP nominee. Texas's Republican lean and a history of polls overstating Democrats keep this well short of certain.",
+   "sources": [
+    "https://www.realclearpolling.com/polls/senate/general/2026/texas/talarico-vs-paxton",
+    "https://www.yahoo.com/news/politics/articles/latest-texas-senate-polls-paxton-230226154.html",
+    "https://www.newsweek.com/james-talaricos-chances-beating-ken-paxton-final-texas-polls-show-12648344",
+    "https://www.foxnews.com/politics/fox-news-poll-texas-senate-race-galloping-toward-photo-finish"
+   ],
+   "cost": 0.0644,
+   "decision": "AI 0.68 vs market 0.74: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/texas-senate-election-winner"
+  },
+  {
+   "ts": "2026-11-03T06:34:18+00:00",
+   "market_id": "6274182",
+   "question": "Will Republicans win Iowa, and lose Alaska, Kansas, Maine, Michigan, Ohio, and Texas?",
+   "end_date": "2026-11-03T23:59:00+00:00",
+   "ai_prob": 0.04,
+   "confidence": "medium",
+   "market_mid": 0.114,
+   "summary": "Final polls show Democrats leading in Alaska, Kansas, Maine, Michigan, Ohio and Texas, with Iowa a tie. The market needs Republicans to win only Iowa while losing all six others, which is a narrow and unlikely combination because the races are correlated. I estimate roughly 4%.",
+   "sources": [
+    "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+    "https://www.poliwave.com/us/senate",
+    "https://thehill.com/homenews/campaign/6185470-senate-control-midterm-six-tossups/"
+   ],
+   "cost": 0.0664,
+   "decision": "AI 0.04 vs market 0.11: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/which-tossup-senate-states-will-republicans-win-ak-ia-ks-me-mi-oh-tx"
+  },
+  {
+   "ts": "2026-11-03T06:34:28+00:00",
+   "market_id": "630806",
+   "question": "Will the Republicans win the Michigan Senate race in 2026?",
+   "end_date": "2026-11-04T04:59:00+00:00",
+   "ai_prob": 0.2,
+   "confidence": "medium",
+   "market_mid": 0.195,
+   "summary": "El-Sayed (D) leads Rogers (R) by about 4-6 points in polling averages entering Election Day, with most late polls showing him ahead. Polling error and some late tightening leave Rogers a real chance, but he is a clear underdog.",
+   "sources": [
+    "https://www.realclearpolling.com/polls/senate/general/2026/michigan/rogers-vs-el-sayed",
+    "https://www.270towin.com/2026-senate-polls/michigan",
+    "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
+    "https://www.thecentersquare.com/michigan/article_ba5b0918-a5e6-439e-8a30-80ded7aa15d6.html"
+   ],
+   "cost": 0.0558,
+   "decision": "AI 0.20 vs market 0.20: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/michigan-senate-election-winner"
   }
  ],
  "ai_spend": {
   "2026-11-02": 0.19034,
-  "2026-11-03": 0.241056
+  "2026-11-03": 0.42771
  },
  "realized_by_day": {},
  "halted": null,
@@ -151,6 +210,14 @@
   "2026-11-03T00:02:34+00:00  [research] Will the Republicans win the Texas Senate race in 2026?",
   "2026-11-03T00:02:47+00:00  [decide] AI 0.42 (medium) vs market 0.27 -> skip: YES edge +0.039 after fees < 0.05",
   "2026-11-03T00:02:47+00:00  [research] Will the Democrats win the Michigan Senate race in 2026?",
-  "2026-11-03T00:02:58+00:00  [decide] AI 0.79 (medium) vs market 0.79 -> skip: AI 0.79 vs market 0.79: agrees with market"
+  "2026-11-03T00:02:58+00:00  [decide] AI 0.79 (medium) vs market 0.79 -> skip: AI 0.79 vs market 0.79: agrees with market",
+  "2026-11-03T06:33:46+00:00  === run start (paper mode) cash $20.00, 0 open ===",
+  "2026-11-03T06:33:53+00:00  [scan] 136 markets pass filters, 130 not recently researched",
+  "2026-11-03T06:33:53+00:00  [research] Will the Democrats win the Texas Senate race in 2026?",
+  "2026-11-03T06:34:05+00:00  [decide] AI 0.68 (medium) vs market 0.74 -> skip: AI 0.68 vs market 0.74: agrees with market",
+  "2026-11-03T06:34:05+00:00  [research] Will Republicans win Iowa, and lose Alaska, Kansas, Maine, Michigan, Ohio, and Texas?",
+  "2026-11-03T06:34:18+00:00  [decide] AI 0.04 (medium) vs market 0.11 -> skip: AI 0.04 vs market 0.11: agrees with market",
+  "2026-11-03T06:34:18+00:00  [research] Will the Republicans win the Michigan Senate race in 2026?",
+  "2026-11-03T06:34:28+00:00  [decide] AI 0.20 (medium) vs market 0.20 -> skip: AI 0.20 vs market 0.20: agrees with market"
  ]
 }

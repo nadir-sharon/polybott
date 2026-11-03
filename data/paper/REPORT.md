@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-03T00:02:58+00:00 UTC_
+_Updated 2026-11-03T06:34:28+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-03T00:02:58+00:00 UTC_
 | Cash now | $20.00 |
 | In open bets (at cost) | $0.00 (0 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $0.43 |
-| Profit after AI costs | **-$0.43** |
+| AI research spent | $0.62 |
+| Profit after AI costs | **-$0.62** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -34,6 +34,15 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **Will the Republicans win the Michigan Senate race in 2026?**  
+  AI 0.20 (medium) vs market 0.20 → AI 0.20 vs market 0.20: agrees with market  
+  _El-Sayed (D) leads Rogers (R) by about 4-6 points in polling averages entering Election Day, with most late polls showing him ahead. Polling error and some late tightening leave Rogers a real chance, but he is a clear underdog._
+- **Will Republicans win Iowa, and lose Alaska, Kansas, Maine, Michigan, Ohio, and Texas?**  
+  AI 0.04 (medium) vs market 0.11 → AI 0.04 vs market 0.11: agrees with market  
+  _Final polls show Democrats leading in Alaska, Kansas, Maine, Michigan, Ohio and Texas, with Iowa a tie. The market needs Republicans to win only Iowa while losing all six others, which is a narrow and unlikely combination because the races _
+- **Will the Democrats win the Texas Senate race in 2026?**  
+  AI 0.68 (medium) vs market 0.74 → AI 0.68 vs market 0.74: agrees with market  
+  _Final polls show Talarico (D) ahead of Paxton (R) by about 2.5 to 4 points on average, in a favorable midterm environment for Democrats and against a weak GOP nominee. Texas's Republican lean and a history of polls overstating Democrats kee_
 - **Will the Democrats win the Michigan Senate race in 2026?**  
   AI 0.79 (medium) vs market 0.79 → AI 0.79 vs market 0.79: agrees with market  
   _El-Sayed (D) leads Rogers (R) by about 5 points in the final polling average, and Cook moved the race to Lean D on Nov 2. Decision Desk HQ gives El-Sayed 75%. Polling error and a close-race possibility keep this short of near-certainty._
@@ -72,4 +81,12 @@ _None yet. Bets settle when their market resolves._
 2026-11-03T00:02:47+00:00  [decide] AI 0.42 (medium) vs market 0.27 -> skip: YES edge +0.039 after fees < 0.05
 2026-11-03T00:02:47+00:00  [research] Will the Democrats win the Michigan Senate race in 2026?
 2026-11-03T00:02:58+00:00  [decide] AI 0.79 (medium) vs market 0.79 -> skip: AI 0.79 vs market 0.79: agrees with market
+2026-11-03T06:33:46+00:00  === run start (paper mode) cash $20.00, 0 open ===
+2026-11-03T06:33:53+00:00  [scan] 136 markets pass filters, 130 not recently researched
+2026-11-03T06:33:53+00:00  [research] Will the Democrats win the Texas Senate race in 2026?
+2026-11-03T06:34:05+00:00  [decide] AI 0.68 (medium) vs market 0.74 -> skip: AI 0.68 vs market 0.74: agrees with market
+2026-11-03T06:34:05+00:00  [research] Will Republicans win Iowa, and lose Alaska, Kansas, Maine, Michigan, Ohio, and Texas?
+2026-11-03T06:34:18+00:00  [decide] AI 0.04 (medium) vs market 0.11 -> skip: AI 0.04 vs market 0.11: agrees with market
+2026-11-03T06:34:18+00:00  [research] Will the Republicans win the Michigan Senate race in 2026?
+2026-11-03T06:34:28+00:00  [decide] AI 0.20 (medium) vs market 0.20 -> skip: AI 0.20 vs market 0.20: agrees with market
 ```
