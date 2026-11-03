@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-02T17:29:44+00:00 UTC_
+_Updated 2026-11-03T00:02:58+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-02T17:29:44+00:00 UTC_
 | Cash now | $20.00 |
 | In open bets (at cost) | $0.00 (0 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $0.19 |
-| Profit after AI costs | **-$0.19** |
+| AI research spent | $0.43 |
+| Profit after AI costs | **-$0.43** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -34,6 +34,15 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **Will the Democrats win the Michigan Senate race in 2026?**  
+  AI 0.79 (medium) vs market 0.79 → AI 0.79 vs market 0.79: agrees with market  
+  _El-Sayed (D) leads Rogers (R) by about 5 points in the final polling average, and Cook moved the race to Lean D on Nov 2. Decision Desk HQ gives El-Sayed 75%. Polling error and a close-race possibility keep this short of near-certainty._
+- **Will the Republicans win the Texas Senate race in 2026?**  
+  AI 0.42 (medium) vs market 0.27 → YES edge +0.039 after fees < 0.05  
+  _Final polls show Talarico (D) ahead by roughly 2.5–4 points on average, with a few ties and one Paxton lead. Texas polls have tended to overstate Democrats, and the state is still Republican-leaning, so the result is close to a toss-up with_
+- **Will the Democratic Party control the Senate after the 2026 Midterm elections?**  
+  AI 0.68 (medium) vs market 0.76 → AI 0.68 vs market 0.76: agrees with market  
+  _Final model forecasts (DDHQ about 65%, Poliwave 78%) and late polls show Democrats leading all key Senate toss-ups, but mostly by narrow margins. Democrats need a net gain of four seats for 51, because Vance breaks a 50–50 tie. Correlated p_
 - **2026 Balance of Power: D Senate, D House**  
   AI 0.69 (medium) vs market 0.72 → AI 0.69 vs market 0.72: agrees with market  
   _Prediction markets on Nov 1-2 put a Democratic sweep at about 68-71%, with the Democratic Senate at about 65-72% and the Democratic House at about 93-95%. The Senate is the binding constraint, and the election is one to two days away, so th_
@@ -55,4 +64,12 @@ _None yet. Bets settle when their market resolves._
 2026-11-02T17:29:34+00:00  [decide] AI 0.12 (medium) vs market 0.32 -> skip: below venue minimum order size
 2026-11-02T17:29:34+00:00  [research] 2026 Balance of Power: D Senate, D House
 2026-11-02T17:29:44+00:00  [decide] AI 0.69 (medium) vs market 0.72 -> skip: AI 0.69 vs market 0.72: agrees with market
+2026-11-03T00:02:06+00:00  === run start (paper mode) cash $20.00, 0 open ===
+2026-11-03T00:02:17+00:00  [scan] 138 markets pass filters, 135 not recently researched
+2026-11-03T00:02:17+00:00  [research] Will the Democratic Party control the Senate after the 2026 Midterm elections?
+2026-11-03T00:02:34+00:00  [decide] AI 0.68 (medium) vs market 0.76 -> skip: AI 0.68 vs market 0.76: agrees with market
+2026-11-03T00:02:34+00:00  [research] Will the Republicans win the Texas Senate race in 2026?
+2026-11-03T00:02:47+00:00  [decide] AI 0.42 (medium) vs market 0.27 -> skip: YES edge +0.039 after fees < 0.05
+2026-11-03T00:02:47+00:00  [research] Will the Democrats win the Michigan Senate race in 2026?
+2026-11-03T00:02:58+00:00  [decide] AI 0.79 (medium) vs market 0.79 -> skip: AI 0.79 vs market 0.79: agrees with market
 ```

@@ -64,10 +64,74 @@
    "decision": "AI 0.69 vs market 0.72: agrees with market",
    "traded": false,
    "url": "https://polymarket.com/event/balance-of-power-2026-midterms"
+  },
+  {
+   "ts": "2026-11-03T00:02:34+00:00",
+   "market_id": "562793",
+   "question": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+   "end_date": "2026-11-04T04:59:00+00:00",
+   "ai_prob": 0.68,
+   "confidence": "medium",
+   "market_mid": 0.755,
+   "summary": "Final model forecasts (DDHQ about 65%, Poliwave 78%) and late polls show Democrats leading all key Senate toss-ups, but mostly by narrow margins. Democrats need a net gain of four seats for 51, because Vance breaks a 50\u201350 tie. Correlated polling error could still flip the outcome.",
+   "sources": [
+    "https://votes.decisiondeskhq.com/forecast/2026/senate",
+    "https://www.poliwave.com/us/fed/projection",
+    "https://www.cookpolitical.com/ratings/senate-race-ratings",
+    "https://www.forbes.com/sites/saradorn/2026/11/01/latest-polls-in-2026-midterms-democrats-lead-nearly-all-key-senate-races/",
+    "https://gking.harvard.edu/electit/",
+    "https://thehill.com/homenews/campaign/6190665-cook-political-report-michigan-senate/",
+    "https://www.cnbc.com/2026/10/30/2026-midterm-election-wall-street-prepares-for-democratic-gains.html"
+   ],
+   "cost": 0.0968,
+   "decision": "AI 0.68 vs market 0.76: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026"
+  },
+  {
+   "ts": "2026-11-03T00:02:47+00:00",
+   "market_id": "630964",
+   "question": "Will the Republicans win the Texas Senate race in 2026?",
+   "end_date": "2026-11-04T04:59:00+00:00",
+   "ai_prob": 0.42,
+   "confidence": "medium",
+   "market_mid": 0.265,
+   "summary": "Final polls show Talarico (D) ahead by roughly 2.5\u20134 points on average, with a few ties and one Paxton lead. Texas polls have tended to overstate Democrats, and the state is still Republican-leaning, so the result is close to a toss-up with a slight Democratic edge.",
+   "sources": [
+    "https://www.realclearpolling.com/polls/senate/general/2026/texas/talarico-vs-paxton",
+    "https://www.fox7austin.com/news/talarico-holds-lead-over-paxton-latest-texas-senate-race-poll-election-day-just-hours-away",
+    "https://www.foxnews.com/politics/fox-news-poll-texas-senate-race-galloping-toward-photo-finish",
+    "https://www.fox7austin.com/news/paxton-slips-past-talarico-latest-poll-senate-race-enters-final-days"
+   ],
+   "cost": 0.0598,
+   "decision": "YES edge +0.039 after fees < 0.05",
+   "traded": false,
+   "url": "https://polymarket.com/event/texas-senate-election-winner"
+  },
+  {
+   "ts": "2026-11-03T00:02:58+00:00",
+   "market_id": "630805",
+   "question": "Will the Democrats win the Michigan Senate race in 2026?",
+   "end_date": "2026-11-04T04:59:00+00:00",
+   "ai_prob": 0.79,
+   "confidence": "medium",
+   "market_mid": 0.785,
+   "summary": "El-Sayed (D) leads Rogers (R) by about 5 points in the final polling average, and Cook moved the race to Lean D on Nov 2. Decision Desk HQ gives El-Sayed 75%. Polling error and a close-race possibility keep this short of near-certainty.",
+   "sources": [
+    "https://www.realclearpolling.com/polls/senate/general/2026/michigan/rogers-vs-el-sayed",
+    "https://thehill.com/homenews/campaign/6190665-cook-political-report-michigan-senate/",
+    "https://www.cnn.com/2026/11/02/politics/live-news/midterm-election-congress",
+    "https://thehill.com/homenews/campaign/6113673-cook-predicts-democratic-midterm-wins/"
+   ],
+   "cost": 0.0844,
+   "decision": "AI 0.79 vs market 0.79: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/michigan-senate-election-winner"
   }
  ],
  "ai_spend": {
-  "2026-11-02": 0.19034
+  "2026-11-02": 0.19034,
+  "2026-11-03": 0.241056
  },
  "realized_by_day": {},
  "halted": null,
@@ -79,6 +143,14 @@
   "2026-11-02T17:29:21+00:00  [research] Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate se",
   "2026-11-02T17:29:34+00:00  [decide] AI 0.12 (medium) vs market 0.32 -> skip: below venue minimum order size",
   "2026-11-02T17:29:34+00:00  [research] 2026 Balance of Power: D Senate, D House",
-  "2026-11-02T17:29:44+00:00  [decide] AI 0.69 (medium) vs market 0.72 -> skip: AI 0.69 vs market 0.72: agrees with market"
+  "2026-11-02T17:29:44+00:00  [decide] AI 0.69 (medium) vs market 0.72 -> skip: AI 0.69 vs market 0.72: agrees with market",
+  "2026-11-03T00:02:06+00:00  === run start (paper mode) cash $20.00, 0 open ===",
+  "2026-11-03T00:02:17+00:00  [scan] 138 markets pass filters, 135 not recently researched",
+  "2026-11-03T00:02:17+00:00  [research] Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+  "2026-11-03T00:02:34+00:00  [decide] AI 0.68 (medium) vs market 0.76 -> skip: AI 0.68 vs market 0.76: agrees with market",
+  "2026-11-03T00:02:34+00:00  [research] Will the Republicans win the Texas Senate race in 2026?",
+  "2026-11-03T00:02:47+00:00  [decide] AI 0.42 (medium) vs market 0.27 -> skip: YES edge +0.039 after fees < 0.05",
+  "2026-11-03T00:02:47+00:00  [research] Will the Democrats win the Michigan Senate race in 2026?",
+  "2026-11-03T00:02:58+00:00  [decide] AI 0.79 (medium) vs market 0.79 -> skip: AI 0.79 vs market 0.79: agrees with market"
  ]
 }
