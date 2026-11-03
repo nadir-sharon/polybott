@@ -248,11 +248,33 @@
    "decision": "YES edge +0.038 after fees < 0.05",
    "traded": false,
    "url": "https://polymarket.com/event/florida-governor-winner-2026"
+  },
+  {
+   "ts": "2026-11-03T20:55:46+00:00",
+   "market_id": "6367378",
+   "question": "Israel x Iran ceasefire continues through November 7?",
+   "end_date": "2026-11-08T04:59:00+00:00",
+   "ai_prob": 0.82,
+   "confidence": "medium",
+   "market_mid": 0.805,
+   "summary": "No direct Israel-Iran strikes appear to have occurred since June, and Trump is signalling a preference for a deal. But a post-midterm US-Israeli strike is actively being planned and Netanyahu is pushing for it, so there is meaningful tail risk within the 4-day window.",
+   "sources": [
+    "https://www.pbs.org/newshour/world/u-s-launches-new-attacks-on-iranian-targets-days-after-netanyahu-pressed-trump-for-more-strikes",
+    "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/",
+    "https://www.haaretz.com/israel-news/israel-security/2026-11-03/ty-article/.premium/idf-hesitant-to-launch-joint-u-s-israeli-strike-in-iran-during-coalition-talks/000001a1-9daa-d02e-abe7-ddaeddc20000",
+    "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm",
+    "https://www.ntd.com/trump-not-considering-strikes-on-iran-after-midterms_1182957.html",
+    "https://www.iranintl.com/en/202611015366"
+   ],
+   "cost": 0.2162,
+   "decision": "AI 0.82 vs market 0.81: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
   }
  ],
  "ai_spend": {
   "2026-11-02": 0.19034,
-  "2026-11-03": 0.69599
+  "2026-11-03": 0.912182
  },
  "realized_by_day": {},
  "halted": null,
@@ -288,6 +310,11 @@
   "2026-11-03T14:38:07+00:00  [research] Will the Republicans win the Texas governor race in 2026?",
   "2026-11-03T14:38:22+00:00  [decide] AI 0.73 (medium) vs market 0.64 -> skip: AI 0.73 vs market 0.64: agrees with market",
   "2026-11-03T14:38:22+00:00  [research] Will the Republicans win the Florida governor race in 2026?",
-  "2026-11-03T14:38:34+00:00  [decide] AI 0.82 (medium) vs market 0.67 -> skip: YES edge +0.038 after fees < 0.05"
+  "2026-11-03T14:38:34+00:00  [decide] AI 0.82 (medium) vs market 0.67 -> skip: YES edge +0.038 after fees < 0.05",
+  "2026-11-03T20:55:16+00:00  === run start (paper mode) cash $20.00, 0 open ===",
+  "2026-11-03T20:55:24+00:00  [scan] 38 markets pass filters, 38 not recently researched",
+  "2026-11-03T20:55:24+00:00  [research] Israel x Iran ceasefire continues through November 7?",
+  "2026-11-03T20:55:46+00:00  [decide] AI 0.82 (medium) vs market 0.81 -> skip: AI 0.82 vs market 0.81: agrees with market",
+  "2026-11-03T20:55:46+00:00  [budget] daily AI budget $1.00 reached (spent $0.91)"
  ]
 }

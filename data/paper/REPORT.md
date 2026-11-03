@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-03T14:38:34+00:00 UTC_
+_Updated 2026-11-03T20:55:46+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-03T14:38:34+00:00 UTC_
 | Cash now | $20.00 |
 | In open bets (at cost) | $0.00 (0 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $0.89 |
-| Profit after AI costs | **-$0.89** |
+| AI research spent | $1.10 |
+| Profit after AI costs | **-$1.10** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -34,6 +34,9 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **Israel x Iran ceasefire continues through November 7?**  
+  AI 0.82 (medium) vs market 0.81 → AI 0.82 vs market 0.81: agrees with market  
+  _No direct Israel-Iran strikes appear to have occurred since June, and Trump is signalling a preference for a deal. But a post-midterm US-Israeli strike is actively being planned and Netanyahu is pushing for it, so there is meaningful tail r_
 - **Will the Republicans win the Florida governor race in 2026?**  
   AI 0.82 (medium) vs market 0.67 → YES edge +0.038 after fees < 0.05  
   _Election Day is today, so there are no results yet. Donalds (R) leads Jolly (D) by about 4 points in the polling average, and the race is rated Lean Republican by the major forecasters. He also has a large money advantage, though a tighteni_
@@ -61,9 +64,6 @@ _None yet. Bets settle when their market resolves._
 - **Will the Democratic Party control the Senate after the 2026 Midterm elections?**  
   AI 0.68 (medium) vs market 0.76 → AI 0.68 vs market 0.76: agrees with market  
   _Final model forecasts (DDHQ about 65%, Poliwave 78%) and late polls show Democrats leading all key Senate toss-ups, but mostly by narrow margins. Democrats need a net gain of four seats for 51, because Vance breaks a 50–50 tie. Correlated p_
-- **2026 Balance of Power: D Senate, D House**  
-  AI 0.69 (medium) vs market 0.72 → AI 0.69 vs market 0.72: agrees with market  
-  _Prediction markets on Nov 1-2 put a Democratic sweep at about 68-71%, with the Democratic Senate at about 65-72% and the Democratic House at about 93-95%. The Senate is the binding constraint, and the election is one to two days away, so th_
 
 ## Activity log (latest 40)
 
@@ -100,4 +100,9 @@ _None yet. Bets settle when their market resolves._
 2026-11-03T14:38:22+00:00  [decide] AI 0.73 (medium) vs market 0.64 -> skip: AI 0.73 vs market 0.64: agrees with market
 2026-11-03T14:38:22+00:00  [research] Will the Republicans win the Florida governor race in 2026?
 2026-11-03T14:38:34+00:00  [decide] AI 0.82 (medium) vs market 0.67 -> skip: YES edge +0.038 after fees < 0.05
+2026-11-03T20:55:16+00:00  === run start (paper mode) cash $20.00, 0 open ===
+2026-11-03T20:55:24+00:00  [scan] 38 markets pass filters, 38 not recently researched
+2026-11-03T20:55:24+00:00  [research] Israel x Iran ceasefire continues through November 7?
+2026-11-03T20:55:46+00:00  [decide] AI 0.82 (medium) vs market 0.81 -> skip: AI 0.82 vs market 0.81: agrees with market
+2026-11-03T20:55:46+00:00  [budget] daily AI budget $1.00 reached (spent $0.91)
 ```
