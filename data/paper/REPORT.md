@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-03T06:34:28+00:00 UTC_
+_Updated 2026-11-03T14:38:34+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-03T06:34:28+00:00 UTC_
 | Cash now | $20.00 |
 | In open bets (at cost) | $0.00 (0 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $0.62 |
-| Profit after AI costs | **-$0.62** |
+| AI research spent | $0.89 |
+| Profit after AI costs | **-$0.89** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -34,6 +34,15 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **Will the Republicans win the Florida governor race in 2026?**  
+  AI 0.82 (medium) vs market 0.67 → YES edge +0.038 after fees < 0.05  
+  _Election Day is today, so there are no results yet. Donalds (R) leads Jolly (D) by about 4 points in the polling average, and the race is rated Lean Republican by the major forecasters. He also has a large money advantage, though a tighteni_
+- **Will the Republicans win the Texas governor race in 2026?**  
+  AI 0.73 (medium) vs market 0.64 → AI 0.73 vs market 0.64: agrees with market  
+  _Abbott leads polling averages by about 2 points, though the final NYT/Siena and AtlasIntel polls showed Hinojosa slightly ahead. Texas polls have tended to understate Republicans, and Abbott has a large money advantage, so he is a moderate _
+- **2026 Balance of Power: R Senate, D House**  
+  AI 0.18 (medium) vs market 0.17 → AI 0.18 vs market 0.17: agrees with market  
+  _Election Day forecasts give Democrats about 84–99% to win the House and about 65–88% to win the Senate. A Republican Senate with a Democratic House is therefore roughly a 10–21% outcome, and I estimate about 18%. No results were available y_
 - **Will the Republicans win the Michigan Senate race in 2026?**  
   AI 0.20 (medium) vs market 0.20 → AI 0.20 vs market 0.20: agrees with market  
   _El-Sayed (D) leads Rogers (R) by about 4-6 points in polling averages entering Election Day, with most late polls showing him ahead. Polling error and some late tightening leave Rogers a real chance, but he is a clear underdog._
@@ -55,12 +64,6 @@ _None yet. Bets settle when their market resolves._
 - **2026 Balance of Power: D Senate, D House**  
   AI 0.69 (medium) vs market 0.72 → AI 0.69 vs market 0.72: agrees with market  
   _Prediction markets on Nov 1-2 put a Democratic sweep at about 68-71%, with the Democratic Senate at about 65-72% and the Democratic House at about 93-95%. The Senate is the binding constraint, and the election is one to two days away, so th_
-- **Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate se**  
-  AI 0.12 (medium) vs market 0.32 → below venue minimum order size  
-  _A YES needs Democrats or non-Republicans to win all seven seats, including toss-ups in Iowa and Kansas and long shots like Texas, Alaska and Ohio. Polling shows a Democratic-leaning environment with strongly correlated races, so I put the s_
-- **Will the Republican Party control the Senate after the 2026 Midterm elections?**  
-  AI 0.27 (medium) vs market 0.28 → AI 0.27 vs market 0.28: agrees with market  
-  _Markets (Kalshi/Polymarket) give Democrats ~71-72% to win the Senate, and models range from 65% (DDHQ) to 78% (Poliwave). Republicans need to hold enough tossups (Iowa, Ohio, Kansas, Texas, Maine, Alaska, Nebraska) to keep 50 seats with the_
 
 ## Activity log (latest 40)
 
@@ -89,4 +92,12 @@ _None yet. Bets settle when their market resolves._
 2026-11-03T06:34:18+00:00  [decide] AI 0.04 (medium) vs market 0.11 -> skip: AI 0.04 vs market 0.11: agrees with market
 2026-11-03T06:34:18+00:00  [research] Will the Republicans win the Michigan Senate race in 2026?
 2026-11-03T06:34:28+00:00  [decide] AI 0.20 (medium) vs market 0.20 -> skip: AI 0.20 vs market 0.20: agrees with market
+2026-11-03T14:37:45+00:00  === run start (paper mode) cash $20.00, 0 open ===
+2026-11-03T14:37:53+00:00  [scan] 162 markets pass filters, 155 not recently researched
+2026-11-03T14:37:53+00:00  [research] 2026 Balance of Power: R Senate, D House
+2026-11-03T14:38:07+00:00  [decide] AI 0.18 (medium) vs market 0.17 -> skip: AI 0.18 vs market 0.17: agrees with market
+2026-11-03T14:38:07+00:00  [research] Will the Republicans win the Texas governor race in 2026?
+2026-11-03T14:38:22+00:00  [decide] AI 0.73 (medium) vs market 0.64 -> skip: AI 0.73 vs market 0.64: agrees with market
+2026-11-03T14:38:22+00:00  [research] Will the Republicans win the Florida governor race in 2026?
+2026-11-03T14:38:34+00:00  [decide] AI 0.82 (medium) vs market 0.67 -> skip: YES edge +0.038 after fees < 0.05
 ```

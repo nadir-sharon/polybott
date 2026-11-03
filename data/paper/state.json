@@ -186,11 +186,73 @@
    "decision": "AI 0.20 vs market 0.20: agrees with market",
    "traded": false,
    "url": "https://polymarket.com/event/michigan-senate-election-winner"
+  },
+  {
+   "ts": "2026-11-03T14:38:07+00:00",
+   "market_id": "562830",
+   "question": "2026 Balance of Power: R Senate, D House",
+   "end_date": "2026-11-04T04:59:00+00:00",
+   "ai_prob": 0.18,
+   "confidence": "medium",
+   "market_mid": 0.175,
+   "summary": "Election Day forecasts give Democrats about 84\u201399% to win the House and about 65\u201388% to win the Senate. A Republican Senate with a Democratic House is therefore roughly a 10\u201321% outcome, and I estimate about 18%. No results were available yet.",
+   "sources": [
+    "https://votes.decisiondeskhq.com/forecast/2026",
+    "https://www.poliwave.com/us/fed/projection",
+    "https://theconversation.com/democrats-likely-to-gain-control-of-congress-in-us-midterm-elections-as-senate-lead-expands-295460",
+    "https://www.foxnews.com/politics/everything-know-house-senate-control-ballot-measures-2026-election-day-poll-closing",
+    "https://onpointpolitics.us/forecast"
+   ],
+   "cost": 0.0652,
+   "decision": "AI 0.18 vs market 0.17: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/balance-of-power-2026-midterms"
+  },
+  {
+   "ts": "2026-11-03T14:38:22+00:00",
+   "market_id": "629691",
+   "question": "Will the Republicans win the Texas governor race in 2026?",
+   "end_date": "2026-11-04T04:59:00+00:00",
+   "ai_prob": 0.73,
+   "confidence": "medium",
+   "market_mid": 0.6385,
+   "summary": "Abbott leads polling averages by about 2 points, though the final NYT/Siena and AtlasIntel polls showed Hinojosa slightly ahead. Texas polls have tended to understate Republicans, and Abbott has a large money advantage, so he is a moderate favorite. No results were available yet.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election",
+    "https://onpointpolitics.us/polls/tx/governor",
+    "https://votes.decisiondeskhq.com/races/2026-11-03/texas-governor-general-election",
+    "https://www.yahoo.com/news/politics/articles/hinojosa-edges-past-abbott-latest-214836352.html",
+    "https://www.fox7austin.com/news/texas-governor-abbott-hinojosa-emerson-poll"
+   ],
+   "cost": 0.1356,
+   "decision": "AI 0.73 vs market 0.64: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/texas-governor-winner-2026"
+  },
+  {
+   "ts": "2026-11-03T14:38:34+00:00",
+   "market_id": "629325",
+   "question": "Will the Republicans win the Florida governor race in 2026?",
+   "end_date": "2026-11-04T04:59:00+00:00",
+   "ai_prob": 0.82,
+   "confidence": "medium",
+   "market_mid": 0.665,
+   "summary": "Election Day is today, so there are no results yet. Donalds (R) leads Jolly (D) by about 4 points in the polling average, and the race is rated Lean Republican by the major forecasters. He also has a large money advantage, though a tightening race and a Democratic-leaning national environment leave real upset risk.",
+   "sources": [
+    "https://www.multistate.us/elections/governor-race/florida-2026",
+    "https://flvoicenews.com/poll-donalds-leads-jolly-by-7-points-moody-tops-nixon-by-9-as-gop-sweeps-all-florida-statewide-races/",
+    "https://www.fox13news.com/news/donalds-jolly-dead-heat-florida-governor-poll",
+    "https://www.activote.net/polls/2026/fl-governor/"
+   ],
+   "cost": 0.0675,
+   "decision": "YES edge +0.038 after fees < 0.05",
+   "traded": false,
+   "url": "https://polymarket.com/event/florida-governor-winner-2026"
   }
  ],
  "ai_spend": {
   "2026-11-02": 0.19034,
-  "2026-11-03": 0.42771
+  "2026-11-03": 0.69599
  },
  "realized_by_day": {},
  "halted": null,
@@ -218,6 +280,14 @@
   "2026-11-03T06:34:05+00:00  [research] Will Republicans win Iowa, and lose Alaska, Kansas, Maine, Michigan, Ohio, and Texas?",
   "2026-11-03T06:34:18+00:00  [decide] AI 0.04 (medium) vs market 0.11 -> skip: AI 0.04 vs market 0.11: agrees with market",
   "2026-11-03T06:34:18+00:00  [research] Will the Republicans win the Michigan Senate race in 2026?",
-  "2026-11-03T06:34:28+00:00  [decide] AI 0.20 (medium) vs market 0.20 -> skip: AI 0.20 vs market 0.20: agrees with market"
+  "2026-11-03T06:34:28+00:00  [decide] AI 0.20 (medium) vs market 0.20 -> skip: AI 0.20 vs market 0.20: agrees with market",
+  "2026-11-03T14:37:45+00:00  === run start (paper mode) cash $20.00, 0 open ===",
+  "2026-11-03T14:37:53+00:00  [scan] 162 markets pass filters, 155 not recently researched",
+  "2026-11-03T14:37:53+00:00  [research] 2026 Balance of Power: R Senate, D House",
+  "2026-11-03T14:38:07+00:00  [decide] AI 0.18 (medium) vs market 0.17 -> skip: AI 0.18 vs market 0.17: agrees with market",
+  "2026-11-03T14:38:07+00:00  [research] Will the Republicans win the Texas governor race in 2026?",
+  "2026-11-03T14:38:22+00:00  [decide] AI 0.73 (medium) vs market 0.64 -> skip: AI 0.73 vs market 0.64: agrees with market",
+  "2026-11-03T14:38:22+00:00  [research] Will the Republicans win the Florida governor race in 2026?",
+  "2026-11-03T14:38:34+00:00  [decide] AI 0.82 (medium) vs market 0.67 -> skip: YES edge +0.038 after fees < 0.05"
  ]
 }
