@@ -1,17 +1,17 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-03T20:55:46+00:00 UTC_
+_Updated 2026-11-04T01:15:58+00:00 UTC_
 
 ## Scoreboard
 
 | | |
 |---|---|
 | Starting bankroll | $20.00 |
-| Cash now | $20.00 |
-| In open bets (at cost) | $0.00 (0 bets) |
+| Cash now | $18.54 |
+| In open bets (at cost) | $1.46 (1 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $1.10 |
-| Profit after AI costs | **-$1.10** |
+| AI research spent | $2.04 |
+| Profit after AI costs | **-$2.04** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -26,7 +26,9 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 
 ## Open bets
 
-_None._
+| Opened | Side | Cost | Price | AI / market | Ends | Market |
+|---|---|---|---|---|---|---|
+| 2026-11-04T01:15 | NO | $1.46 | 0.28 | 0.20 / 0.72 | 2026-11-16 | [Will Gemini Carbon be released between November 9 and November 15, 202](https://polymarket.com/event/when-will-gemini-carbon-be-released-20261027) |
 
 ## Settled bets (latest 20)
 
@@ -34,6 +36,15 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **Will Gemini Carbon be released between November 9 and November 15, 2026?**  
+  AI 0.20 (medium) vs market 0.72 → edge found  
+  _Carbon was announced Oct 28 but is still limited to Fairwind cyber defenders, with no public date. Argon's 13-day gap from defenders-only to public would land near Nov 10, but Google says it is iterating on guardrails and is in US governmen_
+- **Will Elon Musk post 300-319 tweets from October 30 to November 6, 2026?**  
+  AI 0.14 (low) vs market 0.12 → AI confidence low: not trading on it  
+  _Recent weekly counts imply roughly 330–350 posts for the window, and election week could push it higher. The 300–319 bucket sits below that central estimate, so it is plausible but not the favorite. I couldn't find the live count for this w_
+- **Israel x Iran ceasefire continues through November 15?**  
+  AI 0.68 (medium) vs market 0.59 → AI 0.68 vs market 0.59: agrees with market  
+  _Strike planning by the US and Israel is at a peak right after the US midterms, and Netanyahu is lobbying hard. But Trump has repeatedly delayed strikes, says he is in no rush, and talks are reportedly progressing. The last confirmed direct _
 - **Israel x Iran ceasefire continues through November 7?**  
   AI 0.82 (medium) vs market 0.81 → AI 0.82 vs market 0.81: agrees with market  
   _No direct Israel-Iran strikes appear to have occurred since June, and Trump is signalling a preference for a deal. But a post-midterm US-Israeli strike is actively being planned and Netanyahu is pushing for it, so there is meaningful tail r_
@@ -55,25 +66,10 @@ _None yet. Bets settle when their market resolves._
 - **Will the Democrats win the Texas Senate race in 2026?**  
   AI 0.68 (medium) vs market 0.74 → AI 0.68 vs market 0.74: agrees with market  
   _Final polls show Talarico (D) ahead of Paxton (R) by about 2.5 to 4 points on average, in a favorable midterm environment for Democrats and against a weak GOP nominee. Texas's Republican lean and a history of polls overstating Democrats kee_
-- **Will the Democrats win the Michigan Senate race in 2026?**  
-  AI 0.79 (medium) vs market 0.79 → AI 0.79 vs market 0.79: agrees with market  
-  _El-Sayed (D) leads Rogers (R) by about 5 points in the final polling average, and Cook moved the race to Lean D on Nov 2. Decision Desk HQ gives El-Sayed 75%. Polling error and a close-race possibility keep this short of near-certainty._
-- **Will the Republicans win the Texas Senate race in 2026?**  
-  AI 0.42 (medium) vs market 0.27 → YES edge +0.039 after fees < 0.05  
-  _Final polls show Talarico (D) ahead by roughly 2.5–4 points on average, with a few ties and one Paxton lead. Texas polls have tended to overstate Democrats, and the state is still Republican-leaning, so the result is close to a toss-up with_
-- **Will the Democratic Party control the Senate after the 2026 Midterm elections?**  
-  AI 0.68 (medium) vs market 0.76 → AI 0.68 vs market 0.76: agrees with market  
-  _Final model forecasts (DDHQ about 65%, Poliwave 78%) and late polls show Democrats leading all key Senate toss-ups, but mostly by narrow margins. Democrats need a net gain of four seats for 51, because Vance breaks a 50–50 tie. Correlated p_
 
 ## Activity log (latest 40)
 
 ```
-2026-11-02T17:29:00+00:00  === run start (paper mode) cash $20.00, 0 open ===
-2026-11-02T17:29:08+00:00  [scan] 136 markets pass filters, 136 not recently researched
-2026-11-02T17:29:08+00:00  [research] Will the Republican Party control the Senate after the 2026 Midterm elections?
-2026-11-02T17:29:21+00:00  [decide] AI 0.27 (medium) vs market 0.28 -> skip: AI 0.27 vs market 0.28: agrees with market
-2026-11-02T17:29:21+00:00  [research] Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate se
-2026-11-02T17:29:34+00:00  [decide] AI 0.12 (medium) vs market 0.32 -> skip: below venue minimum order size
 2026-11-02T17:29:34+00:00  [research] 2026 Balance of Power: D Senate, D House
 2026-11-02T17:29:44+00:00  [decide] AI 0.69 (medium) vs market 0.72 -> skip: AI 0.69 vs market 0.72: agrees with market
 2026-11-03T00:02:06+00:00  === run start (paper mode) cash $20.00, 0 open ===
@@ -105,4 +101,13 @@ _None yet. Bets settle when their market resolves._
 2026-11-03T20:55:24+00:00  [research] Israel x Iran ceasefire continues through November 7?
 2026-11-03T20:55:46+00:00  [decide] AI 0.82 (medium) vs market 0.81 -> skip: AI 0.82 vs market 0.81: agrees with market
 2026-11-03T20:55:46+00:00  [budget] daily AI budget $1.00 reached (spent $0.91)
+2026-11-04T01:14:50+00:00  === run start (paper mode) cash $20.00, 0 open ===
+2026-11-04T01:14:58+00:00  [scan] 20 markets pass filters, 19 not recently researched
+2026-11-04T01:14:58+00:00  [research] Israel x Iran ceasefire continues through November 15?
+2026-11-04T01:15:20+00:00  [decide] AI 0.68 (medium) vs market 0.59 -> skip: AI 0.68 vs market 0.59: agrees with market
+2026-11-04T01:15:20+00:00  [research] Will Elon Musk post 300-319 tweets from October 30 to November 6, 2026?
+2026-11-04T01:15:39+00:00  [decide] AI 0.14 (low) vs market 0.12 -> skip: AI confidence low: not trading on it
+2026-11-04T01:15:39+00:00  [research] Will Gemini Carbon be released between November 9 and November 15, 2026?
+2026-11-04T01:15:58+00:00  [decide] AI 0.20 (medium) vs market 0.72 -> TRADE NO: edge found
+2026-11-04T01:15:58+00:00  [order] PAPER BUY NO 5.05 sh @ 0.280 = $1.46  (edge +0.169)  Will Gemini Carbon be released between November 9 and Novemb
 ```
