@@ -151,7 +151,8 @@
    "cost": 0.0844,
    "decision": "AI 0.79 vs market 0.79: agrees with market",
    "traded": false,
-   "url": "https://polymarket.com/event/michigan-senate-election-winner"
+   "url": "https://polymarket.com/event/michigan-senate-election-winner",
+   "yes_payout": 1.0
   },
   {
    "ts": "2026-11-03T06:34:05+00:00",
@@ -435,6 +436,9 @@
   "2026-11-04T09:36:22+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)",
   "2026-11-04T10:06:42+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-04T10:06:51+00:00  [scan] 26 markets pass filters, 21 not recently researched",
-  "2026-11-04T10:06:51+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)"
+  "2026-11-04T10:06:51+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)",
+  "2026-11-04T10:37:04+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-04T10:37:14+00:00  [scan] 36 markets pass filters, 33 not recently researched",
+  "2026-11-04T10:37:14+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)"
  ]
 }

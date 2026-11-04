@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-04T10:06:51+00:00 UTC_
+_Updated 2026-11-04T10:37:14+00:00 UTC_
 
 ## Scoreboard
 
@@ -19,9 +19,9 @@ _Updated 2026-11-04T10:06:51+00:00 UTC_
 Brier score on every resolved market the AI studied (lower is better; 0.25 = coin flip).
 This is the number that matters: if the AI isn't beating the market here, wins are luck.
 
-- Resolved forecasts: **5**
-- AI Brier: **0.183**
-- Market Brier: **0.146**
+- Resolved forecasts: **6**
+- AI Brier: **0.160**
+- Market Brier: **0.130**
 - _Too few results to judge yet (need roughly 20+)._
 
 ## Open bets
@@ -70,9 +70,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-03T14:37:45+00:00  === run start (paper mode) cash $20.00, 0 open ===
-2026-11-03T14:37:53+00:00  [scan] 162 markets pass filters, 155 not recently researched
-2026-11-03T14:37:53+00:00  [research] 2026 Balance of Power: R Senate, D House
 2026-11-03T14:38:07+00:00  [decide] AI 0.18 (medium) vs market 0.17 -> skip: AI 0.18 vs market 0.17: agrees with market
 2026-11-03T14:38:07+00:00  [research] Will the Republicans win the Texas governor race in 2026?
 2026-11-03T14:38:22+00:00  [decide] AI 0.73 (medium) vs market 0.64 -> skip: AI 0.73 vs market 0.64: agrees with market
@@ -110,4 +107,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-04T10:06:42+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-04T10:06:51+00:00  [scan] 26 markets pass filters, 21 not recently researched
 2026-11-04T10:06:51+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)
+2026-11-04T10:37:04+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-04T10:37:14+00:00  [scan] 36 markets pass filters, 33 not recently researched
+2026-11-04T10:37:14+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)
 ```
