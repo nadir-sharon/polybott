@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-04T12:39:14+00:00 UTC_
+_Updated 2026-11-04T13:09:25+00:00 UTC_
 
 ## Scoreboard
 
@@ -70,9 +70,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-04T01:15:39+00:00  [decide] AI 0.14 (low) vs market 0.12 -> skip: AI confidence low: not trading on it
-2026-11-04T01:15:39+00:00  [research] Will Gemini Carbon be released between November 9 and November 15, 2026?
-2026-11-04T01:15:58+00:00  [decide] AI 0.20 (medium) vs market 0.72 -> TRADE NO: edge found
 2026-11-04T01:15:58+00:00  [order] PAPER BUY NO 5.05 sh @ 0.280 = $1.46  (edge +0.169)  Will Gemini Carbon be released between November 9 and Novemb
 2026-11-04T07:35:30+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-04T07:35:38+00:00  [scan] 21 markets pass filters, 17 not recently researched
@@ -110,4 +107,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-04T12:39:05+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-04T12:39:14+00:00  [scan] 33 markets pass filters, 29 not recently researched
 2026-11-04T12:39:14+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)
+2026-11-04T13:09:16+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-04T13:09:25+00:00  [scan] 32 markets pass filters, 28 not recently researched
+2026-11-04T13:09:25+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)
 ```
