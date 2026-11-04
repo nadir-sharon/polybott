@@ -194,7 +194,8 @@
    "cost": 0.0664,
    "decision": "AI 0.04 vs market 0.11: agrees with market",
    "traded": false,
-   "url": "https://polymarket.com/event/which-tossup-senate-states-will-republicans-win-ak-ia-ks-me-mi-oh-tx"
+   "url": "https://polymarket.com/event/which-tossup-senate-states-will-republicans-win-ak-ia-ks-me-mi-oh-tx",
+   "yes_payout": 0.0
   },
   {
    "ts": "2026-11-03T06:34:28+00:00",
@@ -524,6 +525,9 @@
   "2026-11-04T22:43:19+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)",
   "2026-11-04T22:43:38+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-04T22:43:45+00:00  [scan] 38 markets pass filters, 35 not recently researched",
-  "2026-11-04T22:43:45+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)"
+  "2026-11-04T22:43:45+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)",
+  "2026-11-04T23:13:46+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-04T23:13:53+00:00  [scan] 34 markets pass filters, 32 not recently researched",
+  "2026-11-04T23:13:53+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)"
  ]
 }
