@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-04T09:36:22+00:00 UTC_
+_Updated 2026-11-04T10:06:51+00:00 UTC_
 
 ## Scoreboard
 
@@ -70,9 +70,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-03T06:34:18+00:00  [decide] AI 0.04 (medium) vs market 0.11 -> skip: AI 0.04 vs market 0.11: agrees with market
-2026-11-03T06:34:18+00:00  [research] Will the Republicans win the Michigan Senate race in 2026?
-2026-11-03T06:34:28+00:00  [decide] AI 0.20 (medium) vs market 0.20 -> skip: AI 0.20 vs market 0.20: agrees with market
 2026-11-03T14:37:45+00:00  === run start (paper mode) cash $20.00, 0 open ===
 2026-11-03T14:37:53+00:00  [scan] 162 markets pass filters, 155 not recently researched
 2026-11-03T14:37:53+00:00  [research] 2026 Balance of Power: R Senate, D House
@@ -110,4 +107,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-04T09:36:13+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-04T09:36:22+00:00  [scan] 28 markets pass filters, 23 not recently researched
 2026-11-04T09:36:22+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)
+2026-11-04T10:06:42+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-04T10:06:51+00:00  [scan] 26 markets pass filters, 21 not recently researched
+2026-11-04T10:06:51+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)
 ```
