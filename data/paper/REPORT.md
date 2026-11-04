@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-04T11:07:52+00:00 UTC_
+_Updated 2026-11-04T11:38:24+00:00 UTC_
 
 ## Scoreboard
 
@@ -70,9 +70,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-03T14:38:22+00:00  [research] Will the Republicans win the Florida governor race in 2026?
-2026-11-03T14:38:34+00:00  [decide] AI 0.82 (medium) vs market 0.67 -> skip: YES edge +0.038 after fees < 0.05
-2026-11-03T20:55:16+00:00  === run start (paper mode) cash $20.00, 0 open ===
 2026-11-03T20:55:24+00:00  [scan] 38 markets pass filters, 38 not recently researched
 2026-11-03T20:55:24+00:00  [research] Israel x Iran ceasefire continues through November 7?
 2026-11-03T20:55:46+00:00  [decide] AI 0.82 (medium) vs market 0.81 -> skip: AI 0.82 vs market 0.81: agrees with market
@@ -110,4 +107,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-04T11:07:45+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-04T11:07:52+00:00  [scan] 33 markets pass filters, 29 not recently researched
 2026-11-04T11:07:52+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)
+2026-11-04T11:38:15+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-04T11:38:24+00:00  [scan] 30 markets pass filters, 26 not recently researched
+2026-11-04T11:38:24+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)
 ```
