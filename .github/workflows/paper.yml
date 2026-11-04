@@ -1,12 +1,17 @@
 name: polybot-paper
 
+# GitHub's own schedule is best-effort and was only firing every 4-8 hours.
+# So each run now stays alive for ~5.5 hours, running one paper cycle every
+# 30 minutes, then starts the next run itself. The cron below is only a
+# backup that restarts the chain if it ever breaks.
 on:
   schedule:
-    - cron: "7,37 * * * *"   # about every 30 min (GitHub may run a few minutes late)
+    - cron: "7 */3 * * *"     # backup restarter (every ~3 h)
   workflow_dispatch: {}       # "Run workflow" button on the Actions tab
 
 permissions:
   contents: write
+  actions: write              # lets the run start the next run
 
 concurrency:
   group: polybot-paper
@@ -15,7 +20,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 350      # GitHub's hard limit is 360
     steps:
       - uses: actions/checkout@v4
 
@@ -27,26 +32,35 @@ jobs:
       - name: Install
         run: pip install requests anthropic python-dotenv
 
-      - name: Run one cycle (paper money only)
+      - name: Paper cycles every 30 min for ~5.5 hours
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           MODE: paper
-        run: python -m polybot run
-
-      - name: Save state and report to the repo
-        if: always()
         run: |
           git config user.name "polybot"
           git config user.email "polybot@users.noreply.github.com"
-          git add data/paper
-          git diff --cached --quiet && exit 0
-          git commit -m "paper run $(date -u +%Y-%m-%dT%H:%MZ)"
-          for i in 1 2 3; do git pull --rebase -X theirs && git push && exit 0; sleep 5; done
-          exit 1
+          end=$(( $(date +%s) + 320*60 ))
+          while :; do
+            git pull --rebase -X theirs -q || true
+            python -m polybot run || echo "cycle failed (will retry next cycle)"
+            git add data/paper
+            if ! git diff --cached --quiet; then
+              git commit -q -m "paper run $(date -u +%Y-%m-%dT%H:%MZ)"
+              for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && break; sleep 5; done
+            fi
+            [ $(( $(date +%s) + 30*60 )) -ge $end ] && break
+            sleep 1800
+          done
+
+      - name: Start the next run
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run paper.yml --ref "${{ github.ref_name }}" -R "${{ github.repository }}"
 
   tests:
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch'
+    if: github.event_name == 'workflow_dispatch' && github.event.sender.type != 'Bot'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
