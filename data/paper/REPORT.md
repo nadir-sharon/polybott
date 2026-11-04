@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-04T08:36:00+00:00 UTC_
+_Updated 2026-11-04T09:06:11+00:00 UTC_
 
 ## Scoreboard
 
@@ -70,9 +70,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-03T00:02:58+00:00  [decide] AI 0.79 (medium) vs market 0.79 -> skip: AI 0.79 vs market 0.79: agrees with market
-2026-11-03T06:33:46+00:00  === run start (paper mode) cash $20.00, 0 open ===
-2026-11-03T06:33:53+00:00  [scan] 136 markets pass filters, 130 not recently researched
 2026-11-03T06:33:53+00:00  [research] Will the Democrats win the Texas Senate race in 2026?
 2026-11-03T06:34:05+00:00  [decide] AI 0.68 (medium) vs market 0.74 -> skip: AI 0.68 vs market 0.74: agrees with market
 2026-11-03T06:34:05+00:00  [research] Will Republicans win Iowa, and lose Alaska, Kansas, Maine, Michigan, Ohio, and Texas?
@@ -110,4 +107,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-04T08:35:51+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-04T08:36:00+00:00  [scan] 23 markets pass filters, 18 not recently researched
 2026-11-04T08:36:00+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)
+2026-11-04T09:06:02+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-04T09:06:11+00:00  [scan] 24 markets pass filters, 19 not recently researched
+2026-11-04T09:06:11+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)
 ```
