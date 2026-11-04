@@ -47,7 +47,8 @@
    "cost": 0.0803,
    "decision": "AI 0.27 vs market 0.28: agrees with market",
    "traded": false,
-   "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026"
+   "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
+   "yes_payout": 0.0
   },
   {
    "ts": "2026-11-02T17:29:34+00:00",
@@ -419,6 +420,9 @@
   "2026-11-04T01:15:58+00:00  [order] PAPER BUY NO 5.05 sh @ 0.280 = $1.46  (edge +0.169)  Will Gemini Carbon be released between November 9 and Novemb",
   "2026-11-04T07:35:30+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-04T07:35:38+00:00  [scan] 21 markets pass filters, 17 not recently researched",
-  "2026-11-04T07:35:38+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)"
+  "2026-11-04T07:35:38+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)",
+  "2026-11-04T08:05:41+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-04T08:05:49+00:00  [scan] 20 markets pass filters, 16 not recently researched",
+  "2026-11-04T08:05:49+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)"
  ]
 }

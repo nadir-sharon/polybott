@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-04T07:35:38+00:00 UTC_
+_Updated 2026-11-04T08:05:49+00:00 UTC_
 
 ## Scoreboard
 
@@ -19,9 +19,9 @@ _Updated 2026-11-04T07:35:38+00:00 UTC_
 Brier score on every resolved market the AI studied (lower is better; 0.25 = coin flip).
 This is the number that matters: if the AI isn't beating the market here, wins are luck.
 
-- Resolved forecasts: **4**
-- AI Brier: **0.211**
-- Market Brier: **0.164**
+- Resolved forecasts: **5**
+- AI Brier: **0.183**
+- Market Brier: **0.146**
 - _Too few results to judge yet (need roughly 20+)._
 
 ## Open bets
@@ -70,9 +70,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-03T00:02:17+00:00  [scan] 138 markets pass filters, 135 not recently researched
-2026-11-03T00:02:17+00:00  [research] Will the Democratic Party control the Senate after the 2026 Midterm elections?
-2026-11-03T00:02:34+00:00  [decide] AI 0.68 (medium) vs market 0.76 -> skip: AI 0.68 vs market 0.76: agrees with market
 2026-11-03T00:02:34+00:00  [research] Will the Republicans win the Texas Senate race in 2026?
 2026-11-03T00:02:47+00:00  [decide] AI 0.42 (medium) vs market 0.27 -> skip: YES edge +0.039 after fees < 0.05
 2026-11-03T00:02:47+00:00  [research] Will the Democrats win the Michigan Senate race in 2026?
@@ -110,4 +107,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-04T07:35:30+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-04T07:35:38+00:00  [scan] 21 markets pass filters, 17 not recently researched
 2026-11-04T07:35:38+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)
+2026-11-04T08:05:41+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-04T08:05:49+00:00  [scan] 20 markets pass filters, 16 not recently researched
+2026-11-04T08:05:49+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)
 ```
