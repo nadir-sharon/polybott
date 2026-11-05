@@ -629,6 +629,9 @@
   "2026-11-05T00:45:22+00:00  [scan] 36 markets pass filters, 31 not recently researched",
   "2026-11-05T00:45:22+00:00  [research] US announces end of Iranian blockade by November 15, 2026?",
   "2026-11-05T00:45:38+00:00  [decide] AI 0.13 (medium) vs market 0.11 -> skip: AI 0.13 vs market 0.11: agrees with market",
-  "2026-11-05T00:45:38+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)"
+  "2026-11-05T00:45:38+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)",
+  "2026-11-05T01:15:40+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-05T01:15:48+00:00  [scan] 36 markets pass filters, 33 not recently researched",
+  "2026-11-05T01:15:48+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)"
  ]
 }
