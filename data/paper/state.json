@@ -431,13 +431,34 @@
    "decision": "AI 0.19 vs market 0.19: agrees with market",
    "traded": false,
    "url": "https://polymarket.com/event/bank-of-mexico-decision-in-november"
+  },
+  {
+   "ts": "2026-11-05T00:45:38+00:00",
+   "market_id": "6282802",
+   "question": "US announces end of Iranian blockade by November 15, 2026?",
+   "end_date": "2026-11-16T04:59:00+00:00",
+   "ai_prob": 0.13,
+   "confidence": "medium",
+   "market_mid": 0.105,
+   "summary": "The blockade remains in force while Qatar-mediated talks on an interim deal continue. Iran says the US response was 'not convincing,' and Trump is also weighing renewed strikes. A general lifting announced by Nov 15 is possible but unlikely given the gaps and the strict resolution wording.",
+   "sources": [
+    "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/",
+    "https://www.koreatimes.co.kr/world/20261104/iran-us-still-far-apart-on-deal-to-end-war-as-qatar-pushes-mediation",
+    "https://www.iranintl.com/en/202610234921",
+    "https://pakistan.shafaqna.com/EN/340782",
+    "https://en.wikipedia.org/wiki/2026_United_States_naval_blockade_of_Iran"
+   ],
+   "cost": 0.222,
+   "decision": "AI 0.13 vs market 0.11: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080"
   }
  ],
  "ai_spend": {
   "2026-11-02": 0.19034,
   "2026-11-03": 0.912182,
   "2026-11-04": 0.935424,
-  "2026-11-05": 0.738056
+  "2026-11-05": 0.960028
  },
  "realized_by_day": {},
  "halted": null,
@@ -603,6 +624,11 @@
   "2026-11-05T00:14:37+00:00  [research] Will Elon Musk post 280-299 tweets from October 30 to November 6, 2026?",
   "2026-11-05T00:14:58+00:00  [decide] AI 0.10 (low) vs market 0.18 -> skip: AI confidence low: not trading on it",
   "2026-11-05T00:14:58+00:00  [research] Bank of Mexico decreases interest rates by 25 bps after November 2026 meeting?",
-  "2026-11-05T00:15:13+00:00  [decide] AI 0.19 (medium) vs market 0.19 -> skip: AI 0.19 vs market 0.19: agrees with market"
+  "2026-11-05T00:15:13+00:00  [decide] AI 0.19 (medium) vs market 0.19 -> skip: AI 0.19 vs market 0.19: agrees with market",
+  "2026-11-05T00:45:15+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-05T00:45:22+00:00  [scan] 36 markets pass filters, 31 not recently researched",
+  "2026-11-05T00:45:22+00:00  [research] US announces end of Iranian blockade by November 15, 2026?",
+  "2026-11-05T00:45:38+00:00  [decide] AI 0.13 (medium) vs market 0.11 -> skip: AI 0.13 vs market 0.11: agrees with market",
+  "2026-11-05T00:45:38+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)"
  ]
 }

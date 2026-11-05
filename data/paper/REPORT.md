@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-05T00:15:13+00:00 UTC_
+_Updated 2026-11-05T00:45:38+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-05T00:15:13+00:00 UTC_
 | Cash now | $18.54 |
 | In open bets (at cost) | $1.46 (1 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $2.78 |
-| Profit after AI costs | **-$2.78** |
+| AI research spent | $3.00 |
+| Profit after AI costs | **-$3.00** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -36,6 +36,9 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **US announces end of Iranian blockade by November 15, 2026?**  
+  AI 0.13 (medium) vs market 0.10 → AI 0.13 vs market 0.11: agrees with market  
+  _The blockade remains in force while Qatar-mediated talks on an interim deal continue. Iran says the US response was 'not convincing,' and Trump is also weighing renewed strikes. A general lifting announced by Nov 15 is possible but unlikely_
 - **Bank of Mexico decreases interest rates by 25 bps after November 2026 meeting?**  
   AI 0.19 (medium) vs market 0.19 → AI 0.19 vs market 0.19: agrees with market  
   _Consensus, including Citi's survey (20 of 36 expect a hold, 6 expect a cut) and BofA, Banamex and Rabobank, is a hold at 6.50%. Three board members are open to cuts, but rising inflation, a weak peso and the record-low gap with the Fed argu_
@@ -63,18 +66,10 @@ _None yet. Bets settle when their market resolves._
 - **Will the Republicans win the Texas governor race in 2026?**  
   AI 0.73 (medium) vs market 0.64 → AI 0.73 vs market 0.64: agrees with market  
   _Abbott leads polling averages by about 2 points, though the final NYT/Siena and AtlasIntel polls showed Hinojosa slightly ahead. Texas polls have tended to understate Republicans, and Abbott has a large money advantage, so he is a moderate _
-- **2026 Balance of Power: R Senate, D House**  
-  AI 0.18 (medium) vs market 0.17 → AI 0.18 vs market 0.17: agrees with market  
-  _Election Day forecasts give Democrats about 84–99% to win the House and about 65–88% to win the Senate. A Republican Senate with a Democratic House is therefore roughly a 10–21% outcome, and I estimate about 18%. No results were available y_
 
 ## Activity log (latest 40)
 
 ```
-2026-11-04T19:12:12+00:00  [scan] 32 markets pass filters, 28 not recently researched
-2026-11-04T19:12:12+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)
-2026-11-04T19:42:14+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-04T19:42:21+00:00  [scan] 33 markets pass filters, 30 not recently researched
-2026-11-04T19:42:21+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)
 2026-11-04T20:12:23+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-04T20:12:30+00:00  [scan] 32 markets pass filters, 29 not recently researched
 2026-11-04T20:12:30+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)
@@ -110,4 +105,9 @@ _None yet. Bets settle when their market resolves._
 2026-11-05T00:14:58+00:00  [decide] AI 0.10 (low) vs market 0.18 -> skip: AI confidence low: not trading on it
 2026-11-05T00:14:58+00:00  [research] Bank of Mexico decreases interest rates by 25 bps after November 2026 meeting?
 2026-11-05T00:15:13+00:00  [decide] AI 0.19 (medium) vs market 0.19 -> skip: AI 0.19 vs market 0.19: agrees with market
+2026-11-05T00:45:15+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-05T00:45:22+00:00  [scan] 36 markets pass filters, 31 not recently researched
+2026-11-05T00:45:22+00:00  [research] US announces end of Iranian blockade by November 15, 2026?
+2026-11-05T00:45:38+00:00  [decide] AI 0.13 (medium) vs market 0.11 -> skip: AI 0.13 vs market 0.11: agrees with market
+2026-11-05T00:45:38+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)
 ```
