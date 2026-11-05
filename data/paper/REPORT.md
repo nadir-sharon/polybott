@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-05T05:47:36+00:00 UTC_
+_Updated 2026-11-05T06:17:46+00:00 UTC_
 
 ## Scoreboard
 
@@ -70,9 +70,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-05T00:14:58+00:00  [research] Bank of Mexico decreases interest rates by 25 bps after November 2026 meeting?
-2026-11-05T00:15:13+00:00  [decide] AI 0.19 (medium) vs market 0.19 -> skip: AI 0.19 vs market 0.19: agrees with market
-2026-11-05T00:45:15+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-05T00:45:22+00:00  [scan] 36 markets pass filters, 31 not recently researched
 2026-11-05T00:45:22+00:00  [research] US announces end of Iranian blockade by November 15, 2026?
 2026-11-05T00:45:38+00:00  [decide] AI 0.13 (medium) vs market 0.11 -> skip: AI 0.13 vs market 0.11: agrees with market
@@ -110,4 +107,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-05T05:47:28+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-05T05:47:36+00:00  [scan] 31 markets pass filters, 27 not recently researched
 2026-11-05T05:47:36+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)
+2026-11-05T06:17:38+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-05T06:17:46+00:00  [scan] 36 markets pass filters, 32 not recently researched
+2026-11-05T06:17:46+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)
 ```
