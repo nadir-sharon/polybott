@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-04T23:44:04+00:00 UTC_
+_Updated 2026-11-05T00:15:13+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-04T23:44:04+00:00 UTC_
 | Cash now | $18.54 |
 | In open bets (at cost) | $1.46 (1 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $2.04 |
-| Profit after AI costs | **-$2.04** |
+| AI research spent | $2.78 |
+| Profit after AI costs | **-$2.78** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -36,6 +36,15 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **Bank of Mexico decreases interest rates by 25 bps after November 2026 meeting?**  
+  AI 0.19 (medium) vs market 0.19 → AI 0.19 vs market 0.19: agrees with market  
+  _Consensus, including Citi's survey (20 of 36 expect a hold, 6 expect a cut) and BofA, Banamex and Rabobank, is a hold at 6.50%. Three board members are open to cuts, but rising inflation, a weak peso and the record-low gap with the Fed argu_
+- **Will Elon Musk post 280-299 tweets from October 30 to November 6, 2026?**  
+  AI 0.10 (low) vs market 0.18 → AI confidence low: not trading on it  
+  _I found no live xtracker count for the Oct 30 – Nov 6 window. Recent weekly counts ran around 360–380, with a 94-post day on Oct 30 and heavy election-night posting, so a final total of 280–299 would need a notable slowdown._
+- **US x Iran effective ceasefire continues through November 15, 2026?**  
+  AI 0.30 (medium) vs market 0.57 → venue minimum (5 shares ≈ $2.17) is above the $2.00 max bet  
+  _The US struck Iran's Qeshm Island and nearby areas on Nov 2, and the WSJ reports a series of secret limited strikes in recent weeks. Escalation pressure (Netanyahu, force buildup, Hormuz incidents) is high, though Trump downplays new strike_
 - **Will Gemini Carbon be released between November 9 and November 15, 2026?**  
   AI 0.20 (medium) vs market 0.72 → edge found  
   _Carbon was announced Oct 28 but is still limited to Fairwind cyber defenders, with no public date. Argon's 13-day gap from defenders-only to public would land near Nov 10, but Google says it is iterating on guardrails and is in US governmen_
@@ -57,27 +66,10 @@ _None yet. Bets settle when their market resolves._
 - **2026 Balance of Power: R Senate, D House**  
   AI 0.18 (medium) vs market 0.17 → AI 0.18 vs market 0.17: agrees with market  
   _Election Day forecasts give Democrats about 84–99% to win the House and about 65–88% to win the Senate. A Republican Senate with a Democratic House is therefore roughly a 10–21% outcome, and I estimate about 18%. No results were available y_
-- **Will the Republicans win the Michigan Senate race in 2026?**  
-  AI 0.20 (medium) vs market 0.20 → AI 0.20 vs market 0.20: agrees with market  
-  _El-Sayed (D) leads Rogers (R) by about 4-6 points in polling averages entering Election Day, with most late polls showing him ahead. Polling error and some late tightening leave Rogers a real chance, but he is a clear underdog._
-- **Will Republicans win Iowa, and lose Alaska, Kansas, Maine, Michigan, Ohio, and Texas?**  
-  AI 0.04 (medium) vs market 0.11 → AI 0.04 vs market 0.11: agrees with market  
-  _Final polls show Democrats leading in Alaska, Kansas, Maine, Michigan, Ohio and Texas, with Iowa a tie. The market needs Republicans to win only Iowa while losing all six others, which is a narrow and unlikely combination because the races _
-- **Will the Democrats win the Texas Senate race in 2026?**  
-  AI 0.68 (medium) vs market 0.74 → AI 0.68 vs market 0.74: agrees with market  
-  _Final polls show Talarico (D) ahead of Paxton (R) by about 2.5 to 4 points on average, in a favorable midterm environment for Democrats and against a weak GOP nominee. Texas's Republican lean and a history of polls overstating Democrats kee_
 
 ## Activity log (latest 40)
 
 ```
-2026-11-04T17:41:39+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)
-2026-11-04T18:11:41+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-04T18:11:50+00:00  [scan] 22 markets pass filters, 19 not recently researched
-2026-11-04T18:11:50+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)
-2026-11-04T18:41:52+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-04T18:42:01+00:00  [scan] 31 markets pass filters, 27 not recently researched
-2026-11-04T18:42:01+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)
-2026-11-04T19:12:03+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-04T19:12:12+00:00  [scan] 32 markets pass filters, 28 not recently researched
 2026-11-04T19:12:12+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)
 2026-11-04T19:42:14+00:00  === run start (paper mode) cash $18.54, 1 open ===
@@ -110,4 +102,12 @@ _None yet. Bets settle when their market resolves._
 2026-11-04T23:43:55+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-04T23:44:04+00:00  [scan] 40 markets pass filters, 38 not recently researched
 2026-11-04T23:44:04+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)
+2026-11-05T00:14:05+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-05T00:14:12+00:00  [scan] 32 markets pass filters, 29 not recently researched
+2026-11-05T00:14:12+00:00  [research] US x Iran effective ceasefire continues through November 15, 2026?
+2026-11-05T00:14:37+00:00  [decide] AI 0.30 (medium) vs market 0.57 -> skip: venue minimum (5 shares ≈ $2.17) is above the $2.00 max bet
+2026-11-05T00:14:37+00:00  [research] Will Elon Musk post 280-299 tweets from October 30 to November 6, 2026?
+2026-11-05T00:14:58+00:00  [decide] AI 0.10 (low) vs market 0.18 -> skip: AI confidence low: not trading on it
+2026-11-05T00:14:58+00:00  [research] Bank of Mexico decreases interest rates by 25 bps after November 2026 meeting?
+2026-11-05T00:15:13+00:00  [decide] AI 0.19 (medium) vs market 0.19 -> skip: AI 0.19 vs market 0.19: agrees with market
 ```

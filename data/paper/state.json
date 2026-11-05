@@ -368,12 +368,76 @@
    "decision": "edge found",
    "traded": true,
    "url": "https://polymarket.com/event/when-will-gemini-carbon-be-released-20261027"
+  },
+  {
+   "ts": "2026-11-05T00:14:37+00:00",
+   "market_id": "6667468",
+   "question": "US x Iran effective ceasefire continues through November 15, 2026?",
+   "end_date": "2026-11-16T04:59:00+00:00",
+   "ai_prob": 0.3,
+   "confidence": "medium",
+   "market_mid": 0.575,
+   "summary": "The US struck Iran's Qeshm Island and nearby areas on Nov 2, and the WSJ reports a series of secret limited strikes in recent weeks. Escalation pressure (Netanyahu, force buildup, Hormuz incidents) is high, though Trump downplays new strikes and talks continue. Another qualifying strike by Nov 15 looks more likely than not, and the Nov 2 strike may already count if the market was created earlier.",
+   "sources": [
+    "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/",
+    "https://www.pbs.org/newshour/world/u-s-strikes-iranian-targets-in-strait-of-hormuz-u-s-official-tells-ap",
+    "https://gulfnews.com/world/mena/middle-east-conflict-us-carries-out-defensive-strikes-on-irans-qeshm-island-near-strait-of-hormuz-as-tensions-escalate-1.500733555",
+    "https://www.aa.com.tr/en/world/trump-downplays-renewed-us-strikes-on-iran-after-midterm-elections/4109187",
+    "https://www.ms.now/news/trump-plans-to-resume-strikes-on-iran-day-after-midterm-elections"
+   ],
+   "cost": 0.3153,
+   "decision": "venue minimum (5 shares \u2248 $2.17) is above the $2.00 max bet",
+   "traded": false,
+   "url": "https://polymarket.com/event/us-iran-effective-ceasefire-continues-throughptptpt-20261103"
+  },
+  {
+   "ts": "2026-11-05T00:14:58+00:00",
+   "market_id": "6288566",
+   "question": "Will Elon Musk post 280-299 tweets from October 30 to November 6, 2026?",
+   "end_date": "2026-11-06T17:00:00+00:00",
+   "ai_prob": 0.1,
+   "confidence": "low",
+   "market_mid": 0.1845,
+   "summary": "I found no live xtracker count for the Oct 30 \u2013 Nov 6 window. Recent weekly counts ran around 360\u2013380, with a 94-post day on Oct 30 and heavy election-night posting, so a final total of 280\u2013299 would need a notable slowdown.",
+   "sources": [
+    "https://musksense.xyz/",
+    "https://www.chaincatcher.com/en/article/2301366",
+    "https://www.chaincatcher.com/en/article/2300461",
+    "https://www.youtube.com/watch?v=1JDrLbAgUTI",
+    "https://www.forbes.com/sites/maryroeloffs/2026/11/04/did-musk-delete-his-vote-red-today-post-grok-says-yes-after-major-republican-losses/"
+   ],
+   "cost": 0.1905,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-october-30-november-6-2026"
+  },
+  {
+   "ts": "2026-11-05T00:15:13+00:00",
+   "market_id": "3388092",
+   "question": "Bank of Mexico decreases interest rates by 25 bps after November 2026 meeting?",
+   "end_date": "2026-11-05T23:59:00+00:00",
+   "ai_prob": 0.19,
+   "confidence": "medium",
+   "market_mid": 0.1875,
+   "summary": "Consensus, including Citi's survey (20 of 36 expect a hold, 6 expect a cut) and BofA, Banamex and Rabobank, is a hold at 6.50%. Three board members are open to cuts, but rising inflation, a weak peso and the record-low gap with the Fed argue against a cut now.",
+   "sources": [
+    "https://www.bloomberglinea.com/latinoamerica/mexico/banxico-decide-su-tasa-este-jueves-con-el-peso-al-alza-tras-la-derrota-republicana-que-esperan-los-analistas/",
+    "https://es.investing.com/news/economy-news/la-decision-de-banxico-podria-derrumbar-al-peso-mexicano-esta-es-la-explicacion-3910224",
+    "https://www.fxstreet.com/news/mexican-peso-risks-with-banxico-on-hold-rabobank-202611041503",
+    "https://mayacomunicacion.com.mx/banxico-decision-tasa-5-noviembre-2026/",
+    "https://www.infobae.com/america/agencias/2026/11/04/el-banco-de-mexico-prepara-reunion-con-la-expectativa-de-mantener-la-tasa-en-65/"
+   ],
+   "cost": 0.2322,
+   "decision": "AI 0.19 vs market 0.19: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/bank-of-mexico-decision-in-november"
   }
  ],
  "ai_spend": {
   "2026-11-02": 0.19034,
   "2026-11-03": 0.912182,
-  "2026-11-04": 0.935424
+  "2026-11-04": 0.935424,
+  "2026-11-05": 0.738056
  },
  "realized_by_day": {},
  "halted": null,
@@ -531,6 +595,14 @@
   "2026-11-04T23:13:53+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)",
   "2026-11-04T23:43:55+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-04T23:44:04+00:00  [scan] 40 markets pass filters, 38 not recently researched",
-  "2026-11-04T23:44:04+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)"
+  "2026-11-04T23:44:04+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)",
+  "2026-11-05T00:14:05+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-05T00:14:12+00:00  [scan] 32 markets pass filters, 29 not recently researched",
+  "2026-11-05T00:14:12+00:00  [research] US x Iran effective ceasefire continues through November 15, 2026?",
+  "2026-11-05T00:14:37+00:00  [decide] AI 0.30 (medium) vs market 0.57 -> skip: venue minimum (5 shares \u2248 $2.17) is above the $2.00 max bet",
+  "2026-11-05T00:14:37+00:00  [research] Will Elon Musk post 280-299 tweets from October 30 to November 6, 2026?",
+  "2026-11-05T00:14:58+00:00  [decide] AI 0.10 (low) vs market 0.18 -> skip: AI confidence low: not trading on it",
+  "2026-11-05T00:14:58+00:00  [research] Bank of Mexico decreases interest rates by 25 bps after November 2026 meeting?",
+  "2026-11-05T00:15:13+00:00  [decide] AI 0.19 (medium) vs market 0.19 -> skip: AI 0.19 vs market 0.19: agrees with market"
  ]
 }
