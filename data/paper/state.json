@@ -517,6 +517,28 @@
    "decision": "AI confidence low: not trading on it",
    "traded": false,
    "url": "https://polymarket.com/event/elon-musk-of-tweets-october-30-november-6-2026"
+  },
+  {
+   "ts": "2026-11-06T00:56:54+00:00",
+   "market_id": "6667467",
+   "question": "US x Iran effective ceasefire continues through November 8, 2026?",
+   "end_date": "2026-11-09T04:59:00+00:00",
+   "ai_prob": 0.72,
+   "confidence": "medium",
+   "market_mid": 0.785,
+   "summary": "A US strike on Iran within the remaining ~3 days is a real risk. Trump is deciding on renewed strikes and CENTCOM is finalizing plans, and limited defensive strikes occurred on Nov 2. Against that, Trump said he has no immediate plans, the third carrier arrives only in mid-November, and Qatari-mediated talks continue.",
+   "sources": [
+    "https://axios.com/2026/11/05/trump-iran-war-national-security-team-decision",
+    "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/",
+    "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/",
+    "https://www.foxnews.com/live-news/iran-war-news-trump-israel-elections-november-5",
+    "https://www.ms.now/news/trump-plans-to-resume-strikes-on-iran-day-after-midterm-elections",
+    "https://www.bloomberg.com/news/articles/2026-11-04/trump-plays-down-prospect-of-strikes-on-iran-after-midterm-rout"
+   ],
+   "cost": 0.3,
+   "decision": "AI 0.72 vs market 0.79: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/us-iran-effective-ceasefire-continues-throughptptpt-20261103"
   }
  ],
  "ai_spend": {
@@ -524,7 +546,7 @@
   "2026-11-03": 0.912182,
   "2026-11-04": 0.935424,
   "2026-11-05": 0.960028,
-  "2026-11-06": 0.708124
+  "2026-11-06": 1.008082
  },
  "realized_by_day": {},
  "halted": null,
@@ -856,6 +878,11 @@
   "2026-11-06T00:25:50+00:00  [research] US x Iran effective ceasefire continues through November 15, 2026?",
   "2026-11-06T00:26:07+00:00  [decide] AI 0.25 (medium) vs market 0.55 -> skip: venue minimum (5 shares \u2248 $2.32) is above the $2.00 max bet",
   "2026-11-06T00:26:07+00:00  [research] Will Elon Musk post 280-299 tweets from October 30 to November 6, 2026?",
-  "2026-11-06T00:26:23+00:00  [decide] AI 0.17 (low) vs market 0.66 -> skip: AI confidence low: not trading on it"
+  "2026-11-06T00:26:23+00:00  [decide] AI 0.17 (low) vs market 0.66 -> skip: AI confidence low: not trading on it",
+  "2026-11-06T00:56:24+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-06T00:56:33+00:00  [scan] 27 markets pass filters, 23 not recently researched",
+  "2026-11-06T00:56:33+00:00  [research] US x Iran effective ceasefire continues through November 8, 2026?",
+  "2026-11-06T00:56:54+00:00  [decide] AI 0.72 (medium) vs market 0.79 -> skip: AI 0.72 vs market 0.79: agrees with market",
+  "2026-11-06T00:56:54+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)"
  ]
 }
