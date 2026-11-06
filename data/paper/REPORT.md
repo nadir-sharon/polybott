@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-05T23:55:23+00:00 UTC_
+_Updated 2026-11-06T00:26:23+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-05T23:55:23+00:00 UTC_
 | Cash now | $18.54 |
 | In open bets (at cost) | $1.46 (1 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $3.00 |
-| Profit after AI costs | **-$3.00** |
+| AI research spent | $3.71 |
+| Profit after AI costs | **-$3.71** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -19,9 +19,9 @@ _Updated 2026-11-05T23:55:23+00:00 UTC_
 Brier score on every resolved market the AI studied (lower is better; 0.25 = coin flip).
 This is the number that matters: if the AI isn't beating the market here, wins are luck.
 
-- Resolved forecasts: **11**
-- AI Brier: **0.112**
-- Market Brier: **0.090**
+- Resolved forecasts: **12**
+- AI Brier: **0.157**
+- Market Brier: **0.138**
 - _Too few results to judge yet (need roughly 20+)._
 
 ## Open bets
@@ -36,6 +36,15 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **Will Elon Musk post 280-299 tweets from October 30 to November 6, 2026?**  
+  AI 0.17 (low) vs market 0.66 → AI confidence low: not trading on it  
+  _I couldn't find the live tracker count. Musk's recent pace (about 42 a day in October, 94 on Oct 30, heavy election-week posting) puts the expected total near 300 for the Oct 30–Nov 6 window. The 280–299 bracket therefore gets roughly 17%._
+- **US x Iran effective ceasefire continues through November 15, 2026?**  
+  AI 0.25 (medium) vs market 0.55 → venue minimum (5 shares ≈ $2.32) is above the $2.00 max bet  
+  _The US struck Qeshm Island on Nov 2, and officials describe occasional defensive strikes as ongoing. A major post-midterm strike is also under consideration, though Trump says he has no immediate plans and mediators report progress. Another_
+- **Israel x Iran ceasefire continues through November 15?**  
+  AI 0.80 (medium) vs market 0.77 → AI 0.80 vs market 0.77: agrees with market  
+  _No confirmed direct Israel–Iran strikes since the June exchanges, and US–Iran diplomacy is ongoing after the midterms. However, Trump and Netanyahu have openly threatened renewed strikes, and the US struck Iranian targets around the Strait _
 - **US announces end of Iranian blockade by November 15, 2026?**  
   AI 0.13 (medium) vs market 0.10 → AI 0.13 vs market 0.11: agrees with market  
   _The blockade remains in force while Qatar-mediated talks on an interim deal continue. Iran says the US response was 'not convincing,' and Trump is also weighing renewed strikes. A general lifting announced by Nov 15 is possible but unlikely_
@@ -57,27 +66,10 @@ _None yet. Bets settle when their market resolves._
 - **Israel x Iran ceasefire continues through November 15?**  
   AI 0.68 (medium) vs market 0.59 → AI 0.68 vs market 0.59: agrees with market  
   _Strike planning by the US and Israel is at a peak right after the US midterms, and Netanyahu is lobbying hard. But Trump has repeatedly delayed strikes, says he is in no rush, and talks are reportedly progressing. The last confirmed direct _
-- **Israel x Iran ceasefire continues through November 7?**  
-  AI 0.82 (medium) vs market 0.81 → AI 0.82 vs market 0.81: agrees with market  
-  _No direct Israel-Iran strikes appear to have occurred since June, and Trump is signalling a preference for a deal. But a post-midterm US-Israeli strike is actively being planned and Netanyahu is pushing for it, so there is meaningful tail r_
-- **Will the Republicans win the Florida governor race in 2026?**  
-  AI 0.82 (medium) vs market 0.67 → YES edge +0.038 after fees < 0.05  
-  _Election Day is today, so there are no results yet. Donalds (R) leads Jolly (D) by about 4 points in the polling average, and the race is rated Lean Republican by the major forecasters. He also has a large money advantage, though a tighteni_
-- **Will the Republicans win the Texas governor race in 2026?**  
-  AI 0.73 (medium) vs market 0.64 → AI 0.73 vs market 0.64: agrees with market  
-  _Abbott leads polling averages by about 2 points, though the final NYT/Siena and AtlasIntel polls showed Hinojosa slightly ahead. Texas polls have tended to understate Republicans, and Abbott has a large money advantage, so he is a moderate _
 
 ## Activity log (latest 40)
 
 ```
-2026-11-05T18:22:30+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)
-2026-11-05T18:52:33+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-05T18:52:42+00:00  [scan] 34 markets pass filters, 30 not recently researched
-2026-11-05T18:52:42+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)
-2026-11-05T18:52:57+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-05T18:53:06+00:00  [scan] 34 markets pass filters, 30 not recently researched
-2026-11-05T18:53:06+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)
-2026-11-05T19:23:08+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-05T19:23:14+00:00  [scan] 34 markets pass filters, 30 not recently researched
 2026-11-05T19:23:14+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)
 2026-11-05T19:53:16+00:00  === run start (paper mode) cash $18.54, 1 open ===
@@ -110,4 +102,12 @@ _None yet. Bets settle when their market resolves._
 2026-11-05T23:55:15+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-05T23:55:23+00:00  [scan] 26 markets pass filters, 23 not recently researched
 2026-11-05T23:55:23+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)
+2026-11-06T00:25:24+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-06T00:25:32+00:00  [scan] 24 markets pass filters, 23 not recently researched
+2026-11-06T00:25:32+00:00  [research] Israel x Iran ceasefire continues through November 15?
+2026-11-06T00:25:50+00:00  [decide] AI 0.80 (medium) vs market 0.77 -> skip: AI 0.80 vs market 0.77: agrees with market
+2026-11-06T00:25:50+00:00  [research] US x Iran effective ceasefire continues through November 15, 2026?
+2026-11-06T00:26:07+00:00  [decide] AI 0.25 (medium) vs market 0.55 -> skip: venue minimum (5 shares ≈ $2.32) is above the $2.00 max bet
+2026-11-06T00:26:07+00:00  [research] Will Elon Musk post 280-299 tweets from October 30 to November 6, 2026?
+2026-11-06T00:26:23+00:00  [decide] AI 0.17 (low) vs market 0.66 -> skip: AI confidence low: not trading on it
 ```

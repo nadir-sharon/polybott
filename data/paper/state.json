@@ -430,7 +430,8 @@
    "cost": 0.2322,
    "decision": "AI 0.19 vs market 0.19: agrees with market",
    "traded": false,
-   "url": "https://polymarket.com/event/bank-of-mexico-decision-in-november"
+   "url": "https://polymarket.com/event/bank-of-mexico-decision-in-november",
+   "yes_payout": 1.0
   },
   {
    "ts": "2026-11-05T00:45:38+00:00",
@@ -452,13 +453,78 @@
    "decision": "AI 0.13 vs market 0.11: agrees with market",
    "traded": false,
    "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080"
+  },
+  {
+   "ts": "2026-11-06T00:25:50+00:00",
+   "market_id": "5339986",
+   "question": "Israel x Iran ceasefire continues through November 15?",
+   "end_date": "2026-11-16T04:59:00+00:00",
+   "ai_prob": 0.8,
+   "confidence": "medium",
+   "market_mid": 0.765,
+   "summary": "No confirmed direct Israel\u2013Iran strikes since the June exchanges, and US\u2013Iran diplomacy is ongoing after the midterms. However, Trump and Netanyahu have openly threatened renewed strikes, and the US struck Iranian targets around the Strait of Hormuz on Nov 2\u20133. A resumption of the war within 10 days is a meaningful tail risk.",
+   "sources": [
+    "https://www.timesofisrael.com/liveblog-november-06-2026/",
+    "https://www.pbs.org/newshour/world/u-s-launches-new-attacks-on-iranian-targets-days-after-netanyahu-pressed-trump-for-more-strikes",
+    "https://www.aljazeera.com/news/2026/11/2/iran-pushing-accelerated-plan-for-ceasefire-talks-with-us",
+    "https://www.cnn.com/2026/11/04/world/iran-israel-ukraine-midterm-impact-intl",
+    "https://www.britannica.com/event/2026-Iran-war",
+    "https://www.iranintl.com/en/202610194621"
+   ],
+   "cost": 0.3083,
+   "decision": "AI 0.80 vs market 0.77: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
+  },
+  {
+   "ts": "2026-11-06T00:26:07+00:00",
+   "market_id": "6667468",
+   "question": "US x Iran effective ceasefire continues through November 15, 2026?",
+   "end_date": "2026-11-16T04:59:00+00:00",
+   "ai_prob": 0.25,
+   "confidence": "medium",
+   "market_mid": 0.545,
+   "summary": "The US struck Qeshm Island on Nov 2, and officials describe occasional defensive strikes as ongoing. A major post-midterm strike is also under consideration, though Trump says he has no immediate plans and mediators report progress. Another qualifying strike before Nov 15 looks more likely than not.",
+   "sources": [
+    "https://www.nbcnews.com/world/iran/us-conducted-defensive-strikes-iranian-targets-strait-hormuz-us-offici-rcna607161",
+    "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/",
+    "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/",
+    "https://www.ms.now/news/trump-plans-to-resume-strikes-on-iran-day-after-midterm-elections",
+    "https://andmagazine.substack.com/p/morning-brief-5-november-2026",
+    "https://thehill.com/policy/defense/6190510-trump-mulls-iran-strikes-midterms/"
+   ],
+   "cost": 0.1853,
+   "decision": "venue minimum (5 shares \u2248 $2.32) is above the $2.00 max bet",
+   "traded": false,
+   "url": "https://polymarket.com/event/us-iran-effective-ceasefire-continues-throughptptpt-20261103"
+  },
+  {
+   "ts": "2026-11-06T00:26:23+00:00",
+   "market_id": "6288566",
+   "question": "Will Elon Musk post 280-299 tweets from October 30 to November 6, 2026?",
+   "end_date": "2026-11-06T17:00:00+00:00",
+   "ai_prob": 0.17,
+   "confidence": "low",
+   "market_mid": 0.658,
+   "summary": "I couldn't find the live tracker count. Musk's recent pace (about 42 a day in October, 94 on Oct 30, heavy election-week posting) puts the expected total near 300 for the Oct 30\u2013Nov 6 window. The 280\u2013299 bracket therefore gets roughly 17%.",
+   "sources": [
+    "https://musksense.xyz/",
+    "https://www.youtube.com/watch?v=1JDrLbAgUTI",
+    "https://www.lines.com/prediction-markets/politics/elon-musk-of-tweets-september-29-october-6-2026",
+    "https://en.yenisafak.com/world/elon-musk-deletes-over-40-posts-on-x-after-republicans-lose-following-474m-in-campaign-spending-3725221"
+   ],
+   "cost": 0.2144,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-october-30-november-6-2026"
   }
  ],
  "ai_spend": {
   "2026-11-02": 0.19034,
   "2026-11-03": 0.912182,
   "2026-11-04": 0.935424,
-  "2026-11-05": 0.960028
+  "2026-11-05": 0.960028,
+  "2026-11-06": 0.708124
  },
  "realized_by_day": {},
  "halted": null,
@@ -782,6 +848,14 @@
   "2026-11-05T23:54:56+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)",
   "2026-11-05T23:55:15+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-05T23:55:23+00:00  [scan] 26 markets pass filters, 23 not recently researched",
-  "2026-11-05T23:55:23+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)"
+  "2026-11-05T23:55:23+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)",
+  "2026-11-06T00:25:24+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-06T00:25:32+00:00  [scan] 24 markets pass filters, 23 not recently researched",
+  "2026-11-06T00:25:32+00:00  [research] Israel x Iran ceasefire continues through November 15?",
+  "2026-11-06T00:25:50+00:00  [decide] AI 0.80 (medium) vs market 0.77 -> skip: AI 0.80 vs market 0.77: agrees with market",
+  "2026-11-06T00:25:50+00:00  [research] US x Iran effective ceasefire continues through November 15, 2026?",
+  "2026-11-06T00:26:07+00:00  [decide] AI 0.25 (medium) vs market 0.55 -> skip: venue minimum (5 shares \u2248 $2.32) is above the $2.00 max bet",
+  "2026-11-06T00:26:07+00:00  [research] Will Elon Musk post 280-299 tweets from October 30 to November 6, 2026?",
+  "2026-11-06T00:26:23+00:00  [decide] AI 0.17 (low) vs market 0.66 -> skip: AI confidence low: not trading on it"
  ]
 }
