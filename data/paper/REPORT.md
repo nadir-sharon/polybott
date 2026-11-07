@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-07T00:06:59+00:00 UTC_
+_Updated 2026-11-07T00:37:27+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-07T00:06:59+00:00 UTC_
 | Cash now | $18.54 |
 | In open bets (at cost) | $1.46 (1 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $4.74 |
-| Profit after AI costs | **-$4.74** |
+| AI research spent | $4.97 |
+| Profit after AI costs | **-$4.97** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -36,6 +36,9 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **Israel x Iran ceasefire continues through November 15?**  
+  AI 0.70 (low) vs market 0.75 → AI confidence low: not trading on it  
+  _A nominal ceasefire has largely held since June, but Trump has said a decision on renewed major strikes is imminent and Netanyahu is pushing for them. Diplomacy through Qatar is also active. I put the chance of a qualifying Israel–Iran stri_
 - **Will Gemini Carbon be released on November 10, 2026?**  
   AI 0.07 (medium) vs market 0.38 → venue minimum (5 shares ≈ $3.22) is above the $2.00 max bet  
   _Carbon was announced Oct 28 but is still limited to cyber defenders and Fairwind partners, with no public date from Google as of Nov 4. The Argon precedent (13 days from defender-only to general availability) points to roughly Nov 10, but t_
@@ -63,18 +66,10 @@ _None yet. Bets settle when their market resolves._
 - **Bank of Mexico decreases interest rates by 25 bps after November 2026 meeting?**  
   AI 0.19 (medium) vs market 0.19 → AI 0.19 vs market 0.19: agrees with market  
   _Consensus, including Citi's survey (20 of 36 expect a hold, 6 expect a cut) and BofA, Banamex and Rabobank, is a hold at 6.50%. Three board members are open to cuts, but rising inflation, a weak peso and the record-low gap with the Fed argu_
-- **Will Elon Musk post 280-299 tweets from October 30 to November 6, 2026?**  
-  AI 0.10 (low) vs market 0.18 → AI confidence low: not trading on it  
-  _I found no live xtracker count for the Oct 30 – Nov 6 window. Recent weekly counts ran around 360–380, with a 94-post day on Oct 30 and heavy election-night posting, so a final total of 280–299 would need a notable slowdown._
 
 ## Activity log (latest 40)
 
 ```
-2026-11-06T19:04:14+00:00  [scan] 26 markets pass filters, 22 not recently researched
-2026-11-06T19:04:14+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)
-2026-11-06T19:34:16+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-06T19:34:23+00:00  [scan] 30 markets pass filters, 26 not recently researched
-2026-11-06T19:34:23+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)
 2026-11-06T20:04:25+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-06T20:04:32+00:00  [scan] 30 markets pass filters, 26 not recently researched
 2026-11-06T20:04:32+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)
@@ -110,4 +105,9 @@ _None yet. Bets settle when their market resolves._
 2026-11-07T00:06:41+00:00  [decide] AI 0.42 (low) vs market 0.41 -> skip: AI confidence low: not trading on it
 2026-11-07T00:06:41+00:00  [research] Will Gemini Carbon be released on November 10, 2026?
 2026-11-07T00:06:59+00:00  [decide] AI 0.07 (medium) vs market 0.38 -> skip: venue minimum (5 shares ≈ $3.22) is above the $2.00 max bet
+2026-11-07T00:37:01+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-07T00:37:09+00:00  [scan] 24 markets pass filters, 20 not recently researched
+2026-11-07T00:37:09+00:00  [research] Israel x Iran ceasefire continues through November 15?
+2026-11-07T00:37:27+00:00  [decide] AI 0.70 (low) vs market 0.75 -> skip: AI confidence low: not trading on it
+2026-11-07T00:37:27+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)
 ```
