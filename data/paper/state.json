@@ -1128,6 +1128,9 @@
   "2026-11-07T00:37:09+00:00  [scan] 24 markets pass filters, 20 not recently researched",
   "2026-11-07T00:37:09+00:00  [research] Israel x Iran ceasefire continues through November 15?",
   "2026-11-07T00:37:27+00:00  [decide] AI 0.70 (low) vs market 0.75 -> skip: AI confidence low: not trading on it",
-  "2026-11-07T00:37:27+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)"
+  "2026-11-07T00:37:27+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)",
+  "2026-11-07T01:07:28+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-07T01:07:36+00:00  [scan] 23 markets pass filters, 18 not recently researched",
+  "2026-11-07T01:07:36+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)"
  ]
 }
