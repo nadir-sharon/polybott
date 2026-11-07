@@ -542,6 +542,66 @@
    "decision": "AI 0.72 vs market 0.79: agrees with market",
    "traded": false,
    "url": "https://polymarket.com/event/us-iran-effective-ceasefire-continues-throughptptpt-20261103"
+  },
+  {
+   "ts": "2026-11-07T00:06:23+00:00",
+   "market_id": "6731228",
+   "question": "Will Kai Cenat finish his GTA marathon by November 10?",
+   "end_date": "2026-11-11T04:59:00+00:00",
+   "ai_prob": 0.03,
+   "confidence": "high",
+   "market_mid": 0.135,
+   "summary": "Kai Cenat began the five-game GTA marathon on Nov 5 with a stated 14-day window ending near the Nov 19 GTA 6 launch. Completing GTA III, Vice City, San Andreas, IV and V on stream by Nov 10 would need about five days of near-nonstop play, which is very unlikely.",
+   "sources": [
+    "https://tribune.com.pk/story/2638424/kai-cenat-announces-5-game-grand-theft-auto-marathon-ahead-of-gta-6-release",
+    "https://wisevoter.com/world/us/2026/11/06/kai-cenat-gta-marathon-nigeria-school-questions",
+    "https://x.com/i/trending/2117446575828185318"
+   ],
+   "cost": 0.0985,
+   "decision": "NO edge +0.047 after fees < 0.05",
+   "traded": false,
+   "url": "https://polymarket.com/event/kai-cenat-finishes-gta-marathon-by-20261105"
+  },
+  {
+   "ts": "2026-11-07T00:06:41+00:00",
+   "market_id": "2116494",
+   "question": "Will Labour Party win the most seats in the New Zealand House of Representatives in the 2026 New Zealand legislative election?",
+   "end_date": "2026-11-08T04:59:00+00:00",
+   "ai_prob": 0.42,
+   "confidence": "low",
+   "market_mid": 0.41,
+   "summary": "Results weren't available yet. Final polls show National and Labour roughly tied. Two of three polls have National slightly ahead, Freshwater has Labour ahead by 4 points, and National's electorate-seat floor helps its seat count. Labour is a slight underdog for the most seats.",
+   "sources": [
+    "https://www.1news.co.nz/2026/11/03/final-poll-election-set-to-go-down-to-wire-as-nationals-partners-slip/",
+    "https://www.stuff.co.nz/politics/361055675/labour-pulls-ahead-national-opportunity-could-decide-who-governs",
+    "https://www.stuff.co.nz/politics/361055368/national-or-labour-new-poll-reveals-who-voters-trust-tackle-nzs-biggest-problems",
+    "https://www.electionresults.govt.nz/"
+   ],
+   "cost": 0.2021,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/new-zealand-legislative-election-winner"
+  },
+  {
+   "ts": "2026-11-07T00:06:59+00:00",
+   "market_id": "6366825",
+   "question": "Will Gemini Carbon be released on November 10, 2026?",
+   "end_date": "2026-11-11T04:59:00+00:00",
+   "ai_prob": 0.07,
+   "confidence": "medium",
+   "market_mid": 0.376,
+   "summary": "Carbon was announced Oct 28 but is still limited to cyber defenders and Fairwind partners, with no public date from Google as of Nov 4. The Argon precedent (13 days from defender-only to general availability) points to roughly Nov 10, but that is only speculation. Landing on this exact day is a low-probability event.",
+   "sources": [
+    "https://reapi.ai/resources/gemini-4-carbon",
+    "https://powerdrill.ai/blog/gemini-4-carbon",
+    "https://blog.laozhang.ai/en/posts/gemini-4-carbon-release-date",
+    "https://ahmetbalaman.com/en/blog/when-is-gemini-4-carbon-coming-who-can-use-it-en/",
+    "https://felloai.com/gemini-4-carbon/"
+   ],
+   "cost": 0.4326,
+   "decision": "venue minimum (5 shares \u2248 $3.22) is above the $2.00 max bet",
+   "traded": false,
+   "url": "https://polymarket.com/event/gemini-carbon-released-onptptpt-20261028"
   }
  ],
  "ai_spend": {
@@ -549,7 +609,8 @@
   "2026-11-03": 0.912182,
   "2026-11-04": 0.935424,
   "2026-11-05": 0.960028,
-  "2026-11-06": 1.008082
+  "2026-11-06": 1.008082,
+  "2026-11-07": 0.733168
  },
  "realized_by_day": {},
  "halted": null,
@@ -1033,6 +1094,14 @@
   "2026-11-06T23:05:53+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)",
   "2026-11-06T23:35:55+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-06T23:36:03+00:00  [scan] 25 markets pass filters, 21 not recently researched",
-  "2026-11-06T23:36:03+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)"
+  "2026-11-06T23:36:03+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)",
+  "2026-11-07T00:06:04+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-07T00:06:12+00:00  [scan] 24 markets pass filters, 21 not recently researched",
+  "2026-11-07T00:06:12+00:00  [research] Will Kai Cenat finish his GTA marathon by November 10?",
+  "2026-11-07T00:06:23+00:00  [decide] AI 0.03 (high) vs market 0.14 -> skip: NO edge +0.047 after fees < 0.05",
+  "2026-11-07T00:06:23+00:00  [research] Will Labour Party win the most seats in the New Zealand House of Representatives in the 20",
+  "2026-11-07T00:06:41+00:00  [decide] AI 0.42 (low) vs market 0.41 -> skip: AI confidence low: not trading on it",
+  "2026-11-07T00:06:41+00:00  [research] Will Gemini Carbon be released on November 10, 2026?",
+  "2026-11-07T00:06:59+00:00  [decide] AI 0.07 (medium) vs market 0.38 -> skip: venue minimum (5 shares \u2248 $3.22) is above the $2.00 max bet"
  ]
 }

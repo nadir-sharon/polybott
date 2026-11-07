@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-06T23:36:03+00:00 UTC_
+_Updated 2026-11-07T00:06:59+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-06T23:36:03+00:00 UTC_
 | Cash now | $18.54 |
 | In open bets (at cost) | $1.46 (1 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $4.01 |
-| Profit after AI costs | **-$4.01** |
+| AI research spent | $4.74 |
+| Profit after AI costs | **-$4.74** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -36,6 +36,15 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **Will Gemini Carbon be released on November 10, 2026?**  
+  AI 0.07 (medium) vs market 0.38 → venue minimum (5 shares ≈ $3.22) is above the $2.00 max bet  
+  _Carbon was announced Oct 28 but is still limited to cyber defenders and Fairwind partners, with no public date from Google as of Nov 4. The Argon precedent (13 days from defender-only to general availability) points to roughly Nov 10, but t_
+- **Will Labour Party win the most seats in the New Zealand House of Representatives in the 20**  
+  AI 0.42 (low) vs market 0.41 → AI confidence low: not trading on it  
+  _Results weren't available yet. Final polls show National and Labour roughly tied. Two of three polls have National slightly ahead, Freshwater has Labour ahead by 4 points, and National's electorate-seat floor helps its seat count. Labour is_
+- **Will Kai Cenat finish his GTA marathon by November 10?**  
+  AI 0.03 (high) vs market 0.14 → NO edge +0.047 after fees < 0.05  
+  _Kai Cenat began the five-game GTA marathon on Nov 5 with a stated 14-day window ending near the Nov 19 GTA 6 launch. Completing GTA III, Vice City, San Andreas, IV and V on stream by Nov 10 would need about five days of near-nonstop play, w_
 - **US x Iran effective ceasefire continues through November 8, 2026?**  
   AI 0.72 (medium) vs market 0.79 → AI 0.72 vs market 0.79: agrees with market  
   _A US strike on Iran within the remaining ~3 days is a real risk. Trump is deciding on renewed strikes and CENTCOM is finalizing plans, and limited defensive strikes occurred on Nov 2. Against that, Trump said he has no immediate plans, the _
@@ -57,27 +66,10 @@ _None yet. Bets settle when their market resolves._
 - **Will Elon Musk post 280-299 tweets from October 30 to November 6, 2026?**  
   AI 0.10 (low) vs market 0.18 → AI confidence low: not trading on it  
   _I found no live xtracker count for the Oct 30 – Nov 6 window. Recent weekly counts ran around 360–380, with a 94-post day on Oct 30 and heavy election-night posting, so a final total of 280–299 would need a notable slowdown._
-- **US x Iran effective ceasefire continues through November 15, 2026?**  
-  AI 0.30 (medium) vs market 0.57 → venue minimum (5 shares ≈ $2.17) is above the $2.00 max bet  
-  _The US struck Iran's Qeshm Island and nearby areas on Nov 2, and the WSJ reports a series of secret limited strikes in recent weeks. Escalation pressure (Netanyahu, force buildup, Hormuz incidents) is high, though Trump downplays new strike_
-- **Will Gemini Carbon be released between November 9 and November 15, 2026?**  
-  AI 0.20 (medium) vs market 0.72 → edge found  
-  _Carbon was announced Oct 28 but is still limited to Fairwind cyber defenders, with no public date. Argon's 13-day gap from defenders-only to public would land near Nov 10, but Google says it is iterating on guardrails and is in US governmen_
-- **Will Elon Musk post 300-319 tweets from October 30 to November 6, 2026?**  
-  AI 0.14 (low) vs market 0.12 → AI confidence low: not trading on it  
-  _Recent weekly counts imply roughly 330–350 posts for the window, and election week could push it higher. The 300–319 bucket sits below that central estimate, so it is plausible but not the favorite. I couldn't find the live count for this w_
 
 ## Activity log (latest 40)
 
 ```
-2026-11-06T17:33:46+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)
-2026-11-06T18:03:48+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-06T18:03:56+00:00  [scan] 27 markets pass filters, 23 not recently researched
-2026-11-06T18:03:56+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)
-2026-11-06T18:33:58+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-06T18:34:06+00:00  [scan] 32 markets pass filters, 29 not recently researched
-2026-11-06T18:34:06+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)
-2026-11-06T19:04:08+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-06T19:04:14+00:00  [scan] 26 markets pass filters, 22 not recently researched
 2026-11-06T19:04:14+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)
 2026-11-06T19:34:16+00:00  === run start (paper mode) cash $18.54, 1 open ===
@@ -110,4 +102,12 @@ _None yet. Bets settle when their market resolves._
 2026-11-06T23:35:55+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-06T23:36:03+00:00  [scan] 25 markets pass filters, 21 not recently researched
 2026-11-06T23:36:03+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)
+2026-11-07T00:06:04+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-07T00:06:12+00:00  [scan] 24 markets pass filters, 21 not recently researched
+2026-11-07T00:06:12+00:00  [research] Will Kai Cenat finish his GTA marathon by November 10?
+2026-11-07T00:06:23+00:00  [decide] AI 0.03 (high) vs market 0.14 -> skip: NO edge +0.047 after fees < 0.05
+2026-11-07T00:06:23+00:00  [research] Will Labour Party win the most seats in the New Zealand House of Representatives in the 20
+2026-11-07T00:06:41+00:00  [decide] AI 0.42 (low) vs market 0.41 -> skip: AI confidence low: not trading on it
+2026-11-07T00:06:41+00:00  [research] Will Gemini Carbon be released on November 10, 2026?
+2026-11-07T00:06:59+00:00  [decide] AI 0.07 (medium) vs market 0.38 -> skip: venue minimum (5 shares ≈ $3.22) is above the $2.00 max bet
 ```
