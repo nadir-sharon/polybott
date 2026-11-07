@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-07T04:39:03+00:00 UTC_
+_Updated 2026-11-07T05:09:11+00:00 UTC_
 
 ## Scoreboard
 
@@ -70,9 +70,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-07T00:06:04+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-07T00:06:12+00:00  [scan] 24 markets pass filters, 21 not recently researched
-2026-11-07T00:06:12+00:00  [research] Will Kai Cenat finish his GTA marathon by November 10?
 2026-11-07T00:06:23+00:00  [decide] AI 0.03 (high) vs market 0.14 -> skip: NO edge +0.047 after fees < 0.05
 2026-11-07T00:06:23+00:00  [research] Will Labour Party win the most seats in the New Zealand House of Representatives in the 20
 2026-11-07T00:06:41+00:00  [decide] AI 0.42 (low) vs market 0.41 -> skip: AI confidence low: not trading on it
@@ -110,4 +107,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-07T04:38:57+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-07T04:39:03+00:00  [scan] 29 markets pass filters, 24 not recently researched
 2026-11-07T04:39:03+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)
+2026-11-07T05:09:05+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-07T05:09:11+00:00  [scan] 28 markets pass filters, 23 not recently researched
+2026-11-07T05:09:11+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)
 ```
