@@ -682,6 +682,28 @@
    "decision": "AI confidence low: not trading on it",
    "traded": false,
    "url": "https://polymarket.com/event/elon-musk-of-tweets-november-7-november-9-2026"
+  },
+  {
+   "ts": "2026-11-08T00:47:10+00:00",
+   "market_id": "5339986",
+   "question": "Israel x Iran ceasefire continues through November 15?",
+   "end_date": "2026-11-16T04:59:00+00:00",
+   "ai_prob": 0.71,
+   "confidence": "medium",
+   "market_mid": 0.865,
+   "summary": "No direct Israel\u2013Iran strikes appear to have occurred recently, and the status quo is limited US\u2013Iran skirmishing plus mediated talks. The main risk is a resumed major US/Israeli strike campaign, possibly around the Nov 9 new moon, which Trump is weighing but has repeatedly backed away from.",
+   "sources": [
+    "https://www.iranintl.com/en/202611029410",
+    "https://foxnews.com/live-news/iran-war-news-trump-israel-elections-november-5",
+    "https://cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html",
+    "https://www.timesofisrael.com/liveblog-november-06-2026/",
+    "https://www.iranintl.com/en/liveblog/202610312594",
+    "https://www.britannica.com/event/2026-Iran-war"
+   ],
+   "cost": 0.3453,
+   "decision": "NO edge +0.043 after fees < 0.05",
+   "traded": false,
+   "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
   }
  ],
  "ai_spend": {
@@ -691,7 +713,7 @@
   "2026-11-05": 0.960028,
   "2026-11-06": 1.008082,
   "2026-11-07": 0.960444,
-  "2026-11-08": 0.68169
+  "2026-11-08": 1.027006
  },
  "realized_by_day": {},
  "halted": null,
@@ -1349,6 +1371,11 @@
   "2026-11-08T00:16:07+00:00  [research] Will Elon Musk post 260-279 tweets from November 3 to November 10, 2026?",
   "2026-11-08T00:16:24+00:00  [decide] AI 0.17 (low) vs market 0.22 -> skip: AI confidence low: not trading on it",
   "2026-11-08T00:16:24+00:00  [research] Will Elon Musk post 40-64 tweets from November 7 to November 9, 2026?",
-  "2026-11-08T00:16:40+00:00  [decide] AI 0.22 (low) vs market 0.15 -> skip: AI confidence low: not trading on it"
+  "2026-11-08T00:16:40+00:00  [decide] AI 0.22 (low) vs market 0.15 -> skip: AI confidence low: not trading on it",
+  "2026-11-08T00:46:42+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-08T00:46:50+00:00  [scan] 21 markets pass filters, 17 not recently researched",
+  "2026-11-08T00:46:50+00:00  [research] Israel x Iran ceasefire continues through November 15?",
+  "2026-11-08T00:47:10+00:00  [decide] AI 0.71 (medium) vs market 0.86 -> skip: NO edge +0.043 after fees < 0.05",
+  "2026-11-08T00:47:10+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)"
  ]
 }

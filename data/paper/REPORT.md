@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-08T00:16:40+00:00 UTC_
+_Updated 2026-11-08T00:47:10+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-08T00:16:40+00:00 UTC_
 | Cash now | $18.54 |
 | In open bets (at cost) | $1.46 (1 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $5.65 |
-| Profit after AI costs | **-$5.65** |
+| AI research spent | $5.99 |
+| Profit after AI costs | **-$5.99** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -36,6 +36,9 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **Israel x Iran ceasefire continues through November 15?**  
+  AI 0.71 (medium) vs market 0.86 → NO edge +0.043 after fees < 0.05  
+  _No direct Israel–Iran strikes appear to have occurred recently, and the status quo is limited US–Iran skirmishing plus mediated talks. The main risk is a resumed major US/Israeli strike campaign, possibly around the Nov 9 new moon, which Tr_
 - **Will Elon Musk post 40-64 tweets from November 7 to November 9, 2026?**  
   AI 0.22 (low) vs market 0.14 → AI confidence low: not trading on it  
   _Recent weekly pace (~40/day in late Oct/early Nov) implies about 70-85 posts over the 48-hour window, above the 40-64 bucket. A quiet weekend could still pull the total down into the bracket._
@@ -63,18 +66,10 @@ _None yet. Bets settle when their market resolves._
 - **Will Elon Musk post 280-299 tweets from October 30 to November 6, 2026?**  
   AI 0.17 (low) vs market 0.66 → AI confidence low: not trading on it  
   _I couldn't find the live tracker count. Musk's recent pace (about 42 a day in October, 94 on Oct 30, heavy election-week posting) puts the expected total near 300 for the Oct 30–Nov 6 window. The 280–299 bracket therefore gets roughly 17%._
-- **US x Iran effective ceasefire continues through November 15, 2026?**  
-  AI 0.25 (medium) vs market 0.55 → venue minimum (5 shares ≈ $2.32) is above the $2.00 max bet  
-  _The US struck Qeshm Island on Nov 2, and officials describe occasional defensive strikes as ongoing. A major post-midterm strike is also under consideration, though Trump says he has no immediate plans and mediators report progress. Another_
 
 ## Activity log (latest 40)
 
 ```
-2026-11-07T19:13:56+00:00  [scan] 24 markets pass filters, 21 not recently researched
-2026-11-07T19:13:56+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)
-2026-11-07T19:43:57+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-07T19:44:03+00:00  [scan] 22 markets pass filters, 19 not recently researched
-2026-11-07T19:44:03+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)
 2026-11-07T20:14:05+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-07T20:14:13+00:00  [scan] 23 markets pass filters, 21 not recently researched
 2026-11-07T20:14:13+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)
@@ -110,4 +105,9 @@ _None yet. Bets settle when their market resolves._
 2026-11-08T00:16:24+00:00  [decide] AI 0.17 (low) vs market 0.22 -> skip: AI confidence low: not trading on it
 2026-11-08T00:16:24+00:00  [research] Will Elon Musk post 40-64 tweets from November 7 to November 9, 2026?
 2026-11-08T00:16:40+00:00  [decide] AI 0.22 (low) vs market 0.15 -> skip: AI confidence low: not trading on it
+2026-11-08T00:46:42+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-08T00:46:50+00:00  [scan] 21 markets pass filters, 17 not recently researched
+2026-11-08T00:46:50+00:00  [research] Israel x Iran ceasefire continues through November 15?
+2026-11-08T00:47:10+00:00  [decide] AI 0.71 (medium) vs market 0.86 -> skip: NO edge +0.043 after fees < 0.05
+2026-11-08T00:47:10+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
 ```
