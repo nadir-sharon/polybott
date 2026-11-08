@@ -623,6 +623,65 @@
    "decision": "AI confidence low: not trading on it",
    "traded": false,
    "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
+  },
+  {
+   "ts": "2026-11-08T00:16:07+00:00",
+   "market_id": "6731228",
+   "question": "Will Kai Cenat finish his GTA marathon by November 10?",
+   "end_date": "2026-11-11T04:59:00+00:00",
+   "ai_prob": 0.3,
+   "confidence": "low",
+   "market_mid": 0.135,
+   "summary": "Kai Cenat is moving fast: GTA III took about 10 hours and Vice City about 18, and he was reportedly on San Andreas by day 2. He would still need San Andreas, GTA IV and GTA V done by the end of November 10 ET. That is possible only with near-continuous streaming, and he has until November 19, so I lean No.",
+   "sources": [
+    "https://www.talkesport.com/streaming/kai-cenat-gta-marathon-set-450k-nigeria-school/",
+    "https://x.com/Kaimafiaupdates/status/2118892066587689303",
+    "https://tribune.com.pk/story/2638424/kai-cenat-announces-5-game-grand-theft-auto-marathon-ahead-of-gta-6-release",
+    "https://x.com/JMaine518/status/2118608444240568333"
+   ],
+   "cost": 0.2548,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/kai-cenat-finishes-gta-marathon-by-20261105"
+  },
+  {
+   "ts": "2026-11-08T00:16:24+00:00",
+   "market_id": "6443537",
+   "question": "Will Elon Musk post 260-279 tweets from November 3 to November 10, 2026?",
+   "end_date": "2026-11-10T17:00:00+00:00",
+   "ai_prob": 0.17,
+   "confidence": "low",
+   "market_mid": 0.221,
+   "summary": "I couldn't find the live tracker count for Nov 3\u201310. Musk's recent pace of about 30\u201338 posts a day implies a weekly total near 240, so 260\u2013279 needs an above-average week. I estimate about a 17% chance, allowing for some signs of elevated posting this week.",
+   "sources": [
+    "https://www.xtracker.io/",
+    "https://www.lines.com/prediction-markets/politics/elon-musk-of-tweets-november-2026",
+    "https://www.muskmeter.live/"
+   ],
+   "cost": 0.229,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-3-november-10-2026"
+  },
+  {
+   "ts": "2026-11-08T00:16:40+00:00",
+   "market_id": "6719485",
+   "question": "Will Elon Musk post 40-64 tweets from November 7 to November 9, 2026?",
+   "end_date": "2026-11-09T17:00:00+00:00",
+   "ai_prob": 0.22,
+   "confidence": "low",
+   "market_mid": 0.145,
+   "summary": "Recent weekly pace (~40/day in late Oct/early Nov) implies about 70-85 posts over the 48-hour window, above the 40-64 bucket. A quiet weekend could still pull the total down into the bracket.",
+   "sources": [
+    "https://www.lines.com/prediction-markets/politics/elon-musk-of-tweets-november-2026",
+    "https://www.chaincatcher.com/en/article/2302355",
+    "https://elon-tracker.com/analytics",
+    "https://musksense.xyz/"
+   ],
+   "cost": 0.1979,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-7-november-9-2026"
   }
  ],
  "ai_spend": {
@@ -631,7 +690,8 @@
   "2026-11-04": 0.935424,
   "2026-11-05": 0.960028,
   "2026-11-06": 1.008082,
-  "2026-11-07": 0.960444
+  "2026-11-07": 0.960444,
+  "2026-11-08": 0.68169
  },
  "realized_by_day": {},
  "halted": null,
@@ -1281,6 +1341,14 @@
   "2026-11-07T23:15:26+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)",
   "2026-11-07T23:45:28+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-07T23:45:35+00:00  [scan] 24 markets pass filters, 21 not recently researched",
-  "2026-11-07T23:45:35+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)"
+  "2026-11-07T23:45:35+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)",
+  "2026-11-08T00:15:37+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-08T00:15:44+00:00  [scan] 18 markets pass filters, 16 not recently researched",
+  "2026-11-08T00:15:44+00:00  [research] Will Kai Cenat finish his GTA marathon by November 10?",
+  "2026-11-08T00:16:07+00:00  [decide] AI 0.30 (low) vs market 0.14 -> skip: AI confidence low: not trading on it",
+  "2026-11-08T00:16:07+00:00  [research] Will Elon Musk post 260-279 tweets from November 3 to November 10, 2026?",
+  "2026-11-08T00:16:24+00:00  [decide] AI 0.17 (low) vs market 0.22 -> skip: AI confidence low: not trading on it",
+  "2026-11-08T00:16:24+00:00  [research] Will Elon Musk post 40-64 tweets from November 7 to November 9, 2026?",
+  "2026-11-08T00:16:40+00:00  [decide] AI 0.22 (low) vs market 0.15 -> skip: AI confidence low: not trading on it"
  ]
 }

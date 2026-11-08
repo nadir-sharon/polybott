@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-07T23:45:35+00:00 UTC_
+_Updated 2026-11-08T00:16:40+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-07T23:45:35+00:00 UTC_
 | Cash now | $18.54 |
 | In open bets (at cost) | $1.46 (1 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $4.97 |
-| Profit after AI costs | **-$4.97** |
+| AI research spent | $5.65 |
+| Profit after AI costs | **-$5.65** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -36,6 +36,15 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **Will Elon Musk post 40-64 tweets from November 7 to November 9, 2026?**  
+  AI 0.22 (low) vs market 0.14 → AI confidence low: not trading on it  
+  _Recent weekly pace (~40/day in late Oct/early Nov) implies about 70-85 posts over the 48-hour window, above the 40-64 bucket. A quiet weekend could still pull the total down into the bracket._
+- **Will Elon Musk post 260-279 tweets from November 3 to November 10, 2026?**  
+  AI 0.17 (low) vs market 0.22 → AI confidence low: not trading on it  
+  _I couldn't find the live tracker count for Nov 3–10. Musk's recent pace of about 30–38 posts a day implies a weekly total near 240, so 260–279 needs an above-average week. I estimate about a 17% chance, allowing for some signs of elevated p_
+- **Will Kai Cenat finish his GTA marathon by November 10?**  
+  AI 0.30 (low) vs market 0.14 → AI confidence low: not trading on it  
+  _Kai Cenat is moving fast: GTA III took about 10 hours and Vice City about 18, and he was reportedly on San Andreas by day 2. He would still need San Andreas, GTA IV and GTA V done by the end of November 10 ET. That is possible only with nea_
 - **Israel x Iran ceasefire continues through November 15?**  
   AI 0.70 (low) vs market 0.75 → AI confidence low: not trading on it  
   _A nominal ceasefire has largely held since June, but Trump has said a decision on renewed major strikes is imminent and Netanyahu is pushing for them. Diplomacy through Qatar is also active. I put the chance of a qualifying Israel–Iran stri_
@@ -57,27 +66,10 @@ _None yet. Bets settle when their market resolves._
 - **US x Iran effective ceasefire continues through November 15, 2026?**  
   AI 0.25 (medium) vs market 0.55 → venue minimum (5 shares ≈ $2.32) is above the $2.00 max bet  
   _The US struck Qeshm Island on Nov 2, and officials describe occasional defensive strikes as ongoing. A major post-midterm strike is also under consideration, though Trump says he has no immediate plans and mediators report progress. Another_
-- **Israel x Iran ceasefire continues through November 15?**  
-  AI 0.80 (medium) vs market 0.77 → AI 0.80 vs market 0.77: agrees with market  
-  _No confirmed direct Israel–Iran strikes since the June exchanges, and US–Iran diplomacy is ongoing after the midterms. However, Trump and Netanyahu have openly threatened renewed strikes, and the US struck Iranian targets around the Strait _
-- **US announces end of Iranian blockade by November 15, 2026?**  
-  AI 0.13 (medium) vs market 0.10 → AI 0.13 vs market 0.11: agrees with market  
-  _The blockade remains in force while Qatar-mediated talks on an interim deal continue. Iran says the US response was 'not convincing,' and Trump is also weighing renewed strikes. A general lifting announced by Nov 15 is possible but unlikely_
-- **Bank of Mexico decreases interest rates by 25 bps after November 2026 meeting?**  
-  AI 0.19 (medium) vs market 0.19 → AI 0.19 vs market 0.19: agrees with market  
-  _Consensus, including Citi's survey (20 of 36 expect a hold, 6 expect a cut) and BofA, Banamex and Rabobank, is a hold at 6.50%. Three board members are open to cuts, but rising inflation, a weak peso and the record-low gap with the Fed argu_
 
 ## Activity log (latest 40)
 
 ```
-2026-11-07T17:43:31+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)
-2026-11-07T18:13:33+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-07T18:13:40+00:00  [scan] 25 markets pass filters, 22 not recently researched
-2026-11-07T18:13:40+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)
-2026-11-07T18:43:41+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-07T18:43:47+00:00  [scan] 26 markets pass filters, 23 not recently researched
-2026-11-07T18:43:47+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)
-2026-11-07T19:13:49+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-07T19:13:56+00:00  [scan] 24 markets pass filters, 21 not recently researched
 2026-11-07T19:13:56+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)
 2026-11-07T19:43:57+00:00  === run start (paper mode) cash $18.54, 1 open ===
@@ -110,4 +102,12 @@ _None yet. Bets settle when their market resolves._
 2026-11-07T23:45:28+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-07T23:45:35+00:00  [scan] 24 markets pass filters, 21 not recently researched
 2026-11-07T23:45:35+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)
+2026-11-08T00:15:37+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-08T00:15:44+00:00  [scan] 18 markets pass filters, 16 not recently researched
+2026-11-08T00:15:44+00:00  [research] Will Kai Cenat finish his GTA marathon by November 10?
+2026-11-08T00:16:07+00:00  [decide] AI 0.30 (low) vs market 0.14 -> skip: AI confidence low: not trading on it
+2026-11-08T00:16:07+00:00  [research] Will Elon Musk post 260-279 tweets from November 3 to November 10, 2026?
+2026-11-08T00:16:24+00:00  [decide] AI 0.17 (low) vs market 0.22 -> skip: AI confidence low: not trading on it
+2026-11-08T00:16:24+00:00  [research] Will Elon Musk post 40-64 tweets from November 7 to November 9, 2026?
+2026-11-08T00:16:40+00:00  [decide] AI 0.22 (low) vs market 0.15 -> skip: AI confidence low: not trading on it
 ```
