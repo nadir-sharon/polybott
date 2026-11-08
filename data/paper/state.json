@@ -1460,6 +1460,9 @@
   "2026-11-08T14:12:34+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
   "2026-11-08T14:42:35+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-08T14:42:41+00:00  [scan] 18 markets pass filters, 15 not recently researched",
-  "2026-11-08T14:42:41+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)"
+  "2026-11-08T14:42:41+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
+  "2026-11-08T15:12:42+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-08T15:12:48+00:00  [scan] 20 markets pass filters, 18 not recently researched",
+  "2026-11-08T15:12:48+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)"
  ]
 }
