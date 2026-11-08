@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-08T06:18:57+00:00 UTC_
+_Updated 2026-11-08T06:49:04+00:00 UTC_
 
 ## Scoreboard
 
@@ -70,9 +70,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-08T00:46:50+00:00  [scan] 21 markets pass filters, 17 not recently researched
-2026-11-08T00:46:50+00:00  [research] Israel x Iran ceasefire continues through November 15?
-2026-11-08T00:47:10+00:00  [decide] AI 0.71 (medium) vs market 0.86 -> skip: NO edge +0.043 after fees < 0.05
 2026-11-08T00:47:10+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
 2026-11-08T01:17:13+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-08T01:17:19+00:00  [scan] 23 markets pass filters, 18 not recently researched
@@ -110,4 +107,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-08T06:18:52+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-08T06:18:57+00:00  [scan] 17 markets pass filters, 14 not recently researched
 2026-11-08T06:18:57+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
+2026-11-08T06:48:59+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-08T06:49:04+00:00  [scan] 17 markets pass filters, 15 not recently researched
+2026-11-08T06:49:04+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
 ```
