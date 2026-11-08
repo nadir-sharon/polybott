@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-08T04:48:37+00:00 UTC_
+_Updated 2026-11-08T05:18:44+00:00 UTC_
 
 ## Scoreboard
 
@@ -70,9 +70,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-08T00:15:37+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-08T00:15:44+00:00  [scan] 18 markets pass filters, 16 not recently researched
-2026-11-08T00:15:44+00:00  [research] Will Kai Cenat finish his GTA marathon by November 10?
 2026-11-08T00:16:07+00:00  [decide] AI 0.30 (low) vs market 0.14 -> skip: AI confidence low: not trading on it
 2026-11-08T00:16:07+00:00  [research] Will Elon Musk post 260-279 tweets from November 3 to November 10, 2026?
 2026-11-08T00:16:24+00:00  [decide] AI 0.17 (low) vs market 0.22 -> skip: AI confidence low: not trading on it
@@ -110,4 +107,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-08T04:48:32+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-08T04:48:37+00:00  [scan] 21 markets pass filters, 16 not recently researched
 2026-11-08T04:48:37+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
+2026-11-08T05:18:38+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-08T05:18:44+00:00  [scan] 24 markets pass filters, 20 not recently researched
+2026-11-08T05:18:44+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
 ```
