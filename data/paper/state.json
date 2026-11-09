@@ -704,6 +704,67 @@
    "decision": "NO edge +0.043 after fees < 0.05",
    "traded": false,
    "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
+  },
+  {
+   "ts": "2026-11-09T00:16:23+00:00",
+   "market_id": "6831495",
+   "question": "US x Iran Effective Ceasefire by November 22?",
+   "end_date": "2026-11-22T20:29:00+00:00",
+   "ai_prob": 0.11,
+   "confidence": "medium",
+   "market_mid": 0.51,
+   "summary": "No ceasefire is in force, and the US struck Iranian territory (Qeshm Island) on Nov 2 and Nov 6/7, so a 14-day strike-free window would need an immediate pause or deal. Talks are active and Trump says resuming attacks is unlikely if they progress, but recurring 'defensive' strikes and escalation threats make a clean 14 days unlikely.",
+   "sources": [
+    "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html",
+    "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island",
+    "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/",
+    "https://iranwarlive.com/",
+    "https://www.nbcnews.com/world/iran/us-conducted-defensive-strikes-iranian-targets-strait-hormuz-us-offici-rcna607161"
+   ],
+   "cost": 0.1636,
+   "decision": "venue minimum (5 shares \u2248 $2.52) is above the $2.00 max bet",
+   "traded": false,
+   "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108"
+  },
+  {
+   "ts": "2026-11-09T00:16:42+00:00",
+   "market_id": "6751201",
+   "question": "Will Kai Cenat finish his GTA marathon by November 11?",
+   "end_date": "2026-11-12T04:59:00+00:00",
+   "ai_prob": 0.58,
+   "confidence": "medium",
+   "market_mid": 0.775,
+   "summary": "Kai finished GTA III, Vice City and San Andreas in about 61 hours and moved on to GTA IV, beelining the story. Finishing GTA IV and V by the November 11 midnight ET cutoff is feasible at his pace and matches his own stated target, but it's tight, and he has slack until GTA 6 on November 19.",
+   "sources": [
+    "https://x.com/Kaimafiaupdates/status/2119369670893694980",
+    "https://x.com/scubaryan_/status/2118440942201892973",
+    "https://x.com/GTAlphaintel/status/2119067345922773358",
+    "https://www.thehypemagazine.com/2026/11/08/kai-cenat-is-playing-five-gta-games-back-to-back-before-gta-6-drops/"
+   ],
+   "cost": 0.2512,
+   "decision": "edge too small for minimum $1 bet",
+   "traded": false,
+   "url": "https://polymarket.com/event/kai-cenat-finishes-gta-marathon-by-20261105"
+  },
+  {
+   "ts": "2026-11-09T00:16:55+00:00",
+   "market_id": "6443535",
+   "question": "Will Elon Musk post 240-259 tweets from November 3 to November 10, 2026?",
+   "end_date": "2026-11-10T17:00:00+00:00",
+   "ai_prob": 0.17,
+   "confidence": "low",
+   "market_mid": 0.2815,
+   "summary": "I couldn't find the live tracker count for Nov 3\u201310. Recent weekly totals ran around 280\u2013340, and October's pace was roughly 30\u201338 posts a day. That puts 240\u2013259 below the central estimate, but it is still plausible.",
+   "sources": [
+    "https://www.chaincatcher.com/en/article/2302355",
+    "https://www.chaincatcher.com/en/article/2299229",
+    "https://www.lines.com/prediction-markets/politics/elon-musk-of-tweets-november-2026",
+    "https://www.forbes.com/sites/maryroeloffs/2026/11/04/did-musk-delete-his-vote-red-today-post-grok-says-yes-after-major-republican-losses/"
+   ],
+   "cost": 0.2486,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-3-november-10-2026"
   }
  ],
  "ai_spend": {
@@ -713,19 +774,12 @@
   "2026-11-05": 0.960028,
   "2026-11-06": 1.008082,
   "2026-11-07": 0.960444,
-  "2026-11-08": 1.027006
+  "2026-11-08": 1.027006,
+  "2026-11-09": 0.663444
  },
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-02T17:29:21+00:00  [decide] AI 0.27 (medium) vs market 0.28 -> skip: AI 0.27 vs market 0.28: agrees with market",
-  "2026-11-02T17:29:21+00:00  [research] Will Republicans lose the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate se",
-  "2026-11-02T17:29:34+00:00  [decide] AI 0.12 (medium) vs market 0.32 -> skip: below venue minimum order size",
-  "2026-11-02T17:29:34+00:00  [research] 2026 Balance of Power: D Senate, D House",
-  "2026-11-02T17:29:44+00:00  [decide] AI 0.69 (medium) vs market 0.72 -> skip: AI 0.69 vs market 0.72: agrees with market",
-  "2026-11-03T00:02:06+00:00  === run start (paper mode) cash $20.00, 0 open ===",
-  "2026-11-03T00:02:17+00:00  [scan] 138 markets pass filters, 135 not recently researched",
-  "2026-11-03T00:02:17+00:00  [research] Will the Democratic Party control the Senate after the 2026 Midterm elections?",
   "2026-11-03T00:02:34+00:00  [decide] AI 0.68 (medium) vs market 0.76 -> skip: AI 0.68 vs market 0.76: agrees with market",
   "2026-11-03T00:02:34+00:00  [research] Will the Republicans win the Texas Senate race in 2026?",
   "2026-11-03T00:02:47+00:00  [decide] AI 0.42 (medium) vs market 0.27 -> skip: YES edge +0.039 after fees < 0.05",
@@ -1517,6 +1571,14 @@
   "2026-11-08T23:15:41+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
   "2026-11-08T23:45:43+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-08T23:45:50+00:00  [scan] 18 markets pass filters, 18 not recently researched",
-  "2026-11-08T23:45:50+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)"
+  "2026-11-08T23:45:50+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
+  "2026-11-09T00:15:51+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-09T00:16:02+00:00  [scan] 14 markets pass filters, 14 not recently researched",
+  "2026-11-09T00:16:02+00:00  [research] US x Iran Effective Ceasefire by November 22?",
+  "2026-11-09T00:16:23+00:00  [decide] AI 0.11 (medium) vs market 0.51 -> skip: venue minimum (5 shares \u2248 $2.52) is above the $2.00 max bet",
+  "2026-11-09T00:16:23+00:00  [research] Will Kai Cenat finish his GTA marathon by November 11?",
+  "2026-11-09T00:16:42+00:00  [decide] AI 0.58 (medium) vs market 0.78 -> skip: edge too small for minimum $1 bet",
+  "2026-11-09T00:16:42+00:00  [research] Will Elon Musk post 240-259 tweets from November 3 to November 10, 2026?",
+  "2026-11-09T00:16:55+00:00  [decide] AI 0.17 (low) vs market 0.28 -> skip: AI confidence low: not trading on it"
  ]
 }
