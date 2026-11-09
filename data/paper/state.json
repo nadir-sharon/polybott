@@ -801,9 +801,6 @@
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-04T01:14:50+00:00  === run start (paper mode) cash $20.00, 0 open ===",
-  "2026-11-04T01:14:58+00:00  [scan] 20 markets pass filters, 19 not recently researched",
-  "2026-11-04T01:14:58+00:00  [research] Israel x Iran ceasefire continues through November 15?",
   "2026-11-04T01:15:20+00:00  [decide] AI 0.68 (medium) vs market 0.59 -> skip: AI 0.68 vs market 0.59: agrees with market",
   "2026-11-04T01:15:20+00:00  [research] Will Elon Musk post 300-319 tweets from October 30 to November 6, 2026?",
   "2026-11-04T01:15:39+00:00  [decide] AI 0.14 (low) vs market 0.12 -> skip: AI confidence low: not trading on it",
@@ -1600,6 +1597,9 @@
   "2026-11-09T03:18:24+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)",
   "2026-11-09T03:48:26+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-09T03:48:31+00:00  [scan] 15 markets pass filters, 10 not recently researched",
-  "2026-11-09T03:48:31+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)"
+  "2026-11-09T03:48:31+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)",
+  "2026-11-09T04:18:33+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-09T04:18:38+00:00  [scan] 17 markets pass filters, 12 not recently researched",
+  "2026-11-09T04:18:38+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)"
  ]
 }
