@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-09T00:16:55+00:00 UTC_
+_Updated 2026-11-09T00:47:24+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-09T00:16:55+00:00 UTC_
 | Cash now | $18.54 |
 | In open bets (at cost) | $1.46 (1 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $6.66 |
-| Profit after AI costs | **-$6.66** |
+| AI research spent | $6.92 |
+| Profit after AI costs | **-$6.92** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -36,6 +36,9 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **US x Iran Effective Ceasefire by November 15?**  
+  AI 0.17 (medium) vs market 0.39 → venue minimum (5 shares ≈ $3.13) is above the $2.00 max bet  
+  _The US struck Qeshm Island on Nov 2 and Nov 6 with no ceasefire in force, and recurring "defensive" strikes plus escalation threats make a strike-free 14-day window starting by Nov 15 unlikely. Qatar-mediated talks and an earlier stretch of_
 - **Will Elon Musk post 240-259 tweets from November 3 to November 10, 2026?**  
   AI 0.17 (low) vs market 0.28 → AI confidence low: not trading on it  
   _I couldn't find the live tracker count for Nov 3–10. Recent weekly totals ran around 280–340, and October's pace was roughly 30–38 posts a day. That puts 240–259 below the central estimate, but it is still plausible._
@@ -63,18 +66,10 @@ _None yet. Bets settle when their market resolves._
 - **Will Gemini Carbon be released on November 10, 2026?**  
   AI 0.07 (medium) vs market 0.38 → venue minimum (5 shares ≈ $3.22) is above the $2.00 max bet  
   _Carbon was announced Oct 28 but is still limited to cyber defenders and Fairwind partners, with no public date from Google as of Nov 4. The Argon precedent (13 days from defender-only to general availability) points to roughly Nov 10, but t_
-- **Will Labour Party win the most seats in the New Zealand House of Representatives in the 20**  
-  AI 0.42 (low) vs market 0.41 → AI confidence low: not trading on it  
-  _Results weren't available yet. Final polls show National and Labour roughly tied. Two of three polls have National slightly ahead, Freshwater has Labour ahead by 4 points, and National's electorate-seat floor helps its seat count. Labour is_
 
 ## Activity log (latest 40)
 
 ```
-2026-11-08T19:14:06+00:00  [scan] 16 markets pass filters, 15 not recently researched
-2026-11-08T19:14:06+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
-2026-11-08T19:44:08+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-08T19:44:14+00:00  [scan] 14 markets pass filters, 14 not recently researched
-2026-11-08T19:44:14+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
 2026-11-08T20:14:15+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-08T20:14:21+00:00  [scan] 21 markets pass filters, 20 not recently researched
 2026-11-08T20:14:21+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
@@ -110,4 +105,9 @@ _None yet. Bets settle when their market resolves._
 2026-11-09T00:16:42+00:00  [decide] AI 0.58 (medium) vs market 0.78 -> skip: edge too small for minimum $1 bet
 2026-11-09T00:16:42+00:00  [research] Will Elon Musk post 240-259 tweets from November 3 to November 10, 2026?
 2026-11-09T00:16:55+00:00  [decide] AI 0.17 (low) vs market 0.28 -> skip: AI confidence low: not trading on it
+2026-11-09T00:46:57+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-09T00:47:04+00:00  [scan] 15 markets pass filters, 12 not recently researched
+2026-11-09T00:47:04+00:00  [research] US x Iran Effective Ceasefire by November 15?
+2026-11-09T00:47:24+00:00  [decide] AI 0.17 (medium) vs market 0.39 -> skip: venue minimum (5 shares ≈ $3.13) is above the $2.00 max bet
+2026-11-09T00:47:24+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)
 ```

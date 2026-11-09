@@ -765,6 +765,27 @@
    "decision": "AI confidence low: not trading on it",
    "traded": false,
    "url": "https://polymarket.com/event/elon-musk-of-tweets-november-3-november-10-2026"
+  },
+  {
+   "ts": "2026-11-09T00:47:24+00:00",
+   "market_id": "6831494",
+   "question": "US x Iran Effective Ceasefire by November 15?",
+   "end_date": "2026-11-15T20:29:00+00:00",
+   "ai_prob": 0.17,
+   "confidence": "medium",
+   "market_mid": 0.39,
+   "summary": "The US struck Qeshm Island on Nov 2 and Nov 6 with no ceasefire in force, and recurring \"defensive\" strikes plus escalation threats make a strike-free 14-day window starting by Nov 15 unlikely. Qatar-mediated talks and an earlier stretch of weeks without strikes leave some chance of a lull or a deal.",
+   "sources": [
+    "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html",
+    "https://iranwarlive.com/",
+    "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/",
+    "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island",
+    "https://www.outlookindia.com/international/us-iran-nuclear-programme-20-million-reward-qatar-mediation-trump-talks-strait-of-hormuz"
+   ],
+   "cost": 0.2644,
+   "decision": "venue minimum (5 shares \u2248 $3.13) is above the $2.00 max bet",
+   "traded": false,
+   "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108"
   }
  ],
  "ai_spend": {
@@ -775,16 +796,11 @@
   "2026-11-06": 1.008082,
   "2026-11-07": 0.960444,
   "2026-11-08": 1.027006,
-  "2026-11-09": 0.663444
+  "2026-11-09": 0.927798
  },
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-03T00:02:34+00:00  [decide] AI 0.68 (medium) vs market 0.76 -> skip: AI 0.68 vs market 0.76: agrees with market",
-  "2026-11-03T00:02:34+00:00  [research] Will the Republicans win the Texas Senate race in 2026?",
-  "2026-11-03T00:02:47+00:00  [decide] AI 0.42 (medium) vs market 0.27 -> skip: YES edge +0.039 after fees < 0.05",
-  "2026-11-03T00:02:47+00:00  [research] Will the Democrats win the Michigan Senate race in 2026?",
-  "2026-11-03T00:02:58+00:00  [decide] AI 0.79 (medium) vs market 0.79 -> skip: AI 0.79 vs market 0.79: agrees with market",
   "2026-11-03T06:33:46+00:00  === run start (paper mode) cash $20.00, 0 open ===",
   "2026-11-03T06:33:53+00:00  [scan] 136 markets pass filters, 130 not recently researched",
   "2026-11-03T06:33:53+00:00  [research] Will the Democrats win the Texas Senate race in 2026?",
@@ -1579,6 +1595,11 @@
   "2026-11-09T00:16:23+00:00  [research] Will Kai Cenat finish his GTA marathon by November 11?",
   "2026-11-09T00:16:42+00:00  [decide] AI 0.58 (medium) vs market 0.78 -> skip: edge too small for minimum $1 bet",
   "2026-11-09T00:16:42+00:00  [research] Will Elon Musk post 240-259 tweets from November 3 to November 10, 2026?",
-  "2026-11-09T00:16:55+00:00  [decide] AI 0.17 (low) vs market 0.28 -> skip: AI confidence low: not trading on it"
+  "2026-11-09T00:16:55+00:00  [decide] AI 0.17 (low) vs market 0.28 -> skip: AI confidence low: not trading on it",
+  "2026-11-09T00:46:57+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-09T00:47:04+00:00  [scan] 15 markets pass filters, 12 not recently researched",
+  "2026-11-09T00:47:04+00:00  [research] US x Iran Effective Ceasefire by November 15?",
+  "2026-11-09T00:47:24+00:00  [decide] AI 0.17 (medium) vs market 0.39 -> skip: venue minimum (5 shares \u2248 $3.13) is above the $2.00 max bet",
+  "2026-11-09T00:47:24+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)"
  ]
 }
