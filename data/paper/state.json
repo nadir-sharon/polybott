@@ -541,7 +541,8 @@
    "cost": 0.3,
    "decision": "AI 0.72 vs market 0.79: agrees with market",
    "traded": false,
-   "url": "https://polymarket.com/event/us-iran-effective-ceasefire-continues-throughptptpt-20261103"
+   "url": "https://polymarket.com/event/us-iran-effective-ceasefire-continues-throughptptpt-20261103",
+   "yes_payout": 0.0
   },
   {
    "ts": "2026-11-07T00:06:23+00:00",
@@ -801,9 +802,6 @@
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-04T01:15:39+00:00  [research] Will Gemini Carbon be released between November 9 and November 15, 2026?",
-  "2026-11-04T01:15:58+00:00  [decide] AI 0.20 (medium) vs market 0.72 -> TRADE NO: edge found",
-  "2026-11-04T01:15:58+00:00  [order] PAPER BUY NO 5.05 sh @ 0.280 = $1.46  (edge +0.169)  Will Gemini Carbon be released between November 9 and Novemb",
   "2026-11-04T07:35:30+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-04T07:35:38+00:00  [scan] 21 markets pass filters, 17 not recently researched",
   "2026-11-04T07:35:38+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)",
@@ -1600,6 +1598,9 @@
   "2026-11-09T04:18:38+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)",
   "2026-11-09T04:48:39+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-09T04:48:45+00:00  [scan] 17 markets pass filters, 12 not recently researched",
-  "2026-11-09T04:48:45+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)"
+  "2026-11-09T04:48:45+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)",
+  "2026-11-09T05:18:47+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-09T05:18:54+00:00  [scan] 18 markets pass filters, 15 not recently researched",
+  "2026-11-09T05:18:54+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)"
  ]
 }

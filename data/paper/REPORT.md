@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-09T04:48:45+00:00 UTC_
+_Updated 2026-11-09T05:18:54+00:00 UTC_
 
 ## Scoreboard
 
@@ -19,9 +19,9 @@ _Updated 2026-11-09T04:48:45+00:00 UTC_
 Brier score on every resolved market the AI studied (lower is better; 0.25 = coin flip).
 This is the number that matters: if the AI isn't beating the market here, wins are luck.
 
-- Resolved forecasts: **15**
-- AI Brier: **0.178**
-- Market Brier: **0.192**
+- Resolved forecasts: **16**
+- AI Brier: **0.199**
+- Market Brier: **0.219**
 - _Too few results to judge yet (need roughly 20+)._
 
 ## Open bets
@@ -70,9 +70,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-09T00:15:51+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-09T00:16:02+00:00  [scan] 14 markets pass filters, 14 not recently researched
-2026-11-09T00:16:02+00:00  [research] US x Iran Effective Ceasefire by November 22?
 2026-11-09T00:16:23+00:00  [decide] AI 0.11 (medium) vs market 0.51 -> skip: venue minimum (5 shares ≈ $2.52) is above the $2.00 max bet
 2026-11-09T00:16:23+00:00  [research] Will Kai Cenat finish his GTA marathon by November 11?
 2026-11-09T00:16:42+00:00  [decide] AI 0.58 (medium) vs market 0.78 -> skip: edge too small for minimum $1 bet
@@ -110,4 +107,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-09T04:48:39+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-09T04:48:45+00:00  [scan] 17 markets pass filters, 12 not recently researched
 2026-11-09T04:48:45+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)
+2026-11-09T05:18:47+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-09T05:18:54+00:00  [scan] 18 markets pass filters, 15 not recently researched
+2026-11-09T05:18:54+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)
 ```
