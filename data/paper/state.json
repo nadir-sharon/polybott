@@ -682,7 +682,8 @@
    "cost": 0.1979,
    "decision": "AI confidence low: not trading on it",
    "traded": false,
-   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-7-november-9-2026"
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-7-november-9-2026",
+   "yes_payout": 0.0
   },
   {
    "ts": "2026-11-08T00:47:10+00:00",
@@ -802,9 +803,6 @@
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-04T19:42:14+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-04T19:42:21+00:00  [scan] 33 markets pass filters, 30 not recently researched",
-  "2026-11-04T19:42:21+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)",
   "2026-11-04T20:12:23+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-04T20:12:30+00:00  [scan] 32 markets pass filters, 29 not recently researched",
   "2026-11-04T20:12:30+00:00  [budget] daily AI budget $1.00 reached (spent $0.94)",
@@ -1601,6 +1599,9 @@
   "2026-11-09T16:23:43+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)",
   "2026-11-09T16:53:45+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-09T16:53:51+00:00  [scan] 23 markets pass filters, 20 not recently researched",
-  "2026-11-09T16:53:51+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)"
+  "2026-11-09T16:53:51+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)",
+  "2026-11-09T17:23:53+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-09T17:23:59+00:00  [scan] 26 markets pass filters, 23 not recently researched",
+  "2026-11-09T17:23:59+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)"
  ]
 }
