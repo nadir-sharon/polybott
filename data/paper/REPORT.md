@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-10T00:57:52+00:00 UTC_
+_Updated 2026-11-10T01:28:01+00:00 UTC_
 
 ## Scoreboard
 
@@ -70,9 +70,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-09T20:24:42+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-09T20:24:49+00:00  [scan] 26 markets pass filters, 22 not recently researched
-2026-11-09T20:24:49+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)
 2026-11-09T20:54:51+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-09T20:54:57+00:00  [scan] 24 markets pass filters, 20 not recently researched
 2026-11-09T20:54:57+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)
@@ -110,4 +107,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-10T00:57:29+00:00  [research] US x Iran Effective Ceasefire by November 15?
 2026-11-10T00:57:52+00:00  [decide] AI 0.09 (medium) vs market 0.43 -> skip: venue minimum (5 shares ≈ $2.88) is above the $2.00 max bet
 2026-11-10T00:57:52+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)
+2026-11-10T01:27:54+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-10T01:28:01+00:00  [scan] 23 markets pass filters, 18 not recently researched
+2026-11-10T01:28:01+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)
 ```
