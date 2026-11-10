@@ -851,6 +851,28 @@
    "decision": "AI confidence low: not trading on it",
    "traded": false,
    "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108"
+  },
+  {
+   "ts": "2026-11-10T00:57:52+00:00",
+   "market_id": "6831494",
+   "question": "US x Iran Effective Ceasefire by November 15?",
+   "end_date": "2026-11-15T20:29:00+00:00",
+   "ai_prob": 0.09,
+   "confidence": "medium",
+   "market_mid": 0.435,
+   "summary": "The US struck Qeshm Island roughly every 1\u20132 days from Nov 2 to Nov 8, and each strike restarts the 14-day clock. YES needs a quiet stretch starting no later than Nov 15 and running about two weeks, while talks are stalled and Iran keeps firing at US aircraft. A quick deal or tacit de-escalation could produce a lull, as happened in August, but it looks unlikely.",
+   "sources": [
+    "https://www.cnn.com/2026/11/02/politics/us-strikes-iran-qeshm-island",
+    "https://www.jpost.com/middle-east/iran-news/article-914097",
+    "https://streamlinefeed.co.ke/news/united-states-launches-third-round-of-military-strikes-on-irans-qeshm-island-in-a-week",
+    "https://cnbc.com/2026/11/09/us-iran-war-trump-hormuz.html",
+    "https://www.timesofisrael.com/liveblog-november-10-2026/",
+    "https://www.samaa.tv/2087359926-iran-confirms-us-attack-on-qeshm-island-reports-no-damage"
+   ],
+   "cost": 0.2254,
+   "decision": "venue minimum (5 shares \u2248 $2.88) is above the $2.00 max bet",
+   "traded": false,
+   "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108"
   }
  ],
  "ai_spend": {
@@ -862,16 +884,11 @@
   "2026-11-07": 0.960444,
   "2026-11-08": 1.027006,
   "2026-11-09": 0.927798,
-  "2026-11-10": 0.75824
+  "2026-11-10": 0.98364
  },
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-05T02:46:16+00:00  [scan] 36 markets pass filters, 32 not recently researched",
-  "2026-11-05T02:46:16+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)",
-  "2026-11-05T03:16:18+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-05T03:16:26+00:00  [scan] 34 markets pass filters, 30 not recently researched",
-  "2026-11-05T03:16:26+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)",
   "2026-11-05T03:46:28+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-05T03:46:36+00:00  [scan] 36 markets pass filters, 33 not recently researched",
   "2026-11-05T03:46:36+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)",
@@ -1666,6 +1683,11 @@
   "2026-11-10T00:26:43+00:00  [research] Will Elon Musk post 260-279 tweets from November 3 to November 10, 2026?",
   "2026-11-10T00:26:57+00:00  [decide] AI 0.40 (low) vs market 0.21 -> skip: AI confidence low: not trading on it",
   "2026-11-10T00:26:57+00:00  [research] US x Iran Effective Ceasefire by November 22?",
-  "2026-11-10T00:27:20+00:00  [decide] AI 0.30 (low) vs market 0.53 -> skip: AI confidence low: not trading on it"
+  "2026-11-10T00:27:20+00:00  [decide] AI 0.30 (low) vs market 0.53 -> skip: AI confidence low: not trading on it",
+  "2026-11-10T00:57:22+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-10T00:57:29+00:00  [scan] 22 markets pass filters, 18 not recently researched",
+  "2026-11-10T00:57:29+00:00  [research] US x Iran Effective Ceasefire by November 15?",
+  "2026-11-10T00:57:52+00:00  [decide] AI 0.09 (medium) vs market 0.43 -> skip: venue minimum (5 shares \u2248 $2.88) is above the $2.00 max bet",
+  "2026-11-10T00:57:52+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)"
  ]
 }
