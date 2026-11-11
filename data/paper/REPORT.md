@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-11T04:40:34+00:00 UTC_
+_Updated 2026-11-11T05:10:42+00:00 UTC_
 
 ## Scoreboard
 
@@ -19,9 +19,9 @@ _Updated 2026-11-11T04:40:34+00:00 UTC_
 Brier score on every resolved market the AI studied (lower is better; 0.25 = coin flip).
 This is the number that matters: if the AI isn't beating the market here, wins are luck.
 
-- Resolved forecasts: **21**
-- AI Brier: **0.207**
-- Market Brier: **0.232**
+- Resolved forecasts: **22**
+- AI Brier: **0.237**
+- Market Brier: **0.239**
 
 ## Open bets
 
@@ -69,9 +69,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-11T00:07:19+00:00  [decide] AI 0.89 (medium) vs market 0.79 -> skip: YES edge +0.014 after fees < 0.05
-2026-11-11T00:07:19+00:00  [research] Will Elon Musk post <40 tweets from November 9 to November 11, 2026?
-2026-11-11T00:07:30+00:00  [decide] AI 0.02 (high) vs market 0.20 -> skip: venue minimum (5 shares ≈ $4.07) is above the $2.00 max bet
 2026-11-11T00:07:30+00:00  [research] Will Elon Musk post 220-239 tweets from November 6 to November 13, 2026?
 2026-11-11T00:07:51+00:00  [decide] AI 0.13 (low) vs market 0.13 -> skip: AI confidence low: not trading on it
 2026-11-11T00:37:53+00:00  === run start (paper mode) cash $18.54, 1 open ===
@@ -109,4 +106,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-11T04:40:24+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-11T04:40:34+00:00  [scan] 22 markets pass filters, 19 not recently researched
 2026-11-11T04:40:34+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
+2026-11-11T05:10:36+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-11T05:10:42+00:00  [scan] 20 markets pass filters, 17 not recently researched
+2026-11-11T05:10:42+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
 ```
