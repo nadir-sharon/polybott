@@ -562,7 +562,8 @@
    "cost": 0.0985,
    "decision": "NO edge +0.047 after fees < 0.05",
    "traded": false,
-   "url": "https://polymarket.com/event/kai-cenat-finishes-gta-marathon-by-20261105"
+   "url": "https://polymarket.com/event/kai-cenat-finishes-gta-marathon-by-20261105",
+   "yes_payout": 0.0
   },
   {
    "ts": "2026-11-07T00:06:41+00:00",
@@ -645,7 +646,8 @@
    "cost": 0.2548,
    "decision": "AI confidence low: not trading on it",
    "traded": false,
-   "url": "https://polymarket.com/event/kai-cenat-finishes-gta-marathon-by-20261105"
+   "url": "https://polymarket.com/event/kai-cenat-finishes-gta-marathon-by-20261105",
+   "yes_payout": 0.0
   },
   {
    "ts": "2026-11-08T00:16:24+00:00",
@@ -1017,9 +1019,6 @@
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-06T10:00:02+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-06T10:00:12+00:00  [scan] 26 markets pass filters, 22 not recently researched",
-  "2026-11-06T10:00:12+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)",
   "2026-11-06T10:00:32+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-06T10:00:41+00:00  [scan] 26 markets pass filters, 22 not recently researched",
   "2026-11-06T10:00:41+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)",
@@ -1816,6 +1815,9 @@
   "2026-11-11T06:10:58+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)",
   "2026-11-11T06:41:00+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-11T06:41:07+00:00  [scan] 24 markets pass filters, 21 not recently researched",
-  "2026-11-11T06:41:07+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)"
+  "2026-11-11T06:41:07+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)",
+  "2026-11-11T07:11:09+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-11T07:11:16+00:00  [scan] 23 markets pass filters, 20 not recently researched",
+  "2026-11-11T07:11:16+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)"
  ]
 }
