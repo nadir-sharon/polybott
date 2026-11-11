@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-11T00:07:51+00:00 UTC_
+_Updated 2026-11-11T00:38:55+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-11T00:07:51+00:00 UTC_
 | Cash now | $18.54 |
 | In open bets (at cost) | $1.46 (1 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $8.32 |
-| Profit after AI costs | **-$8.32** |
+| AI research spent | $8.94 |
+| Profit after AI costs | **-$8.94** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -35,6 +35,15 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **US x Iran Effective Ceasefire by November 22?**  
+  AI 0.13 (medium) vs market 0.59 → venue minimum (5 shares ≈ $2.07) is above the $2.00 max bet  
+  _US 'defensive' strikes on Qeshm Island have been occurring every 1-3 days through Nov 10, even as Trump talks de-escalation. A qualifying 14-day gap with no strikes, starting by Nov 22, requires a rapid and complete halt, which looks unlike_
+- **Will Elon Musk post 65-89 tweets from November 9 to November 11, 2026?**  
+  AI 0.47 (low) vs market 0.12 → AI confidence low: not trading on it  
+  _Musk's recent pace of about 40 posts a day implies roughly 80 over the 48-hour window, which sits inside the 65-89 bucket. I couldn't find the live count for the window, and posting bursts leave a large chance of 90 or more._
+- **Will Anthropic IPO by November 20, 2026?**  
+  AI 0.86 (medium) vs market 0.89 → AI 0.86 vs market 0.89: agrees with market  
+  _Anthropic launched its roadshow on Nov 10 with a $70–78 range, and CNBC's sources say it plans to price Nov 18 and trade Nov 19. The book is reportedly already covered. Market turmoil and the SEC effectiveness timing leave a real chance of _
 - **Will Elon Musk post 220-239 tweets from November 6 to November 13, 2026?**  
   AI 0.13 (low) vs market 0.13 → AI confidence low: not trading on it  
   _Musk's recent pace is about 38–41 posts a day, which projects the Nov 6–13 window to around 260–290. The 220–239 bucket would need a notable slowdown to roughly 31–34 a day. I couldn't see the live tracker count for this window, so confiden_
@@ -56,27 +65,10 @@ _None yet. Bets settle when their market resolves._
 - **Israel x Iran ceasefire continues through November 22?**  
   AI 0.80 (medium) vs market 0.86 → AI 0.80 vs market 0.86: agrees with market  
   _No direct Israel–Iran strikes have occurred since June 8, and Israel stayed out of the US–Iran fighting that resumed in July. Reports of planned post-midterm US/Israeli strikes, Israeli hawkish rhetoric, and Trump's deliberations create a m_
-- **US x Iran Effective Ceasefire by November 15?**  
-  AI 0.17 (medium) vs market 0.39 → venue minimum (5 shares ≈ $3.13) is above the $2.00 max bet  
-  _The US struck Qeshm Island on Nov 2 and Nov 6 with no ceasefire in force, and recurring "defensive" strikes plus escalation threats make a strike-free 14-day window starting by Nov 15 unlikely. Qatar-mediated talks and an earlier stretch of_
-- **Will Elon Musk post 240-259 tweets from November 3 to November 10, 2026?**  
-  AI 0.17 (low) vs market 0.28 → AI confidence low: not trading on it  
-  _I couldn't find the live tracker count for Nov 3–10. Recent weekly totals ran around 280–340, and October's pace was roughly 30–38 posts a day. That puts 240–259 below the central estimate, but it is still plausible._
-- **Will Kai Cenat finish his GTA marathon by November 11?**  
-  AI 0.58 (medium) vs market 0.78 → edge too small for minimum $1 bet  
-  _Kai finished GTA III, Vice City and San Andreas in about 61 hours and moved on to GTA IV, beelining the story. Finishing GTA IV and V by the November 11 midnight ET cutoff is feasible at his pace and matches his own stated target, but it's _
 
 ## Activity log (latest 40)
 
 ```
-2026-11-10T19:05:15+00:00  [scan] 19 markets pass filters, 16 not recently researched
-2026-11-10T19:05:15+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)
-2026-11-10T19:35:17+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-10T19:35:24+00:00  [scan] 19 markets pass filters, 16 not recently researched
-2026-11-10T19:35:24+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)
-2026-11-10T20:05:26+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-10T20:05:32+00:00  [scan] 21 markets pass filters, 18 not recently researched
-2026-11-10T20:05:32+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)
 2026-11-10T20:35:34+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-10T20:35:40+00:00  [scan] 21 markets pass filters, 18 not recently researched
 2026-11-10T20:35:40+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)
@@ -109,4 +101,12 @@ _None yet. Bets settle when their market resolves._
 2026-11-11T00:07:30+00:00  [decide] AI 0.02 (high) vs market 0.20 -> skip: venue minimum (5 shares ≈ $4.07) is above the $2.00 max bet
 2026-11-11T00:07:30+00:00  [research] Will Elon Musk post 220-239 tweets from November 6 to November 13, 2026?
 2026-11-11T00:07:51+00:00  [decide] AI 0.13 (low) vs market 0.13 -> skip: AI confidence low: not trading on it
+2026-11-11T00:37:53+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-11T00:38:00+00:00  [scan] 22 markets pass filters, 18 not recently researched
+2026-11-11T00:38:00+00:00  [research] Will Anthropic IPO by November 20, 2026?
+2026-11-11T00:38:15+00:00  [decide] AI 0.86 (medium) vs market 0.89 -> skip: AI 0.86 vs market 0.89: agrees with market
+2026-11-11T00:38:15+00:00  [research] Will Elon Musk post 65-89 tweets from November 9 to November 11, 2026?
+2026-11-11T00:38:34+00:00  [decide] AI 0.47 (low) vs market 0.11 -> skip: AI confidence low: not trading on it
+2026-11-11T00:38:34+00:00  [research] US x Iran Effective Ceasefire by November 22?
+2026-11-11T00:38:55+00:00  [decide] AI 0.13 (medium) vs market 0.59 -> skip: venue minimum (5 shares ≈ $2.07) is above the $2.00 max bet
 ```
