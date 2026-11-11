@@ -877,6 +877,66 @@
    "decision": "venue minimum (5 shares \u2248 $2.88) is above the $2.00 max bet",
    "traded": false,
    "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108"
+  },
+  {
+   "ts": "2026-11-11T00:07:19+00:00",
+   "market_id": "6268047",
+   "question": "Will Anthropic IPO by November 19, 2026?",
+   "end_date": "2026-11-20T04:59:00+00:00",
+   "ai_prob": 0.89,
+   "confidence": "medium",
+   "market_mid": 0.785,
+   "summary": "Anthropic filed a price range on Nov 10 and plans to price Nov 18 and begin trading on Nasdaq Nov 19, with the book reportedly already covered. The main risk is a short delay past Nov 19 because of market volatility, since the window has no slack.",
+   "sources": [
+    "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html",
+    "https://www.bloomberg.com/news/articles/2026-11-10/anthropic-ipo-explained-nasdaq-listing-and-key-risks",
+    "https://finance.yahoo.com/markets/stocks/articles/anthropic-sets-ipo-price-range-140602411.html",
+    "https://finance.yahoo.com/markets/stocks/articles/anthropic-ipo-targets-november-debut-162209958.html"
+   ],
+   "cost": 0.0564,
+   "decision": "YES edge +0.014 after fees < 0.05",
+   "traded": false,
+   "url": "https://polymarket.com/event/anthropic-ipo-by"
+  },
+  {
+   "ts": "2026-11-11T00:07:30+00:00",
+   "market_id": "6803499",
+   "question": "Will Elon Musk post <40 tweets from November 9 to November 11, 2026?",
+   "end_date": "2026-11-11T17:00:00+00:00",
+   "ai_prob": 0.02,
+   "confidence": "high",
+   "market_mid": 0.2,
+   "summary": "Musk has been posting around 35-45 times a day by tracker counts, so a 48-hour window should total roughly 70-100 posts. A YouTube title reports 49 posts on 11/9/26 alone, so the window was probably already near or above 40 by Nov 10.",
+   "sources": [
+    "https://www.youtube.com/watch?v=PoVkA9b71Eg",
+    "https://www.chaincatcher.com/en/article/2303426",
+    "https://musksense.xyz/",
+    "https://www.lines.com/prediction-markets/politics/elon-musk-of-tweets-november-2026"
+   ],
+   "cost": 0.098,
+   "decision": "venue minimum (5 shares \u2248 $4.07) is above the $2.00 max bet",
+   "traded": false,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-9-november-11-2026"
+  },
+  {
+   "ts": "2026-11-11T00:07:51+00:00",
+   "market_id": "6625371",
+   "question": "Will Elon Musk post 220-239 tweets from November 6 to November 13, 2026?",
+   "end_date": "2026-11-13T17:00:00+00:00",
+   "ai_prob": 0.13,
+   "confidence": "low",
+   "market_mid": 0.133,
+   "summary": "Musk's recent pace is about 38\u201341 posts a day, which projects the Nov 6\u201313 window to around 260\u2013290. The 220\u2013239 bucket would need a notable slowdown to roughly 31\u201334 a day. I couldn't see the live tracker count for this window, so confidence is low.",
+   "sources": [
+    "https://polymart.app/polymarket-bros",
+    "https://www.casino.org/news/trader-picks-the-quirkiest-prediction-market-bets-we-found-this-week/",
+    "https://www.chaincatcher.com/en/article/2302355",
+    "https://chaincatcher.com/en/article/2303426"
+   ],
+   "cost": 0.2577,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-6-november-13-2026"
   }
  ],
  "ai_spend": {
@@ -888,19 +948,12 @@
   "2026-11-07": 0.960444,
   "2026-11-08": 1.027006,
   "2026-11-09": 0.927798,
-  "2026-11-10": 0.98364
+  "2026-11-10": 0.98364,
+  "2026-11-11": 0.41206
  },
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-06T00:56:54+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)",
-  "2026-11-06T01:26:55+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-06T01:27:03+00:00  [scan] 29 markets pass filters, 24 not recently researched",
-  "2026-11-06T01:27:03+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)",
-  "2026-11-06T01:57:05+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-06T01:57:12+00:00  [scan] 29 markets pass filters, 24 not recently researched",
-  "2026-11-06T01:57:12+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)",
-  "2026-11-06T02:27:13+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-06T02:27:21+00:00  [scan] 29 markets pass filters, 25 not recently researched",
   "2026-11-06T02:27:21+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)",
   "2026-11-06T02:57:23+00:00  === run start (paper mode) cash $18.54, 1 open ===",
@@ -1692,6 +1745,14 @@
   "2026-11-10T23:06:51+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)",
   "2026-11-10T23:36:53+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-10T23:37:00+00:00  [scan] 22 markets pass filters, 20 not recently researched",
-  "2026-11-10T23:37:00+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)"
+  "2026-11-10T23:37:00+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)",
+  "2026-11-11T00:07:02+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-11T00:07:09+00:00  [scan] 22 markets pass filters, 20 not recently researched",
+  "2026-11-11T00:07:09+00:00  [research] Will Anthropic IPO by November 19, 2026?",
+  "2026-11-11T00:07:19+00:00  [decide] AI 0.89 (medium) vs market 0.79 -> skip: YES edge +0.014 after fees < 0.05",
+  "2026-11-11T00:07:19+00:00  [research] Will Elon Musk post <40 tweets from November 9 to November 11, 2026?",
+  "2026-11-11T00:07:30+00:00  [decide] AI 0.02 (high) vs market 0.20 -> skip: venue minimum (5 shares \u2248 $4.07) is above the $2.00 max bet",
+  "2026-11-11T00:07:30+00:00  [research] Will Elon Musk post 220-239 tweets from November 6 to November 13, 2026?",
+  "2026-11-11T00:07:51+00:00  [decide] AI 0.13 (low) vs market 0.13 -> skip: AI confidence low: not trading on it"
  ]
 }
