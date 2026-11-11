@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-11T04:10:22+00:00 UTC_
+_Updated 2026-11-11T04:40:34+00:00 UTC_
 
 ## Scoreboard
 
@@ -69,9 +69,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-11T00:07:02+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-11T00:07:09+00:00  [scan] 22 markets pass filters, 20 not recently researched
-2026-11-11T00:07:09+00:00  [research] Will Anthropic IPO by November 19, 2026?
 2026-11-11T00:07:19+00:00  [decide] AI 0.89 (medium) vs market 0.79 -> skip: YES edge +0.014 after fees < 0.05
 2026-11-11T00:07:19+00:00  [research] Will Elon Musk post <40 tweets from November 9 to November 11, 2026?
 2026-11-11T00:07:30+00:00  [decide] AI 0.02 (high) vs market 0.20 -> skip: venue minimum (5 shares ≈ $4.07) is above the $2.00 max bet
@@ -109,4 +106,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-11T04:10:16+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-11T04:10:22+00:00  [scan] 21 markets pass filters, 17 not recently researched
 2026-11-11T04:10:22+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
+2026-11-11T04:40:24+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-11T04:40:34+00:00  [scan] 22 markets pass filters, 19 not recently researched
+2026-11-11T04:40:34+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
 ```
