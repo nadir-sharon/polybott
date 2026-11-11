@@ -919,7 +919,8 @@
    "cost": 0.098,
    "decision": "venue minimum (5 shares \u2248 $4.07) is above the $2.00 max bet",
    "traded": false,
-   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-9-november-11-2026"
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-9-november-11-2026",
+   "yes_payout": 1.0
   },
   {
    "ts": "2026-11-11T00:07:51+00:00",
@@ -980,7 +981,8 @@
    "cost": 0.2641,
    "decision": "AI confidence low: not trading on it",
    "traded": false,
-   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-9-november-11-2026"
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-9-november-11-2026",
+   "yes_payout": 0.0
   },
   {
    "ts": "2026-11-11T00:38:55+00:00",
@@ -1019,9 +1021,6 @@
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-06T22:05:27+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-06T22:05:35+00:00  [scan] 25 markets pass filters, 23 not recently researched",
-  "2026-11-06T22:05:35+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)",
   "2026-11-06T22:35:37+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-06T22:35:44+00:00  [scan] 26 markets pass filters, 23 not recently researched",
   "2026-11-06T22:35:44+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)",
@@ -1818,6 +1817,9 @@
   "2026-11-11T18:45:14+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)",
   "2026-11-11T18:45:32+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-11T18:45:43+00:00  [scan] 25 markets pass filters, 22 not recently researched",
-  "2026-11-11T18:45:43+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)"
+  "2026-11-11T18:45:43+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)",
+  "2026-11-11T19:15:45+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-11T19:15:51+00:00  [scan] 30 markets pass filters, 28 not recently researched",
+  "2026-11-11T19:15:51+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)"
  ]
 }
