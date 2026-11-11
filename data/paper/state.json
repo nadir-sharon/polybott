@@ -1016,9 +1016,6 @@
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-06T04:27:49+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-06T04:27:57+00:00  [scan] 27 markets pass filters, 23 not recently researched",
-  "2026-11-06T04:27:57+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)",
   "2026-11-06T04:57:58+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-06T04:58:10+00:00  [scan] 26 markets pass filters, 22 not recently researched",
   "2026-11-06T04:58:10+00:00  [budget] daily AI budget $1.00 reached (spent $1.01)",
@@ -1815,6 +1812,9 @@
   "2026-11-11T00:38:55+00:00  [decide] AI 0.13 (medium) vs market 0.59 -> skip: venue minimum (5 shares \u2248 $2.07) is above the $2.00 max bet",
   "2026-11-11T01:08:57+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-11T01:09:03+00:00  [scan] 24 markets pass filters, 18 not recently researched",
-  "2026-11-11T01:09:03+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)"
+  "2026-11-11T01:09:03+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)",
+  "2026-11-11T01:39:05+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-11T01:39:13+00:00  [scan] 24 markets pass filters, 19 not recently researched",
+  "2026-11-11T01:39:13+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)"
  ]
 }
