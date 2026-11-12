@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-11T23:47:34+00:00 UTC_
+_Updated 2026-11-12T00:18:39+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-11T23:47:34+00:00 UTC_
 | Cash now | $18.54 |
 | In open bets (at cost) | $1.46 (1 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $8.94 |
-| Profit after AI costs | **-$8.94** |
+| AI research spent | $9.75 |
+| Profit after AI costs | **-$9.75** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -35,6 +35,15 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **US x Iran Effective Ceasefire by November 15?**  
+  AI 0.24 (medium) vs market 0.54 → venue minimum (5 shares ≈ $2.37) is above the $2.00 max bet  
+  _The US has made limited 'defensive' strikes on Qeshm Island every few days (Nov 2, 6 and 8). Trump now signals restraint and Qatar-led talks continue, but there is no deal and IRGC–US friction persists. A full 14-day strike-free window star_
+- **Will Elon Musk post 200-219 tweets from November 6 to November 13, 2026?**  
+  AI 0.04 (medium) vs market 0.18 → NO edge +0.039 after fees < 0.05  
+  _Musk's recent weekly tracker totals have been about 260–300+, and daily counts around Nov 8–11 were 39–49. The 200–219 bucket needs about 30 posts a day, a sharp slowdown from that pace. I couldn't find the exact running count for this wind_
+- **Jensen Huang announced resignation or removal by November 13, 2026?**  
+  AI 0.55 (medium) vs market 0.77 → edge too small for minimum $1 bet  
+  _Credible reports (WSJ, Bloomberg) say Nvidia's board is preparing to oust Huang and met around Nov 11 amid two affair scandals. No announcement had been made as of the latest reports. The outcome depends on whether the board acts by Nov 13 _
 - **US x Iran Effective Ceasefire by November 22?**  
   AI 0.13 (medium) vs market 0.59 → venue minimum (5 shares ≈ $2.07) is above the $2.00 max bet  
   _US 'defensive' strikes on Qeshm Island have been occurring every 1-3 days through Nov 10, even as Trump talks de-escalation. A qualifying 14-day gap with no strikes, starting by Nov 22, requires a rapid and complete halt, which looks unlike_
@@ -56,27 +65,10 @@ _None yet. Bets settle when their market resolves._
 - **US x Iran Effective Ceasefire by November 15?**  
   AI 0.09 (medium) vs market 0.43 → venue minimum (5 shares ≈ $2.88) is above the $2.00 max bet  
   _The US struck Qeshm Island roughly every 1–2 days from Nov 2 to Nov 8, and each strike restarts the 14-day clock. YES needs a quiet stretch starting no later than Nov 15 and running about two weeks, while talks are stalled and Iran keeps fi_
-- **US x Iran Effective Ceasefire by November 22?**  
-  AI 0.30 (low) vs market 0.53 → AI confidence low: not trading on it  
-  _The US struck Qeshm Island on Nov 2 and Nov 6, and diplomacy is stalled even though Trump says he does not want to escalate. A qualifying 14-day strike-free stretch starting by Nov 22 is possible, since the conflict had a quiet August, but _
-- **Will Elon Musk post 260-279 tweets from November 3 to November 10, 2026?**  
-  AI 0.40 (low) vs market 0.21 → AI confidence low: not trading on it  
-  _I couldn't find the live tracker count for Nov 3–10. Indirect evidence, including a Nov 9 report of 260–279 as the leading bucket and a collapse in the 240–259 bucket, suggests the count is near or above 260. The bucket is narrow and ~16 ho_
-- **Israel x Iran ceasefire continues through November 22?**  
-  AI 0.80 (medium) vs market 0.86 → AI 0.80 vs market 0.86: agrees with market  
-  _No direct Israel–Iran strikes have occurred since June 8, and Israel stayed out of the US–Iran fighting that resumed in July. Reports of planned post-midterm US/Israeli strikes, Israeli hawkish rhetoric, and Trump's deliberations create a m_
 
 ## Activity log (latest 40)
 
 ```
-2026-11-11T18:15:05+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
-2026-11-11T18:45:07+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-11T18:45:14+00:00  [scan] 25 markets pass filters, 22 not recently researched
-2026-11-11T18:45:14+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
-2026-11-11T18:45:32+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-11T18:45:43+00:00  [scan] 25 markets pass filters, 22 not recently researched
-2026-11-11T18:45:43+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
-2026-11-11T19:15:45+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-11T19:15:51+00:00  [scan] 30 markets pass filters, 28 not recently researched
 2026-11-11T19:15:51+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
 2026-11-11T19:45:54+00:00  === run start (paper mode) cash $18.54, 1 open ===
@@ -109,4 +101,12 @@ _None yet. Bets settle when their market resolves._
 2026-11-11T23:47:28+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-11T23:47:34+00:00  [scan] 29 markets pass filters, 26 not recently researched
 2026-11-11T23:47:34+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
+2026-11-12T00:17:35+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-12T00:17:42+00:00  [scan] 23 markets pass filters, 22 not recently researched
+2026-11-12T00:17:42+00:00  [research] Jensen Huang announced resignation or removal by November 13, 2026?
+2026-11-12T00:17:59+00:00  [decide] AI 0.55 (medium) vs market 0.77 -> skip: edge too small for minimum $1 bet
+2026-11-12T00:17:59+00:00  [research] Will Elon Musk post 200-219 tweets from November 6 to November 13, 2026?
+2026-11-12T00:18:13+00:00  [decide] AI 0.04 (medium) vs market 0.18 -> skip: NO edge +0.039 after fees < 0.05
+2026-11-12T00:18:13+00:00  [research] US x Iran Effective Ceasefire by November 15?
+2026-11-12T00:18:39+00:00  [decide] AI 0.24 (medium) vs market 0.54 -> skip: venue minimum (5 shares ≈ $2.37) is above the $2.00 max bet
 ```

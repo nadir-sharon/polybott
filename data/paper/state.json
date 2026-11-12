@@ -1004,6 +1004,70 @@
    "decision": "venue minimum (5 shares \u2248 $2.07) is above the $2.00 max bet",
    "traded": false,
    "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108"
+  },
+  {
+   "ts": "2026-11-12T00:17:59+00:00",
+   "market_id": "6975353",
+   "question": "Jensen Huang announced resignation or removal by November 13, 2026?",
+   "end_date": "2026-11-14T04:59:00+00:00",
+   "ai_prob": 0.55,
+   "confidence": "medium",
+   "market_mid": 0.765,
+   "summary": "Credible reports (WSJ, Bloomberg) say Nvidia's board is preparing to oust Huang and met around Nov 11 amid two affair scandals. No announcement had been made as of the latest reports. The outcome depends on whether the board acts by Nov 13 rather than delaying, keeping him with reduced powers, or using a temporary leave, which wouldn't qualify.",
+   "sources": [
+    "https://www.semafor.com/article/11/11/2026/nvidia-board-preparing-to-oust-ceo-huang-wsj",
+    "https://www.investing.com/news/stock-market-news/nvidia-is-preparing-to-oust-ceo-jensen-huang-wsj-reports-5019991",
+    "https://officechai.com/ai/nvidias-board-working-with-outside-firm-to-replace-jensen-huang-could-name-temporary-chief-bloomberg/",
+    "https://outputlag.com/news/nvidia-board-reportedly-preparing-to-oust-ceo-jensen-huang/",
+    "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+   ],
+   "cost": 0.2865,
+   "decision": "edge too small for minimum $1 bet",
+   "traded": false,
+   "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31"
+  },
+  {
+   "ts": "2026-11-12T00:18:13+00:00",
+   "market_id": "6625367",
+   "question": "Will Elon Musk post 200-219 tweets from November 6 to November 13, 2026?",
+   "end_date": "2026-11-13T17:00:00+00:00",
+   "ai_prob": 0.04,
+   "confidence": "medium",
+   "market_mid": 0.182,
+   "summary": "Musk's recent weekly tracker totals have been about 260\u2013300+, and daily counts around Nov 8\u201311 were 39\u201349. The 200\u2013219 bucket needs about 30 posts a day, a sharp slowdown from that pace. I couldn't find the exact running count for this window.",
+   "sources": [
+    "https://www.chaincatcher.com/en/article/2302998",
+    "https://www.chaincatcher.com/en/article/2303426",
+    "https://www.chaincatcher.com/en/article/2302355",
+    "https://www.youtube.com/watch?v=pEY2l4Fd9_0",
+    "https://www.youtube.com/watch?v=Dxr2Gtbl9Qw",
+    "https://www.xtracker.io/"
+   ],
+   "cost": 0.1811,
+   "decision": "NO edge +0.039 after fees < 0.05",
+   "traded": false,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-6-november-13-2026"
+  },
+  {
+   "ts": "2026-11-12T00:18:39+00:00",
+   "market_id": "6831494",
+   "question": "US x Iran Effective Ceasefire by November 15?",
+   "end_date": "2026-11-15T20:29:00+00:00",
+   "ai_prob": 0.24,
+   "confidence": "medium",
+   "market_mid": 0.535,
+   "summary": "The US has made limited 'defensive' strikes on Qeshm Island every few days (Nov 2, 6 and 8). Trump now signals restraint and Qatar-led talks continue, but there is no deal and IRGC\u2013US friction persists. A full 14-day strike-free window starting by Nov 15 is possible but less likely than not.",
+   "sources": [
+    "https://www.euronews.com/2026/11/09/trump-says-us-has-won-iran-war-as-rubio-reports-no-progress-in-talks",
+    "https://www.cbc.ca/news/world/trump-will-hold-off-on-fresh-iran-strikes-9.7416010",
+    "https://www.hngn.com/articles/273722/20261109/trump-says-iran-decision-coming-soon-advisers-split.htm",
+    "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/",
+    "https://www.aljazeera.com/news/2026/11/9/iran-stands-by-demands-to-end-the-war-as-us-ramps-up-military-pressure"
+   ],
+   "cost": 0.3354,
+   "decision": "venue minimum (5 shares \u2248 $2.37) is above the $2.00 max bet",
+   "traded": false,
+   "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108"
   }
  ],
  "ai_spend": {
@@ -1016,19 +1080,12 @@
   "2026-11-08": 1.027006,
   "2026-11-09": 0.927798,
   "2026-11-10": 0.98364,
-  "2026-11-11": 1.038912
+  "2026-11-11": 1.038912,
+  "2026-11-12": 0.802996
  },
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-07T01:38:13+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)",
-  "2026-11-07T02:08:15+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-07T02:08:22+00:00  [scan] 24 markets pass filters, 19 not recently researched",
-  "2026-11-07T02:08:22+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)",
-  "2026-11-07T02:38:23+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-07T02:38:30+00:00  [scan] 25 markets pass filters, 21 not recently researched",
-  "2026-11-07T02:38:30+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)",
-  "2026-11-07T03:08:32+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-07T03:08:39+00:00  [scan] 25 markets pass filters, 20 not recently researched",
   "2026-11-07T03:08:39+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)",
   "2026-11-07T03:38:41+00:00  === run start (paper mode) cash $18.54, 1 open ===",
@@ -1820,6 +1877,14 @@
   "2026-11-11T23:47:06+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)",
   "2026-11-11T23:47:28+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-11T23:47:34+00:00  [scan] 29 markets pass filters, 26 not recently researched",
-  "2026-11-11T23:47:34+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)"
+  "2026-11-11T23:47:34+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)",
+  "2026-11-12T00:17:35+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-12T00:17:42+00:00  [scan] 23 markets pass filters, 22 not recently researched",
+  "2026-11-12T00:17:42+00:00  [research] Jensen Huang announced resignation or removal by November 13, 2026?",
+  "2026-11-12T00:17:59+00:00  [decide] AI 0.55 (medium) vs market 0.77 -> skip: edge too small for minimum $1 bet",
+  "2026-11-12T00:17:59+00:00  [research] Will Elon Musk post 200-219 tweets from November 6 to November 13, 2026?",
+  "2026-11-12T00:18:13+00:00  [decide] AI 0.04 (medium) vs market 0.18 -> skip: NO edge +0.039 after fees < 0.05",
+  "2026-11-12T00:18:13+00:00  [research] US x Iran Effective Ceasefire by November 15?",
+  "2026-11-12T00:18:39+00:00  [decide] AI 0.24 (medium) vs market 0.54 -> skip: venue minimum (5 shares \u2248 $2.37) is above the $2.00 max bet"
  ]
 }
