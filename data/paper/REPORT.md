@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-12T04:50:33+00:00 UTC_
+_Updated 2026-11-12T05:20:40+00:00 UTC_
 
 ## Scoreboard
 
@@ -19,9 +19,9 @@ _Updated 2026-11-12T04:50:33+00:00 UTC_
 Brier score on every resolved market the AI studied (lower is better; 0.25 = coin flip).
 This is the number that matters: if the AI isn't beating the market here, wins are luck.
 
-- Resolved forecasts: **26**
-- AI Brier: **0.249**
-- Market Brier: **0.229**
+- Resolved forecasts: **27**
+- AI Brier: **0.247**
+- Market Brier: **0.222**
 
 ## Open bets
 
@@ -69,9 +69,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-12T00:17:35+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-12T00:17:42+00:00  [scan] 23 markets pass filters, 22 not recently researched
-2026-11-12T00:17:42+00:00  [research] Jensen Huang announced resignation or removal by November 13, 2026?
 2026-11-12T00:17:59+00:00  [decide] AI 0.55 (medium) vs market 0.77 -> skip: edge too small for minimum $1 bet
 2026-11-12T00:17:59+00:00  [research] Will Elon Musk post 200-219 tweets from November 6 to November 13, 2026?
 2026-11-12T00:18:13+00:00  [decide] AI 0.04 (medium) vs market 0.18 -> skip: NO edge +0.039 after fees < 0.05
@@ -109,4 +106,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-12T04:50:26+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-12T04:50:33+00:00  [scan] 20 markets pass filters, 16 not recently researched
 2026-11-12T04:50:33+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
+2026-11-12T05:20:34+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-12T05:20:40+00:00  [scan] 24 markets pass filters, 20 not recently researched
+2026-11-12T05:20:40+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
 ```
