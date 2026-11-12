@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-12T05:20:40+00:00 UTC_
+_Updated 2026-11-12T05:50:49+00:00 UTC_
 
 ## Scoreboard
 
@@ -69,9 +69,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-12T00:17:59+00:00  [decide] AI 0.55 (medium) vs market 0.77 -> skip: edge too small for minimum $1 bet
-2026-11-12T00:17:59+00:00  [research] Will Elon Musk post 200-219 tweets from November 6 to November 13, 2026?
-2026-11-12T00:18:13+00:00  [decide] AI 0.04 (medium) vs market 0.18 -> skip: NO edge +0.039 after fees < 0.05
 2026-11-12T00:18:13+00:00  [research] US x Iran Effective Ceasefire by November 15?
 2026-11-12T00:18:39+00:00  [decide] AI 0.24 (medium) vs market 0.54 -> skip: venue minimum (5 shares ≈ $2.37) is above the $2.00 max bet
 2026-11-12T00:48:41+00:00  === run start (paper mode) cash $18.54, 1 open ===
@@ -109,4 +106,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-12T05:20:34+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-12T05:20:40+00:00  [scan] 24 markets pass filters, 20 not recently researched
 2026-11-12T05:20:40+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
+2026-11-12T05:50:42+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-12T05:50:49+00:00  [scan] 25 markets pass filters, 21 not recently researched
+2026-11-12T05:50:49+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
 ```
