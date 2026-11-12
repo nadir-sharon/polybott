@@ -1109,9 +1109,6 @@
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-07T23:15:19+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-07T23:15:26+00:00  [scan] 22 markets pass filters, 19 not recently researched",
-  "2026-11-07T23:15:26+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)",
   "2026-11-07T23:45:28+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-07T23:45:35+00:00  [scan] 24 markets pass filters, 21 not recently researched",
   "2026-11-07T23:45:35+00:00  [budget] daily AI budget $1.00 reached (spent $0.96)",
@@ -1908,6 +1905,9 @@
   "2026-11-12T19:56:21+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)",
   "2026-11-12T19:56:38+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-12T19:56:45+00:00  [scan] 25 markets pass filters, 23 not recently researched",
-  "2026-11-12T19:56:45+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)"
+  "2026-11-12T19:56:45+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)",
+  "2026-11-12T20:26:47+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-12T20:26:58+00:00  [scan] 22 markets pass filters, 20 not recently researched",
+  "2026-11-12T20:26:58+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)"
  ]
 }
