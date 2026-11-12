@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-12T00:49:09+00:00 UTC_
+_Updated 2026-11-12T01:19:17+00:00 UTC_
 
 ## Scoreboard
 
@@ -69,9 +69,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-11T20:16:02+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-11T20:16:08+00:00  [scan] 25 markets pass filters, 23 not recently researched
-2026-11-11T20:16:08+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
 2026-11-11T20:46:11+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-11T20:46:17+00:00  [scan] 32 markets pass filters, 30 not recently researched
 2026-11-11T20:46:17+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
@@ -109,4 +106,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-12T00:48:47+00:00  [research] Jensen Huang announced resignation or removal by November 12, 2026?
 2026-11-12T00:49:09+00:00  [decide] AI 0.50 (low) vs market 0.68 -> skip: AI confidence low: not trading on it
 2026-11-12T00:49:09+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
+2026-11-12T01:19:11+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-12T01:19:17+00:00  [scan] 25 markets pass filters, 21 not recently researched
+2026-11-12T01:19:17+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
 ```
