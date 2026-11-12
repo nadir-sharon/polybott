@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-12T20:57:06+00:00 UTC_
+_Updated 2026-11-12T21:27:15+00:00 UTC_
 
 ## Scoreboard
 
@@ -69,9 +69,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-12T14:54:31+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
-2026-11-12T15:24:33+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-12T15:24:40+00:00  [scan] 21 markets pass filters, 19 not recently researched
 2026-11-12T15:24:40+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
 2026-11-12T15:54:43+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-12T15:54:50+00:00  [scan] 22 markets pass filters, 20 not recently researched
@@ -109,4 +106,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-12T20:56:59+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-12T20:57:06+00:00  [scan] 23 markets pass filters, 21 not recently researched
 2026-11-12T20:57:06+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
+2026-11-12T21:27:08+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-12T21:27:15+00:00  [scan] 27 markets pass filters, 25 not recently researched
+2026-11-12T21:27:15+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
 ```
