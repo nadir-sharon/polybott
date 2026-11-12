@@ -38,7 +38,7 @@ class Settings:
     # ---- money ------------------------------------------------------------
     STARTING_BANKROLL_USD: float = 20.0
     MIN_STAKE_USD: float = 1.0          # Polymarket market orders need >= $1
-    MAX_STAKE_USD: float = 2.0          # hard cap per trade
+    MAX_STAKE_USD: float = 4.0          # hard cap per trade
     KELLY_FRACTION: float = 0.25        # quarter-Kelly: deliberately timid
     MAX_OPEN_POSITIONS: int = 8
     MAX_EXPOSURE_PCT: float = 0.70      # never have more than 70% of bankroll at risk
