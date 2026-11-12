@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-12T00:18:39+00:00 UTC_
+_Updated 2026-11-12T00:49:09+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-12T00:18:39+00:00 UTC_
 | Cash now | $18.54 |
 | In open bets (at cost) | $1.46 (1 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $9.75 |
-| Profit after AI costs | **-$9.75** |
+| AI research spent | $9.96 |
+| Profit after AI costs | **-$9.96** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -35,6 +35,9 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **Jensen Huang announced resignation or removal by November 12, 2026?**  
+  AI 0.50 (low) vs market 0.68 → AI confidence low: not trading on it  
+  _Multiple major outlets (WSJ, CBS, Reuters, Bloomberg) reported on Nov 11 that Nvidia's board was meeting to oust Huang and was already searching for replacements. No official announcement existed as of the latest information, around 00:20 U_
 - **US x Iran Effective Ceasefire by November 15?**  
   AI 0.24 (medium) vs market 0.54 → venue minimum (5 shares ≈ $2.37) is above the $2.00 max bet  
   _The US has made limited 'defensive' strikes on Qeshm Island every few days (Nov 2, 6 and 8). Trump now signals restraint and Qatar-led talks continue, but there is no deal and IRGC–US friction persists. A full 14-day strike-free window star_
@@ -62,18 +65,10 @@ _None yet. Bets settle when their market resolves._
 - **Will Anthropic IPO by November 19, 2026?**  
   AI 0.89 (medium) vs market 0.79 → YES edge +0.014 after fees < 0.05  
   _Anthropic filed a price range on Nov 10 and plans to price Nov 18 and begin trading on Nasdaq Nov 19, with the book reportedly already covered. The main risk is a short delay past Nov 19 because of market volatility, since the window has no_
-- **US x Iran Effective Ceasefire by November 15?**  
-  AI 0.09 (medium) vs market 0.43 → venue minimum (5 shares ≈ $2.88) is above the $2.00 max bet  
-  _The US struck Qeshm Island roughly every 1–2 days from Nov 2 to Nov 8, and each strike restarts the 14-day clock. YES needs a quiet stretch starting no later than Nov 15 and running about two weeks, while talks are stalled and Iran keeps fi_
 
 ## Activity log (latest 40)
 
 ```
-2026-11-11T19:15:51+00:00  [scan] 30 markets pass filters, 28 not recently researched
-2026-11-11T19:15:51+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
-2026-11-11T19:45:54+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-11T19:46:00+00:00  [scan] 28 markets pass filters, 25 not recently researched
-2026-11-11T19:46:00+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
 2026-11-11T20:16:02+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-11T20:16:08+00:00  [scan] 25 markets pass filters, 23 not recently researched
 2026-11-11T20:16:08+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
@@ -109,4 +104,9 @@ _None yet. Bets settle when their market resolves._
 2026-11-12T00:18:13+00:00  [decide] AI 0.04 (medium) vs market 0.18 -> skip: NO edge +0.039 after fees < 0.05
 2026-11-12T00:18:13+00:00  [research] US x Iran Effective Ceasefire by November 15?
 2026-11-12T00:18:39+00:00  [decide] AI 0.24 (medium) vs market 0.54 -> skip: venue minimum (5 shares ≈ $2.37) is above the $2.00 max bet
+2026-11-12T00:48:41+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-12T00:48:47+00:00  [scan] 24 markets pass filters, 21 not recently researched
+2026-11-12T00:48:47+00:00  [research] Jensen Huang announced resignation or removal by November 12, 2026?
+2026-11-12T00:49:09+00:00  [decide] AI 0.50 (low) vs market 0.68 -> skip: AI confidence low: not trading on it
+2026-11-12T00:49:09+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
 ```
