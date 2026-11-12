@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-12T05:50:49+00:00 UTC_
+_Updated 2026-11-12T06:20:57+00:00 UTC_
 
 ## Scoreboard
 
@@ -69,9 +69,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-12T00:18:13+00:00  [research] US x Iran Effective Ceasefire by November 15?
-2026-11-12T00:18:39+00:00  [decide] AI 0.24 (medium) vs market 0.54 -> skip: venue minimum (5 shares ≈ $2.37) is above the $2.00 max bet
-2026-11-12T00:48:41+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-12T00:48:47+00:00  [scan] 24 markets pass filters, 21 not recently researched
 2026-11-12T00:48:47+00:00  [research] Jensen Huang announced resignation or removal by November 12, 2026?
 2026-11-12T00:49:09+00:00  [decide] AI 0.50 (low) vs market 0.68 -> skip: AI confidence low: not trading on it
@@ -109,4 +106,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-12T05:50:42+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-12T05:50:49+00:00  [scan] 25 markets pass filters, 21 not recently researched
 2026-11-12T05:50:49+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
+2026-11-12T06:20:51+00:00  === run start (paper mode) cash $18.54, 1 open ===
+2026-11-12T06:20:57+00:00  [scan] 24 markets pass filters, 21 not recently researched
+2026-11-12T06:20:57+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
 ```
