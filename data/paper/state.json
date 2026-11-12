@@ -1109,9 +1109,6 @@
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-08T00:46:50+00:00  [scan] 21 markets pass filters, 17 not recently researched",
-  "2026-11-08T00:46:50+00:00  [research] Israel x Iran ceasefire continues through November 15?",
-  "2026-11-08T00:47:10+00:00  [decide] AI 0.71 (medium) vs market 0.86 -> skip: NO edge +0.043 after fees < 0.05",
   "2026-11-08T00:47:10+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
   "2026-11-08T01:17:13+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-08T01:17:19+00:00  [scan] 23 markets pass filters, 18 not recently researched",
@@ -1908,6 +1905,9 @@
   "2026-11-12T21:57:27+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)",
   "2026-11-12T22:27:29+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-12T22:27:36+00:00  [scan] 23 markets pass filters, 21 not recently researched",
-  "2026-11-12T22:27:36+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)"
+  "2026-11-12T22:27:36+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)",
+  "2026-11-12T22:57:37+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-12T22:57:43+00:00  [scan] 21 markets pass filters, 19 not recently researched",
+  "2026-11-12T22:57:43+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)"
  ]
 }
