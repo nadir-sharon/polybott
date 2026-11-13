@@ -1220,9 +1220,6 @@
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-09T00:47:04+00:00  [research] US x Iran Effective Ceasefire by November 15?",
-  "2026-11-09T00:47:24+00:00  [decide] AI 0.17 (medium) vs market 0.39 -> skip: venue minimum (5 shares \u2248 $3.13) is above the $2.00 max bet",
-  "2026-11-09T00:47:24+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)",
   "2026-11-09T01:17:25+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-09T01:17:32+00:00  [scan] 13 markets pass filters, 10 not recently researched",
   "2026-11-09T01:17:32+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)",
@@ -2019,6 +2016,9 @@
   "2026-11-13T21:09:07+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
   "2026-11-13T21:09:23+00:00  === run start (paper mode) cash $15.59, 2 open ===",
   "2026-11-13T21:09:29+00:00  [scan] 31 markets pass filters, 28 not recently researched",
-  "2026-11-13T21:09:29+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)"
+  "2026-11-13T21:09:29+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
+  "2026-11-13T21:39:30+00:00  === run start (paper mode) cash $15.59, 2 open ===",
+  "2026-11-13T21:39:37+00:00  [scan] 35 markets pass filters, 32 not recently researched",
+  "2026-11-13T21:39:37+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)"
  ]
 }
