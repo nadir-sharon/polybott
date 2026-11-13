@@ -1,7 +1,7 @@
 {
  "created": "2026-11-02T17:29:00+00:00",
  "starting_bankroll": 20.0,
- "cash": 18.535096,
+ "cash": 15.594708,
  "positions": {
   "9705fedc88": {
    "id": "9705fedc88",
@@ -22,6 +22,28 @@
    "ai_prob": 0.2,
    "confidence": "medium",
    "market_mid": 0.725,
+   "order_id": "paper",
+   "mode": "paper"
+  },
+  "d37958c63f": {
+   "id": "d37958c63f",
+   "opened_at": "2026-11-13T00:28:48+00:00",
+   "market_id": "6831494",
+   "event_id": "1337182",
+   "condition_id": "0x0f4cc90457bc2a22fdc4dd705e6941cd719015ab117af3e55bdbdb1dfa13dc90",
+   "question": "US x Iran Effective Ceasefire by November 15?",
+   "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108",
+   "end_date": "2026-11-15T20:29:00+00:00",
+   "side": "NO",
+   "token_id": "48094359207016110356802741009227133669406414283907907434349128209323981054413",
+   "shares": 5.05,
+   "avg_price": 0.57,
+   "cost": 2.9404,
+   "fair_prob": 0.6472,
+   "edge": 0.065,
+   "ai_prob": 0.2,
+   "confidence": "medium",
+   "market_mid": 0.435,
    "order_id": "paper",
    "mode": "paper"
   }
@@ -1091,6 +1113,69 @@
    "decision": "AI confidence low: not trading on it",
    "traded": false,
    "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31"
+  },
+  {
+   "ts": "2026-11-13T00:28:28+00:00",
+   "market_id": "6367372",
+   "question": "Israel x Iran ceasefire continues through November 22?",
+   "end_date": "2026-11-23T04:59:00+00:00",
+   "ai_prob": 0.81,
+   "confidence": "medium",
+   "market_mid": 0.855,
+   "summary": "The Israel\u2013Iran ceasefire appears to be holding, with no direct Israel\u2013Iran strikes found recently. Risk is elevated: Israel's cabinet ordered higher readiness, the US has struck Iranian targets, and Iran is making threats. Israel's security chiefs reportedly see no urgent need to strike, and Trump is favoring talks.",
+   "sources": [
+    "https://aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack",
+    "https://www.timesofisrael.com/in-netanyahu-eisenkot-briefing-idf-reportedly-says-no-urgent-need-to-strike-iran/",
+    "https://www.foxnews.com/live-news/iran-war-news-trump-israel-hormuz-november-12",
+    "https://www.britannica.com/event/2026-Iran-war",
+    "https://www.middleeastmonitor.com/20261112-israeli-cabinet-to-meet-sunday-amid-opposition-fears-of-strike-on-iran/"
+   ],
+   "cost": 0.1855,
+   "decision": "AI 0.81 vs market 0.85: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
+  },
+  {
+   "ts": "2026-11-13T00:28:48+00:00",
+   "market_id": "6831494",
+   "question": "US x Iran Effective Ceasefire by November 15?",
+   "end_date": "2026-11-15T20:29:00+00:00",
+   "ai_prob": 0.2,
+   "confidence": "medium",
+   "market_mid": 0.435,
+   "summary": "The US has conducted repeated 'defensive' air strikes on Qeshm Island (Nov 2, 6 and about 9-10), and talks have stalled, though Trump signals winding down. A qualifying 14-day strike-free window must start by Nov 15 and run to about Nov 24-28, which looks unlikely given the recent strike tempo and the chance of unreported strikes.",
+   "sources": [
+    "https://www.business-standard.com/amp/world-news/trump-signals-ending-iran-war-says-further-airstrikes-won-t-be-necessary-126111000125_1.html",
+    "https://cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html",
+    "https://www.timesofisrael.com/liveblog-november-11-2026/",
+    "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island",
+    "https://www.nbcnews.com/world/iran/us-conducted-defensive-strikes-iranian-targets-strait-hormuz-us-offici-rcna607161"
+   ],
+   "cost": 0.2242,
+   "decision": "edge found",
+   "traded": true,
+   "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108"
+  },
+  {
+   "ts": "2026-11-13T00:29:13+00:00",
+   "market_id": "6625367",
+   "question": "Will Elon Musk post 200-219 tweets from November 6 to November 13, 2026?",
+   "end_date": "2026-11-13T17:00:00+00:00",
+   "ai_prob": 0.23,
+   "confidence": "low",
+   "market_mid": 0.3995,
+   "summary": "I couldn't find the live tracker count for Nov 6\u201313. Indirect pace data (about 265 posts for Nov 3\u201310, 64 on Nov 6, 31 on Nov 11, and a 2\u20133 day Nov 7\u20139 bucket of 65\u201389) points to a total near 230. The 200\u2013219 bucket is plausible but below the central estimate.",
+   "sources": [
+    "https://www.chaincatcher.com/en/article/2303426",
+    "https://www.chaincatcher.com/en/article/2303000",
+    "https://www.casino.org/news/trader-picks-the-quirkiest-prediction-market-bets-we-found-this-week/",
+    "https://www.youtube.com/watch?v=BukFoAVSXik",
+    "https://www.youtube.com/watch?v=duLAewNFEPg"
+   ],
+   "cost": 0.2515,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-6-november-13-2026"
   }
  ],
  "ai_spend": {
@@ -1104,20 +1189,12 @@
   "2026-11-09": 0.927798,
   "2026-11-10": 0.98364,
   "2026-11-11": 1.038912,
-  "2026-11-12": 1.017748
+  "2026-11-12": 1.017748,
+  "2026-11-13": 0.661146
  },
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-08T01:47:29+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
-  "2026-11-08T02:17:30+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-08T02:17:37+00:00  [scan] 27 markets pass filters, 23 not recently researched",
-  "2026-11-08T02:17:37+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
-  "2026-11-08T02:17:58+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-08T02:18:03+00:00  [scan] 27 markets pass filters, 23 not recently researched",
-  "2026-11-08T02:18:03+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
-  "2026-11-08T02:48:05+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-08T02:48:10+00:00  [scan] 25 markets pass filters, 21 not recently researched",
   "2026-11-08T02:48:10+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
   "2026-11-08T03:18:12+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-08T03:18:17+00:00  [scan] 24 markets pass filters, 20 not recently researched",
@@ -1908,6 +1985,15 @@
   "2026-11-12T23:27:52+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)",
   "2026-11-12T23:57:53+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-12T23:58:00+00:00  [scan] 20 markets pass filters, 18 not recently researched",
-  "2026-11-12T23:58:00+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)"
+  "2026-11-12T23:58:00+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)",
+  "2026-11-13T00:28:02+00:00  === run start (paper mode) cash $18.54, 1 open ===",
+  "2026-11-13T00:28:13+00:00  [scan] 18 markets pass filters, 18 not recently researched",
+  "2026-11-13T00:28:13+00:00  [research] Israel x Iran ceasefire continues through November 22?",
+  "2026-11-13T00:28:28+00:00  [decide] AI 0.81 (medium) vs market 0.85 -> skip: AI 0.81 vs market 0.85: agrees with market",
+  "2026-11-13T00:28:28+00:00  [research] US x Iran Effective Ceasefire by November 15?",
+  "2026-11-13T00:28:48+00:00  [decide] AI 0.20 (medium) vs market 0.43 -> TRADE NO: edge found",
+  "2026-11-13T00:28:48+00:00  [order] PAPER BUY NO 5.05 sh @ 0.570 = $2.94  (edge +0.065)  US x Iran Effective Ceasefire by November 15?",
+  "2026-11-13T00:28:48+00:00  [research] Will Elon Musk post 200-219 tweets from November 6 to November 13, 2026?",
+  "2026-11-13T00:29:13+00:00  [decide] AI 0.23 (low) vs market 0.40 -> skip: AI confidence low: not trading on it"
  ]
 }
