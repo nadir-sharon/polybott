@@ -1220,9 +1220,6 @@
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-09T00:16:23+00:00  [research] Will Kai Cenat finish his GTA marathon by November 11?",
-  "2026-11-09T00:16:42+00:00  [decide] AI 0.58 (medium) vs market 0.78 -> skip: edge too small for minimum $1 bet",
-  "2026-11-09T00:16:42+00:00  [research] Will Elon Musk post 240-259 tweets from November 3 to November 10, 2026?",
   "2026-11-09T00:16:55+00:00  [decide] AI 0.17 (low) vs market 0.28 -> skip: AI confidence low: not trading on it",
   "2026-11-09T00:46:57+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-09T00:47:04+00:00  [scan] 15 markets pass filters, 12 not recently researched",
@@ -2019,6 +2016,9 @@
   "2026-11-13T20:08:50+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
   "2026-11-13T20:38:52+00:00  === run start (paper mode) cash $15.59, 2 open ===",
   "2026-11-13T20:38:59+00:00  [scan] 30 markets pass filters, 27 not recently researched",
-  "2026-11-13T20:38:59+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)"
+  "2026-11-13T20:38:59+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
+  "2026-11-13T21:09:00+00:00  === run start (paper mode) cash $15.59, 2 open ===",
+  "2026-11-13T21:09:07+00:00  [scan] 31 markets pass filters, 28 not recently researched",
+  "2026-11-13T21:09:07+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)"
  ]
 }
