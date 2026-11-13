@@ -1176,6 +1176,27 @@
    "decision": "AI confidence low: not trading on it",
    "traded": false,
    "url": "https://polymarket.com/event/elon-musk-of-tweets-november-6-november-13-2026"
+  },
+  {
+   "ts": "2026-11-13T00:59:38+00:00",
+   "market_id": "6685069",
+   "question": "Will Vitality Win the BLAST Rivals Hong Kong 2026?",
+   "end_date": "2026-11-17T04:59:00+00:00",
+   "ai_prob": 0.25,
+   "confidence": "medium",
+   "market_mid": 0.23,
+   "summary": "Vitality are the pre-event favourites but lost the Group A winners' match to FURIA (including a 13-0 map), so they must win three best-of-three/five series starting with the MOUZ quarterfinal on Nov 13, which hasn't been played yet. Chaining roughly 66% (QF), 65% (SF vs Spirit) and 57% (final) gives about 25%.",
+   "sources": [
+    "https://insider-gaming.com/blast-rivals-hong-kong-2026-playoff-bracket/",
+    "https://www.hltv.org/news/45978/spirit-through-to-hong-kong-semis-as-blast-rivals-bracket-is-set",
+    "https://egamersworld.com/blog/blast-rivals-fall-2026-playoffs-day-1-schedule-vit-0d1DX3Y7_B",
+    "https://estnn.com/blast-rivals-playoffs-november-13-what-is-at-stake/",
+    "https://egamersworld.com/blog/blast-rivals-fall-2026-schedule-teams-format-gCmNn2nbKN"
+   ],
+   "cost": 0.222,
+   "decision": "AI 0.25 vs market 0.23: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/blast-rivals-hong-kong-2026-winner-1793811600000"
   }
  ],
  "ai_spend": {
@@ -1190,16 +1211,11 @@
   "2026-11-10": 0.98364,
   "2026-11-11": 1.038912,
   "2026-11-12": 1.017748,
-  "2026-11-13": 0.661146
+  "2026-11-13": 0.883186
  },
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-08T02:48:10+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
-  "2026-11-08T03:18:12+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-08T03:18:17+00:00  [scan] 24 markets pass filters, 20 not recently researched",
-  "2026-11-08T03:18:17+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
-  "2026-11-08T03:48:19+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-08T03:48:24+00:00  [scan] 25 markets pass filters, 21 not recently researched",
   "2026-11-08T03:48:24+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
   "2026-11-08T04:18:26+00:00  === run start (paper mode) cash $18.54, 1 open ===",
@@ -1994,6 +2010,11 @@
   "2026-11-13T00:28:48+00:00  [decide] AI 0.20 (medium) vs market 0.43 -> TRADE NO: edge found",
   "2026-11-13T00:28:48+00:00  [order] PAPER BUY NO 5.05 sh @ 0.570 = $2.94  (edge +0.065)  US x Iran Effective Ceasefire by November 15?",
   "2026-11-13T00:28:48+00:00  [research] Will Elon Musk post 200-219 tweets from November 6 to November 13, 2026?",
-  "2026-11-13T00:29:13+00:00  [decide] AI 0.23 (low) vs market 0.40 -> skip: AI confidence low: not trading on it"
+  "2026-11-13T00:29:13+00:00  [decide] AI 0.23 (low) vs market 0.40 -> skip: AI confidence low: not trading on it",
+  "2026-11-13T00:59:14+00:00  === run start (paper mode) cash $15.59, 2 open ===",
+  "2026-11-13T00:59:22+00:00  [scan] 19 markets pass filters, 15 not recently researched",
+  "2026-11-13T00:59:22+00:00  [research] Will Vitality Win the BLAST Rivals Hong Kong 2026?",
+  "2026-11-13T00:59:38+00:00  [decide] AI 0.25 (medium) vs market 0.23 -> skip: AI 0.25 vs market 0.23: agrees with market",
+  "2026-11-13T00:59:38+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)"
  ]
 }

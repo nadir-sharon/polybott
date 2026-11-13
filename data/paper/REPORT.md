@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-13T00:29:13+00:00 UTC_
+_Updated 2026-11-13T00:59:38+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-13T00:29:13+00:00 UTC_
 | Cash now | $15.59 |
 | In open bets (at cost) | $4.41 (2 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $10.62 |
-| Profit after AI costs | **-$10.62** |
+| AI research spent | $10.84 |
+| Profit after AI costs | **-$10.84** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -36,6 +36,9 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **Will Vitality Win the BLAST Rivals Hong Kong 2026?**  
+  AI 0.25 (medium) vs market 0.23 → AI 0.25 vs market 0.23: agrees with market  
+  _Vitality are the pre-event favourites but lost the Group A winners' match to FURIA (including a 13-0 map), so they must win three best-of-three/five series starting with the MOUZ quarterfinal on Nov 13, which hasn't been played yet. Chainin_
 - **Will Elon Musk post 200-219 tweets from November 6 to November 13, 2026?**  
   AI 0.23 (low) vs market 0.40 → AI confidence low: not trading on it  
   _I couldn't find the live tracker count for Nov 6–13. Indirect pace data (about 265 posts for Nov 3–10, 64 on Nov 6, 31 on Nov 11, and a 2–3 day Nov 7–9 bucket of 65–89) points to a total near 230. The 200–219 bucket is plausible but below t_
@@ -63,18 +66,10 @@ _None yet. Bets settle when their market resolves._
 - **Will Elon Musk post 65-89 tweets from November 9 to November 11, 2026?**  
   AI 0.47 (low) vs market 0.12 → AI confidence low: not trading on it  
   _Musk's recent pace of about 40 posts a day implies roughly 80 over the 48-hour window, which sits inside the 65-89 bucket. I couldn't find the live count for the window, and posting bursts leave a large chance of 90 or more._
-- **Will Anthropic IPO by November 20, 2026?**  
-  AI 0.86 (medium) vs market 0.89 → AI 0.86 vs market 0.89: agrees with market  
-  _Anthropic launched its roadshow on Nov 10 with a $70–78 range, and CNBC's sources say it plans to price Nov 18 and trade Nov 19. The book is reportedly already covered. Market turmoil and the SEC effectiveness timing leave a real chance of _
 
 ## Activity log (latest 40)
 
 ```
-2026-11-12T19:26:12+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
-2026-11-12T19:56:14+00:00  === run start (paper mode) cash $18.54, 1 open ===
-2026-11-12T19:56:21+00:00  [scan] 25 markets pass filters, 23 not recently researched
-2026-11-12T19:56:21+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
-2026-11-12T19:56:38+00:00  === run start (paper mode) cash $18.54, 1 open ===
 2026-11-12T19:56:45+00:00  [scan] 25 markets pass filters, 23 not recently researched
 2026-11-12T19:56:45+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
 2026-11-12T20:26:47+00:00  === run start (paper mode) cash $18.54, 1 open ===
@@ -110,4 +105,9 @@ _None yet. Bets settle when their market resolves._
 2026-11-13T00:28:48+00:00  [order] PAPER BUY NO 5.05 sh @ 0.570 = $2.94  (edge +0.065)  US x Iran Effective Ceasefire by November 15?
 2026-11-13T00:28:48+00:00  [research] Will Elon Musk post 200-219 tweets from November 6 to November 13, 2026?
 2026-11-13T00:29:13+00:00  [decide] AI 0.23 (low) vs market 0.40 -> skip: AI confidence low: not trading on it
+2026-11-13T00:59:14+00:00  === run start (paper mode) cash $15.59, 2 open ===
+2026-11-13T00:59:22+00:00  [scan] 19 markets pass filters, 15 not recently researched
+2026-11-13T00:59:22+00:00  [research] Will Vitality Win the BLAST Rivals Hong Kong 2026?
+2026-11-13T00:59:38+00:00  [decide] AI 0.25 (medium) vs market 0.23 -> skip: AI 0.25 vs market 0.23: agrees with market
+2026-11-13T00:59:38+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
 ```
