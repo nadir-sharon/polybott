@@ -1048,7 +1048,8 @@
    "cost": 0.2865,
    "decision": "edge too small for minimum $1 bet",
    "traded": false,
-   "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31"
+   "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31",
+   "yes_payout": 1.0
   },
   {
    "ts": "2026-11-12T00:18:13+00:00",
@@ -1305,9 +1306,6 @@
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-09T08:50:35+00:00  [scan] 23 markets pass filters, 19 not recently researched",
-  "2026-11-09T08:50:35+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)",
-  "2026-11-09T09:20:37+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-09T09:20:43+00:00  [scan] 22 markets pass filters, 18 not recently researched",
   "2026-11-09T09:20:43+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)",
   "2026-11-09T09:50:46+00:00  === run start (paper mode) cash $18.54, 1 open ===",
@@ -2104,6 +2102,9 @@
   "2026-11-14T04:13:26+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)",
   "2026-11-14T04:43:28+00:00  === run start (paper mode) cash $15.59, 2 open ===",
   "2026-11-14T04:43:39+00:00  [scan] 22 markets pass filters, 18 not recently researched",
-  "2026-11-14T04:43:39+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)"
+  "2026-11-14T04:43:39+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)",
+  "2026-11-14T05:13:41+00:00  === run start (paper mode) cash $15.59, 2 open ===",
+  "2026-11-14T05:13:50+00:00  [scan] 20 markets pass filters, 17 not recently researched",
+  "2026-11-14T05:13:50+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)"
  ]
 }
