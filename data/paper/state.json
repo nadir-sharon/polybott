@@ -1263,6 +1263,28 @@
    "decision": "AI confidence low: not trading on it",
    "traded": false,
    "url": "https://polymarket.com/event/elon-musk-of-tweets-november-12-november-14-2026"
+  },
+  {
+   "ts": "2026-11-14T00:41:44+00:00",
+   "market_id": "6367372",
+   "question": "Israel x Iran ceasefire continues through November 22?",
+   "end_date": "2026-11-23T04:59:00+00:00",
+   "ai_prob": 0.86,
+   "confidence": "medium",
+   "market_mid": 0.895,
+   "summary": "No direct Israel\u2013Iran strike appears to have occurred since early June. Israel is preparing and Netanyahu and Mossad are pushing for a strike, but the IDF chief, the incoming-government talks and Trump's holding off argue against action within nine days. US\u2013Iran skirmishes around Hormuz don't count under the resolution rules.",
+   "sources": [
+    "https://www.foxnews.com/live-news/iran-war-news-trump-israel-hormuz-november-12",
+    "https://www.timesofisrael.com/liveblog-november-12-2026/",
+    "https://www.rferl.org/a/iran-us-sirik-bahrain-war-nuclear-talks/33897951.html",
+    "https://cbn.com/news/israel/israels-government-transition-no-plans-iran-strike-us-centcom-urges-prep-renewed-fight",
+    "https://www.foxnews.com/live-news/oil-prices-war-strikes-donald-trump-iran-11-13-26",
+    "https://www.cbsnews.com/live-updates/iran-war-trump-israel-strikes-ceasefire-lebanon-beirut/"
+   ],
+   "cost": 0.1979,
+   "decision": "AI 0.86 vs market 0.90: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
   }
  ],
  "ai_spend": {
@@ -1278,16 +1300,11 @@
   "2026-11-11": 1.038912,
   "2026-11-12": 1.017748,
   "2026-11-13": 0.883186,
-  "2026-11-14": 0.6949
+  "2026-11-14": 0.892836
  },
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-09T03:48:31+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)",
-  "2026-11-09T04:18:33+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-09T04:18:38+00:00  [scan] 17 markets pass filters, 12 not recently researched",
-  "2026-11-09T04:18:38+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)",
-  "2026-11-09T04:48:39+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-09T04:48:45+00:00  [scan] 17 markets pass filters, 12 not recently researched",
   "2026-11-09T04:48:45+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)",
   "2026-11-09T05:18:47+00:00  === run start (paper mode) cash $18.54, 1 open ===",
@@ -2082,6 +2099,11 @@
   "2026-11-14T00:10:32+00:00  [research] Will the FAA's nationwide ground stop be lifted by November 14, 12:00 PM ET?",
   "2026-11-14T00:10:50+00:00  [decide] AI 0.90 (medium) vs market 0.90 -> skip: AI 0.90 vs market 0.90: agrees with market",
   "2026-11-14T00:10:50+00:00  [research] Will Elon Musk post 40-64 tweets from November 12 to November 14, 2026?",
-  "2026-11-14T00:11:11+00:00  [decide] AI 0.30 (low) vs market 0.34 -> skip: AI confidence low: not trading on it"
+  "2026-11-14T00:11:11+00:00  [decide] AI 0.30 (low) vs market 0.34 -> skip: AI confidence low: not trading on it",
+  "2026-11-14T00:41:13+00:00  === run start (paper mode) cash $15.59, 2 open ===",
+  "2026-11-14T00:41:27+00:00  [scan] 25 markets pass filters, 20 not recently researched",
+  "2026-11-14T00:41:27+00:00  [research] Israel x Iran ceasefire continues through November 22?",
+  "2026-11-14T00:41:44+00:00  [decide] AI 0.86 (medium) vs market 0.90 -> skip: AI 0.86 vs market 0.90: agrees with market",
+  "2026-11-14T00:41:44+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)"
  ]
 }

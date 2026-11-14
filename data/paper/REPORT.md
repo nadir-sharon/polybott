@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-14T00:11:11+00:00 UTC_
+_Updated 2026-11-14T00:41:44+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-14T00:11:11+00:00 UTC_
 | Cash now | $15.59 |
 | In open bets (at cost) | $4.41 (2 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $11.54 |
-| Profit after AI costs | **-$11.54** |
+| AI research spent | $11.74 |
+| Profit after AI costs | **-$11.74** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -36,6 +36,9 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **Israel x Iran ceasefire continues through November 22?**  
+  AI 0.86 (medium) vs market 0.90 → AI 0.86 vs market 0.90: agrees with market  
+  _No direct Israel–Iran strike appears to have occurred since early June. Israel is preparing and Netanyahu and Mossad are pushing for a strike, but the IDF chief, the incoming-government talks and Trump's holding off argue against action wit_
 - **Will Elon Musk post 40-64 tweets from November 12 to November 14, 2026?**  
   AI 0.30 (low) vs market 0.34 → AI confidence low: not trading on it  
   _Musk's counted-post pace is about 32 a day, which puts the 48-hour total near 65, right at the top of the 40–64 bracket. Starship launch and Nvidia news plus a 49-post day on 11/12 tilt the total toward 65 or more, but I couldn't find the l_
@@ -63,18 +66,10 @@ _None yet. Bets settle when their market resolves._
 - **US x Iran Effective Ceasefire by November 15?**  
   AI 0.24 (medium) vs market 0.54 → venue minimum (5 shares ≈ $2.37) is above the $2.00 max bet  
   _The US has made limited 'defensive' strikes on Qeshm Island every few days (Nov 2, 6 and 8). Trump now signals restraint and Qatar-led talks continue, but there is no deal and IRGC–US friction persists. A full 14-day strike-free window star_
-- **Will Elon Musk post 200-219 tweets from November 6 to November 13, 2026?**  
-  AI 0.04 (medium) vs market 0.18 → NO edge +0.039 after fees < 0.05  
-  _Musk's recent weekly tracker totals have been about 260–300+, and daily counts around Nov 8–11 were 39–49. The 200–219 bucket needs about 30 posts a day, a sharp slowdown from that pace. I couldn't find the exact running count for this wind_
 
 ## Activity log (latest 40)
 
 ```
-2026-11-13T19:08:33+00:00  [scan] 29 markets pass filters, 26 not recently researched
-2026-11-13T19:08:33+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
-2026-11-13T19:38:35+00:00  === run start (paper mode) cash $15.59, 2 open ===
-2026-11-13T19:38:41+00:00  [scan] 30 markets pass filters, 27 not recently researched
-2026-11-13T19:38:41+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
 2026-11-13T20:08:43+00:00  === run start (paper mode) cash $15.59, 2 open ===
 2026-11-13T20:08:50+00:00  [scan] 31 markets pass filters, 28 not recently researched
 2026-11-13T20:08:50+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
@@ -110,4 +105,9 @@ _None yet. Bets settle when their market resolves._
 2026-11-14T00:10:50+00:00  [decide] AI 0.90 (medium) vs market 0.90 -> skip: AI 0.90 vs market 0.90: agrees with market
 2026-11-14T00:10:50+00:00  [research] Will Elon Musk post 40-64 tweets from November 12 to November 14, 2026?
 2026-11-14T00:11:11+00:00  [decide] AI 0.30 (low) vs market 0.34 -> skip: AI confidence low: not trading on it
+2026-11-14T00:41:13+00:00  === run start (paper mode) cash $15.59, 2 open ===
+2026-11-14T00:41:27+00:00  [scan] 25 markets pass filters, 20 not recently researched
+2026-11-14T00:41:27+00:00  [research] Israel x Iran ceasefire continues through November 22?
+2026-11-14T00:41:44+00:00  [decide] AI 0.86 (medium) vs market 0.90 -> skip: AI 0.86 vs market 0.90: agrees with market
+2026-11-14T00:41:44+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)
 ```
