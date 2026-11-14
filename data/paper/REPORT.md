@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-14T05:13:50+00:00 UTC_
+_Updated 2026-11-14T05:43:58+00:00 UTC_
 
 ## Scoreboard
 
@@ -70,9 +70,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-14T00:10:32+00:00  [decide] AI 0.68 (medium) vs market 0.76 -> skip: AI 0.68 vs market 0.76: agrees with market
-2026-11-14T00:10:32+00:00  [research] Will the FAA's nationwide ground stop be lifted by November 14, 12:00 PM ET?
-2026-11-14T00:10:50+00:00  [decide] AI 0.90 (medium) vs market 0.90 -> skip: AI 0.90 vs market 0.90: agrees with market
 2026-11-14T00:10:50+00:00  [research] Will Elon Musk post 40-64 tweets from November 12 to November 14, 2026?
 2026-11-14T00:11:11+00:00  [decide] AI 0.30 (low) vs market 0.34 -> skip: AI confidence low: not trading on it
 2026-11-14T00:41:13+00:00  === run start (paper mode) cash $15.59, 2 open ===
@@ -110,4 +107,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-14T05:13:41+00:00  === run start (paper mode) cash $15.59, 2 open ===
 2026-11-14T05:13:50+00:00  [scan] 20 markets pass filters, 17 not recently researched
 2026-11-14T05:13:50+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)
+2026-11-14T05:43:52+00:00  === run start (paper mode) cash $15.59, 2 open ===
+2026-11-14T05:43:58+00:00  [scan] 22 markets pass filters, 19 not recently researched
+2026-11-14T05:43:58+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)
 ```
