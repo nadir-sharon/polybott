@@ -1308,9 +1308,6 @@
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-10T00:26:23+00:00  [scan] 24 markets pass filters, 22 not recently researched",
-  "2026-11-10T00:26:23+00:00  [research] Israel x Iran ceasefire continues through November 22?",
-  "2026-11-10T00:26:43+00:00  [decide] AI 0.80 (medium) vs market 0.86 -> skip: AI 0.80 vs market 0.86: agrees with market",
   "2026-11-10T00:26:43+00:00  [research] Will Elon Musk post 260-279 tweets from November 3 to November 10, 2026?",
   "2026-11-10T00:26:57+00:00  [decide] AI 0.40 (low) vs market 0.21 -> skip: AI confidence low: not trading on it",
   "2026-11-10T00:26:57+00:00  [research] US x Iran Effective Ceasefire by November 22?",
@@ -2107,6 +2104,9 @@
   "2026-11-14T19:48:41+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)",
   "2026-11-14T20:18:42+00:00  === run start (paper mode) cash $15.59, 2 open ===",
   "2026-11-14T20:18:47+00:00  [scan] 18 markets pass filters, 15 not recently researched",
-  "2026-11-14T20:18:47+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)"
+  "2026-11-14T20:18:47+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)",
+  "2026-11-14T20:48:49+00:00  === run start (paper mode) cash $15.59, 2 open ===",
+  "2026-11-14T20:48:56+00:00  [scan] 18 markets pass filters, 15 not recently researched",
+  "2026-11-14T20:48:56+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)"
  ]
 }
