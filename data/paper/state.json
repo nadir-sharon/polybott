@@ -1242,7 +1242,8 @@
    "cost": 0.3449,
    "decision": "AI 0.90 vs market 0.90: agrees with market",
    "traded": false,
-   "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt"
+   "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt",
+   "yes_payout": 1.0
   },
   {
    "ts": "2026-11-14T00:11:11+00:00",
@@ -1263,7 +1264,8 @@
    "cost": 0.2479,
    "decision": "AI confidence low: not trading on it",
    "traded": false,
-   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-12-november-14-2026"
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-12-november-14-2026",
+   "yes_payout": 0.0
   },
   {
    "ts": "2026-11-14T00:41:44+00:00",
@@ -1306,9 +1308,6 @@
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-09T20:54:57+00:00  [scan] 24 markets pass filters, 20 not recently researched",
-  "2026-11-09T20:54:57+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)",
-  "2026-11-09T21:25:00+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-09T21:25:07+00:00  [scan] 20 markets pass filters, 16 not recently researched",
   "2026-11-09T21:25:07+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)",
   "2026-11-09T21:25:24+00:00  === run start (paper mode) cash $18.54, 1 open ===",
@@ -2105,6 +2104,9 @@
   "2026-11-14T16:17:30+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)",
   "2026-11-14T16:47:32+00:00  === run start (paper mode) cash $15.59, 2 open ===",
   "2026-11-14T16:47:37+00:00  [scan] 18 markets pass filters, 15 not recently researched",
-  "2026-11-14T16:47:37+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)"
+  "2026-11-14T16:47:37+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)",
+  "2026-11-14T17:17:38+00:00  === run start (paper mode) cash $15.59, 2 open ===",
+  "2026-11-14T17:17:43+00:00  [scan] 16 markets pass filters, 13 not recently researched",
+  "2026-11-14T17:17:43+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)"
  ]
 }

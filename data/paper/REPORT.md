@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-14T16:47:37+00:00 UTC_
+_Updated 2026-11-14T17:17:43+00:00 UTC_
 
 ## Scoreboard
 
@@ -19,9 +19,9 @@ _Updated 2026-11-14T16:47:37+00:00 UTC_
 Brier score on every resolved market the AI studied (lower is better; 0.25 = coin flip).
 This is the number that matters: if the AI isn't beating the market here, wins are luck.
 
-- Resolved forecasts: **32**
-- AI Brier: **0.248**
-- Market Brier: **0.222**
+- Resolved forecasts: **34**
+- AI Brier: **0.236**
+- Market Brier: **0.213**
 
 ## Open bets
 
@@ -70,9 +70,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-14T10:45:47+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)
-2026-11-14T11:15:49+00:00  === run start (paper mode) cash $15.59, 2 open ===
-2026-11-14T11:15:56+00:00  [scan] 16 markets pass filters, 13 not recently researched
 2026-11-14T11:15:56+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)
 2026-11-14T11:45:57+00:00  === run start (paper mode) cash $15.59, 2 open ===
 2026-11-14T11:46:03+00:00  [scan] 23 markets pass filters, 20 not recently researched
@@ -110,4 +107,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-14T16:47:32+00:00  === run start (paper mode) cash $15.59, 2 open ===
 2026-11-14T16:47:37+00:00  [scan] 18 markets pass filters, 15 not recently researched
 2026-11-14T16:47:37+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)
+2026-11-14T17:17:38+00:00  === run start (paper mode) cash $15.59, 2 open ===
+2026-11-14T17:17:43+00:00  [scan] 16 markets pass filters, 13 not recently researched
+2026-11-14T17:17:43+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)
 ```
