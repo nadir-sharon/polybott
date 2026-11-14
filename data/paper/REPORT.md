@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-13T23:40:11+00:00 UTC_
+_Updated 2026-11-14T00:11:11+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-13T23:40:11+00:00 UTC_
 | Cash now | $15.59 |
 | In open bets (at cost) | $4.41 (2 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $10.84 |
-| Profit after AI costs | **-$10.84** |
+| AI research spent | $11.54 |
+| Profit after AI costs | **-$11.54** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -36,6 +36,15 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **Will Elon Musk post 40-64 tweets from November 12 to November 14, 2026?**  
+  AI 0.30 (low) vs market 0.34 → AI confidence low: not trading on it  
+  _Musk's counted-post pace is about 32 a day, which puts the 48-hour total near 65, right at the top of the 40–64 bracket. Starship launch and Nvidia news plus a 49-post day on 11/12 tilt the total toward 65 or more, but I couldn't find the l_
+- **Will the FAA's nationwide ground stop be lifted by November 14, 12:00 PM ET?**  
+  AI 0.90 (medium) vs market 0.90 → AI 0.90 vs market 0.90: agrees with market  
+  _The FAA's nationwide ground stop began about 20:54 UTC on Nov 13. By about 7 PM ET it was being relaxed in stages, with flights cleared case by case as en route facilities recovered. With roughly 17 hours until the deadline, an official end_
+- **Will Zoran Janković win the 2026 Ljubljana mayoral election?**  
+  AI 0.68 (medium) vs market 0.76 → AI 0.68 vs market 0.76: agrees with market  
+  _A runoff on Nov 29 is almost certain. Janković leads Mesec by roughly 9–12 points in the first round and is ahead in runoff polling (54–46 in Valicon; 35–33 in Ninamedia, with many undecided). His historical overperformance of polls and rig_
 - **Will Vitality Win the BLAST Rivals Hong Kong 2026?**  
   AI 0.25 (medium) vs market 0.23 → AI 0.25 vs market 0.23: agrees with market  
   _Vitality are the pre-event favourites but lost the Group A winners' match to FURIA (including a 13-0 map), so they must win three best-of-three/five series starting with the MOUZ quarterfinal on Nov 13, which hasn't been played yet. Chainin_
@@ -57,27 +66,10 @@ _None yet. Bets settle when their market resolves._
 - **Will Elon Musk post 200-219 tweets from November 6 to November 13, 2026?**  
   AI 0.04 (medium) vs market 0.18 → NO edge +0.039 after fees < 0.05  
   _Musk's recent weekly tracker totals have been about 260–300+, and daily counts around Nov 8–11 were 39–49. The 200–219 bucket needs about 30 posts a day, a sharp slowdown from that pace. I couldn't find the exact running count for this wind_
-- **Jensen Huang announced resignation or removal by November 13, 2026?**  
-  AI 0.55 (medium) vs market 0.77 → edge too small for minimum $1 bet  
-  _Credible reports (WSJ, Bloomberg) say Nvidia's board is preparing to oust Huang and met around Nov 11 amid two affair scandals. No announcement had been made as of the latest reports. The outcome depends on whether the board acts by Nov 13 _
-- **US x Iran Effective Ceasefire by November 22?**  
-  AI 0.13 (medium) vs market 0.59 → venue minimum (5 shares ≈ $2.07) is above the $2.00 max bet  
-  _US 'defensive' strikes on Qeshm Island have been occurring every 1-3 days through Nov 10, even as Trump talks de-escalation. A qualifying 14-day gap with no strikes, starting by Nov 22, requires a rapid and complete halt, which looks unlike_
-- **Will Elon Musk post 65-89 tweets from November 9 to November 11, 2026?**  
-  AI 0.47 (low) vs market 0.12 → AI confidence low: not trading on it  
-  _Musk's recent pace of about 40 posts a day implies roughly 80 over the 48-hour window, which sits inside the 65-89 bucket. I couldn't find the live count for the window, and posting bursts leave a large chance of 90 or more._
 
 ## Activity log (latest 40)
 
 ```
-2026-11-13T17:38:08+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
-2026-11-13T18:08:10+00:00  === run start (paper mode) cash $15.59, 2 open ===
-2026-11-13T18:08:17+00:00  [scan] 29 markets pass filters, 26 not recently researched
-2026-11-13T18:08:17+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
-2026-11-13T18:38:18+00:00  === run start (paper mode) cash $15.59, 2 open ===
-2026-11-13T18:38:25+00:00  [scan] 30 markets pass filters, 27 not recently researched
-2026-11-13T18:38:25+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
-2026-11-13T19:08:27+00:00  === run start (paper mode) cash $15.59, 2 open ===
 2026-11-13T19:08:33+00:00  [scan] 29 markets pass filters, 26 not recently researched
 2026-11-13T19:08:33+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
 2026-11-13T19:38:35+00:00  === run start (paper mode) cash $15.59, 2 open ===
@@ -110,4 +102,12 @@ _None yet. Bets settle when their market resolves._
 2026-11-13T23:40:04+00:00  === run start (paper mode) cash $15.59, 2 open ===
 2026-11-13T23:40:11+00:00  [scan] 33 markets pass filters, 30 not recently researched
 2026-11-13T23:40:11+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
+2026-11-14T00:10:13+00:00  === run start (paper mode) cash $15.59, 2 open ===
+2026-11-14T00:10:19+00:00  [scan] 23 markets pass filters, 20 not recently researched
+2026-11-14T00:10:19+00:00  [research] Will Zoran Janković win the 2026 Ljubljana mayoral election?
+2026-11-14T00:10:32+00:00  [decide] AI 0.68 (medium) vs market 0.76 -> skip: AI 0.68 vs market 0.76: agrees with market
+2026-11-14T00:10:32+00:00  [research] Will the FAA's nationwide ground stop be lifted by November 14, 12:00 PM ET?
+2026-11-14T00:10:50+00:00  [decide] AI 0.90 (medium) vs market 0.90 -> skip: AI 0.90 vs market 0.90: agrees with market
+2026-11-14T00:10:50+00:00  [research] Will Elon Musk post 40-64 tweets from November 12 to November 14, 2026?
+2026-11-14T00:11:11+00:00  [decide] AI 0.30 (low) vs market 0.34 -> skip: AI confidence low: not trading on it
 ```

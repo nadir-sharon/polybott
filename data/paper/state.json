@@ -1201,6 +1201,68 @@
    "decision": "AI 0.25 vs market 0.23: agrees with market",
    "traded": false,
    "url": "https://polymarket.com/event/blast-rivals-hong-kong-2026-winner-1793811600000"
+  },
+  {
+   "ts": "2026-11-14T00:10:32+00:00",
+   "market_id": "5420002",
+   "question": "Will Zoran Jankovi\u0107 win the 2026 Ljubljana mayoral election?",
+   "end_date": "2026-11-16T04:59:00+00:00",
+   "ai_prob": 0.68,
+   "confidence": "medium",
+   "market_mid": 0.76,
+   "summary": "A runoff on Nov 29 is almost certain. Jankovi\u0107 leads Mesec by roughly 9\u201312 points in the first round and is ahead in runoff polling (54\u201346 in Valicon; 35\u201333 in Ninamedia, with many undecided). His historical overperformance of polls and right-of-centre transfers favour him, but the race is the closest of his career.",
+   "sources": [
+    "https://reporter.si/clanek/slovenija/jankovic-mesec-drugi-krog-anketa-volitve-1940335",
+    "https://strogo-zaupno.si/politika/zadnje-ankete-pred-volilnim-molkom-kazejo-na-prednost-zorana-jankovica-v-ljubljani-v-maribora-ostaja-v-vodstvu-nestrankarski-kandidat-bor-greiner/",
+    "https://www.rtvslo.si/slovenija/anketa-v-ljubljani-se-obeta-drugi-krog-volitev-najverjetnejsi-boj-med-jankovicem-in-mescem/797264",
+    "https://slovenskenovice.delo.si/novice/slovenija/mesec-v-novi-anketi-blizje-jankovicu-bo-ljubljanski-zupan-prvic-moral-v-drugi-krog",
+    "https://sloveniatimes.com/48324/ljubljana-mayor-faces-formidable-electoral-challenge"
+   ],
+   "cost": 0.1021,
+   "decision": "AI 0.68 vs market 0.76: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/ljubljana-mayoral-election-winner-2026"
+  },
+  {
+   "ts": "2026-11-14T00:10:50+00:00",
+   "market_id": "7023302",
+   "question": "Will the FAA's nationwide ground stop be lifted by November 14, 12:00 PM ET?",
+   "end_date": "2026-11-14T17:00:00+00:00",
+   "ai_prob": 0.9,
+   "confidence": "medium",
+   "market_mid": 0.9,
+   "summary": "The FAA's nationwide ground stop began about 20:54 UTC on Nov 13. By about 7 PM ET it was being relaxed in stages, with flights cleared case by case as en route facilities recovered. With roughly 17 hours until the deadline, an official end or replacement by narrower measures is very likely, though the formal wording and the unclear cause add some risk.",
+   "sources": [
+    "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa",
+    "https://www.foxnews.com/live-news/faa-issues-nationwide-ground-stop-cites-communications-issue",
+    "https://abc7.com/live-updates/faa-ground-stop-live-updates-what-know-nationwide-flights-are-grounded/20038887/",
+    "https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
+   ],
+   "cost": 0.3449,
+   "decision": "AI 0.90 vs market 0.90: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt"
+  },
+  {
+   "ts": "2026-11-14T00:11:11+00:00",
+   "market_id": "6909743",
+   "question": "Will Elon Musk post 40-64 tweets from November 12 to November 14, 2026?",
+   "end_date": "2026-11-14T17:00:00+00:00",
+   "ai_prob": 0.3,
+   "confidence": "low",
+   "market_mid": 0.335,
+   "summary": "Musk's counted-post pace is about 32 a day, which puts the 48-hour total near 65, right at the top of the 40\u201364 bracket. Starship launch and Nvidia news plus a 49-post day on 11/12 tilt the total toward 65 or more, but I couldn't find the live tracker count.",
+   "sources": [
+    "https://polystrike.xyz/",
+    "https://www.youtube.com/watch?v=6o5YKODGXfo",
+    "https://www.youtube.com/watch?v=duLAewNFEPg",
+    "https://twitterapi.io/blog/polymarket-bot",
+    "https://www.teslarati.com/spacex-starship-flight-15-double-catch/"
+   ],
+   "cost": 0.2479,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-12-november-14-2026"
   }
  ],
  "ai_spend": {
@@ -1215,19 +1277,12 @@
   "2026-11-10": 0.98364,
   "2026-11-11": 1.038912,
   "2026-11-12": 1.017748,
-  "2026-11-13": 0.883186
+  "2026-11-13": 0.883186,
+  "2026-11-14": 0.6949
  },
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-09T02:48:12+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-09T02:48:17+00:00  [scan] 14 markets pass filters, 11 not recently researched",
-  "2026-11-09T02:48:17+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)",
-  "2026-11-09T03:18:19+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-09T03:18:24+00:00  [scan] 15 markets pass filters, 11 not recently researched",
-  "2026-11-09T03:18:24+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)",
-  "2026-11-09T03:48:26+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-09T03:48:31+00:00  [scan] 15 markets pass filters, 10 not recently researched",
   "2026-11-09T03:48:31+00:00  [budget] daily AI budget $1.00 reached (spent $0.93)",
   "2026-11-09T04:18:33+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-09T04:18:38+00:00  [scan] 17 markets pass filters, 12 not recently researched",
@@ -2019,6 +2074,14 @@
   "2026-11-13T23:10:02+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
   "2026-11-13T23:40:04+00:00  === run start (paper mode) cash $15.59, 2 open ===",
   "2026-11-13T23:40:11+00:00  [scan] 33 markets pass filters, 30 not recently researched",
-  "2026-11-13T23:40:11+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)"
+  "2026-11-13T23:40:11+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
+  "2026-11-14T00:10:13+00:00  === run start (paper mode) cash $15.59, 2 open ===",
+  "2026-11-14T00:10:19+00:00  [scan] 23 markets pass filters, 20 not recently researched",
+  "2026-11-14T00:10:19+00:00  [research] Will Zoran Jankovi\u0107 win the 2026 Ljubljana mayoral election?",
+  "2026-11-14T00:10:32+00:00  [decide] AI 0.68 (medium) vs market 0.76 -> skip: AI 0.68 vs market 0.76: agrees with market",
+  "2026-11-14T00:10:32+00:00  [research] Will the FAA's nationwide ground stop be lifted by November 14, 12:00 PM ET?",
+  "2026-11-14T00:10:50+00:00  [decide] AI 0.90 (medium) vs market 0.90 -> skip: AI 0.90 vs market 0.90: agrees with market",
+  "2026-11-14T00:10:50+00:00  [research] Will Elon Musk post 40-64 tweets from November 12 to November 14, 2026?",
+  "2026-11-14T00:11:11+00:00  [decide] AI 0.30 (low) vs market 0.34 -> skip: AI confidence low: not trading on it"
  ]
 }
