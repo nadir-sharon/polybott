@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-14T23:50:03+00:00 UTC_
+_Updated 2026-11-15T00:21:03+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-14T23:50:03+00:00 UTC_
 | Cash now | $15.59 |
 | In open bets (at cost) | $4.41 (2 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $11.74 |
-| Profit after AI costs | **-$11.74** |
+| AI research spent | $12.51 |
+| Profit after AI costs | **-$12.51** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -36,6 +36,15 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **Fourth Jensen Huang affair reported by November 20?**  
+  AI 0.12 (medium) vs market 0.14 → AI 0.12 vs market 0.15: agrees with market  
+  _As of Nov 14-15, major outlets have reported only three relationships (Alice Huang, Kimberly Powell, and Reuters' unnamed employee), with no credible leads on a fourth. The scandal is fast-moving with active investigations, so a new report _
+- **Will Elon Musk post 260-279 tweets from November 10 to November 17, 2026?**  
+  AI 0.09 (low) vs market 0.24 → AI confidence low: not trading on it  
+  _Musk's recent pace is about 33 counted posts a day, which projects to roughly 230 for Nov 10–17 and puts 260–279 around 1–1.7 standard deviations above the mean. I couldn't find the live tracker count for the exact window, so confidence is _
+- **Will Zoran Janković win the 2026 Ljubljana mayoral election?**  
+  AI 0.68 (medium) vs market 0.74 → AI 0.68 vs market 0.74: agrees with market  
+  _Janković led the final polls by about 10 points (about 33% to 23% over Mesec), so a first-round win is very unlikely. A November 29 runoff against Mesec is expected, and the Valicon poll had Janković ahead 54–46, with right-of-centre voters_
 - **Israel x Iran ceasefire continues through November 22?**  
   AI 0.86 (medium) vs market 0.90 → AI 0.86 vs market 0.90: agrees with market  
   _No direct Israel–Iran strike appears to have occurred since early June. Israel is preparing and Netanyahu and Mossad are pushing for a strike, but the IDF chief, the incoming-government talks and Trump's holding off argue against action wit_
@@ -57,27 +66,10 @@ _None yet. Bets settle when their market resolves._
 - **US x Iran Effective Ceasefire by November 15?**  
   AI 0.20 (medium) vs market 0.43 → edge found  
   _The US has conducted repeated 'defensive' air strikes on Qeshm Island (Nov 2, 6 and about 9-10), and talks have stalled, though Trump signals winding down. A qualifying 14-day strike-free window must start by Nov 15 and run to about Nov 24-_
-- **Israel x Iran ceasefire continues through November 22?**  
-  AI 0.81 (medium) vs market 0.85 → AI 0.81 vs market 0.85: agrees with market  
-  _The Israel–Iran ceasefire appears to be holding, with no direct Israel–Iran strikes found recently. Risk is elevated: Israel's cabinet ordered higher readiness, the US has struck Iranian targets, and Iran is making threats. Israel's securit_
-- **Jensen Huang announced resignation or removal by November 12, 2026?**  
-  AI 0.50 (low) vs market 0.68 → AI confidence low: not trading on it  
-  _Multiple major outlets (WSJ, CBS, Reuters, Bloomberg) reported on Nov 11 that Nvidia's board was meeting to oust Huang and was already searching for replacements. No official announcement existed as of the latest information, around 00:20 U_
-- **US x Iran Effective Ceasefire by November 15?**  
-  AI 0.24 (medium) vs market 0.54 → venue minimum (5 shares ≈ $2.37) is above the $2.00 max bet  
-  _The US has made limited 'defensive' strikes on Qeshm Island every few days (Nov 2, 6 and 8). Trump now signals restraint and Qatar-led talks continue, but there is no deal and IRGC–US friction persists. A full 14-day strike-free window star_
 
 ## Activity log (latest 40)
 
 ```
-2026-11-14T17:48:14+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)
-2026-11-14T18:18:15+00:00  === run start (paper mode) cash $15.59, 2 open ===
-2026-11-14T18:18:20+00:00  [scan] 16 markets pass filters, 13 not recently researched
-2026-11-14T18:18:20+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)
-2026-11-14T18:48:22+00:00  === run start (paper mode) cash $15.59, 2 open ===
-2026-11-14T18:48:27+00:00  [scan] 17 markets pass filters, 14 not recently researched
-2026-11-14T18:48:27+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)
-2026-11-14T19:18:29+00:00  === run start (paper mode) cash $15.59, 2 open ===
 2026-11-14T19:18:34+00:00  [scan] 17 markets pass filters, 14 not recently researched
 2026-11-14T19:18:34+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)
 2026-11-14T19:48:35+00:00  === run start (paper mode) cash $15.59, 2 open ===
@@ -110,4 +102,12 @@ _None yet. Bets settle when their market resolves._
 2026-11-14T23:49:57+00:00  === run start (paper mode) cash $15.59, 2 open ===
 2026-11-14T23:50:03+00:00  [scan] 19 markets pass filters, 16 not recently researched
 2026-11-14T23:50:03+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)
+2026-11-15T00:20:05+00:00  === run start (paper mode) cash $15.59, 2 open ===
+2026-11-15T00:20:11+00:00  [scan] 19 markets pass filters, 17 not recently researched
+2026-11-15T00:20:11+00:00  [research] Will Zoran Janković win the 2026 Ljubljana mayoral election?
+2026-11-15T00:20:28+00:00  [decide] AI 0.68 (medium) vs market 0.74 -> skip: AI 0.68 vs market 0.74: agrees with market
+2026-11-15T00:20:28+00:00  [research] Will Elon Musk post 260-279 tweets from November 10 to November 17, 2026?
+2026-11-15T00:20:49+00:00  [decide] AI 0.09 (low) vs market 0.24 -> skip: AI confidence low: not trading on it
+2026-11-15T00:20:49+00:00  [research] Fourth Jensen Huang affair reported by November 20?
+2026-11-15T00:21:03+00:00  [decide] AI 0.12 (medium) vs market 0.15 -> skip: AI 0.12 vs market 0.15: agrees with market
 ```

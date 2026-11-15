@@ -1288,6 +1288,67 @@
    "decision": "AI 0.86 vs market 0.90: agrees with market",
    "traded": false,
    "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
+  },
+  {
+   "ts": "2026-11-15T00:20:28+00:00",
+   "market_id": "5420002",
+   "question": "Will Zoran Jankovi\u0107 win the 2026 Ljubljana mayoral election?",
+   "end_date": "2026-11-16T04:59:00+00:00",
+   "ai_prob": 0.68,
+   "confidence": "medium",
+   "market_mid": 0.74,
+   "summary": "Jankovi\u0107 led the final polls by about 10 points (about 33% to 23% over Mesec), so a first-round win is very unlikely. A November 29 runoff against Mesec is expected, and the Valicon poll had Jankovi\u0107 ahead 54\u201346, with right-of-centre voters likely to back him. There is substantial anti-incumbent sentiment after 20 years, so real upset risk remains.",
+   "sources": [
+    "https://www.zurnal24.si/slovenija/volitve-ljubljana-raziskava-valicon-zurnal24-drugi-krog-jankovic-mesec-468158",
+    "https://www.24ur.com/novice/slovenija/v-ljubljani-se-prvic-po-20-letih-obeta-drugi-krog-lokalnih-volitev.html",
+    "https://tportal.hr/vijesti/clanak/slovenija-pred-neizvjesnim-izborima-gospodar-ljubljane-u-velikim-problemima-foto-20261114",
+    "https://sl.wikipedia.org/wiki/Lokalne_volitve_v_Mestni_ob%C4%8Dini_Ljubljana_2026",
+    "https://sloveniatimes.com/48324/ljubljana-mayor-faces-formidable-electoral-challenge"
+   ],
+   "cost": 0.3447,
+   "decision": "AI 0.68 vs market 0.74: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/ljubljana-mayoral-election-winner-2026"
+  },
+  {
+   "ts": "2026-11-15T00:20:49+00:00",
+   "market_id": "6771183",
+   "question": "Will Elon Musk post 260-279 tweets from November 10 to November 17, 2026?",
+   "end_date": "2026-11-17T17:00:00+00:00",
+   "ai_prob": 0.09,
+   "confidence": "low",
+   "market_mid": 0.2435,
+   "summary": "Musk's recent pace is about 33 counted posts a day, which projects to roughly 230 for Nov 10\u201317 and puts 260\u2013279 around 1\u20131.7 standard deviations above the mean. I couldn't find the live tracker count for the exact window, so confidence is low.",
+   "sources": [
+    "https://polystrike.xyz/",
+    "https://twitterapi.io/blog/polymarket-bot",
+    "https://predictiontape.com/markets/tech/elon-musk-tweet-count/",
+    "https://www.chaincatcher.com/en/article/2304785"
+   ],
+   "cost": 0.2416,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-10-november-17-2026"
+  },
+  {
+   "ts": "2026-11-15T00:21:03+00:00",
+   "market_id": "7018013",
+   "question": "Fourth Jensen Huang affair reported by November 20?",
+   "end_date": "2026-11-21T04:59:00+00:00",
+   "ai_prob": 0.12,
+   "confidence": "medium",
+   "market_mid": 0.145,
+   "summary": "As of Nov 14-15, major outlets have reported only three relationships (Alice Huang, Kimberly Powell, and Reuters' unnamed employee), with no credible leads on a fourth. The scandal is fast-moving with active investigations, so a new report is possible, but the window is only about 5 days and the rules require a clearly distinct person.",
+   "sources": [
+    "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
+    "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+    "https://www.newsweek.com/jensen-huang-reportedly-had-third-affair-nvidia-exit-caps-week-of-scandal-12708382",
+    "https://bunjareecottages.com.au/jensen-huang-fourth-affair/"
+   ],
+   "cost": 0.1854,
+   "decision": "AI 0.12 vs market 0.15: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/fourth-jensen-huang-affair-reported-by-december-31"
   }
  ],
  "ai_spend": {
@@ -1303,19 +1364,12 @@
   "2026-11-11": 1.038912,
   "2026-11-12": 1.017748,
   "2026-11-13": 0.883186,
-  "2026-11-14": 0.892836
+  "2026-11-14": 0.892836,
+  "2026-11-15": 0.7716
  },
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-10T02:58:49+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-10T02:58:58+00:00  [scan] 19 markets pass filters, 16 not recently researched",
-  "2026-11-10T02:58:58+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)",
-  "2026-11-10T03:29:00+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-10T03:29:06+00:00  [scan] 18 markets pass filters, 16 not recently researched",
-  "2026-11-10T03:29:06+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)",
-  "2026-11-10T03:59:07+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-10T03:59:18+00:00  [scan] 16 markets pass filters, 14 not recently researched",
   "2026-11-10T03:59:18+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)",
   "2026-11-10T04:29:20+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-10T04:29:28+00:00  [scan] 17 markets pass filters, 15 not recently researched",
@@ -2107,6 +2161,14 @@
   "2026-11-14T23:19:55+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)",
   "2026-11-14T23:49:57+00:00  === run start (paper mode) cash $15.59, 2 open ===",
   "2026-11-14T23:50:03+00:00  [scan] 19 markets pass filters, 16 not recently researched",
-  "2026-11-14T23:50:03+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)"
+  "2026-11-14T23:50:03+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)",
+  "2026-11-15T00:20:05+00:00  === run start (paper mode) cash $15.59, 2 open ===",
+  "2026-11-15T00:20:11+00:00  [scan] 19 markets pass filters, 17 not recently researched",
+  "2026-11-15T00:20:11+00:00  [research] Will Zoran Jankovi\u0107 win the 2026 Ljubljana mayoral election?",
+  "2026-11-15T00:20:28+00:00  [decide] AI 0.68 (medium) vs market 0.74 -> skip: AI 0.68 vs market 0.74: agrees with market",
+  "2026-11-15T00:20:28+00:00  [research] Will Elon Musk post 260-279 tweets from November 10 to November 17, 2026?",
+  "2026-11-15T00:20:49+00:00  [decide] AI 0.09 (low) vs market 0.24 -> skip: AI confidence low: not trading on it",
+  "2026-11-15T00:20:49+00:00  [research] Fourth Jensen Huang affair reported by November 20?",
+  "2026-11-15T00:21:03+00:00  [decide] AI 0.12 (medium) vs market 0.15 -> skip: AI 0.12 vs market 0.15: agrees with market"
  ]
 }
