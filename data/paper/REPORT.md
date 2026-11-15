@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-15T05:53:15+00:00 UTC_
+_Updated 2026-11-15T06:23:23+00:00 UTC_
 
 ## Scoreboard
 
@@ -70,9 +70,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-15T00:20:49+00:00  [research] Fourth Jensen Huang affair reported by November 20?
-2026-11-15T00:21:03+00:00  [decide] AI 0.12 (medium) vs market 0.15 -> skip: AI 0.12 vs market 0.15: agrees with market
-2026-11-15T00:51:05+00:00  === run start (paper mode) cash $15.59, 2 open ===
 2026-11-15T00:51:19+00:00  [scan] 20 markets pass filters, 15 not recently researched
 2026-11-15T00:51:19+00:00  [research] Will Luka Mesec win the 2026 Ljubljana mayoral election?
 2026-11-15T00:51:32+00:00  [decide] AI 0.25 (medium) vs market 0.26 -> skip: AI 0.25 vs market 0.26: agrees with market
@@ -110,4 +107,7 @@ _None yet. Bets settle when their market resolves._
 2026-11-15T05:53:10+00:00  === run start (paper mode) cash $15.59, 2 open ===
 2026-11-15T05:53:15+00:00  [scan] 31 markets pass filters, 25 not recently researched
 2026-11-15T05:53:15+00:00  [budget] daily AI budget $1.00 reached (spent $0.91)
+2026-11-15T06:23:17+00:00  === run start (paper mode) cash $15.59, 2 open ===
+2026-11-15T06:23:23+00:00  [scan] 30 markets pass filters, 24 not recently researched
+2026-11-15T06:23:23+00:00  [budget] daily AI budget $1.00 reached (spent $0.91)
 ```
