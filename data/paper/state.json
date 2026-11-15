@@ -1349,6 +1349,26 @@
    "decision": "AI 0.12 vs market 0.15: agrees with market",
    "traded": false,
    "url": "https://polymarket.com/event/fourth-jensen-huang-affair-reported-by-december-31"
+  },
+  {
+   "ts": "2026-11-15T00:51:32+00:00",
+   "market_id": "5420004",
+   "question": "Will Luka Mesec win the 2026 Ljubljana mayoral election?",
+   "end_date": "2026-11-16T04:59:00+00:00",
+   "ai_prob": 0.25,
+   "confidence": "medium",
+   "market_mid": 0.26,
+   "summary": "No results were available yet. Polls show Jankovi\u0107 leading Mesec about 33% to 23% in round one and about 54\u201346 in a hypothetical runoff. SDS signals it would back Jankovi\u0107 in a runoff, so Mesec is a clear underdog but has a real chance.",
+   "sources": [
+    "https://www.zurnal24.si/slovenija/volitve-ljubljana-raziskava-valicon-zurnal24-drugi-krog-jankovic-mesec-468158",
+    "https://www.24ur.com/novice/slovenija/v-ljubljani-se-prvic-po-20-letih-obeta-drugi-krog-lokalnih-volitev.html",
+    "https://www.novilist.hr/uncategorized/slovenci-sutra-izlaze-na-lokalne-izbore-jankovic-bi-mogao-izgubiti-ljubljanu",
+    "https://www.24ur.com/novice/slovenija/za-danijela-krivca-sds-jankovic-manjse-zlo-od-mesca.html"
+   ],
+   "cost": 0.1374,
+   "decision": "AI 0.25 vs market 0.26: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/ljubljana-mayoral-election-winner-2026"
   }
  ],
  "ai_spend": {
@@ -1365,16 +1385,11 @@
   "2026-11-12": 1.017748,
   "2026-11-13": 0.883186,
   "2026-11-14": 0.892836,
-  "2026-11-15": 0.7716
+  "2026-11-15": 0.909028
  },
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-10T03:59:18+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)",
-  "2026-11-10T04:29:20+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-10T04:29:28+00:00  [scan] 17 markets pass filters, 15 not recently researched",
-  "2026-11-10T04:29:28+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)",
-  "2026-11-10T04:59:29+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-10T04:59:37+00:00  [scan] 20 markets pass filters, 17 not recently researched",
   "2026-11-10T04:59:37+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)",
   "2026-11-10T05:29:38+00:00  === run start (paper mode) cash $18.54, 1 open ===",
@@ -2169,6 +2184,11 @@
   "2026-11-15T00:20:28+00:00  [research] Will Elon Musk post 260-279 tweets from November 10 to November 17, 2026?",
   "2026-11-15T00:20:49+00:00  [decide] AI 0.09 (low) vs market 0.24 -> skip: AI confidence low: not trading on it",
   "2026-11-15T00:20:49+00:00  [research] Fourth Jensen Huang affair reported by November 20?",
-  "2026-11-15T00:21:03+00:00  [decide] AI 0.12 (medium) vs market 0.15 -> skip: AI 0.12 vs market 0.15: agrees with market"
+  "2026-11-15T00:21:03+00:00  [decide] AI 0.12 (medium) vs market 0.15 -> skip: AI 0.12 vs market 0.15: agrees with market",
+  "2026-11-15T00:51:05+00:00  === run start (paper mode) cash $15.59, 2 open ===",
+  "2026-11-15T00:51:19+00:00  [scan] 20 markets pass filters, 15 not recently researched",
+  "2026-11-15T00:51:19+00:00  [research] Will Luka Mesec win the 2026 Ljubljana mayoral election?",
+  "2026-11-15T00:51:32+00:00  [decide] AI 0.25 (medium) vs market 0.26 -> skip: AI 0.25 vs market 0.26: agrees with market",
+  "2026-11-15T00:51:32+00:00  [budget] daily AI budget $1.00 reached (spent $0.91)"
  ]
 }

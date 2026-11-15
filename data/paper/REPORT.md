@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-15T00:21:03+00:00 UTC_
+_Updated 2026-11-15T00:51:32+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-15T00:21:03+00:00 UTC_
 | Cash now | $15.59 |
 | In open bets (at cost) | $4.41 (2 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $12.51 |
-| Profit after AI costs | **-$12.51** |
+| AI research spent | $12.65 |
+| Profit after AI costs | **-$12.65** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -36,6 +36,9 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **Will Luka Mesec win the 2026 Ljubljana mayoral election?**  
+  AI 0.25 (medium) vs market 0.26 → AI 0.25 vs market 0.26: agrees with market  
+  _No results were available yet. Polls show Janković leading Mesec about 33% to 23% in round one and about 54–46 in a hypothetical runoff. SDS signals it would back Janković in a runoff, so Mesec is a clear underdog but has a real chance._
 - **Fourth Jensen Huang affair reported by November 20?**  
   AI 0.12 (medium) vs market 0.14 → AI 0.12 vs market 0.15: agrees with market  
   _As of Nov 14-15, major outlets have reported only three relationships (Alice Huang, Kimberly Powell, and Reuters' unnamed employee), with no credible leads on a fourth. The scandal is fast-moving with active investigations, so a new report _
@@ -63,18 +66,10 @@ _None yet. Bets settle when their market resolves._
 - **Will Elon Musk post 200-219 tweets from November 6 to November 13, 2026?**  
   AI 0.23 (low) vs market 0.40 → AI confidence low: not trading on it  
   _I couldn't find the live tracker count for Nov 6–13. Indirect pace data (about 265 posts for Nov 3–10, 64 on Nov 6, 31 on Nov 11, and a 2–3 day Nov 7–9 bucket of 65–89) points to a total near 230. The 200–219 bucket is plausible but below t_
-- **US x Iran Effective Ceasefire by November 15?**  
-  AI 0.20 (medium) vs market 0.43 → edge found  
-  _The US has conducted repeated 'defensive' air strikes on Qeshm Island (Nov 2, 6 and about 9-10), and talks have stalled, though Trump signals winding down. A qualifying 14-day strike-free window must start by Nov 15 and run to about Nov 24-_
 
 ## Activity log (latest 40)
 
 ```
-2026-11-14T19:18:34+00:00  [scan] 17 markets pass filters, 14 not recently researched
-2026-11-14T19:18:34+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)
-2026-11-14T19:48:35+00:00  === run start (paper mode) cash $15.59, 2 open ===
-2026-11-14T19:48:41+00:00  [scan] 16 markets pass filters, 13 not recently researched
-2026-11-14T19:48:41+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)
 2026-11-14T20:18:42+00:00  === run start (paper mode) cash $15.59, 2 open ===
 2026-11-14T20:18:47+00:00  [scan] 18 markets pass filters, 15 not recently researched
 2026-11-14T20:18:47+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)
@@ -110,4 +105,9 @@ _None yet. Bets settle when their market resolves._
 2026-11-15T00:20:49+00:00  [decide] AI 0.09 (low) vs market 0.24 -> skip: AI confidence low: not trading on it
 2026-11-15T00:20:49+00:00  [research] Fourth Jensen Huang affair reported by November 20?
 2026-11-15T00:21:03+00:00  [decide] AI 0.12 (medium) vs market 0.15 -> skip: AI 0.12 vs market 0.15: agrees with market
+2026-11-15T00:51:05+00:00  === run start (paper mode) cash $15.59, 2 open ===
+2026-11-15T00:51:19+00:00  [scan] 20 markets pass filters, 15 not recently researched
+2026-11-15T00:51:19+00:00  [research] Will Luka Mesec win the 2026 Ljubljana mayoral election?
+2026-11-15T00:51:32+00:00  [decide] AI 0.25 (medium) vs market 0.26 -> skip: AI 0.25 vs market 0.26: agrees with market
+2026-11-15T00:51:32+00:00  [budget] daily AI budget $1.00 reached (spent $0.91)
 ```
