@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-16T06:32:58+00:00 UTC_
+_Updated 2026-11-16T07:03:06+00:00 UTC_
 
 ## Scoreboard
 
@@ -19,9 +19,9 @@ _Updated 2026-11-16T06:32:58+00:00 UTC_
 Brier score on every resolved market the AI studied (lower is better; 0.25 = coin flip).
 This is the number that matters: if the AI isn't beating the market here, wins are luck.
 
-- Resolved forecasts: **37**
-- AI Brier: **0.238**
-- Market Brier: **0.214**
+- Resolved forecasts: **38**
+- AI Brier: **0.232**
+- Market Brier: **0.209**
 
 ## Open bets
 
@@ -71,9 +71,6 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 ## Activity log (latest 40)
 
 ```
-2026-11-16T01:00:19+00:00  [research] Will Puma Shen win the next Taipei Mayor election?
-2026-11-16T01:01:04+00:00  [decide] AI 0.50 (low) vs market 0.38 -> skip: AI confidence low: not trading on it
-2026-11-16T01:01:04+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)
 2026-11-16T01:31:05+00:00  === run start (paper mode) cash $15.59, 2 open ===
 2026-11-16T01:31:14+00:00  [scan] 19 markets pass filters, 14 not recently researched
 2026-11-16T01:31:14+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)
@@ -111,4 +108,7 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-16T06:32:51+00:00  === run start (paper mode) cash $15.59, 1 open ===
 2026-11-16T06:32:58+00:00  [scan] 28 markets pass filters, 23 not recently researched
 2026-11-16T06:32:58+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)
+2026-11-16T07:03:00+00:00  === run start (paper mode) cash $15.59, 1 open ===
+2026-11-16T07:03:06+00:00  [scan] 22 markets pass filters, 17 not recently researched
+2026-11-16T07:03:06+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)
 ```

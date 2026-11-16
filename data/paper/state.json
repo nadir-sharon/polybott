@@ -485,7 +485,8 @@
    "cost": 0.222,
    "decision": "AI 0.13 vs market 0.11: agrees with market",
    "traded": false,
-   "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080"
+   "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080",
+   "yes_payout": 0.0
   },
   {
    "ts": "2026-11-06T00:25:50+00:00",
@@ -1487,9 +1488,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-11T10:12:29+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)",
-  "2026-11-11T10:42:31+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-11T10:42:37+00:00  [scan] 26 markets pass filters, 23 not recently researched",
   "2026-11-11T10:42:37+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)",
   "2026-11-11T11:12:38+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-11T11:12:45+00:00  [scan] 22 markets pass filters, 19 not recently researched",
@@ -2286,6 +2284,9 @@
   "2026-11-16T06:02:49+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)",
   "2026-11-16T06:32:51+00:00  === run start (paper mode) cash $15.59, 1 open ===",
   "2026-11-16T06:32:58+00:00  [scan] 28 markets pass filters, 23 not recently researched",
-  "2026-11-16T06:32:58+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)"
+  "2026-11-16T06:32:58+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)",
+  "2026-11-16T07:03:00+00:00  === run start (paper mode) cash $15.59, 1 open ===",
+  "2026-11-16T07:03:06+00:00  [scan] 22 markets pass filters, 17 not recently researched",
+  "2026-11-16T07:03:06+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)"
  ]
 }
