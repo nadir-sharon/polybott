@@ -1369,6 +1369,69 @@
    "decision": "AI 0.25 vs market 0.26: agrees with market",
    "traded": false,
    "url": "https://polymarket.com/event/ljubljana-mayoral-election-winner-2026"
+  },
+  {
+   "ts": "2026-11-16T00:29:42+00:00",
+   "market_id": "3580932",
+   "question": "Will Chiang Wan-an win the next Taipei Mayor election?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.57,
+   "confidence": "low",
+   "market_mid": 0.625,
+   "summary": "Polls are split. The ETtoday and TVBS polls give Chiang a lead, while the UDN poll and several DPP-linked polls give Shen one. Shen has gained since May, but Taipei's blue lean and Chiang's incumbency keep Chiang as a slight favorite.",
+   "sources": [
+    "https://www.taiwannews.com.tw/news/6476596",
+    "https://udn.com/news/story/124652/9858517",
+    "https://news.tvbs.com.tw/politics/4044014",
+    "https://neww.tw/taipei-mayor-poll/",
+    "https://www.taiwannews.com.tw/news/6462266",
+    "https://newtalk.tw/news/view/2026-11-15/1071216"
+   ],
+   "cost": 0.2688,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100"
+  },
+  {
+   "ts": "2026-11-16T00:29:58+00:00",
+   "market_id": "6771186",
+   "question": "Will Elon Musk post 280-299 tweets from November 10 to November 17, 2026?",
+   "end_date": "2026-11-17T17:00:00+00:00",
+   "ai_prob": 0.05,
+   "confidence": "low",
+   "market_mid": 0.195,
+   "summary": "I couldn't find the live tracker count for Nov 10\u201317. Recent weekly totals have been about 220\u2013259 and the pace over Nov 12\u201316 looks modest. Reaching 280\u2013299 would need roughly 40 or more posts a day, so I treat it as a small tail outcome.",
+   "sources": [
+    "https://predictiontape.com/markets/tech/elon-musk-tweet-count/",
+    "https://www.chaincatcher.com/en/article/2304594",
+    "https://www.chaincatcher.com/en/article/2304785",
+    "https://www.chaincatcher.com/en/article/2302998"
+   ],
+   "cost": 0.2313,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-10-november-17-2026"
+  },
+  {
+   "ts": "2026-11-16T00:30:12+00:00",
+   "market_id": "7018013",
+   "question": "Fourth Jensen Huang affair reported by November 20?",
+   "end_date": "2026-11-21T04:59:00+00:00",
+   "ai_prob": 0.14,
+   "confidence": "medium",
+   "market_mid": 0.125,
+   "summary": "Three affairs were reported between Nov 8 and Nov 12, but I found no report of a fourth as of Nov 16, and coverage has moved toward the spy and congressional angles. The story is hot and the resolution rules are broad, so a fourth report within the short window is possible but unlikely.",
+   "sources": [
+    "https://www.newsweek.com/jensen-huang-reportedly-had-third-affair-nvidia-exit-caps-week-of-scandal-12708382",
+    "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+    "https://en.wikipedia.org/wiki/Jensen_Huang_spying_scandal",
+    "https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout",
+    "https://bunjareecottages.com.au/jensen-huang-fourth-affair/"
+   ],
+   "cost": 0.2524,
+   "decision": "AI 0.14 vs market 0.12: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/fourth-jensen-huang-affair-reported-by-december-31"
   }
  ],
  "ai_spend": {
@@ -1385,19 +1448,12 @@
   "2026-11-12": 1.017748,
   "2026-11-13": 0.883186,
   "2026-11-14": 0.892836,
-  "2026-11-15": 0.909028
+  "2026-11-15": 0.909028,
+  "2026-11-16": 0.752504
  },
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-11T03:09:33+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-11T03:09:39+00:00  [scan] 19 markets pass filters, 15 not recently researched",
-  "2026-11-11T03:09:39+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)",
-  "2026-11-11T03:39:42+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-11T03:39:49+00:00  [scan] 22 markets pass filters, 18 not recently researched",
-  "2026-11-11T03:39:49+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)",
-  "2026-11-11T03:40:07+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-11T03:40:14+00:00  [scan] 22 markets pass filters, 18 not recently researched",
   "2026-11-11T03:40:14+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)",
   "2026-11-11T04:10:16+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-11T04:10:22+00:00  [scan] 21 markets pass filters, 17 not recently researched",
@@ -2189,6 +2245,14 @@
   "2026-11-15T23:29:06+00:00  [budget] daily AI budget $1.00 reached (spent $0.91)",
   "2026-11-15T23:59:07+00:00  === run start (paper mode) cash $15.59, 2 open ===",
   "2026-11-15T23:59:13+00:00  [scan] 23 markets pass filters, 20 not recently researched",
-  "2026-11-15T23:59:13+00:00  [budget] daily AI budget $1.00 reached (spent $0.91)"
+  "2026-11-15T23:59:13+00:00  [budget] daily AI budget $1.00 reached (spent $0.91)",
+  "2026-11-16T00:29:15+00:00  === run start (paper mode) cash $15.59, 2 open ===",
+  "2026-11-16T00:29:24+00:00  [scan] 21 markets pass filters, 20 not recently researched",
+  "2026-11-16T00:29:24+00:00  [research] Will Chiang Wan-an win the next Taipei Mayor election?",
+  "2026-11-16T00:29:42+00:00  [decide] AI 0.57 (low) vs market 0.62 -> skip: AI confidence low: not trading on it",
+  "2026-11-16T00:29:42+00:00  [research] Will Elon Musk post 280-299 tweets from November 10 to November 17, 2026?",
+  "2026-11-16T00:29:58+00:00  [decide] AI 0.05 (low) vs market 0.20 -> skip: AI confidence low: not trading on it",
+  "2026-11-16T00:29:58+00:00  [research] Fourth Jensen Huang affair reported by November 20?",
+  "2026-11-16T00:30:12+00:00  [decide] AI 0.14 (medium) vs market 0.12 -> skip: AI 0.14 vs market 0.12: agrees with market"
  ]
 }
