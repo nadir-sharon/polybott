@@ -1488,9 +1488,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-12T00:48:41+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-12T00:48:47+00:00  [scan] 24 markets pass filters, 21 not recently researched",
-  "2026-11-12T00:48:47+00:00  [research] Jensen Huang announced resignation or removal by November 12, 2026?",
   "2026-11-12T00:49:09+00:00  [decide] AI 0.50 (low) vs market 0.68 -> skip: AI confidence low: not trading on it",
   "2026-11-12T00:49:09+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)",
   "2026-11-12T01:19:11+00:00  === run start (paper mode) cash $18.54, 1 open ===",
@@ -2287,6 +2284,9 @@
   "2026-11-16T21:08:03+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)",
   "2026-11-16T21:38:05+00:00  === run start (paper mode) cash $15.59, 1 open ===",
   "2026-11-16T21:38:11+00:00  [scan] 32 markets pass filters, 26 not recently researched",
-  "2026-11-16T21:38:11+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)"
+  "2026-11-16T21:38:11+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)",
+  "2026-11-16T22:08:13+00:00  === run start (paper mode) cash $15.59, 1 open ===",
+  "2026-11-16T22:08:19+00:00  [scan] 31 markets pass filters, 25 not recently researched",
+  "2026-11-16T22:08:19+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)"
  ]
 }
