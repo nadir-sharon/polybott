@@ -3,28 +3,6 @@
  "starting_bankroll": 20.0,
  "cash": 15.594708,
  "positions": {
-  "9705fedc88": {
-   "id": "9705fedc88",
-   "opened_at": "2026-11-04T01:15:58+00:00",
-   "market_id": "6365364",
-   "event_id": "1274180",
-   "condition_id": "0x40107af349146c63463e1261b25ed8bc9e377c34e0bef58e6d5ea6d8ccfcfe9d",
-   "question": "Will Gemini Carbon be released between November 9 and November 15, 2026?",
-   "url": "https://polymarket.com/event/when-will-gemini-carbon-be-released-20261027",
-   "end_date": "2026-11-16T04:59:00+00:00",
-   "side": "NO",
-   "token_id": "43765283797884876490356446618033185562018165150137360463939334101868295270643",
-   "shares": 5.05,
-   "avg_price": 0.28,
-   "cost": 1.4649,
-   "fair_prob": 0.4587,
-   "edge": 0.1687,
-   "ai_prob": 0.2,
-   "confidence": "medium",
-   "market_mid": 0.725,
-   "order_id": "paper",
-   "mode": "paper"
-  },
   "d37958c63f": {
    "id": "d37958c63f",
    "opened_at": "2026-11-13T00:28:48+00:00",
@@ -48,7 +26,35 @@
    "mode": "paper"
   }
  },
- "closed": [],
+ "closed": [
+  {
+   "id": "9705fedc88",
+   "opened_at": "2026-11-04T01:15:58+00:00",
+   "market_id": "6365364",
+   "event_id": "1274180",
+   "condition_id": "0x40107af349146c63463e1261b25ed8bc9e377c34e0bef58e6d5ea6d8ccfcfe9d",
+   "question": "Will Gemini Carbon be released between November 9 and November 15, 2026?",
+   "url": "https://polymarket.com/event/when-will-gemini-carbon-be-released-20261027",
+   "end_date": "2026-11-16T04:59:00+00:00",
+   "side": "NO",
+   "token_id": "43765283797884876490356446618033185562018165150137360463939334101868295270643",
+   "shares": 5.05,
+   "avg_price": 0.28,
+   "cost": 1.4649,
+   "fair_prob": 0.4587,
+   "edge": 0.1687,
+   "ai_prob": 0.2,
+   "confidence": "medium",
+   "market_mid": 0.725,
+   "order_id": "paper",
+   "mode": "paper",
+   "closed_at": "2026-11-16T05:02:26+00:00",
+   "payout": 0.0,
+   "pnl": -1.4649,
+   "won": false,
+   "yes_payout": 1.0
+  }
+ ],
  "forecasts": [
   {
    "ts": "2026-11-02T17:29:21+00:00",
@@ -391,7 +397,8 @@
    "cost": 0.4296,
    "decision": "edge found",
    "traded": true,
-   "url": "https://polymarket.com/event/when-will-gemini-carbon-be-released-20261027"
+   "url": "https://polymarket.com/event/when-will-gemini-carbon-be-released-20261027",
+   "yes_payout": 1.0
   },
   {
    "ts": "2026-11-05T00:14:37+00:00",
@@ -412,7 +419,8 @@
    "cost": 0.3153,
    "decision": "venue minimum (5 shares \u2248 $2.17) is above the $2.00 max bet",
    "traded": false,
-   "url": "https://polymarket.com/event/us-iran-effective-ceasefire-continues-throughptptpt-20261103"
+   "url": "https://polymarket.com/event/us-iran-effective-ceasefire-continues-throughptptpt-20261103",
+   "yes_payout": 0.0
   },
   {
    "ts": "2026-11-05T00:14:58+00:00",
@@ -521,7 +529,8 @@
    "cost": 0.1853,
    "decision": "venue minimum (5 shares \u2248 $2.32) is above the $2.00 max bet",
    "traded": false,
-   "url": "https://polymarket.com/event/us-iran-effective-ceasefire-continues-throughptptpt-20261103"
+   "url": "https://polymarket.com/event/us-iran-effective-ceasefire-continues-throughptptpt-20261103",
+   "yes_payout": 0.0
   },
   {
    "ts": "2026-11-06T00:26:23+00:00",
@@ -1473,13 +1482,11 @@
   "2026-11-15": 0.909028,
   "2026-11-16": 1.108918
  },
- "realized_by_day": {},
+ "realized_by_day": {
+  "2026-11-16": -1.4649
+ },
  "halted": null,
  "log": [
-  "2026-11-11T08:41:40+00:00  [scan] 23 markets pass filters, 20 not recently researched",
-  "2026-11-11T08:41:40+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)",
-  "2026-11-11T08:41:58+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-11T08:42:04+00:00  [scan] 23 markets pass filters, 20 not recently researched",
   "2026-11-11T08:42:04+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)",
   "2026-11-11T09:12:05+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-11T09:12:12+00:00  [scan] 23 markets pass filters, 20 not recently researched",
@@ -2275,6 +2282,10 @@
   "2026-11-16T04:31:56+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)",
   "2026-11-16T04:32:17+00:00  === run start (paper mode) cash $15.59, 2 open ===",
   "2026-11-16T04:32:23+00:00  [scan] 20 markets pass filters, 15 not recently researched",
-  "2026-11-16T04:32:23+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)"
+  "2026-11-16T04:32:23+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)",
+  "2026-11-16T05:02:25+00:00  === run start (paper mode) cash $15.59, 2 open ===",
+  "2026-11-16T05:02:26+00:00  [settle] LOST -1.46  NO Will Gemini Carbon be released between November 9 and Novemb",
+  "2026-11-16T05:02:32+00:00  [scan] 22 markets pass filters, 17 not recently researched",
+  "2026-11-16T05:02:32+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)"
  ]
 }

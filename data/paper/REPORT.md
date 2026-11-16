@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-16T04:32:23+00:00 UTC_
+_Updated 2026-11-16T05:02:32+00:00 UTC_
 
 ## Scoreboard
 
@@ -8,31 +8,32 @@ _Updated 2026-11-16T04:32:23+00:00 UTC_
 |---|---|
 | Starting bankroll | $20.00 |
 | Cash now | $15.59 |
-| In open bets (at cost) | $4.41 (2 bets) |
-| Realized profit/loss | **$0.00** |
+| In open bets (at cost) | $2.94 (1 bets) |
+| Realized profit/loss | **-$1.46** |
 | AI research spent | $13.76 |
-| Profit after AI costs | **-$13.76** |
-| Settled bets | 0 (0 won, win rate –) |
+| Profit after AI costs | **-$15.22** |
+| Settled bets | 1 (0 won, win rate 0%) |
 
 ## Is the AI better than the market?
 
 Brier score on every resolved market the AI studied (lower is better; 0.25 = coin flip).
 This is the number that matters: if the AI isn't beating the market here, wins are luck.
 
-- Resolved forecasts: **34**
-- AI Brier: **0.236**
-- Market Brier: **0.213**
+- Resolved forecasts: **37**
+- AI Brier: **0.238**
+- Market Brier: **0.214**
 
 ## Open bets
 
 | Opened | Side | Cost | Price | AI / market | Ends | Market |
 |---|---|---|---|---|---|---|
 | 2026-11-13T00:28 | NO | $2.94 | 0.57 | 0.20 / 0.43 | 2026-11-15 | [US x Iran Effective Ceasefire by November 15?](https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108) |
-| 2026-11-04T01:15 | NO | $1.46 | 0.28 | 0.20 / 0.72 | 2026-11-16 | [Will Gemini Carbon be released between November 9 and November 15, 202](https://polymarket.com/event/when-will-gemini-carbon-be-released-20261027) |
 
 ## Settled bets (latest 20)
 
-_None yet. Bets settle when their market resolves._
+| Closed | Side | Cost | P/L | Market |
+|---|---|---|---|---|
+| 2026-11-16T05:02 | NO | $1.46 | -$1.46 | Will Gemini Carbon be released between November 9 and November 15, 202 |
 
 ## Latest AI research (10)
 
@@ -70,10 +71,6 @@ _None yet. Bets settle when their market resolves._
 ## Activity log (latest 40)
 
 ```
-2026-11-15T23:59:07+00:00  === run start (paper mode) cash $15.59, 2 open ===
-2026-11-15T23:59:13+00:00  [scan] 23 markets pass filters, 20 not recently researched
-2026-11-15T23:59:13+00:00  [budget] daily AI budget $1.00 reached (spent $0.91)
-2026-11-16T00:29:15+00:00  === run start (paper mode) cash $15.59, 2 open ===
 2026-11-16T00:29:24+00:00  [scan] 21 markets pass filters, 20 not recently researched
 2026-11-16T00:29:24+00:00  [research] Will Chiang Wan-an win the next Taipei Mayor election?
 2026-11-16T00:29:42+00:00  [decide] AI 0.57 (low) vs market 0.62 -> skip: AI confidence low: not trading on it
@@ -110,4 +107,8 @@ _None yet. Bets settle when their market resolves._
 2026-11-16T04:32:17+00:00  === run start (paper mode) cash $15.59, 2 open ===
 2026-11-16T04:32:23+00:00  [scan] 20 markets pass filters, 15 not recently researched
 2026-11-16T04:32:23+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)
+2026-11-16T05:02:25+00:00  === run start (paper mode) cash $15.59, 2 open ===
+2026-11-16T05:02:26+00:00  [settle] LOST -1.46  NO Will Gemini Carbon be released between November 9 and Novemb
+2026-11-16T05:02:32+00:00  [scan] 22 markets pass filters, 17 not recently researched
+2026-11-16T05:02:32+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)
 ```
