@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-16T00:30:12+00:00 UTC_
+_Updated 2026-11-16T01:01:04+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-16T00:30:12+00:00 UTC_
 | Cash now | $15.59 |
 | In open bets (at cost) | $4.41 (2 bets) |
 | Realized profit/loss | **$0.00** |
-| AI research spent | $13.40 |
-| Profit after AI costs | **-$13.40** |
+| AI research spent | $13.76 |
+| Profit after AI costs | **-$13.76** |
 | Settled bets | 0 (0 won, win rate –) |
 
 ## Is the AI better than the market?
@@ -36,6 +36,9 @@ _None yet. Bets settle when their market resolves._
 
 ## Latest AI research (10)
 
+- **Will Puma Shen win the next Taipei Mayor election?**  
+  AI 0.50 (low) vs market 0.38 → AI confidence low: not trading on it  
+  _The Taipei race is a toss-up. Polls from DPP-leaning and neutral sources show Shen slightly ahead or tied, while blue-leaning and AI-simulation sources show Chiang ahead. Momentum over recent months has favored Shen, but Taipei's structural_
 - **Fourth Jensen Huang affair reported by November 20?**  
   AI 0.14 (medium) vs market 0.12 → AI 0.14 vs market 0.12: agrees with market  
   _Three affairs were reported between Nov 8 and Nov 12, but I found no report of a fourth as of Nov 16, and coverage has moved toward the spy and congressional angles. The story is hot and the resolution rules are broad, so a fourth report wi_
@@ -63,18 +66,10 @@ _None yet. Bets settle when their market resolves._
 - **Will Elon Musk post 40-64 tweets from November 12 to November 14, 2026?**  
   AI 0.30 (low) vs market 0.34 → AI confidence low: not trading on it  
   _Musk's counted-post pace is about 32 a day, which puts the 48-hour total near 65, right at the top of the 40–64 bracket. Starship launch and Nvidia news plus a 49-post day on 11/12 tilt the total toward 65 or more, but I couldn't find the l_
-- **Will the FAA's nationwide ground stop be lifted by November 14, 12:00 PM ET?**  
-  AI 0.90 (medium) vs market 0.90 → AI 0.90 vs market 0.90: agrees with market  
-  _The FAA's nationwide ground stop began about 20:54 UTC on Nov 13. By about 7 PM ET it was being relaxed in stages, with flights cleared case by case as en route facilities recovered. With roughly 17 hours until the deadline, an official end_
 
 ## Activity log (latest 40)
 
 ```
-2026-11-15T19:27:41+00:00  [scan] 19 markets pass filters, 16 not recently researched
-2026-11-15T19:27:41+00:00  [budget] daily AI budget $1.00 reached (spent $0.91)
-2026-11-15T19:57:43+00:00  === run start (paper mode) cash $15.59, 2 open ===
-2026-11-15T19:57:49+00:00  [scan] 20 markets pass filters, 17 not recently researched
-2026-11-15T19:57:49+00:00  [budget] daily AI budget $1.00 reached (spent $0.91)
 2026-11-15T20:27:51+00:00  === run start (paper mode) cash $15.59, 2 open ===
 2026-11-15T20:27:56+00:00  [scan] 20 markets pass filters, 17 not recently researched
 2026-11-15T20:27:56+00:00  [budget] daily AI budget $1.00 reached (spent $0.91)
@@ -110,4 +105,9 @@ _None yet. Bets settle when their market resolves._
 2026-11-16T00:29:58+00:00  [decide] AI 0.05 (low) vs market 0.20 -> skip: AI confidence low: not trading on it
 2026-11-16T00:29:58+00:00  [research] Fourth Jensen Huang affair reported by November 20?
 2026-11-16T00:30:12+00:00  [decide] AI 0.14 (medium) vs market 0.12 -> skip: AI 0.14 vs market 0.12: agrees with market
+2026-11-16T01:00:13+00:00  === run start (paper mode) cash $15.59, 2 open ===
+2026-11-16T01:00:19+00:00  [scan] 21 markets pass filters, 17 not recently researched
+2026-11-16T01:00:19+00:00  [research] Will Puma Shen win the next Taipei Mayor election?
+2026-11-16T01:01:04+00:00  [decide] AI 0.50 (low) vs market 0.38 -> skip: AI confidence low: not trading on it
+2026-11-16T01:01:04+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)
 ```

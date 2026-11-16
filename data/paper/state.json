@@ -1432,6 +1432,28 @@
    "decision": "AI 0.14 vs market 0.12: agrees with market",
    "traded": false,
    "url": "https://polymarket.com/event/fourth-jensen-huang-affair-reported-by-december-31"
+  },
+  {
+   "ts": "2026-11-16T01:01:04+00:00",
+   "market_id": "3580933",
+   "question": "Will Puma Shen win the next Taipei Mayor election?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.5,
+   "confidence": "low",
+   "market_mid": 0.3785,
+   "summary": "The Taipei race is a toss-up. Polls from DPP-leaning and neutral sources show Shen slightly ahead or tied, while blue-leaning and AI-simulation sources show Chiang ahead. Momentum over recent months has favored Shen, but Taipei's structural lean toward the KMT and TPP voters, plus Chiang's incumbency, offset that.",
+   "sources": [
+    "https://www.taiwannews.com.tw/news/6476596",
+    "https://newtalk.tw/news/view/2026-11-16/1071318",
+    "https://www.ettoday.net/news/20261104/3266402.htm",
+    "https://neww.tw/taipei-mayor-poll/",
+    "https://www.taiwannews.com.tw/news/6462266",
+    "https://tw.news.yahoo.com/%E5%8F%B0%E5%8C%97%E5%B8%82%E9%95%B7%E6%9C%80%E6%96%B0ai%E6%B0%91%E8%AA%BF%E5%87%BA%E7%88%90-%E8%94%A3%E8%90%AC%E5%AE%89%E6%94%AF%E6%8C%81%E5%BA%A645-9-%E9%9A%AA%E5%8B%9D-%E6%B2%88%E4%BC%AF%E6%B4%8B43-065731479.html"
+   ],
+   "cost": 0.3564,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100"
   }
  ],
  "ai_spend": {
@@ -1449,16 +1471,11 @@
   "2026-11-13": 0.883186,
   "2026-11-14": 0.892836,
   "2026-11-15": 0.909028,
-  "2026-11-16": 0.752504
+  "2026-11-16": 1.108918
  },
  "realized_by_day": {},
  "halted": null,
  "log": [
-  "2026-11-11T03:40:14+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)",
-  "2026-11-11T04:10:16+00:00  === run start (paper mode) cash $18.54, 1 open ===",
-  "2026-11-11T04:10:22+00:00  [scan] 21 markets pass filters, 17 not recently researched",
-  "2026-11-11T04:10:22+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)",
-  "2026-11-11T04:40:24+00:00  === run start (paper mode) cash $18.54, 1 open ===",
   "2026-11-11T04:40:34+00:00  [scan] 22 markets pass filters, 19 not recently researched",
   "2026-11-11T04:40:34+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)",
   "2026-11-11T05:10:36+00:00  === run start (paper mode) cash $18.54, 1 open ===",
@@ -2253,6 +2270,11 @@
   "2026-11-16T00:29:42+00:00  [research] Will Elon Musk post 280-299 tweets from November 10 to November 17, 2026?",
   "2026-11-16T00:29:58+00:00  [decide] AI 0.05 (low) vs market 0.20 -> skip: AI confidence low: not trading on it",
   "2026-11-16T00:29:58+00:00  [research] Fourth Jensen Huang affair reported by November 20?",
-  "2026-11-16T00:30:12+00:00  [decide] AI 0.14 (medium) vs market 0.12 -> skip: AI 0.14 vs market 0.12: agrees with market"
+  "2026-11-16T00:30:12+00:00  [decide] AI 0.14 (medium) vs market 0.12 -> skip: AI 0.14 vs market 0.12: agrees with market",
+  "2026-11-16T01:00:13+00:00  === run start (paper mode) cash $15.59, 2 open ===",
+  "2026-11-16T01:00:19+00:00  [scan] 21 markets pass filters, 17 not recently researched",
+  "2026-11-16T01:00:19+00:00  [research] Will Puma Shen win the next Taipei Mayor election?",
+  "2026-11-16T01:01:04+00:00  [decide] AI 0.50 (low) vs market 0.38 -> skip: AI confidence low: not trading on it",
+  "2026-11-16T01:01:04+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)"
  ]
 }
