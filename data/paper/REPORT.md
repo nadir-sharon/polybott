@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-16T05:02:32+00:00 UTC_
+_Updated 2026-11-16T05:32:40+00:00 UTC_
 
 ## Scoreboard
 
@@ -71,9 +71,6 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 ## Activity log (latest 40)
 
 ```
-2026-11-16T00:29:24+00:00  [scan] 21 markets pass filters, 20 not recently researched
-2026-11-16T00:29:24+00:00  [research] Will Chiang Wan-an win the next Taipei Mayor election?
-2026-11-16T00:29:42+00:00  [decide] AI 0.57 (low) vs market 0.62 -> skip: AI confidence low: not trading on it
 2026-11-16T00:29:42+00:00  [research] Will Elon Musk post 280-299 tweets from November 10 to November 17, 2026?
 2026-11-16T00:29:58+00:00  [decide] AI 0.05 (low) vs market 0.20 -> skip: AI confidence low: not trading on it
 2026-11-16T00:29:58+00:00  [research] Fourth Jensen Huang affair reported by November 20?
@@ -111,4 +108,7 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-16T05:02:26+00:00  [settle] LOST -1.46  NO Will Gemini Carbon be released between November 9 and Novemb
 2026-11-16T05:02:32+00:00  [scan] 22 markets pass filters, 17 not recently researched
 2026-11-16T05:02:32+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)
+2026-11-16T05:32:34+00:00  === run start (paper mode) cash $15.59, 1 open ===
+2026-11-16T05:32:40+00:00  [scan] 22 markets pass filters, 17 not recently researched
+2026-11-16T05:32:40+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)
 ```
