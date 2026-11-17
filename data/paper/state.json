@@ -1605,9 +1605,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-13T01:00:06+00:00  === run start (paper mode) cash $15.59, 2 open ===",
-  "2026-11-13T01:00:19+00:00  [scan] 18 markets pass filters, 13 not recently researched",
-  "2026-11-13T01:00:19+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
   "2026-11-13T01:30:20+00:00  === run start (paper mode) cash $15.59, 2 open ===",
   "2026-11-13T01:30:29+00:00  [scan] 20 markets pass filters, 15 not recently researched",
   "2026-11-13T01:30:29+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
@@ -2404,6 +2401,9 @@
   "2026-11-17T21:48:28+00:00  === run start (paper mode) cash $15.59, 1 open ===",
   "2026-11-17T21:48:28+00:00  [settle] WON  +2.11  NO US x Iran Effective Ceasefire by November 15?",
   "2026-11-17T21:48:35+00:00  [scan] 38 markets pass filters, 35 not recently researched",
-  "2026-11-17T21:48:35+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)"
+  "2026-11-17T21:48:35+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)",
+  "2026-11-17T22:18:37+00:00  === run start (paper mode) cash $20.64, 0 open ===",
+  "2026-11-17T22:18:46+00:00  [scan] 41 markets pass filters, 38 not recently researched",
+  "2026-11-17T22:18:46+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)"
  ]
 }
