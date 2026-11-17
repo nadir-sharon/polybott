@@ -1,38 +1,37 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-17T21:18:26+00:00 UTC_
+_Updated 2026-11-17T21:48:35+00:00 UTC_
 
 ## Scoreboard
 
 | | |
 |---|---|
 | Starting bankroll | $20.00 |
-| Cash now | $15.59 |
-| In open bets (at cost) | $2.94 (1 bets) |
-| Realized profit/loss | **-$1.46** |
+| Cash now | $20.64 |
+| In open bets (at cost) | $0.00 (0 bets) |
+| Realized profit/loss | **$0.64** |
 | AI research spent | $14.67 |
-| Profit after AI costs | **-$16.14** |
-| Settled bets | 1 (0 won, win rate 0%) |
+| Profit after AI costs | **-$14.03** |
+| Settled bets | 2 (1 won, win rate 50%) |
 
 ## Is the AI better than the market?
 
 Brier score on every resolved market the AI studied (lower is better; 0.25 = coin flip).
 This is the number that matters: if the AI isn't beating the market here, wins are luck.
 
-- Resolved forecasts: **42**
-- AI Brier: **0.213**
+- Resolved forecasts: **46**
+- AI Brier: **0.198**
 - Market Brier: **0.200**
 
 ## Open bets
 
-| Opened | Side | Cost | Price | AI / market | Ends | Market |
-|---|---|---|---|---|---|---|
-| 2026-11-13T00:28 | NO | $2.94 | 0.57 | 0.20 / 0.43 | 2026-11-15 | [US x Iran Effective Ceasefire by November 15?](https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108) |
+_None._
 
 ## Settled bets (latest 20)
 
 | Closed | Side | Cost | P/L | Market |
 |---|---|---|---|---|
+| 2026-11-17T21:48 | NO | $2.94 | $2.11 | US x Iran Effective Ceasefire by November 15? |
 | 2026-11-16T05:02 | NO | $1.46 | -$1.46 | Will Gemini Carbon be released between November 9 and November 15, 202 |
 
 ## Latest AI research (10)
@@ -71,10 +70,6 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 ## Activity log (latest 40)
 
 ```
-2026-11-17T15:45:39+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)
-2026-11-17T15:46:05+00:00  === run start (paper mode) cash $15.59, 1 open ===
-2026-11-17T15:46:19+00:00  [scan] 40 markets pass filters, 34 not recently researched
-2026-11-17T15:46:19+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)
 2026-11-17T16:16:22+00:00  === run start (paper mode) cash $15.59, 1 open ===
 2026-11-17T16:16:28+00:00  [scan] 42 markets pass filters, 36 not recently researched
 2026-11-17T16:16:28+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)
@@ -111,4 +106,8 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-17T21:18:20+00:00  === run start (paper mode) cash $15.59, 1 open ===
 2026-11-17T21:18:26+00:00  [scan] 41 markets pass filters, 36 not recently researched
 2026-11-17T21:18:26+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)
+2026-11-17T21:48:28+00:00  === run start (paper mode) cash $15.59, 1 open ===
+2026-11-17T21:48:28+00:00  [settle] WON  +2.11  NO US x Iran Effective Ceasefire by November 15?
+2026-11-17T21:48:35+00:00  [scan] 38 markets pass filters, 35 not recently researched
+2026-11-17T21:48:35+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)
 ```
