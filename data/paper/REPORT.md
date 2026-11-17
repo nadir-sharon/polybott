@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-17T00:09:37+00:00 UTC_
+_Updated 2026-11-17T00:40:11+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-17T00:09:37+00:00 UTC_
 | Cash now | $15.59 |
 | In open bets (at cost) | $2.94 (1 bets) |
 | Realized profit/loss | **-$1.46** |
-| AI research spent | $14.34 |
-| Profit after AI costs | **-$15.80** |
+| AI research spent | $14.67 |
+| Profit after AI costs | **-$16.14** |
 | Settled bets | 1 (0 won, win rate 0%) |
 
 ## Is the AI better than the market?
@@ -37,6 +37,12 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 
 ## Latest AI research (10)
 
+- **Fourth Jensen Huang affair reported by November 20?**  
+  AI 0.09 (medium) vs market 0.21 → NO edge +0.030 after fees < 0.05  
+  _Three affair reports emerged between Oct 29 and Nov 12, but none new since Reuters on Nov 12, and no credible fourth-affair reporting exists as of Nov 17. The remaining window is about 3.5 days and the rules require a clearly distinct fourt_
+- **Will Chiang Wan-an win the next Taipei Mayor election?**  
+  AI 0.50 (low) vs market 0.60 → AI confidence low: not trading on it  
+  _The race is a near toss-up. Final pre-blackout polls split by pollster: TVBS has Chiang up 2 (46–44) and ETtoday has him up 6.1, while UDN, Taiwan Brain Trust, 鋒燦 and the Taipei Trust in Democracy Association have Shen ahead by 1.7 to 14.8 _
 - **Will Elon Musk post 260-279 tweets from November 10 to November 17, 2026?**  
   AI 0.23 (low) vs market 0.54 → AI confidence low: not trading on it  
   _I couldn't find the live tracker count for the Nov 10–17 window. Musk's average pace of about 34 posts per day projects to roughly 240 per week, with some signs of a heavier-than-average week. The 260–279 bucket is plausible but is only one_
@@ -61,23 +67,10 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 - **Will Luka Mesec win the 2026 Ljubljana mayoral election?**  
   AI 0.25 (medium) vs market 0.26 → AI 0.25 vs market 0.26: agrees with market  
   _No results were available yet. Polls show Janković leading Mesec about 33% to 23% in round one and about 54–46 in a hypothetical runoff. SDS signals it would back Janković in a runoff, so Mesec is a clear underdog but has a real chance._
-- **Fourth Jensen Huang affair reported by November 20?**  
-  AI 0.12 (medium) vs market 0.14 → AI 0.12 vs market 0.15: agrees with market  
-  _As of Nov 14-15, major outlets have reported only three relationships (Alice Huang, Kimberly Powell, and Reuters' unnamed employee), with no credible leads on a fourth. The scandal is fast-moving with active investigations, so a new report _
-- **Will Elon Musk post 260-279 tweets from November 10 to November 17, 2026?**  
-  AI 0.09 (low) vs market 0.24 → AI confidence low: not trading on it  
-  _Musk's recent pace is about 33 counted posts a day, which projects to roughly 230 for Nov 10–17 and puts 260–279 around 1–1.7 standard deviations above the mean. I couldn't find the live tracker count for the exact window, so confidence is _
 
 ## Activity log (latest 40)
 
 ```
-2026-11-16T19:06:57+00:00  [scan] 32 markets pass filters, 27 not recently researched
-2026-11-16T19:06:57+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)
-2026-11-16T19:36:59+00:00  === run start (paper mode) cash $15.59, 1 open ===
-2026-11-16T19:37:05+00:00  [scan] 28 markets pass filters, 23 not recently researched
-2026-11-16T19:37:05+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)
-2026-11-16T19:37:35+00:00  === run start (paper mode) cash $15.59, 1 open ===
-2026-11-16T19:37:41+00:00  [scan] 28 markets pass filters, 23 not recently researched
 2026-11-16T19:37:41+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)
 2026-11-16T20:07:43+00:00  === run start (paper mode) cash $15.59, 1 open ===
 2026-11-16T20:07:49+00:00  [scan] 29 markets pass filters, 24 not recently researched
@@ -111,4 +104,11 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-17T00:09:20+00:00  [decide] AI 0.75 (medium) vs market 0.86 -> skip: NO edge +0.029 after fees < 0.05
 2026-11-17T00:09:20+00:00  [research] Will Elon Musk post 260-279 tweets from November 10 to November 17, 2026?
 2026-11-17T00:09:37+00:00  [decide] AI 0.23 (low) vs market 0.54 -> skip: AI confidence low: not trading on it
+2026-11-17T00:39:39+00:00  === run start (paper mode) cash $15.59, 1 open ===
+2026-11-17T00:39:45+00:00  [scan] 34 markets pass filters, 28 not recently researched
+2026-11-17T00:39:45+00:00  [research] Will Chiang Wan-an win the next Taipei Mayor election?
+2026-11-17T00:39:57+00:00  [decide] AI 0.50 (low) vs market 0.60 -> skip: AI confidence low: not trading on it
+2026-11-17T00:39:57+00:00  [research] Fourth Jensen Huang affair reported by November 20?
+2026-11-17T00:40:11+00:00  [decide] AI 0.09 (medium) vs market 0.21 -> skip: NO edge +0.030 after fees < 0.05
+2026-11-17T00:40:11+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)
 ```
