@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-17T04:41:50+00:00 UTC_
+_Updated 2026-11-17T05:11:57+00:00 UTC_
 
 ## Scoreboard
 
@@ -19,9 +19,9 @@ _Updated 2026-11-17T04:41:50+00:00 UTC_
 Brier score on every resolved market the AI studied (lower is better; 0.25 = coin flip).
 This is the number that matters: if the AI isn't beating the market here, wins are luck.
 
-- Resolved forecasts: **38**
-- AI Brier: **0.232**
-- Market Brier: **0.209**
+- Resolved forecasts: **39**
+- AI Brier: **0.228**
+- Market Brier: **0.205**
 
 ## Open bets
 
@@ -71,9 +71,6 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 ## Activity log (latest 40)
 
 ```
-2026-11-17T00:08:50+00:00  [research] Will Lee Shu-chuan win the next New Taipei Mayor election?
-2026-11-17T00:09:03+00:00  [decide] AI 0.37 (medium) vs market 0.41 -> skip: AI 0.37 vs market 0.41: agrees with market
-2026-11-17T00:09:03+00:00  [research] Israel x Iran ceasefire continues through November 30?
 2026-11-17T00:09:20+00:00  [decide] AI 0.75 (medium) vs market 0.86 -> skip: NO edge +0.029 after fees < 0.05
 2026-11-17T00:09:20+00:00  [research] Will Elon Musk post 260-279 tweets from November 10 to November 17, 2026?
 2026-11-17T00:09:37+00:00  [decide] AI 0.23 (low) vs market 0.54 -> skip: AI confidence low: not trading on it
@@ -111,4 +108,7 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-17T04:41:44+00:00  === run start (paper mode) cash $15.59, 1 open ===
 2026-11-17T04:41:50+00:00  [scan] 31 markets pass filters, 24 not recently researched
 2026-11-17T04:41:50+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)
+2026-11-17T05:11:52+00:00  === run start (paper mode) cash $15.59, 1 open ===
+2026-11-17T05:11:57+00:00  [scan] 48 markets pass filters, 42 not recently researched
+2026-11-17T05:11:57+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)
 ```
