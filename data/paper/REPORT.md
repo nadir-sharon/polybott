@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-18T03:52:38+00:00 UTC_
+_Updated 2026-11-18T04:22:45+00:00 UTC_
 
 ## Scoreboard
 
@@ -72,9 +72,6 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 ## Activity log (latest 40)
 
 ```
-2026-11-17T23:49:10+00:00  === run start (paper mode) cash $20.64, 0 open ===
-2026-11-17T23:49:16+00:00  [scan] 41 markets pass filters, 38 not recently researched
-2026-11-17T23:49:16+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)
 2026-11-18T00:19:18+00:00  === run start (paper mode) cash $20.64, 0 open ===
 2026-11-18T00:19:24+00:00  [scan] 43 markets pass filters, 42 not recently researched
 2026-11-18T00:19:24+00:00  [research] Will Puma Shen win the next Taipei Mayor election?
@@ -112,4 +109,7 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-18T03:52:32+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-18T03:52:38+00:00  [scan] 39 markets pass filters, 34 not recently researched
 2026-11-18T03:52:38+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
+2026-11-18T04:22:40+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-18T04:22:45+00:00  [scan] 40 markets pass filters, 35 not recently researched
+2026-11-18T04:22:45+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
 ```
