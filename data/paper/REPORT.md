@@ -1,17 +1,17 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-17T23:49:16+00:00 UTC_
+_Updated 2026-11-18T00:20:19+00:00 UTC_
 
 ## Scoreboard
 
 | | |
 |---|---|
 | Starting bankroll | $20.00 |
-| Cash now | $20.64 |
-| In open bets (at cost) | $0.00 (0 bets) |
+| Cash now | $17.60 |
+| In open bets (at cost) | $3.04 (1 bets) |
 | Realized profit/loss | **$0.64** |
-| AI research spent | $14.67 |
-| Profit after AI costs | **-$14.03** |
+| AI research spent | $15.26 |
+| Profit after AI costs | **-$14.61** |
 | Settled bets | 2 (1 won, win rate 50%) |
 
 ## Is the AI better than the market?
@@ -25,7 +25,9 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 
 ## Open bets
 
-_None._
+| Opened | Side | Cost | Price | AI / market | Ends | Market |
+|---|---|---|---|---|---|---|
+| 2026-11-18T00:20 | NO | $3.04 | 0.59 | 0.07 / 0.41 | 2026-11-22 | [US x Iran Effective Ceasefire by November 22?](https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108) |
 
 ## Settled bets (latest 20)
 
@@ -36,6 +38,15 @@ _None._
 
 ## Latest AI research (10)
 
+- **Israel x Iran ceasefire continues through November 30?**  
+  AI 0.75 (medium) vs market 0.84 → AI 0.75 vs market 0.84: agrees with market  
+  _No confirmed Israel–Iran direct strikes have occurred recently. Current clashes are US–Iran and Iran–Gulf, which don't count under the rules. Plans for renewed US-Israeli strikes and high tension create a meaningful chance (~25%) of direct _
+- **US x Iran Effective Ceasefire by November 22?**  
+  AI 0.07 (medium) vs market 0.41 → edge found  
+  _The US struck Qeshm Island on 17 November, and strikes are recurring every 4–11 days amid rising Iranian attacks on Bahrain and Hormuz shipping. No ceasefire is in force and talks are stalled, so a full 14-day period with no US strike is un_
+- **Will Puma Shen win the next Taipei Mayor election?**  
+  AI 0.42 (low) vs market 0.41 → AI confidence low: not trading on it  
+  _Final pre-election polls are sharply split by pollster: green-leaning and independent polls show Shen ahead, while TVBS, ETtoday and China Times show Chiang ahead. Chiang's incumbency, Taipei's KMT lean and KMT–TPP cooperation give him a sl_
 - **Fourth Jensen Huang affair reported by November 20?**  
   AI 0.09 (medium) vs market 0.21 → NO edge +0.030 after fees < 0.05  
   _Three affair reports emerged between Oct 29 and Nov 12, but none new since Reuters on Nov 12, and no credible fourth-affair reporting exists as of Nov 17. The remaining window is about 3.5 days and the rules require a clearly distinct fourt_
@@ -57,28 +68,10 @@ _None._
 - **Fourth Jensen Huang affair reported by November 20?**  
   AI 0.14 (medium) vs market 0.12 → AI 0.14 vs market 0.12: agrees with market  
   _Three affairs were reported between Nov 8 and Nov 12, but I found no report of a fourth as of Nov 16, and coverage has moved toward the spy and congressional angles. The story is hot and the resolution rules are broad, so a fourth report wi_
-- **Will Elon Musk post 280-299 tweets from November 10 to November 17, 2026?**  
-  AI 0.05 (low) vs market 0.20 → AI confidence low: not trading on it  
-  _I couldn't find the live tracker count for Nov 10–17. Recent weekly totals have been about 220–259 and the pace over Nov 12–16 looks modest. Reaching 280–299 would need roughly 40 or more posts a day, so I treat it as a small tail outcome._
-- **Will Chiang Wan-an win the next Taipei Mayor election?**  
-  AI 0.57 (low) vs market 0.62 → AI confidence low: not trading on it  
-  _Polls are split. The ETtoday and TVBS polls give Chiang a lead, while the UDN poll and several DPP-linked polls give Shen one. Shen has gained since May, but Taipei's blue lean and Chiang's incumbency keep Chiang as a slight favorite._
-- **Will Luka Mesec win the 2026 Ljubljana mayoral election?**  
-  AI 0.25 (medium) vs market 0.26 → AI 0.25 vs market 0.26: agrees with market  
-  _No results were available yet. Polls show Janković leading Mesec about 33% to 23% in round one and about 54–46 in a hypothetical runoff. SDS signals it would back Janković in a runoff, so Mesec is a clear underdog but has a real chance._
 
 ## Activity log (latest 40)
 
 ```
-2026-11-17T18:16:55+00:00  === run start (paper mode) cash $15.59, 1 open ===
-2026-11-17T18:17:02+00:00  [scan] 43 markets pass filters, 37 not recently researched
-2026-11-17T18:17:02+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)
-2026-11-17T18:47:04+00:00  === run start (paper mode) cash $15.59, 1 open ===
-2026-11-17T18:47:10+00:00  [scan] 42 markets pass filters, 36 not recently researched
-2026-11-17T18:47:10+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)
-2026-11-17T19:17:12+00:00  === run start (paper mode) cash $15.59, 1 open ===
-2026-11-17T19:17:19+00:00  [scan] 38 markets pass filters, 33 not recently researched
-2026-11-17T19:17:19+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)
 2026-11-17T19:47:21+00:00  === run start (paper mode) cash $15.59, 1 open ===
 2026-11-17T19:47:27+00:00  [scan] 39 markets pass filters, 34 not recently researched
 2026-11-17T19:47:27+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)
@@ -110,4 +103,13 @@ _None._
 2026-11-17T23:49:10+00:00  === run start (paper mode) cash $20.64, 0 open ===
 2026-11-17T23:49:16+00:00  [scan] 41 markets pass filters, 38 not recently researched
 2026-11-17T23:49:16+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)
+2026-11-18T00:19:18+00:00  === run start (paper mode) cash $20.64, 0 open ===
+2026-11-18T00:19:24+00:00  [scan] 43 markets pass filters, 42 not recently researched
+2026-11-18T00:19:24+00:00  [research] Will Puma Shen win the next Taipei Mayor election?
+2026-11-18T00:19:38+00:00  [decide] AI 0.42 (low) vs market 0.41 -> skip: AI confidence low: not trading on it
+2026-11-18T00:19:38+00:00  [research] US x Iran Effective Ceasefire by November 22?
+2026-11-18T00:20:00+00:00  [decide] AI 0.07 (medium) vs market 0.41 -> TRADE NO: edge found
+2026-11-18T00:20:00+00:00  [order] PAPER BUY NO 5.05 sh @ 0.590 = $3.04  (edge +0.104)  US x Iran Effective Ceasefire by November 22?
+2026-11-18T00:20:00+00:00  [research] Israel x Iran ceasefire continues through November 30?
+2026-11-18T00:20:19+00:00  [decide] AI 0.75 (medium) vs market 0.84 -> skip: AI 0.75 vs market 0.84: agrees with market
 ```

@@ -1,8 +1,31 @@
 {
  "created": "2026-11-02T17:29:00+00:00",
  "starting_bankroll": 20.0,
- "cash": 20.644708,
- "positions": {},
+ "cash": 17.604128,
+ "positions": {
+  "5ea5d69299": {
+   "id": "5ea5d69299",
+   "opened_at": "2026-11-18T00:20:00+00:00",
+   "market_id": "6831495",
+   "event_id": "1337182",
+   "condition_id": "0x3c7507dd1bc657badd37831e75cfe4865eba54f0f237129b22698791b9383f53",
+   "question": "US x Iran Effective Ceasefire by November 22?",
+   "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108",
+   "end_date": "2026-11-22T20:29:00+00:00",
+   "side": "NO",
+   "token_id": "64443007855130745231609600262908866699894696895905874861358413007539308268810",
+   "shares": 5.05,
+   "avg_price": 0.59,
+   "cost": 3.0406,
+   "fair_prob": 0.7057,
+   "edge": 0.1037,
+   "ai_prob": 0.07,
+   "confidence": "medium",
+   "market_mid": 0.415,
+   "order_id": "paper",
+   "mode": "paper"
+  }
+ },
  "closed": [
   {
    "id": "9705fedc88",
@@ -1579,6 +1602,70 @@
    "decision": "NO edge +0.030 after fees < 0.05",
    "traded": false,
    "url": "https://polymarket.com/event/fourth-jensen-huang-affair-reported-by-december-31"
+  },
+  {
+   "ts": "2026-11-18T00:19:38+00:00",
+   "market_id": "3580933",
+   "question": "Will Puma Shen win the next Taipei Mayor election?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.42,
+   "confidence": "low",
+   "market_mid": 0.4115,
+   "summary": "Final pre-election polls are sharply split by pollster: green-leaning and independent polls show Shen ahead, while TVBS, ETtoday and China Times show Chiang ahead. Chiang's incumbency, Taipei's KMT lean and KMT\u2013TPP cooperation give him a slight edge, so the race is essentially a toss-up.",
+   "sources": [
+    "https://www.taipeitimes.com/News/front/archives/2026/11/17/2003867865",
+    "https://theinitium.com/20261117-whatsnew-taipei-mayor-election-final-polls/",
+    "https://www.worldjournal.com/wj/story/121218/9883409",
+    "https://news.ltn.com.tw/news/politics/breakingnews/5643249",
+    "https://www.taiwannews.com.tw/news/6476596"
+   ],
+   "cost": 0.1529,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100"
+  },
+  {
+   "ts": "2026-11-18T00:20:00+00:00",
+   "market_id": "6831495",
+   "question": "US x Iran Effective Ceasefire by November 22?",
+   "end_date": "2026-11-22T20:29:00+00:00",
+   "ai_prob": 0.07,
+   "confidence": "medium",
+   "market_mid": 0.415,
+   "summary": "The US struck Qeshm Island on 17 November, and strikes are recurring every 4\u201311 days amid rising Iranian attacks on Bahrain and Hormuz shipping. No ceasefire is in force and talks are stalled, so a full 14-day period with no US strike is unlikely, though Trump has signaled restraint and an August lull shows it can happen.",
+   "sources": [
+    "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/",
+    "https://iranwarlive.com/",
+    "https://www.usnews.com/news/world/articles/2026-11-17/trump-and-tehran-gamble-on-time-as-iran-war-stalemate-deepens",
+    "https://www.hngn.com/articles/273810/20261117/trump-says-no-iran-deal-needed-pulls-vance-talks.htm",
+    "https://www.foxnews.com/world/us-carries-out-self-defense-strike-irgc-missile-launch-site-qeshm-island"
+   ],
+   "cost": 0.2014,
+   "decision": "edge found",
+   "traded": true,
+   "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108"
+  },
+  {
+   "ts": "2026-11-18T00:20:19+00:00",
+   "market_id": "3902370",
+   "question": "Israel x Iran ceasefire continues through November 30?",
+   "end_date": "2026-11-30T20:29:00+00:00",
+   "ai_prob": 0.75,
+   "confidence": "medium",
+   "market_mid": 0.845,
+   "summary": "No confirmed Israel\u2013Iran direct strikes have occurred recently. Current clashes are US\u2013Iran and Iran\u2013Gulf, which don't count under the rules. Plans for renewed US-Israeli strikes and high tension create a meaningful chance (~25%) of direct exchange before Nov 30.",
+   "sources": [
+    "https://www.timesofisrael.com/liveblog-november-17-2026/",
+    "https://www.aljazeera.com/news/2026/11/13/can-netanyahu-launch-a-strike-on-iran-before-he-leaves",
+    "http://www.jpost.com/israel-news/defense-news/article-914897",
+    "https://www.iranintl.com/en/202611166600",
+    "https://www.washingtonpost.com/world/2026/11/17/netanyahu-is-pushing-new-iran-attack-bid-stay-power-his-rivals-warn/",
+    "https://www.britannica.com/event/2026-Iran-war"
+   ],
+   "cost": 0.2298,
+   "decision": "AI 0.75 vs market 0.84: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
   }
  ],
  "ai_spend": {
@@ -1597,7 +1684,8 @@
   "2026-11-14": 0.892836,
   "2026-11-15": 0.909028,
   "2026-11-16": 1.108918,
-  "2026-11-17": 0.919298
+  "2026-11-17": 0.919298,
+  "2026-11-18": 0.584056
  },
  "realized_by_day": {
   "2026-11-16": -1.4649,
@@ -1605,15 +1693,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-13T03:00:54+00:00  === run start (paper mode) cash $15.59, 2 open ===",
-  "2026-11-13T03:01:02+00:00  [scan] 21 markets pass filters, 16 not recently researched",
-  "2026-11-13T03:01:02+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
-  "2026-11-13T03:31:04+00:00  === run start (paper mode) cash $15.59, 2 open ===",
-  "2026-11-13T03:31:12+00:00  [scan] 19 markets pass filters, 15 not recently researched",
-  "2026-11-13T03:31:12+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
-  "2026-11-13T04:01:14+00:00  === run start (paper mode) cash $15.59, 2 open ===",
-  "2026-11-13T04:01:22+00:00  [scan] 23 markets pass filters, 19 not recently researched",
-  "2026-11-13T04:01:22+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
   "2026-11-13T04:31:23+00:00  === run start (paper mode) cash $15.59, 2 open ===",
   "2026-11-13T04:31:31+00:00  [scan] 22 markets pass filters, 17 not recently researched",
   "2026-11-13T04:31:31+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
@@ -2404,6 +2483,15 @@
   "2026-11-17T23:19:08+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)",
   "2026-11-17T23:49:10+00:00  === run start (paper mode) cash $20.64, 0 open ===",
   "2026-11-17T23:49:16+00:00  [scan] 41 markets pass filters, 38 not recently researched",
-  "2026-11-17T23:49:16+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)"
+  "2026-11-17T23:49:16+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)",
+  "2026-11-18T00:19:18+00:00  === run start (paper mode) cash $20.64, 0 open ===",
+  "2026-11-18T00:19:24+00:00  [scan] 43 markets pass filters, 42 not recently researched",
+  "2026-11-18T00:19:24+00:00  [research] Will Puma Shen win the next Taipei Mayor election?",
+  "2026-11-18T00:19:38+00:00  [decide] AI 0.42 (low) vs market 0.41 -> skip: AI confidence low: not trading on it",
+  "2026-11-18T00:19:38+00:00  [research] US x Iran Effective Ceasefire by November 22?",
+  "2026-11-18T00:20:00+00:00  [decide] AI 0.07 (medium) vs market 0.41 -> TRADE NO: edge found",
+  "2026-11-18T00:20:00+00:00  [order] PAPER BUY NO 5.05 sh @ 0.590 = $3.04  (edge +0.104)  US x Iran Effective Ceasefire by November 22?",
+  "2026-11-18T00:20:00+00:00  [research] Israel x Iran ceasefire continues through November 30?",
+  "2026-11-18T00:20:19+00:00  [decide] AI 0.75 (medium) vs market 0.84 -> skip: AI 0.75 vs market 0.84: agrees with market"
  ]
 }
