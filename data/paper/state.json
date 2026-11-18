@@ -1666,6 +1666,49 @@
    "decision": "AI 0.75 vs market 0.84: agrees with market",
    "traded": false,
    "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
+  },
+  {
+   "ts": "2026-11-18T00:51:06+00:00",
+   "market_id": "3580932",
+   "question": "Will Chiang Wan-an win the next Taipei Mayor election?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.54,
+   "confidence": "low",
+   "market_mid": 0.595,
+   "summary": "The Taipei mayoral race is a genuine toss-up. Final polls are split, with TVBS, ETtoday and China Times showing Chiang ahead and several DPP-leaning and academic polls showing Shen ahead. Incumbency, older-voter turnout and Taiwan People's Party voters favour Chiang, while Shen has strong momentum.",
+   "sources": [
+    "https://www.taipeitimes.com/News/front/archives/2026/11/17/2003867865",
+    "https://theinitium.com/20261117-whatsnew-taipei-mayor-election-final-polls/",
+    "https://news.tvbs.com.tw/politics/4051318",
+    "https://www.worldjournal.com/wj/story/121218/9883409",
+    "https://news.ltn.com.tw/news/politics/breakingnews/5643249",
+    "https://asianews.network/can-kmts-chiang-wan-an-rally-supporters-in-tight-mayor-race-to-defend-his-taipei-seat/"
+   ],
+   "cost": 0.2605,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100"
+  },
+  {
+   "ts": "2026-11-18T00:51:24+00:00",
+   "market_id": "7043350",
+   "question": "Will Elon Musk post 65-89 tweets from November 16 to November 18, 2026?",
+   "end_date": "2026-11-18T17:00:00+00:00",
+   "ai_prob": 0.43,
+   "confidence": "low",
+   "market_mid": 0.13,
+   "summary": "Musk's typical tracker pace of about 35\u201344 posts a day implies a two-day total centred around 70\u201390, so the 65\u201389 band is plausible. Busy news on Nov 16 raises the chance of exceeding 89, and I couldn't find the live count so far.",
+   "sources": [
+    "https://twitterapi.io/blog/polymarket-bot",
+    "https://predictiontape.com/markets/tech/elon-musk-tweet-count/",
+    "https://www.youtube.com/watch?v=MvJOCMKbMB4",
+    "https://www.chaincatcher.com/en/article/2305412",
+    "https://www.lines.com/prediction-markets/politics/elon-musk-of-tweets-november-2026"
+   ],
+   "cost": 0.1818,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-16-november-18-2026"
   }
  ],
  "ai_spend": {
@@ -1685,7 +1728,7 @@
   "2026-11-15": 0.909028,
   "2026-11-16": 1.108918,
   "2026-11-17": 0.919298,
-  "2026-11-18": 0.584056
+  "2026-11-18": 1.026364
  },
  "realized_by_day": {
   "2026-11-16": -1.4649,
@@ -1693,13 +1736,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-13T04:31:23+00:00  === run start (paper mode) cash $15.59, 2 open ===",
-  "2026-11-13T04:31:31+00:00  [scan] 22 markets pass filters, 17 not recently researched",
-  "2026-11-13T04:31:31+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
-  "2026-11-13T05:01:33+00:00  === run start (paper mode) cash $15.59, 2 open ===",
-  "2026-11-13T05:01:40+00:00  [scan] 21 markets pass filters, 17 not recently researched",
-  "2026-11-13T05:01:40+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
-  "2026-11-13T05:31:42+00:00  === run start (paper mode) cash $15.59, 2 open ===",
   "2026-11-13T05:31:53+00:00  [scan] 21 markets pass filters, 17 not recently researched",
   "2026-11-13T05:31:53+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
   "2026-11-13T06:01:55+00:00  === run start (paper mode) cash $15.59, 2 open ===",
@@ -2492,6 +2528,13 @@
   "2026-11-18T00:20:00+00:00  [decide] AI 0.07 (medium) vs market 0.41 -> TRADE NO: edge found",
   "2026-11-18T00:20:00+00:00  [order] PAPER BUY NO 5.05 sh @ 0.590 = $3.04  (edge +0.104)  US x Iran Effective Ceasefire by November 22?",
   "2026-11-18T00:20:00+00:00  [research] Israel x Iran ceasefire continues through November 30?",
-  "2026-11-18T00:20:19+00:00  [decide] AI 0.75 (medium) vs market 0.84 -> skip: AI 0.75 vs market 0.84: agrees with market"
+  "2026-11-18T00:20:19+00:00  [decide] AI 0.75 (medium) vs market 0.84 -> skip: AI 0.75 vs market 0.84: agrees with market",
+  "2026-11-18T00:50:21+00:00  === run start (paper mode) cash $17.60, 1 open ===",
+  "2026-11-18T00:50:27+00:00  [scan] 39 markets pass filters, 35 not recently researched",
+  "2026-11-18T00:50:27+00:00  [research] Will Chiang Wan-an win the next Taipei Mayor election?",
+  "2026-11-18T00:51:06+00:00  [decide] AI 0.54 (low) vs market 0.59 -> skip: AI confidence low: not trading on it",
+  "2026-11-18T00:51:06+00:00  [research] Will Elon Musk post 65-89 tweets from November 16 to November 18, 2026?",
+  "2026-11-18T00:51:24+00:00  [decide] AI 0.43 (low) vs market 0.13 -> skip: AI confidence low: not trading on it",
+  "2026-11-18T00:51:24+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)"
  ]
 }
