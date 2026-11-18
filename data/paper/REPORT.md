@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-18T01:51:46+00:00 UTC_
+_Updated 2026-11-18T01:52:08+00:00 UTC_
 
 ## Scoreboard
 
@@ -72,9 +72,6 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 ## Activity log (latest 40)
 
 ```
-2026-11-17T21:18:26+00:00  [scan] 41 markets pass filters, 36 not recently researched
-2026-11-17T21:18:26+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)
-2026-11-17T21:48:28+00:00  === run start (paper mode) cash $15.59, 1 open ===
 2026-11-17T21:48:28+00:00  [settle] WON  +2.11  NO US x Iran Effective Ceasefire by November 15?
 2026-11-17T21:48:35+00:00  [scan] 38 markets pass filters, 35 not recently researched
 2026-11-17T21:48:35+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)
@@ -112,4 +109,7 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-18T01:51:40+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-18T01:51:46+00:00  [scan] 39 markets pass filters, 34 not recently researched
 2026-11-18T01:51:46+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
+2026-11-18T01:52:02+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-18T01:52:08+00:00  [scan] 37 markets pass filters, 32 not recently researched
+2026-11-18T01:52:08+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
 ```
