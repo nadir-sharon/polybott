@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-18T23:59:55+00:00 UTC_
+_Updated 2026-11-19T00:30:57+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-18T23:59:55+00:00 UTC_
 | Cash now | $17.60 |
 | In open bets (at cost) | $3.04 (1 bets) |
 | Realized profit/loss | **$0.64** |
-| AI research spent | $15.70 |
-| Profit after AI costs | **-$15.06** |
+| AI research spent | $16.44 |
+| Profit after AI costs | **-$15.79** |
 | Settled bets | 2 (1 won, win rate 50%) |
 
 ## Is the AI better than the market?
@@ -38,6 +38,15 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 
 ## Latest AI research (10)
 
+- **Will Elon Musk post 320-339 tweets from November 13 to November 20, 2026?**  
+  AI 0.07 (low) vs market 0.25 → AI confidence low: not trading on it  
+  _I couldn't find a live tracker count for the Nov 13–20 window. Musk's typical weekly range is about 120–260, with recent weeks at 200–260, so 320–339 would need roughly 46+ posts a day. That is a tail outcome unless posting surged this week_
+- **Will Puma Shen win the next Taipei Mayor election?**  
+  AI 0.45 (low) vs market 0.41 → AI confidence low: not trading on it  
+  _Pre-blackout polls are split: DPP-leaning and some neutral polls show Shen up 2–5 points, while TVBS and ETtoday show Chiang up 2–6. Taipei's blue-leaning structure and the incumbent's advantage push slightly toward Chiang, so this is rough_
+- **Israel x Iran ceasefire continues through November 30?**  
+  AI 0.78 (medium) vs market 0.82 → AI 0.78 vs market 0.82: agrees with market  
+  _No direct Israel–Iran strikes appear to have occurred since about August, and Trump has been restraining Netanyahu. However, US–Iran tit-for-tat strikes are escalating, and Israel and the US are actively preparing renewed strikes, so the ch_
 - **Will Elon Musk post 65-89 tweets from November 16 to November 18, 2026?**  
   AI 0.43 (low) vs market 0.13 → AI confidence low: not trading on it  
   _Musk's typical tracker pace of about 35–44 posts a day implies a two-day total centred around 70–90, so the 65–89 band is plausible. Busy news on Nov 16 raises the chance of exceeding 89, and I couldn't find the live count so far._
@@ -59,27 +68,10 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 - **Will Chiang Wan-an win the next Taipei Mayor election?**  
   AI 0.50 (low) vs market 0.60 → AI confidence low: not trading on it  
   _The race is a near toss-up. Final pre-blackout polls split by pollster: TVBS has Chiang up 2 (46–44) and ETtoday has him up 6.1, while UDN, Taiwan Brain Trust, 鋒燦 and the Taipei Trust in Democracy Association have Shen ahead by 1.7 to 14.8 _
-- **Will Elon Musk post 260-279 tweets from November 10 to November 17, 2026?**  
-  AI 0.23 (low) vs market 0.54 → AI confidence low: not trading on it  
-  _I couldn't find the live tracker count for the Nov 10–17 window. Musk's average pace of about 34 posts per day projects to roughly 240 per week, with some signs of a heavier-than-average week. The 260–279 bucket is plausible but is only one_
-- **Israel x Iran ceasefire continues through November 30?**  
-  AI 0.75 (medium) vs market 0.86 → NO edge +0.029 after fees < 0.05  
-  _No direct Israel–Iran strikes appear to have occurred since June 8, 2026, but tensions are elevated. Israeli and US strike planning is reported and a possible strike 'within days' is being discussed, though Israeli defense officials and Tru_
-- **Will Lee Shu-chuan win the next New Taipei Mayor election?**  
-  AI 0.37 (medium) vs market 0.41 → AI 0.37 vs market 0.41: agrees with market  
-  _Most recent independent polls show DPP's Su Chiao-hui ahead of KMT's Lee Shu-chuan by 3 to 15 points. Only the China Times closing poll (Lee +3.6) and a KMT-commissioned TVBS poll show Lee ahead. The race is close with many undecideds, and _
 
 ## Activity log (latest 40)
 
 ```
-2026-11-18T17:57:43+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
-2026-11-18T18:27:45+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-18T18:27:51+00:00  [scan] 38 markets pass filters, 33 not recently researched
-2026-11-18T18:27:51+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
-2026-11-18T18:57:53+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-18T18:57:59+00:00  [scan] 40 markets pass filters, 35 not recently researched
-2026-11-18T18:57:59+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
-2026-11-18T19:28:01+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-18T19:28:07+00:00  [scan] 42 markets pass filters, 37 not recently researched
 2026-11-18T19:28:07+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
 2026-11-18T19:58:09+00:00  === run start (paper mode) cash $17.60, 1 open ===
@@ -112,4 +104,12 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-18T23:59:49+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-18T23:59:55+00:00  [scan] 40 markets pass filters, 35 not recently researched
 2026-11-18T23:59:55+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
+2026-11-19T00:29:56+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-19T00:30:02+00:00  [scan] 37 markets pass filters, 34 not recently researched
+2026-11-19T00:30:02+00:00  [research] Israel x Iran ceasefire continues through November 30?
+2026-11-19T00:30:23+00:00  [decide] AI 0.78 (medium) vs market 0.82 -> skip: AI 0.78 vs market 0.82: agrees with market
+2026-11-19T00:30:23+00:00  [research] Will Puma Shen win the next Taipei Mayor election?
+2026-11-19T00:30:39+00:00  [decide] AI 0.45 (low) vs market 0.41 -> skip: AI confidence low: not trading on it
+2026-11-19T00:30:39+00:00  [research] Will Elon Musk post 320-339 tweets from November 13 to November 20, 2026?
+2026-11-19T00:30:57+00:00  [decide] AI 0.07 (low) vs market 0.25 -> skip: AI confidence low: not trading on it
 ```

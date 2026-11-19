@@ -1715,6 +1715,70 @@
    "traded": false,
    "url": "https://polymarket.com/event/elon-musk-of-tweets-november-16-november-18-2026",
    "yes_payout": 0.0
+  },
+  {
+   "ts": "2026-11-19T00:30:23+00:00",
+   "market_id": "3902370",
+   "question": "Israel x Iran ceasefire continues through November 30?",
+   "end_date": "2026-11-30T20:29:00+00:00",
+   "ai_prob": 0.78,
+   "confidence": "medium",
+   "market_mid": 0.825,
+   "summary": "No direct Israel\u2013Iran strikes appear to have occurred since about August, and Trump has been restraining Netanyahu. However, US\u2013Iran tit-for-tat strikes are escalating, and Israel and the US are actively preparing renewed strikes, so the chance of a breakdown in the next 11 days is meaningful.",
+   "sources": [
+    "https://www.aljazeera.com/news/2026/11/13/can-netanyahu-launch-a-strike-on-iran-before-he-leaves",
+    "https://www.iranintl.com/en/202611166600",
+    "https://www.timesofisrael.com/liveblog-november-18-2026/",
+    "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-18-2026-1.500751757",
+    "https://www.britannica.com/event/2026-Iran-war",
+    "https://www.jpost.com/israel-news/defense-news/article-914897"
+   ],
+   "cost": 0.3469,
+   "decision": "AI 0.78 vs market 0.82: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
+  },
+  {
+   "ts": "2026-11-19T00:30:39+00:00",
+   "market_id": "3580933",
+   "question": "Will Puma Shen win the next Taipei Mayor election?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.45,
+   "confidence": "low",
+   "market_mid": 0.405,
+   "summary": "Pre-blackout polls are split: DPP-leaning and some neutral polls show Shen up 2\u20135 points, while TVBS and ETtoday show Chiang up 2\u20136. Taipei's blue-leaning structure and the incumbent's advantage push slightly toward Chiang, so this is roughly a toss-up with a slight Chiang edge.",
+   "sources": [
+    "https://www.taiwannews.com.tw/news/6476947",
+    "https://theinitium.com/20261117-whatsnew-taipei-mayor-election-final-polls/",
+    "https://tw.news.yahoo.com/tvbs%E5%8F%B0%E5%8C%97%E5%B8%82%E9%95%B7%E5%B0%81%E9%97%9C%E6%B0%91%E8%AA%BF-%E8%94%A3%E8%90%AC%E5%AE%89%E6%94%AF%E6%8C%81%E5%BA%A646%E3%80%81%E6%B2%88%E4%BC%AF%E6%B4%8B44-085350910.html",
+    "https://news.ltn.com.tw/news/politics/breakingnews/5643249",
+    "https://www.chinatimes.com/realtimenews/20261116002256-260407"
+   ],
+   "cost": 0.1572,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100"
+  },
+  {
+   "ts": "2026-11-19T00:30:57+00:00",
+   "market_id": "6921905",
+   "question": "Will Elon Musk post 320-339 tweets from November 13 to November 20, 2026?",
+   "end_date": "2026-11-20T17:00:00+00:00",
+   "ai_prob": 0.07,
+   "confidence": "low",
+   "market_mid": 0.251,
+   "summary": "I couldn't find a live tracker count for the Nov 13\u201320 window. Musk's typical weekly range is about 120\u2013260, with recent weeks at 200\u2013260, so 320\u2013339 would need roughly 46+ posts a day. That is a tail outcome unless posting surged this week.",
+   "sources": [
+    "https://polystrike.xyz/",
+    "https://www.chaincatcher.com/en/article/2305412",
+    "https://www.chaincatcher.com/en/article/2304594",
+    "https://polystrike.xyz/elon/week/2026-07-10",
+    "https://www.youtube.com/watch?v=o0nzJmQcswc"
+   ],
+   "cost": 0.2307,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-13-november-20-2026"
   }
  ],
  "ai_spend": {
@@ -1734,7 +1798,8 @@
   "2026-11-15": 0.909028,
   "2026-11-16": 1.108918,
   "2026-11-17": 0.919298,
-  "2026-11-18": 1.026364
+  "2026-11-18": 1.026364,
+  "2026-11-19": 0.734768
  },
  "realized_by_day": {
   "2026-11-16": -1.4649,
@@ -1742,14 +1807,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-14T03:43:07+00:00  === run start (paper mode) cash $15.59, 2 open ===",
-  "2026-11-14T03:43:14+00:00  [scan] 25 markets pass filters, 21 not recently researched",
-  "2026-11-14T03:43:14+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)",
-  "2026-11-14T04:13:16+00:00  === run start (paper mode) cash $15.59, 2 open ===",
-  "2026-11-14T04:13:26+00:00  [scan] 21 markets pass filters, 17 not recently researched",
-  "2026-11-14T04:13:26+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)",
-  "2026-11-14T04:43:28+00:00  === run start (paper mode) cash $15.59, 2 open ===",
-  "2026-11-14T04:43:39+00:00  [scan] 22 markets pass filters, 18 not recently researched",
   "2026-11-14T04:43:39+00:00  [budget] daily AI budget $1.00 reached (spent $0.89)",
   "2026-11-14T05:13:41+00:00  === run start (paper mode) cash $15.59, 2 open ===",
   "2026-11-14T05:13:50+00:00  [scan] 20 markets pass filters, 17 not recently researched",
@@ -2541,6 +2598,14 @@
   "2026-11-18T23:29:47+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
   "2026-11-18T23:59:49+00:00  === run start (paper mode) cash $17.60, 1 open ===",
   "2026-11-18T23:59:55+00:00  [scan] 40 markets pass filters, 35 not recently researched",
-  "2026-11-18T23:59:55+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)"
+  "2026-11-18T23:59:55+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
+  "2026-11-19T00:29:56+00:00  === run start (paper mode) cash $17.60, 1 open ===",
+  "2026-11-19T00:30:02+00:00  [scan] 37 markets pass filters, 34 not recently researched",
+  "2026-11-19T00:30:02+00:00  [research] Israel x Iran ceasefire continues through November 30?",
+  "2026-11-19T00:30:23+00:00  [decide] AI 0.78 (medium) vs market 0.82 -> skip: AI 0.78 vs market 0.82: agrees with market",
+  "2026-11-19T00:30:23+00:00  [research] Will Puma Shen win the next Taipei Mayor election?",
+  "2026-11-19T00:30:39+00:00  [decide] AI 0.45 (low) vs market 0.41 -> skip: AI confidence low: not trading on it",
+  "2026-11-19T00:30:39+00:00  [research] Will Elon Musk post 320-339 tweets from November 13 to November 20, 2026?",
+  "2026-11-19T00:30:57+00:00  [decide] AI 0.07 (low) vs market 0.25 -> skip: AI confidence low: not trading on it"
  ]
 }
