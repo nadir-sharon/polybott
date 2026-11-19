@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-19T00:30:57+00:00 UTC_
+_Updated 2026-11-19T01:01:17+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-19T00:30:57+00:00 UTC_
 | Cash now | $17.60 |
 | In open bets (at cost) | $3.04 (1 bets) |
 | Realized profit/loss | **$0.64** |
-| AI research spent | $16.44 |
-| Profit after AI costs | **-$15.79** |
+| AI research spent | $16.58 |
+| Profit after AI costs | **-$15.94** |
 | Settled bets | 2 (1 won, win rate 50%) |
 
 ## Is the AI better than the market?
@@ -38,6 +38,9 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 
 ## Latest AI research (10)
 
+- **Will Chiang Wan-an win the next Taipei Mayor election?**  
+  AI 0.52 (low) vs market 0.59 → AI confidence low: not trading on it  
+  _The Taipei mayoral race is a near toss-up. Final polls split by pollster lean: DPP-friendly polls show Shen ahead, while TVBS and ETtoday show Chiang ahead by 2 to 6 points. Chiang's incumbency and pan-blue base offset Shen's late momentum,_
 - **Will Elon Musk post 320-339 tweets from November 13 to November 20, 2026?**  
   AI 0.07 (low) vs market 0.25 → AI confidence low: not trading on it  
   _I couldn't find a live tracker count for the Nov 13–20 window. Musk's typical weekly range is about 120–260, with recent weeks at 200–260, so 320–339 would need roughly 46+ posts a day. That is a tail outcome unless posting surged this week_
@@ -65,18 +68,10 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 - **Fourth Jensen Huang affair reported by November 20?**  
   AI 0.09 (medium) vs market 0.21 → NO edge +0.030 after fees < 0.05  
   _Three affair reports emerged between Oct 29 and Nov 12, but none new since Reuters on Nov 12, and no credible fourth-affair reporting exists as of Nov 17. The remaining window is about 3.5 days and the rules require a clearly distinct fourt_
-- **Will Chiang Wan-an win the next Taipei Mayor election?**  
-  AI 0.50 (low) vs market 0.60 → AI confidence low: not trading on it  
-  _The race is a near toss-up. Final pre-blackout polls split by pollster: TVBS has Chiang up 2 (46–44) and ETtoday has him up 6.1, while UDN, Taiwan Brain Trust, 鋒燦 and the Taipei Trust in Democracy Association have Shen ahead by 1.7 to 14.8 _
 
 ## Activity log (latest 40)
 
 ```
-2026-11-18T19:28:07+00:00  [scan] 42 markets pass filters, 37 not recently researched
-2026-11-18T19:28:07+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
-2026-11-18T19:58:09+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-18T19:58:19+00:00  [scan] 38 markets pass filters, 33 not recently researched
-2026-11-18T19:58:19+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
 2026-11-18T20:28:21+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-18T20:28:27+00:00  [scan] 40 markets pass filters, 35 not recently researched
 2026-11-18T20:28:27+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)
@@ -112,4 +107,9 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-19T00:30:39+00:00  [decide] AI 0.45 (low) vs market 0.41 -> skip: AI confidence low: not trading on it
 2026-11-19T00:30:39+00:00  [research] Will Elon Musk post 320-339 tweets from November 13 to November 20, 2026?
 2026-11-19T00:30:57+00:00  [decide] AI 0.07 (low) vs market 0.25 -> skip: AI confidence low: not trading on it
+2026-11-19T01:00:59+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-19T01:01:04+00:00  [scan] 35 markets pass filters, 31 not recently researched
+2026-11-19T01:01:04+00:00  [research] Will Chiang Wan-an win the next Taipei Mayor election?
+2026-11-19T01:01:17+00:00  [decide] AI 0.52 (low) vs market 0.59 -> skip: AI confidence low: not trading on it
+2026-11-19T01:01:17+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
 ```
