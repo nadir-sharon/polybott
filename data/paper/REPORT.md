@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-20T05:14:23+00:00 UTC_
+_Updated 2026-11-20T05:44:30+00:00 UTC_
 
 ## Scoreboard
 
@@ -72,9 +72,6 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 ## Activity log (latest 40)
 
 ```
-2026-11-20T00:11:30+00:00  [decide] AI 0.04 (low) vs market 0.24 -> skip: AI confidence low: not trading on it
-2026-11-20T00:11:30+00:00  [research] Next White House Press Secretary announced by November 30, 2026?
-2026-11-20T00:11:48+00:00  [decide] AI 0.22 (medium) vs market 0.16 -> skip: AI 0.22 vs market 0.16: agrees with market
 2026-11-20T00:41:50+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-20T00:41:56+00:00  [scan] 45 markets pass filters, 39 not recently researched
 2026-11-20T00:41:56+00:00  [research] Israel x Iran ceasefire continues through November 30?
@@ -112,4 +109,7 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-20T05:14:17+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-20T05:14:23+00:00  [scan] 48 markets pass filters, 42 not recently researched
 2026-11-20T05:14:23+00:00  [budget] daily AI budget $1.00 reached (spent $0.97)
+2026-11-20T05:44:24+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-20T05:44:30+00:00  [scan] 46 markets pass filters, 40 not recently researched
+2026-11-20T05:44:30+00:00  [budget] daily AI budget $1.00 reached (spent $0.97)
 ```
