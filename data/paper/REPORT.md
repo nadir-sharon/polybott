@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-20T04:44:15+00:00 UTC_
+_Updated 2026-11-20T05:14:23+00:00 UTC_
 
 ## Scoreboard
 
@@ -19,9 +19,9 @@ _Updated 2026-11-20T04:44:15+00:00 UTC_
 Brier score on every resolved market the AI studied (lower is better; 0.25 = coin flip).
 This is the number that matters: if the AI isn't beating the market here, wins are luck.
 
-- Resolved forecasts: **52**
-- AI Brier: **0.199**
-- Market Brier: **0.192**
+- Resolved forecasts: **53**
+- AI Brier: **0.196**
+- Market Brier: **0.189**
 
 ## Open bets
 
@@ -72,9 +72,6 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 ## Activity log (latest 40)
 
 ```
-2026-11-20T00:10:56+00:00  [research] Will PSOE win the most seats in the 2026 Spanish general election?
-2026-11-20T00:11:11+00:00  [decide] AI 0.12 (medium) vs market 0.21 -> skip: AI 0.12 vs market 0.21: agrees with market
-2026-11-20T00:11:11+00:00  [research] Will Elon Musk post 340-359 tweets from November 13 to November 20, 2026?
 2026-11-20T00:11:30+00:00  [decide] AI 0.04 (low) vs market 0.24 -> skip: AI confidence low: not trading on it
 2026-11-20T00:11:30+00:00  [research] Next White House Press Secretary announced by November 30, 2026?
 2026-11-20T00:11:48+00:00  [decide] AI 0.22 (medium) vs market 0.16 -> skip: AI 0.22 vs market 0.16: agrees with market
@@ -112,4 +109,7 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-20T04:44:08+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-20T04:44:15+00:00  [scan] 47 markets pass filters, 40 not recently researched
 2026-11-20T04:44:15+00:00  [budget] daily AI budget $1.00 reached (spent $0.97)
+2026-11-20T05:14:17+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-20T05:14:23+00:00  [scan] 48 markets pass filters, 42 not recently researched
+2026-11-20T05:14:23+00:00  [budget] daily AI budget $1.00 reached (spent $0.97)
 ```
