@@ -1861,6 +1861,49 @@
    "decision": "AI 0.22 vs market 0.16: agrees with market",
    "traded": false,
    "url": "https://polymarket.com/event/next-press-secretary-announced-byptptpt"
+  },
+  {
+   "ts": "2026-11-20T00:42:14+00:00",
+   "market_id": "3902370",
+   "question": "Israel x Iran ceasefire continues through November 30?",
+   "end_date": "2026-11-30T20:29:00+00:00",
+   "ai_prob": 0.78,
+   "confidence": "medium",
+   "market_mid": 0.835,
+   "summary": "No direct Israel\u2013Iran strikes on each other's territory since June 7\u20138. Israel is pressing hard for a joint US-Israeli campaign, and Trump is undecided but says he is not rushing and may wait until after January 1. The 10-day window is short, but the risk of escalation is clearly elevated.",
+   "sources": [
+    "https://www.axios.com/2026/11/19/trump-iran-israel-strikes-chemical-weapons",
+    "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/",
+    "https://www.timesofisrael.com/liveblog-november-18-2026/",
+    "https://en.wikipedia.org/wiki/2026_Iran_war",
+    "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm",
+    "https://www.asiaone.com/asia/mideast-nations-ramp-efforts-avert-all-out-war-israel-urges-iran-strikes-officials-say"
+   ],
+   "cost": 0.2119,
+   "decision": "AI 0.78 vs market 0.83: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
+  },
+  {
+   "ts": "2026-11-20T00:42:28+00:00",
+   "market_id": "3580933",
+   "question": "Will Puma Shen win the next Taipei Mayor election?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.45,
+   "confidence": "medium",
+   "market_mid": 0.4015,
+   "summary": "Final pre-blackout polls are split by pollster lean, and neutral polls show a near tie with a slight Shen edge. Chiang's incumbency, older-voter turnout skew and TPP support offset Shen's momentum, so the race is close to a toss-up, tilting slightly to Chiang.",
+   "sources": [
+    "https://www.taiwannews.com.tw/news/6476947",
+    "https://www.taiwannews.com.tw/news/6476596",
+    "https://theinitium.com/20261117-whatsnew-taipei-mayor-election-final-polls/",
+    "https://www.worldjournal.com/wj/story/121475/9883164",
+    "https://news.ltn.com.tw/news/politics/breakingnews/5643249"
+   ],
+   "cost": 0.1546,
+   "decision": "AI 0.45 vs market 0.40: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100"
   }
  ],
  "ai_spend": {
@@ -1882,7 +1925,7 @@
   "2026-11-17": 0.919298,
   "2026-11-18": 1.026364,
   "2026-11-19": 0.882174,
-  "2026-11-20": 0.60264
+  "2026-11-20": 0.969178
  },
  "realized_by_day": {
   "2026-11-16": -1.4649,
@@ -1890,13 +1933,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-15T04:22:53+00:00  [budget] daily AI budget $1.00 reached (spent $0.91)",
-  "2026-11-15T04:52:54+00:00  === run start (paper mode) cash $15.59, 2 open ===",
-  "2026-11-15T04:53:00+00:00  [scan] 20 markets pass filters, 14 not recently researched",
-  "2026-11-15T04:53:00+00:00  [budget] daily AI budget $1.00 reached (spent $0.91)",
-  "2026-11-15T05:23:02+00:00  === run start (paper mode) cash $15.59, 2 open ===",
-  "2026-11-15T05:23:08+00:00  [scan] 30 markets pass filters, 24 not recently researched",
-  "2026-11-15T05:23:08+00:00  [budget] daily AI budget $1.00 reached (spent $0.91)",
   "2026-11-15T05:53:10+00:00  === run start (paper mode) cash $15.59, 2 open ===",
   "2026-11-15T05:53:15+00:00  [scan] 31 markets pass filters, 25 not recently researched",
   "2026-11-15T05:53:15+00:00  [budget] daily AI budget $1.00 reached (spent $0.91)",
@@ -2689,6 +2725,13 @@
   "2026-11-20T00:11:11+00:00  [research] Will Elon Musk post 340-359 tweets from November 13 to November 20, 2026?",
   "2026-11-20T00:11:30+00:00  [decide] AI 0.04 (low) vs market 0.24 -> skip: AI confidence low: not trading on it",
   "2026-11-20T00:11:30+00:00  [research] Next White House Press Secretary announced by November 30, 2026?",
-  "2026-11-20T00:11:48+00:00  [decide] AI 0.22 (medium) vs market 0.16 -> skip: AI 0.22 vs market 0.16: agrees with market"
+  "2026-11-20T00:11:48+00:00  [decide] AI 0.22 (medium) vs market 0.16 -> skip: AI 0.22 vs market 0.16: agrees with market",
+  "2026-11-20T00:41:50+00:00  === run start (paper mode) cash $17.60, 1 open ===",
+  "2026-11-20T00:41:56+00:00  [scan] 45 markets pass filters, 39 not recently researched",
+  "2026-11-20T00:41:56+00:00  [research] Israel x Iran ceasefire continues through November 30?",
+  "2026-11-20T00:42:14+00:00  [decide] AI 0.78 (medium) vs market 0.83 -> skip: AI 0.78 vs market 0.83: agrees with market",
+  "2026-11-20T00:42:14+00:00  [research] Will Puma Shen win the next Taipei Mayor election?",
+  "2026-11-20T00:42:28+00:00  [decide] AI 0.45 (medium) vs market 0.40 -> skip: AI 0.45 vs market 0.40: agrees with market",
+  "2026-11-20T00:42:28+00:00  [budget] daily AI budget $1.00 reached (spent $0.97)"
  ]
 }

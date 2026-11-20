@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-20T00:11:48+00:00 UTC_
+_Updated 2026-11-20T00:42:28+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-20T00:11:48+00:00 UTC_
 | Cash now | $17.60 |
 | In open bets (at cost) | $3.04 (1 bets) |
 | Realized profit/loss | **$0.64** |
-| AI research spent | $17.19 |
-| Profit after AI costs | **-$16.54** |
+| AI research spent | $17.55 |
+| Profit after AI costs | **-$16.91** |
 | Settled bets | 2 (1 won, win rate 50%) |
 
 ## Is the AI better than the market?
@@ -38,6 +38,12 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 
 ## Latest AI research (10)
 
+- **Will Puma Shen win the next Taipei Mayor election?**  
+  AI 0.45 (medium) vs market 0.40 → AI 0.45 vs market 0.40: agrees with market  
+  _Final pre-blackout polls are split by pollster lean, and neutral polls show a near tie with a slight Shen edge. Chiang's incumbency, older-voter turnout skew and TPP support offset Shen's momentum, so the race is close to a toss-up, tilting_
+- **Israel x Iran ceasefire continues through November 30?**  
+  AI 0.78 (medium) vs market 0.83 → AI 0.78 vs market 0.83: agrees with market  
+  _No direct Israel–Iran strikes on each other's territory since June 7–8. Israel is pressing hard for a joint US-Israeli campaign, and Trump is undecided but says he is not rushing and may wait until after January 1. The 10-day window is shor_
 - **Next White House Press Secretary announced by November 30, 2026?**  
   AI 0.22 (medium) vs market 0.16 → AI 0.22 vs market 0.16: agrees with market  
   _The press secretary post has been vacant since Zacharia was fired on Oct 16, and Trump was reported on Nov 10 to be 'closing in' on a pick, with Ben Ferguson the frontrunner. No announcement had been found as of Nov 20, and Trump is reporte_
@@ -62,23 +68,10 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 - **Will Elon Musk post 65-89 tweets from November 16 to November 18, 2026?**  
   AI 0.43 (low) vs market 0.13 → AI confidence low: not trading on it  
   _Musk's typical tracker pace of about 35–44 posts a day implies a two-day total centred around 70–90, so the 65–89 band is plausible. Busy news on Nov 16 raises the chance of exceeding 89, and I couldn't find the live count so far._
-- **Will Chiang Wan-an win the next Taipei Mayor election?**  
-  AI 0.54 (low) vs market 0.59 → AI confidence low: not trading on it  
-  _The Taipei mayoral race is a genuine toss-up. Final polls are split, with TVBS, ETtoday and China Times showing Chiang ahead and several DPP-leaning and academic polls showing Shen ahead. Incumbency, older-voter turnout and Taiwan People's _
-- **Israel x Iran ceasefire continues through November 30?**  
-  AI 0.75 (medium) vs market 0.84 → AI 0.75 vs market 0.84: agrees with market  
-  _No confirmed Israel–Iran direct strikes have occurred recently. Current clashes are US–Iran and Iran–Gulf, which don't count under the rules. Plans for renewed US-Israeli strikes and high tension create a meaningful chance (~25%) of direct _
 
 ## Activity log (latest 40)
 
 ```
-2026-11-19T19:08:41+00:00  [scan] 39 markets pass filters, 34 not recently researched
-2026-11-19T19:08:41+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
-2026-11-19T19:38:43+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-19T19:38:49+00:00  [scan] 40 markets pass filters, 35 not recently researched
-2026-11-19T19:38:49+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
-2026-11-19T20:08:52+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-19T20:08:59+00:00  [scan] 41 markets pass filters, 36 not recently researched
 2026-11-19T20:08:59+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
 2026-11-19T20:39:01+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-19T20:39:08+00:00  [scan] 46 markets pass filters, 41 not recently researched
@@ -112,4 +105,11 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-20T00:11:30+00:00  [decide] AI 0.04 (low) vs market 0.24 -> skip: AI confidence low: not trading on it
 2026-11-20T00:11:30+00:00  [research] Next White House Press Secretary announced by November 30, 2026?
 2026-11-20T00:11:48+00:00  [decide] AI 0.22 (medium) vs market 0.16 -> skip: AI 0.22 vs market 0.16: agrees with market
+2026-11-20T00:41:50+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-20T00:41:56+00:00  [scan] 45 markets pass filters, 39 not recently researched
+2026-11-20T00:41:56+00:00  [research] Israel x Iran ceasefire continues through November 30?
+2026-11-20T00:42:14+00:00  [decide] AI 0.78 (medium) vs market 0.83 -> skip: AI 0.78 vs market 0.83: agrees with market
+2026-11-20T00:42:14+00:00  [research] Will Puma Shen win the next Taipei Mayor election?
+2026-11-20T00:42:28+00:00  [decide] AI 0.45 (medium) vs market 0.40 -> skip: AI 0.45 vs market 0.40: agrees with market
+2026-11-20T00:42:28+00:00  [budget] daily AI budget $1.00 reached (spent $0.97)
 ```
