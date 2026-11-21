@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-21T04:53:59+00:00 UTC_
+_Updated 2026-11-21T05:24:06+00:00 UTC_
 
 ## Scoreboard
 
@@ -19,9 +19,9 @@ _Updated 2026-11-21T04:53:59+00:00 UTC_
 Brier score on every resolved market the AI studied (lower is better; 0.25 = coin flip).
 This is the number that matters: if the AI isn't beating the market here, wins are luck.
 
-- Resolved forecasts: **55**
-- AI Brier: **0.206**
-- Market Brier: **0.194**
+- Resolved forecasts: **56**
+- AI Brier: **0.202**
+- Market Brier: **0.191**
 
 ## Open bets
 
@@ -72,9 +72,6 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 ## Activity log (latest 40)
 
 ```
-2026-11-21T00:21:02+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-21T00:21:08+00:00  [scan] 35 markets pass filters, 31 not recently researched
-2026-11-21T00:21:08+00:00  [research] Will Chiang Wan-an win the next Taipei Mayor election?
 2026-11-21T00:21:23+00:00  [decide] AI 0.58 (medium) vs market 0.65 -> skip: AI 0.58 vs market 0.65: agrees with market
 2026-11-21T00:21:23+00:00  [research] Will WTI Crude Oil (WTI) hit (LOW) $80 in November?
 2026-11-21T00:21:40+00:00  [decide] AI 0.58 (medium) vs market 0.57 -> skip: AI 0.58 vs market 0.57: agrees with market
@@ -112,4 +109,7 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-21T04:53:54+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-21T04:53:59+00:00  [scan] 38 markets pass filters, 33 not recently researched
 2026-11-21T04:53:59+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
+2026-11-21T05:24:00+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-21T05:24:06+00:00  [scan] 38 markets pass filters, 33 not recently researched
+2026-11-21T05:24:06+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
 ```
