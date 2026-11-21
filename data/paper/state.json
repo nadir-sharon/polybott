@@ -1907,6 +1907,69 @@
    "decision": "AI 0.45 vs market 0.40: agrees with market",
    "traded": false,
    "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100"
+  },
+  {
+   "ts": "2026-11-21T00:21:23+00:00",
+   "market_id": "3580932",
+   "question": "Will Chiang Wan-an win the next Taipei Mayor election?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.58,
+   "confidence": "medium",
+   "market_mid": 0.645,
+   "summary": "Final pre-blackout polls are split. TVBS, ETtoday and the China Times show Chiang ahead by 2 to 7 points. DPP-leaning and some academic polls show Shen ahead or tied, with a turnout-adjusted toss-up. Taipei's KMT lean, Chiang's incumbency and strong older-voter turnout tilt it slightly toward Chiang, but uncertainty is high.",
+   "sources": [
+    "https://theinitium.com/20261117-whatsnew-taipei-mayor-election-final-polls/",
+    "https://www.worldjournal.com/wj/story/121475/9883164",
+    "https://news.ebc.net.tw/news/politics/580909",
+    "https://www.taiwannews.com.tw/news/6476596",
+    "https://www.ettoday.net/news/20261102/3264730.htm"
+   ],
+   "cost": 0.1439,
+   "decision": "AI 0.58 vs market 0.65: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100"
+  },
+  {
+   "ts": "2026-11-21T00:21:40+00:00",
+   "market_id": "6172754",
+   "question": "Will WTI Crude Oil (WTI) hit (LOW) $80 in November?",
+   "end_date": "2026-12-01T04:59:59.999000+00:00",
+   "ai_prob": 0.58,
+   "confidence": "medium",
+   "market_mid": 0.575,
+   "summary": "January WTI settled near $82.64 on Nov 20, about 3% above the $80 barrier, with roughly six sessions left in November. Volatility is high and the trend is bearish on supply-surplus expectations, but Middle East risk could keep a floor under prices.",
+   "sources": [
+    "https://www.cnbc.com/amp/2026/11/20/oil-wti-brent-hormuz.html",
+    "https://www.archyde.com/oil-set-for-third-weekly-decline-as-middle-east-flows-fail-to-offset-geopolitical-risks/",
+    "https://goldoilprice.com/oil-price/wti",
+    "https://oilprice.com/Energy/Energy-General/WTI-Crude-Sinks-More-Than-5-as-Global-Oil-Glut-Fears-Grow.html"
+   ],
+   "cost": 0.1481,
+   "decision": "AI 0.58 vs market 0.57: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/what-price-will-wti-hit-in-november-2026"
+  },
+  {
+   "ts": "2026-11-21T00:22:05+00:00",
+   "market_id": "7130419",
+   "question": "Will Kai Cenat finish his GTA VI marathon by November 26?",
+   "end_date": "2026-11-27T04:59:00+00:00",
+   "ai_prob": 0.4,
+   "confidence": "low",
+   "market_mid": 0.525,
+   "summary": "Kai began the GTA VI stream on Nov 18 aiming for 100% completion, and said he'd get off on Thanksgiving night (Nov 26). He was at 27% after 12 hours, but reaching 100% by Nov 26 is tight and it's unclear whether the Thanksgiving break is a pause or the end. It's also unclear whether finishing only the story would count.",
+   "sources": [
+    "https://www.complex.com/pop-culture/a/alex-ocho/kai-cenat-gta-vi-prayer",
+    "https://x.com/aakashgupta/status/2123744666780942599",
+    "https://www.urdupoint.com/showbiz/en/influencers/gta-vi-launch-ishowspeed-300000-subscribers-kai-cenat-100-percent-run.html",
+    "https://win.gg/ishowspeed-beats-gta-6-52-hour-stream",
+    "https://x.com/spence28c/status/2123717666770665818",
+    "https://www.thehypemagazine.com/2026/11/19/streamer-creator-watch-kai-cenat-ishowspeed-and-youtube-take-over-gta-vi-launch-night/"
+   ],
+   "cost": 0.3006,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/kai-cenat-finishes-gta-vi-marathon-by"
   }
  ],
  "ai_spend": {
@@ -1928,7 +1991,8 @@
   "2026-11-17": 0.919298,
   "2026-11-18": 1.026364,
   "2026-11-19": 0.882174,
-  "2026-11-20": 0.969178
+  "2026-11-20": 0.969178,
+  "2026-11-21": 0.592596
  },
  "realized_by_day": {
   "2026-11-16": -1.4649,
@@ -1936,14 +2000,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-16T03:31:43+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)",
-  "2026-11-16T04:01:44+00:00  === run start (paper mode) cash $15.59, 2 open ===",
-  "2026-11-16T04:01:49+00:00  [scan] 19 markets pass filters, 14 not recently researched",
-  "2026-11-16T04:01:49+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)",
-  "2026-11-16T04:31:50+00:00  === run start (paper mode) cash $15.59, 2 open ===",
-  "2026-11-16T04:31:56+00:00  [scan] 20 markets pass filters, 15 not recently researched",
-  "2026-11-16T04:31:56+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)",
-  "2026-11-16T04:32:17+00:00  === run start (paper mode) cash $15.59, 2 open ===",
   "2026-11-16T04:32:23+00:00  [scan] 20 markets pass filters, 15 not recently researched",
   "2026-11-16T04:32:23+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)",
   "2026-11-16T05:02:25+00:00  === run start (paper mode) cash $15.59, 2 open ===",
@@ -2735,6 +2791,14 @@
   "2026-11-20T23:20:53+00:00  [budget] daily AI budget $1.00 reached (spent $0.97)",
   "2026-11-20T23:50:55+00:00  === run start (paper mode) cash $17.60, 1 open ===",
   "2026-11-20T23:51:01+00:00  [scan] 38 markets pass filters, 32 not recently researched",
-  "2026-11-20T23:51:01+00:00  [budget] daily AI budget $1.00 reached (spent $0.97)"
+  "2026-11-20T23:51:01+00:00  [budget] daily AI budget $1.00 reached (spent $0.97)",
+  "2026-11-21T00:21:02+00:00  === run start (paper mode) cash $17.60, 1 open ===",
+  "2026-11-21T00:21:08+00:00  [scan] 35 markets pass filters, 31 not recently researched",
+  "2026-11-21T00:21:08+00:00  [research] Will Chiang Wan-an win the next Taipei Mayor election?",
+  "2026-11-21T00:21:23+00:00  [decide] AI 0.58 (medium) vs market 0.65 -> skip: AI 0.58 vs market 0.65: agrees with market",
+  "2026-11-21T00:21:23+00:00  [research] Will WTI Crude Oil (WTI) hit (LOW) $80 in November?",
+  "2026-11-21T00:21:40+00:00  [decide] AI 0.58 (medium) vs market 0.57 -> skip: AI 0.58 vs market 0.57: agrees with market",
+  "2026-11-21T00:21:40+00:00  [research] Will Kai Cenat finish his GTA VI marathon by November 26?",
+  "2026-11-21T00:22:05+00:00  [decide] AI 0.40 (low) vs market 0.53 -> skip: AI confidence low: not trading on it"
  ]
 }
