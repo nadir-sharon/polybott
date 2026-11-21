@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-21T05:54:47+00:00 UTC_
+_Updated 2026-11-21T06:24:54+00:00 UTC_
 
 ## Scoreboard
 
@@ -72,9 +72,6 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 ## Activity log (latest 40)
 
 ```
-2026-11-21T00:22:29+00:00  [scan] 32 markets pass filters, 25 not recently researched
-2026-11-21T00:22:29+00:00  [research] Will Kai Cenat finish his GTA VI marathon by November 28?
-2026-11-21T00:22:54+00:00  [decide] AI 0.55 (low) vs market 0.83 -> skip: AI confidence low: not trading on it
 2026-11-21T00:22:54+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
 2026-11-21T00:52:56+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-21T00:53:01+00:00  [scan] 35 markets pass filters, 29 not recently researched
@@ -112,4 +109,7 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-21T05:54:41+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-21T05:54:47+00:00  [scan] 38 markets pass filters, 33 not recently researched
 2026-11-21T05:54:47+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
+2026-11-21T06:24:49+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-21T06:24:54+00:00  [scan] 40 markets pass filters, 35 not recently researched
+2026-11-21T06:24:54+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
 ```
