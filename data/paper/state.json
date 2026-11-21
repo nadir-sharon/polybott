@@ -1970,6 +1970,28 @@
    "decision": "AI confidence low: not trading on it",
    "traded": false,
    "url": "https://polymarket.com/event/kai-cenat-finishes-gta-vi-marathon-by"
+  },
+  {
+   "ts": "2026-11-21T00:22:54+00:00",
+   "market_id": "7130420",
+   "question": "Will Kai Cenat finish his GTA VI marathon by November 28?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.55,
+   "confidence": "low",
+   "market_mid": 0.835,
+   "summary": "Kai started the GTA VI playthrough on Nov 18 with a stated goal of 100% completion, and one report says the stream is slated to run through Thanksgiving night (Nov 26). He is pacing fast (27% in 12 hours), but 100% is estimated at 100\u2013200 hours. Whether the market counts a story-only finish is ambiguous, and he could abandon or extend the run.",
+   "sources": [
+    "https://www.urdupoint.com/showbiz/en/influencers/gta-vi-launch-ishowspeed-300000-subscribers-kai-cenat-100-percent-run.html",
+    "https://www.complex.com/pop-culture/a/alex-ocho/kai-cenat-gta-vi-prayer",
+    "https://x.com/aakashgupta/status/2123744666780942599",
+    "https://x.com/i/trending/2123059230483607869",
+    "https://www.thehypemagazine.com/2026/11/19/streamer-creator-watch-kai-cenat-ishowspeed-and-youtube-take-over-gta-vi-launch-night/",
+    "https://x.com/spence28c/status/2123717666770665818"
+   ],
+   "cost": 0.2915,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/kai-cenat-finishes-gta-vi-marathon-by"
   }
  ],
  "ai_spend": {
@@ -1992,7 +2014,7 @@
   "2026-11-18": 1.026364,
   "2026-11-19": 0.882174,
   "2026-11-20": 0.969178,
-  "2026-11-21": 0.592596
+  "2026-11-21": 0.884106
  },
  "realized_by_day": {
   "2026-11-16": -1.4649,
@@ -2000,11 +2022,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-16T04:32:23+00:00  [scan] 20 markets pass filters, 15 not recently researched",
-  "2026-11-16T04:32:23+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)",
-  "2026-11-16T05:02:25+00:00  === run start (paper mode) cash $15.59, 2 open ===",
-  "2026-11-16T05:02:26+00:00  [settle] LOST -1.46  NO Will Gemini Carbon be released between November 9 and Novemb",
-  "2026-11-16T05:02:32+00:00  [scan] 22 markets pass filters, 17 not recently researched",
   "2026-11-16T05:02:32+00:00  [budget] daily AI budget $1.00 reached (spent $1.11)",
   "2026-11-16T05:32:34+00:00  === run start (paper mode) cash $15.59, 1 open ===",
   "2026-11-16T05:32:40+00:00  [scan] 22 markets pass filters, 17 not recently researched",
@@ -2799,6 +2816,11 @@
   "2026-11-21T00:21:23+00:00  [research] Will WTI Crude Oil (WTI) hit (LOW) $80 in November?",
   "2026-11-21T00:21:40+00:00  [decide] AI 0.58 (medium) vs market 0.57 -> skip: AI 0.58 vs market 0.57: agrees with market",
   "2026-11-21T00:21:40+00:00  [research] Will Kai Cenat finish his GTA VI marathon by November 26?",
-  "2026-11-21T00:22:05+00:00  [decide] AI 0.40 (low) vs market 0.53 -> skip: AI confidence low: not trading on it"
+  "2026-11-21T00:22:05+00:00  [decide] AI 0.40 (low) vs market 0.53 -> skip: AI confidence low: not trading on it",
+  "2026-11-21T00:22:24+00:00  === run start (paper mode) cash $17.60, 1 open ===",
+  "2026-11-21T00:22:29+00:00  [scan] 32 markets pass filters, 25 not recently researched",
+  "2026-11-21T00:22:29+00:00  [research] Will Kai Cenat finish his GTA VI marathon by November 28?",
+  "2026-11-21T00:22:54+00:00  [decide] AI 0.55 (low) vs market 0.83 -> skip: AI confidence low: not trading on it",
+  "2026-11-21T00:22:54+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)"
  ]
 }

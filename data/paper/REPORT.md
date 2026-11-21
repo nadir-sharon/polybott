@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-21T00:22:05+00:00 UTC_
+_Updated 2026-11-21T00:22:54+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-21T00:22:05+00:00 UTC_
 | Cash now | $17.60 |
 | In open bets (at cost) | $3.04 (1 bets) |
 | Realized profit/loss | **$0.64** |
-| AI research spent | $18.15 |
-| Profit after AI costs | **-$17.50** |
+| AI research spent | $18.44 |
+| Profit after AI costs | **-$17.79** |
 | Settled bets | 2 (1 won, win rate 50%) |
 
 ## Is the AI better than the market?
@@ -38,6 +38,9 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 
 ## Latest AI research (10)
 
+- **Will Kai Cenat finish his GTA VI marathon by November 28?**  
+  AI 0.55 (low) vs market 0.83 → AI confidence low: not trading on it  
+  _Kai started the GTA VI playthrough on Nov 18 with a stated goal of 100% completion, and one report says the stream is slated to run through Thanksgiving night (Nov 26). He is pacing fast (27% in 12 hours), but 100% is estimated at 100–200 h_
 - **Will Kai Cenat finish his GTA VI marathon by November 26?**  
   AI 0.40 (low) vs market 0.53 → AI confidence low: not trading on it  
   _Kai began the GTA VI stream on Nov 18 aiming for 100% completion, and said he'd get off on Thanksgiving night (Nov 26). He was at 27% after 12 hours, but reaching 100% by Nov 26 is tight and it's unclear whether the Thanksgiving break is a _
@@ -65,18 +68,10 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 - **Will Chiang Wan-an win the next Taipei Mayor election?**  
   AI 0.52 (low) vs market 0.59 → AI confidence low: not trading on it  
   _The Taipei mayoral race is a near toss-up. Final polls split by pollster lean: DPP-friendly polls show Shen ahead, while TVBS and ETtoday show Chiang ahead by 2 to 6 points. Chiang's incumbency and pan-blue base offset Shen's late momentum,_
-- **Will Elon Musk post 320-339 tweets from November 13 to November 20, 2026?**  
-  AI 0.07 (low) vs market 0.25 → AI confidence low: not trading on it  
-  _I couldn't find a live tracker count for the Nov 13–20 window. Musk's typical weekly range is about 120–260, with recent weeks at 200–260, so 320–339 would need roughly 46+ posts a day. That is a tail outcome unless posting surged this week_
 
 ## Activity log (latest 40)
 
 ```
-2026-11-20T19:19:28+00:00  [scan] 42 markets pass filters, 36 not recently researched
-2026-11-20T19:19:28+00:00  [budget] daily AI budget $1.00 reached (spent $0.97)
-2026-11-20T19:19:46+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-20T19:19:51+00:00  [scan] 43 markets pass filters, 37 not recently researched
-2026-11-20T19:19:51+00:00  [budget] daily AI budget $1.00 reached (spent $0.97)
 2026-11-20T19:49:53+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-20T19:49:58+00:00  [scan] 44 markets pass filters, 38 not recently researched
 2026-11-20T19:49:58+00:00  [budget] daily AI budget $1.00 reached (spent $0.97)
@@ -112,4 +107,9 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-21T00:21:40+00:00  [decide] AI 0.58 (medium) vs market 0.57 -> skip: AI 0.58 vs market 0.57: agrees with market
 2026-11-21T00:21:40+00:00  [research] Will Kai Cenat finish his GTA VI marathon by November 26?
 2026-11-21T00:22:05+00:00  [decide] AI 0.40 (low) vs market 0.53 -> skip: AI confidence low: not trading on it
+2026-11-21T00:22:24+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-21T00:22:29+00:00  [scan] 32 markets pass filters, 25 not recently researched
+2026-11-21T00:22:29+00:00  [research] Will Kai Cenat finish his GTA VI marathon by November 28?
+2026-11-21T00:22:54+00:00  [decide] AI 0.55 (low) vs market 0.83 -> skip: AI confidence low: not trading on it
+2026-11-21T00:22:54+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
 ```
