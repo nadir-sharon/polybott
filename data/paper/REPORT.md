@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-21T05:24:06+00:00 UTC_
+_Updated 2026-11-21T05:24:39+00:00 UTC_
 
 ## Scoreboard
 
@@ -72,9 +72,6 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 ## Activity log (latest 40)
 
 ```
-2026-11-21T00:21:23+00:00  [decide] AI 0.58 (medium) vs market 0.65 -> skip: AI 0.58 vs market 0.65: agrees with market
-2026-11-21T00:21:23+00:00  [research] Will WTI Crude Oil (WTI) hit (LOW) $80 in November?
-2026-11-21T00:21:40+00:00  [decide] AI 0.58 (medium) vs market 0.57 -> skip: AI 0.58 vs market 0.57: agrees with market
 2026-11-21T00:21:40+00:00  [research] Will Kai Cenat finish his GTA VI marathon by November 26?
 2026-11-21T00:22:05+00:00  [decide] AI 0.40 (low) vs market 0.53 -> skip: AI confidence low: not trading on it
 2026-11-21T00:22:24+00:00  === run start (paper mode) cash $17.60, 1 open ===
@@ -112,4 +109,7 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-21T05:24:00+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-21T05:24:06+00:00  [scan] 38 markets pass filters, 33 not recently researched
 2026-11-21T05:24:06+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
+2026-11-21T05:24:35+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-21T05:24:39+00:00  [scan] 38 markets pass filters, 33 not recently researched
+2026-11-21T05:24:39+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)
 ```
