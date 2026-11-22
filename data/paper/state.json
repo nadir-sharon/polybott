@@ -1996,6 +1996,71 @@
    "decision": "AI confidence low: not trading on it",
    "traded": false,
    "url": "https://polymarket.com/event/kai-cenat-finishes-gta-vi-marathon-by"
+  },
+  {
+   "ts": "2026-11-22T00:29:40+00:00",
+   "market_id": "3902370",
+   "question": "Israel x Iran ceasefire continues through November 30?",
+   "end_date": "2026-11-30T20:29:00+00:00",
+   "ai_prob": 0.85,
+   "confidence": "medium",
+   "market_mid": 0.825,
+   "summary": "No direct Israel\u2013Iran strikes on each other's territory have been reported recently, and Trump says he is not deciding on new strikes until 2027. The main risk is a sudden joint US\u2013Israeli strike, which CBS says could launch within 2\u20134 days of an order.",
+   "sources": [
+    "https://www.timesofisrael.com/liveblog-november-20-2026/",
+    "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm",
+    "https://www.axios.com/2026/11/19/trump-iran-attacks-israel-new-year",
+    "https://www.axios.com/2026/11/19/trump-iran-israel-strikes-chemical-weapons",
+    "https://www.visiontimes.com/2026/11/20/us-israel-weigh-new-strikes-on-iran-as-military-could-act-within-days-report.html",
+    "https://www.britannica.com/event/2026-Iran-war"
+   ],
+   "cost": 0.2024,
+   "decision": "AI 0.85 vs market 0.82: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
+  },
+  {
+   "ts": "2026-11-22T00:29:54+00:00",
+   "market_id": "3580933",
+   "question": "Will Puma Shen win the next Taipei Mayor election?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.41,
+   "confidence": "medium",
+   "market_mid": 0.3505,
+   "summary": "The race is a near toss-up. The last published polls split 3\u20133, with Shen up in some and Chiang up in others. Chiang's incumbency, the city's blue lean, and older voters' higher turnout give him a slight edge, while Shen has had strong momentum.",
+   "sources": [
+    "https://www.taipeitimes.com/News/front/archives/2026/11/17/2003867865",
+    "https://theinitium.com/20261117-whatsnew-taipei-mayor-election-final-polls/",
+    "https://www.ebc.net.tw/news/politics/581050",
+    "https://focustaiwan.tw/politics/202611150014",
+    "https://english.cw.com.tw/article/article.action?id=5056"
+   ],
+   "cost": 0.2548,
+   "decision": "AI 0.41 vs market 0.35: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100"
+  },
+  {
+   "ts": "2026-11-22T00:30:24+00:00",
+   "market_id": "814613",
+   "question": "Will the Democratic Progressive Party (DPP) win the most head of local government elections in the 2026 Taiwan local elections?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.57,
+   "confidence": "low",
+   "market_mid": 0.2305,
+   "summary": "Templeman's ratings have the KMT ahead 10 to 7 with four toss-ups and one independent-leaning race. However, momentum has moved sharply toward the DPP, and the DPP wins any tie under the alphabetical rule. I estimate roughly even odds, tilted slightly to the DPP.",
+   "sources": [
+    "https://www.kharistempleman.com/blog/taiwans-2026-local-elections-state-of-the-race-one-month-out",
+    "https://www.taipeitimes.com/News/taiwan/archives/2026/11/22/2003868197",
+    "https://www.taipeitimes.com/News/taiwan/archives/2026/11/17/2003867880",
+    "https://en.wikipedia.org/wiki/2026_Taipei_City_local_election",
+    "https://world.storm.mg/articles/1181229",
+    "https://www.taipeitimes.com/News/feat/archives/2026/11/12/2003867584"
+   ],
+   "cost": 0.2984,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/2026-taiwanese-local-elections-party-winner"
   }
  ],
  "ai_spend": {
@@ -2018,7 +2083,8 @@
   "2026-11-18": 1.026364,
   "2026-11-19": 0.882174,
   "2026-11-20": 0.969178,
-  "2026-11-21": 0.884106
+  "2026-11-21": 0.884106,
+  "2026-11-22": 0.755586
  },
  "realized_by_day": {
   "2026-11-16": -1.4649,
@@ -2026,14 +2092,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-17T03:11:25+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)",
-  "2026-11-17T03:41:27+00:00  === run start (paper mode) cash $15.59, 1 open ===",
-  "2026-11-17T03:41:33+00:00  [scan] 31 markets pass filters, 24 not recently researched",
-  "2026-11-17T03:41:33+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)",
-  "2026-11-17T04:11:35+00:00  === run start (paper mode) cash $15.59, 1 open ===",
-  "2026-11-17T04:11:42+00:00  [scan] 31 markets pass filters, 24 not recently researched",
-  "2026-11-17T04:11:42+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)",
-  "2026-11-17T04:41:44+00:00  === run start (paper mode) cash $15.59, 1 open ===",
   "2026-11-17T04:41:50+00:00  [scan] 31 markets pass filters, 24 not recently researched",
   "2026-11-17T04:41:50+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)",
   "2026-11-17T05:11:52+00:00  === run start (paper mode) cash $15.59, 1 open ===",
@@ -2825,6 +2883,14 @@
   "2026-11-21T23:29:11+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
   "2026-11-21T23:59:14+00:00  === run start (paper mode) cash $17.60, 1 open ===",
   "2026-11-21T23:59:18+00:00  [scan] 40 markets pass filters, 37 not recently researched",
-  "2026-11-21T23:59:18+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)"
+  "2026-11-21T23:59:18+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
+  "2026-11-22T00:29:19+00:00  === run start (paper mode) cash $17.60, 1 open ===",
+  "2026-11-22T00:29:23+00:00  [scan] 39 markets pass filters, 37 not recently researched",
+  "2026-11-22T00:29:23+00:00  [research] Israel x Iran ceasefire continues through November 30?",
+  "2026-11-22T00:29:40+00:00  [decide] AI 0.85 (medium) vs market 0.82 -> skip: AI 0.85 vs market 0.82: agrees with market",
+  "2026-11-22T00:29:40+00:00  [research] Will Puma Shen win the next Taipei Mayor election?",
+  "2026-11-22T00:29:54+00:00  [decide] AI 0.41 (medium) vs market 0.35 -> skip: AI 0.41 vs market 0.35: agrees with market",
+  "2026-11-22T00:29:54+00:00  [research] Will the Democratic Progressive Party (DPP) win the most head of local government election",
+  "2026-11-22T00:30:24+00:00  [decide] AI 0.57 (low) vs market 0.23 -> skip: AI confidence low: not trading on it"
  ]
 }
