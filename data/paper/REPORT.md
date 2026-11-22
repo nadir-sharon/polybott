@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-22T05:01:50+00:00 UTC_
+_Updated 2026-11-22T05:31:56+00:00 UTC_
 
 ## Scoreboard
 
@@ -72,9 +72,6 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 ## Activity log (latest 40)
 
 ```
-2026-11-22T00:29:19+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-22T00:29:23+00:00  [scan] 39 markets pass filters, 37 not recently researched
-2026-11-22T00:29:23+00:00  [research] Israel x Iran ceasefire continues through November 30?
 2026-11-22T00:29:40+00:00  [decide] AI 0.85 (medium) vs market 0.82 -> skip: AI 0.85 vs market 0.82: agrees with market
 2026-11-22T00:29:40+00:00  [research] Will Puma Shen win the next Taipei Mayor election?
 2026-11-22T00:29:54+00:00  [decide] AI 0.41 (medium) vs market 0.35 -> skip: AI 0.41 vs market 0.35: agrees with market
@@ -112,4 +109,7 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-22T05:01:46+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-22T05:01:50+00:00  [scan] 36 markets pass filters, 30 not recently researched
 2026-11-22T05:01:50+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)
+2026-11-22T05:31:52+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-22T05:31:56+00:00  [scan] 34 markets pass filters, 28 not recently researched
+2026-11-22T05:31:56+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)
 ```
