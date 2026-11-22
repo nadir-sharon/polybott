@@ -2061,6 +2061,26 @@
    "decision": "AI confidence low: not trading on it",
    "traded": false,
    "url": "https://polymarket.com/event/2026-taiwanese-local-elections-party-winner"
+  },
+  {
+   "ts": "2026-11-22T01:00:45+00:00",
+   "market_id": "3580932",
+   "question": "Will Chiang Wan-an win the next Taipei Mayor election?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.52,
+   "confidence": "low",
+   "market_mid": 0.655,
+   "summary": "Final pre-blackout polls are split evenly between Chiang and Shen, with Shen gaining momentum. Taipei's blue lean, incumbency and high turnout among older voters give Chiang a slight edge. Overall a near coin-flip.",
+   "sources": [
+    "https://www.rti.org.tw/en/news?uid=3&pid=1051920",
+    "https://theinitium.com/20261117-whatsnew-taipei-mayor-election-final-polls/",
+    "https://www.taiwannews.com.tw/news/6476596",
+    "https://www.chinatimes.com/realtimenews/20261116002256-260407"
+   ],
+   "cost": 0.142,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100"
   }
  ],
  "ai_spend": {
@@ -2084,7 +2104,7 @@
   "2026-11-19": 0.882174,
   "2026-11-20": 0.969178,
   "2026-11-21": 0.884106,
-  "2026-11-22": 0.755586
+  "2026-11-22": 0.897574
  },
  "realized_by_day": {
   "2026-11-16": -1.4649,
@@ -2092,11 +2112,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-17T04:41:50+00:00  [scan] 31 markets pass filters, 24 not recently researched",
-  "2026-11-17T04:41:50+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)",
-  "2026-11-17T05:11:52+00:00  === run start (paper mode) cash $15.59, 1 open ===",
-  "2026-11-17T05:11:57+00:00  [scan] 48 markets pass filters, 42 not recently researched",
-  "2026-11-17T05:11:57+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)",
   "2026-11-17T05:41:59+00:00  === run start (paper mode) cash $15.59, 1 open ===",
   "2026-11-17T05:42:05+00:00  [scan] 46 markets pass filters, 40 not recently researched",
   "2026-11-17T05:42:05+00:00  [budget] daily AI budget $1.00 reached (spent $0.92)",
@@ -2891,6 +2906,11 @@
   "2026-11-22T00:29:40+00:00  [research] Will Puma Shen win the next Taipei Mayor election?",
   "2026-11-22T00:29:54+00:00  [decide] AI 0.41 (medium) vs market 0.35 -> skip: AI 0.41 vs market 0.35: agrees with market",
   "2026-11-22T00:29:54+00:00  [research] Will the Democratic Progressive Party (DPP) win the most head of local government election",
-  "2026-11-22T00:30:24+00:00  [decide] AI 0.57 (low) vs market 0.23 -> skip: AI confidence low: not trading on it"
+  "2026-11-22T00:30:24+00:00  [decide] AI 0.57 (low) vs market 0.23 -> skip: AI confidence low: not trading on it",
+  "2026-11-22T01:00:26+00:00  === run start (paper mode) cash $17.60, 1 open ===",
+  "2026-11-22T01:00:30+00:00  [scan] 40 markets pass filters, 35 not recently researched",
+  "2026-11-22T01:00:30+00:00  [research] Will Chiang Wan-an win the next Taipei Mayor election?",
+  "2026-11-22T01:00:45+00:00  [decide] AI 0.52 (low) vs market 0.66 -> skip: AI confidence low: not trading on it",
+  "2026-11-22T01:00:45+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)"
  ]
 }
