@@ -2081,6 +2081,67 @@
    "decision": "AI confidence low: not trading on it",
    "traded": false,
    "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100"
+  },
+  {
+   "ts": "2026-11-23T00:06:50+00:00",
+   "market_id": "7176830",
+   "question": "Will Elon Musk post 65-89 tweets from November 21 to November 23, 2026?",
+   "end_date": "2026-11-23T17:00:00+00:00",
+   "ai_prob": 0.43,
+   "confidence": "low",
+   "market_mid": 0.175,
+   "summary": "Musk's recent rate of about 40\u201350 tracker-counted posts a day implies roughly 80\u2013100 posts over the 48-hour window. The 65\u201389 band covers the lower half of that range, but I found no live count for this window.",
+   "sources": [
+    "https://tweetstream.io/elon/stats",
+    "https://weirapp.io/blog/how-often-does-elon-musk-tweet",
+    "https://www.xtracker.io/",
+    "https://www.youtube.com/watch?v=LIYKSn--hcc"
+   ],
+   "cost": 0.2507,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-21-november-23-2026"
+  },
+  {
+   "ts": "2026-11-23T00:07:02+00:00",
+   "market_id": "5621387",
+   "question": "Spain General Election: PP + Vox Majority?",
+   "end_date": "2026-11-30T04:59:00+00:00",
+   "ai_prob": 0.86,
+   "confidence": "medium",
+   "market_mid": 0.895,
+   "summary": "All final-week polls project PP plus Vox at about 187\u2013210 seats, well above the 176 needed, with a poll-of-polls average of about 194. The main risks are a repeat of the 2023 polling miss that overstated the right, and UPN seats not counting toward PP.",
+   "sources": [
+    "https://www.democrata.es/en/center-of-surveys-and-electoral-polls/general-elections/the-poll-of-polls-of-29n-pp-and-psoe-gain-two-tenths-after-the-debate-and-vox-drops-from-19/",
+    "https://www.euronews.com/2026/11/22/polls-put-spains-pp-ahead-of-psoe-a-week-before-29-november-election",
+    "https://www.democrata.es/en/general-elections-spain/general-election-survey-pp-and-vox-add-up-to-192-seats-before-the-debate-between-sanchez-and-feijoo-according-to-40db/",
+    "https://vote-scope.com/en/spain/",
+    "https://www.democrata.es/en/center-of-surveys-and-electoral-polls/general-elections/general-election-survey-the-psoe-wins-four-seats-in-a-week-and-vox-loses-four-but-the-right-wing-keeps-197/"
+   ],
+   "cost": 0.0672,
+   "decision": "AI 0.86 vs market 0.90: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/spain-general-election-pp-vox-majority"
+  },
+  {
+   "ts": "2026-11-23T00:07:19+00:00",
+   "market_id": "5787490",
+   "question": "Next White House Press Secretary announced by November 30, 2026?",
+   "end_date": "2026-12-01T04:59:00+00:00",
+   "ai_prob": 0.09,
+   "confidence": "medium",
+   "market_mid": 0.15,
+   "summary": "The press secretary job has been vacant since Zacharia's Oct 16 exit, and as of Nov 22 no replacement had been named. Trump says he has 4-5 finalists but gave no timeline when asked about naming one before the new year, so an announcement in the 8-day window looks unlikely but possible.",
+   "sources": [
+    "https://www.yahoo.com/news/politics/articles/trump-hints-four-five-finalists-000220722.html",
+    "https://www.npr.org/2026/10/16/nx-s1-6005302/katie-zacharia-is-out-as-press-secretary-white-house-says",
+    "https://theworlddata.com/current-white-house-press-secretary/",
+    "https://www.huffpost.com/entry/katie-zacharia-work-for-donald-trump-again_n_6b02d883e4b0da866ee0ee5a"
+   ],
+   "cost": 0.2803,
+   "decision": "AI 0.09 vs market 0.15: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/next-press-secretary-announced-byptptpt"
   }
  ],
  "ai_spend": {
@@ -2104,7 +2165,8 @@
   "2026-11-19": 0.882174,
   "2026-11-20": 0.969178,
   "2026-11-21": 0.884106,
-  "2026-11-22": 0.897574
+  "2026-11-22": 0.897574,
+  "2026-11-23": 0.598252
  },
  "realized_by_day": {
   "2026-11-16": -1.4649,
@@ -2112,14 +2174,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-18T02:22:16+00:00  [scan] 40 markets pass filters, 35 not recently researched",
-  "2026-11-18T02:22:16+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
-  "2026-11-18T02:52:18+00:00  === run start (paper mode) cash $17.60, 1 open ===",
-  "2026-11-18T02:52:23+00:00  [scan] 38 markets pass filters, 33 not recently researched",
-  "2026-11-18T02:52:23+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
-  "2026-11-18T03:22:25+00:00  === run start (paper mode) cash $17.60, 1 open ===",
-  "2026-11-18T03:22:30+00:00  [scan] 38 markets pass filters, 33 not recently researched",
-  "2026-11-18T03:22:30+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
   "2026-11-18T03:52:32+00:00  === run start (paper mode) cash $17.60, 1 open ===",
   "2026-11-18T03:52:38+00:00  [scan] 39 markets pass filters, 34 not recently researched",
   "2026-11-18T03:52:38+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
@@ -2911,6 +2965,14 @@
   "2026-11-22T23:06:20+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)",
   "2026-11-22T23:36:21+00:00  === run start (paper mode) cash $17.60, 1 open ===",
   "2026-11-22T23:36:25+00:00  [scan] 34 markets pass filters, 30 not recently researched",
-  "2026-11-22T23:36:25+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)"
+  "2026-11-22T23:36:25+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)",
+  "2026-11-23T00:06:27+00:00  === run start (paper mode) cash $17.60, 1 open ===",
+  "2026-11-23T00:06:31+00:00  [scan] 34 markets pass filters, 30 not recently researched",
+  "2026-11-23T00:06:31+00:00  [research] Will Elon Musk post 65-89 tweets from November 21 to November 23, 2026?",
+  "2026-11-23T00:06:50+00:00  [decide] AI 0.43 (low) vs market 0.17 -> skip: AI confidence low: not trading on it",
+  "2026-11-23T00:06:50+00:00  [research] Spain General Election: PP + Vox Majority?",
+  "2026-11-23T00:07:02+00:00  [decide] AI 0.86 (medium) vs market 0.90 -> skip: AI 0.86 vs market 0.90: agrees with market",
+  "2026-11-23T00:07:02+00:00  [research] Next White House Press Secretary announced by November 30, 2026?",
+  "2026-11-23T00:07:19+00:00  [decide] AI 0.09 (medium) vs market 0.15 -> skip: AI 0.09 vs market 0.15: agrees with market"
  ]
 }
