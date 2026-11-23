@@ -2142,6 +2142,47 @@
    "decision": "AI 0.09 vs market 0.15: agrees with market",
    "traded": false,
    "url": "https://polymarket.com/event/next-press-secretary-announced-byptptpt"
+  },
+  {
+   "ts": "2026-11-23T00:37:33+00:00",
+   "market_id": "3580933",
+   "question": "Will Puma Shen win the next Taipei Mayor election?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.42,
+   "confidence": "low",
+   "market_mid": 0.2935,
+   "summary": "The Taipei race is very close. Final pre-blackout polls split 3-3 along pollster lines: green-leaning pollsters had Shen ahead and blue-leaning ones had Chiang ahead. I give Chiang a slight edge because he is the incumbent and the KMT and TPP are cooperating, but a Shen win is quite plausible.",
+   "sources": [
+    "https://www.taipeitimes.com/News/front/archives/2026/11/17/2003867865",
+    "https://www.taiwannews.com.tw/news/6476596",
+    "https://www.taipeitimes.com/News/editorials/archives/2026/11/23/2003868207",
+    "https://focustaiwan.tw/politics/202611210017"
+   ],
+   "cost": 0.1374,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100"
+  },
+  {
+   "ts": "2026-11-23T00:37:58+00:00",
+   "market_id": "7176833",
+   "question": "Will Elon Musk post 115-139 tweets from November 21 to November 23, 2026?",
+   "end_date": "2026-11-23T17:00:00+00:00",
+   "ai_prob": 0.24,
+   "confidence": "low",
+   "market_mid": 0.194,
+   "summary": "Musk's recent pace of about 46\u201350 counted posts a day implies roughly 95\u2013105 posts in the 48-hour window. The 115\u2013139 bucket needs a faster pace, which is plausible given his busy weekend but is the upper-middle of the distribution. I couldn't find the live tracker count.",
+   "sources": [
+    "https://weirapp.io/blog/how-often-does-elon-musk-tweet",
+    "https://tweetstream.io/elon/stats",
+    "https://predictiontape.com/markets/tech/elon-musk-tweet-count/",
+    "https://www.youtube.com/watch?v=LIYKSn--hcc",
+    "https://www.xtracker.io/"
+   ],
+   "cost": 0.2815,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-21-november-23-2026"
   }
  ],
  "ai_spend": {
@@ -2166,7 +2207,7 @@
   "2026-11-20": 0.969178,
   "2026-11-21": 0.884106,
   "2026-11-22": 0.897574,
-  "2026-11-23": 0.598252
+  "2026-11-23": 1.017216
  },
  "realized_by_day": {
   "2026-11-16": -1.4649,
@@ -2174,13 +2215,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-18T03:52:32+00:00  === run start (paper mode) cash $17.60, 1 open ===",
-  "2026-11-18T03:52:38+00:00  [scan] 39 markets pass filters, 34 not recently researched",
-  "2026-11-18T03:52:38+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
-  "2026-11-18T04:22:40+00:00  === run start (paper mode) cash $17.60, 1 open ===",
-  "2026-11-18T04:22:45+00:00  [scan] 40 markets pass filters, 35 not recently researched",
-  "2026-11-18T04:22:45+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
-  "2026-11-18T04:52:47+00:00  === run start (paper mode) cash $17.60, 1 open ===",
   "2026-11-18T04:52:54+00:00  [scan] 40 markets pass filters, 35 not recently researched",
   "2026-11-18T04:52:54+00:00  [budget] daily AI budget $1.00 reached (spent $1.03)",
   "2026-11-18T05:22:56+00:00  === run start (paper mode) cash $17.60, 1 open ===",
@@ -2973,6 +3007,13 @@
   "2026-11-23T00:06:50+00:00  [research] Spain General Election: PP + Vox Majority?",
   "2026-11-23T00:07:02+00:00  [decide] AI 0.86 (medium) vs market 0.90 -> skip: AI 0.86 vs market 0.90: agrees with market",
   "2026-11-23T00:07:02+00:00  [research] Next White House Press Secretary announced by November 30, 2026?",
-  "2026-11-23T00:07:19+00:00  [decide] AI 0.09 (medium) vs market 0.15 -> skip: AI 0.09 vs market 0.15: agrees with market"
+  "2026-11-23T00:07:19+00:00  [decide] AI 0.09 (medium) vs market 0.15 -> skip: AI 0.09 vs market 0.15: agrees with market",
+  "2026-11-23T00:37:20+00:00  === run start (paper mode) cash $17.60, 1 open ===",
+  "2026-11-23T00:37:25+00:00  [scan] 29 markets pass filters, 24 not recently researched",
+  "2026-11-23T00:37:25+00:00  [research] Will Puma Shen win the next Taipei Mayor election?",
+  "2026-11-23T00:37:33+00:00  [decide] AI 0.42 (low) vs market 0.29 -> skip: AI confidence low: not trading on it",
+  "2026-11-23T00:37:33+00:00  [research] Will Elon Musk post 115-139 tweets from November 21 to November 23, 2026?",
+  "2026-11-23T00:37:58+00:00  [decide] AI 0.24 (low) vs market 0.19 -> skip: AI confidence low: not trading on it",
+  "2026-11-23T00:37:58+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)"
  ]
 }

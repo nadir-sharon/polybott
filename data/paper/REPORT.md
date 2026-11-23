@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-23T00:07:19+00:00 UTC_
+_Updated 2026-11-23T00:37:58+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-23T00:07:19+00:00 UTC_
 | Cash now | $17.60 |
 | In open bets (at cost) | $3.04 (1 bets) |
 | Realized profit/loss | **$0.64** |
-| AI research spent | $19.93 |
-| Profit after AI costs | **-$19.29** |
+| AI research spent | $20.35 |
+| Profit after AI costs | **-$19.71** |
 | Settled bets | 2 (1 won, win rate 50%) |
 
 ## Is the AI better than the market?
@@ -38,6 +38,12 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 
 ## Latest AI research (10)
 
+- **Will Elon Musk post 115-139 tweets from November 21 to November 23, 2026?**  
+  AI 0.24 (low) vs market 0.19 → AI confidence low: not trading on it  
+  _Musk's recent pace of about 46–50 counted posts a day implies roughly 95–105 posts in the 48-hour window. The 115–139 bucket needs a faster pace, which is plausible given his busy weekend but is the upper-middle of the distribution. I could_
+- **Will Puma Shen win the next Taipei Mayor election?**  
+  AI 0.42 (low) vs market 0.29 → AI confidence low: not trading on it  
+  _The Taipei race is very close. Final pre-blackout polls split 3-3 along pollster lines: green-leaning pollsters had Shen ahead and blue-leaning ones had Chiang ahead. I give Chiang a slight edge because he is the incumbent and the KMT and T_
 - **Next White House Press Secretary announced by November 30, 2026?**  
   AI 0.09 (medium) vs market 0.15 → AI 0.09 vs market 0.15: agrees with market  
   _The press secretary job has been vacant since Zacharia's Oct 16 exit, and as of Nov 22 no replacement had been named. Trump says he has 4-5 finalists but gave no timeline when asked about naming one before the new year, so an announcement i_
@@ -62,23 +68,10 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 - **Will Kai Cenat finish his GTA VI marathon by November 28?**  
   AI 0.55 (low) vs market 0.83 → AI confidence low: not trading on it  
   _Kai started the GTA VI playthrough on Nov 18 with a stated goal of 100% completion, and one report says the stream is slated to run through Thanksgiving night (Nov 26). He is pacing fast (27% in 12 hours), but 100% is estimated at 100–200 h_
-- **Will Kai Cenat finish his GTA VI marathon by November 26?**  
-  AI 0.40 (low) vs market 0.53 → AI confidence low: not trading on it  
-  _Kai began the GTA VI stream on Nov 18 aiming for 100% completion, and said he'd get off on Thanksgiving night (Nov 26). He was at 27% after 12 hours, but reaching 100% by Nov 26 is tight and it's unclear whether the Thanksgiving break is a _
-- **Will WTI Crude Oil (WTI) hit (LOW) $80 in November?**  
-  AI 0.58 (medium) vs market 0.57 → AI 0.58 vs market 0.57: agrees with market  
-  _January WTI settled near $82.64 on Nov 20, about 3% above the $80 barrier, with roughly six sessions left in November. Volatility is high and the trend is bearish on supply-surplus expectations, but Middle East risk could keep a floor under_
 
 ## Activity log (latest 40)
 
 ```
-2026-11-22T19:05:15+00:00  [scan] 32 markets pass filters, 27 not recently researched
-2026-11-22T19:05:15+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)
-2026-11-22T19:35:16+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-22T19:35:20+00:00  [scan] 36 markets pass filters, 31 not recently researched
-2026-11-22T19:35:20+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)
-2026-11-22T20:05:22+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-22T20:05:26+00:00  [scan] 36 markets pass filters, 31 not recently researched
 2026-11-22T20:05:26+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)
 2026-11-22T20:35:28+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-22T20:35:31+00:00  [scan] 35 markets pass filters, 30 not recently researched
@@ -112,4 +105,11 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-23T00:07:02+00:00  [decide] AI 0.86 (medium) vs market 0.90 -> skip: AI 0.86 vs market 0.90: agrees with market
 2026-11-23T00:07:02+00:00  [research] Next White House Press Secretary announced by November 30, 2026?
 2026-11-23T00:07:19+00:00  [decide] AI 0.09 (medium) vs market 0.15 -> skip: AI 0.09 vs market 0.15: agrees with market
+2026-11-23T00:37:20+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-23T00:37:25+00:00  [scan] 29 markets pass filters, 24 not recently researched
+2026-11-23T00:37:25+00:00  [research] Will Puma Shen win the next Taipei Mayor election?
+2026-11-23T00:37:33+00:00  [decide] AI 0.42 (low) vs market 0.29 -> skip: AI confidence low: not trading on it
+2026-11-23T00:37:33+00:00  [research] Will Elon Musk post 115-139 tweets from November 21 to November 23, 2026?
+2026-11-23T00:37:58+00:00  [decide] AI 0.24 (low) vs market 0.19 -> skip: AI confidence low: not trading on it
+2026-11-23T00:37:58+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
 ```
