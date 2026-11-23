@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-23T05:09:08+00:00 UTC_
+_Updated 2026-11-23T05:39:13+00:00 UTC_
 
 ## Scoreboard
 
@@ -72,9 +72,6 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 ## Activity log (latest 40)
 
 ```
-2026-11-23T00:07:02+00:00  [decide] AI 0.86 (medium) vs market 0.90 -> skip: AI 0.86 vs market 0.90: agrees with market
-2026-11-23T00:07:02+00:00  [research] Next White House Press Secretary announced by November 30, 2026?
-2026-11-23T00:07:19+00:00  [decide] AI 0.09 (medium) vs market 0.15 -> skip: AI 0.09 vs market 0.15: agrees with market
 2026-11-23T00:37:20+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-23T00:37:25+00:00  [scan] 29 markets pass filters, 24 not recently researched
 2026-11-23T00:37:25+00:00  [research] Will Puma Shen win the next Taipei Mayor election?
@@ -112,4 +109,7 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-23T05:09:04+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-23T05:09:08+00:00  [scan] 30 markets pass filters, 26 not recently researched
 2026-11-23T05:09:08+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
+2026-11-23T05:39:10+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-23T05:39:13+00:00  [scan] 31 markets pass filters, 27 not recently researched
+2026-11-23T05:39:13+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
 ```
