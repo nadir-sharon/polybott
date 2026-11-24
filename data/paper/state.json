@@ -2246,6 +2246,68 @@
    "decision": "AI confidence low: not trading on it",
    "traded": false,
    "url": "https://polymarket.com/event/elon-musk-of-tweets-november-17-november-24-2026"
+  },
+  {
+   "ts": "2026-11-24T00:53:05+00:00",
+   "market_id": "3580933",
+   "question": "Will Puma Shen win the next Taipei Mayor election?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.39,
+   "confidence": "medium",
+   "market_mid": 0.3195,
+   "summary": "The final published polls are split: Shen leads in about three of them and Chiang in about three. Chiang has structural advantages from older-voter turnout, incumbency and TPP support, but Shen has momentum, so the race is close with Chiang a slight favorite.",
+   "sources": [
+    "https://www.taiwannews.com.tw/news/6476596",
+    "https://www.taiwannews.com.tw/news/6476947",
+    "https://theinitium.com/20261117-whatsnew-taipei-mayor-election-final-polls/",
+    "https://news.ttv.com.tw/news/11511170000600W",
+    "https://www.chinatimes.com/realtimenews/20261116002256-260407"
+   ],
+   "cost": 0.1494,
+   "decision": "AI 0.39 vs market 0.32: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100"
+  },
+  {
+   "ts": "2026-11-24T00:53:21+00:00",
+   "market_id": "6440141",
+   "question": "Will Trump speak to Emmanuel Macron by November 30?",
+   "end_date": "2026-12-01T04:59:00+00:00",
+   "ai_prob": 0.33,
+   "confidence": "low",
+   "market_mid": 0.215,
+   "summary": "Ukraine peace diplomacy is active and Trump called into a Europe-leaders meeting on Nov 19, so another call is plausible. But no scheduled meeting or announced call falls in the 7-day window, and reported bilateral calls come every few weeks. I estimate about a one-in-three chance.",
+   "sources": [
+    "https://www.axios.com/2026/11/20/trump-pushes-putin-ukraine-war-deal",
+    "https://www.csmonitor.com/World/Europe/2026/1123/russia-ukraine-sea-drones-missiles-libya-poland",
+    "https://kyivpost.com/post/90792",
+    "https://www.thedailybeast.com/obsessed/maga-rocker-kid-rock-reveals-trump-put-him-on-call-with-french-president-emmanuel-macron"
+   ],
+   "cost": 0.264,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/who-will-trump-speak-to-by-november-30-2026"
+  },
+  {
+   "ts": "2026-11-24T00:53:36+00:00",
+   "market_id": "2695678",
+   "question": "Will Pedro S\u00e1nchez be the next Prime Minister of Spain?",
+   "end_date": "2026-11-30T04:59:00+00:00",
+   "ai_prob": 0.08,
+   "confidence": "medium",
+   "market_mid": 0.1135,
+   "summary": "Spain votes on 29 Nov 2026, and nearly every poll gives PP plus Vox a clear absolute majority (about 187\u2013196 seats against 176 needed). S\u00e1nchez would need a large polling miss or a hung parliament to be re-invested before March 2028.",
+   "sources": [
+    "https://www.democrata.es/encuestas/elecciones-generales/tracking-encuesta-29n-hoy-40db-23-noviembre-2026/",
+    "https://www.amodominicana.com/espana-encuestas-dan-mayoria-absoluta-a-pp-y-vox-a-seis-dias-del-29n-el-cis-marca-la-excepcion/",
+    "https://theobjective.com/espana/politica/2026-11-22/pp-vox-psoe-votometro-ocho-dias-elecciones/",
+    "https://www.esdiario.com/nacional/261123/203663/ultimos-sondeos-29-n-confirma-mayoria-pp-vox-sanchez-queda-opciones.html",
+    "https://www.emol.com/noticias/Internacional/2026/10/05/1213240/pedro-sanchez-adelanta-elecciones.html"
+   ],
+   "cost": 0.1047,
+   "decision": "AI 0.08 vs market 0.11: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/next-prime-minister-of-spain-20260625005215443"
   }
  ],
  "ai_spend": {
@@ -2271,7 +2333,7 @@
   "2026-11-21": 0.884106,
   "2026-11-22": 0.897574,
   "2026-11-23": 1.017216,
-  "2026-11-24": 0.46057
+  "2026-11-24": 0.978586
  },
  "realized_by_day": {
   "2026-11-16": -1.4649,
@@ -2279,14 +2341,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-19T00:29:56+00:00  === run start (paper mode) cash $17.60, 1 open ===",
-  "2026-11-19T00:30:02+00:00  [scan] 37 markets pass filters, 34 not recently researched",
-  "2026-11-19T00:30:02+00:00  [research] Israel x Iran ceasefire continues through November 30?",
-  "2026-11-19T00:30:23+00:00  [decide] AI 0.78 (medium) vs market 0.82 -> skip: AI 0.78 vs market 0.82: agrees with market",
-  "2026-11-19T00:30:23+00:00  [research] Will Puma Shen win the next Taipei Mayor election?",
-  "2026-11-19T00:30:39+00:00  [decide] AI 0.45 (low) vs market 0.41 -> skip: AI confidence low: not trading on it",
-  "2026-11-19T00:30:39+00:00  [research] Will Elon Musk post 320-339 tweets from November 13 to November 20, 2026?",
-  "2026-11-19T00:30:57+00:00  [decide] AI 0.07 (low) vs market 0.25 -> skip: AI confidence low: not trading on it",
   "2026-11-19T01:00:59+00:00  === run start (paper mode) cash $17.60, 1 open ===",
   "2026-11-19T01:01:04+00:00  [scan] 35 markets pass filters, 31 not recently researched",
   "2026-11-19T01:01:04+00:00  [research] Will Chiang Wan-an win the next Taipei Mayor election?",
@@ -3078,6 +3132,14 @@
   "2026-11-24T00:22:12+00:00  [research] Will Alberto N\u00fa\u00f1ez Feij\u00f3o be the next Prime Minister of Spain?",
   "2026-11-24T00:22:25+00:00  [decide] AI 0.79 (medium) vs market 0.89 -> skip: AI 0.79 vs market 0.89: agrees with market",
   "2026-11-24T00:22:25+00:00  [research] Will Elon Musk post 280-299 tweets from November 17 to November 24, 2026?",
-  "2026-11-24T00:22:45+00:00  [decide] AI 0.23 (low) vs market 0.46 -> skip: AI confidence low: not trading on it"
+  "2026-11-24T00:22:45+00:00  [decide] AI 0.23 (low) vs market 0.46 -> skip: AI confidence low: not trading on it",
+  "2026-11-24T00:52:46+00:00  === run start (paper mode) cash $17.60, 1 open ===",
+  "2026-11-24T00:52:50+00:00  [scan] 43 markets pass filters, 40 not recently researched",
+  "2026-11-24T00:52:50+00:00  [research] Will Puma Shen win the next Taipei Mayor election?",
+  "2026-11-24T00:53:05+00:00  [decide] AI 0.39 (medium) vs market 0.32 -> skip: AI 0.39 vs market 0.32: agrees with market",
+  "2026-11-24T00:53:05+00:00  [research] Will Trump speak to Emmanuel Macron by November 30?",
+  "2026-11-24T00:53:21+00:00  [decide] AI 0.33 (low) vs market 0.22 -> skip: AI confidence low: not trading on it",
+  "2026-11-24T00:53:21+00:00  [research] Will Pedro S\u00e1nchez be the next Prime Minister of Spain?",
+  "2026-11-24T00:53:36+00:00  [decide] AI 0.08 (medium) vs market 0.11 -> skip: AI 0.08 vs market 0.11: agrees with market"
  ]
 }
