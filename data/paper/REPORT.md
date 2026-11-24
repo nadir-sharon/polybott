@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-23T23:51:52+00:00 UTC_
+_Updated 2026-11-24T00:22:45+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-23T23:51:52+00:00 UTC_
 | Cash now | $17.60 |
 | In open bets (at cost) | $3.04 (1 bets) |
 | Realized profit/loss | **$0.64** |
-| AI research spent | $20.35 |
-| Profit after AI costs | **-$19.71** |
+| AI research spent | $20.81 |
+| Profit after AI costs | **-$20.17** |
 | Settled bets | 2 (1 won, win rate 50%) |
 
 ## Is the AI better than the market?
@@ -38,6 +38,15 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 
 ## Latest AI research (10)
 
+- **Will Elon Musk post 280-299 tweets from November 17 to November 24, 2026?**  
+  AI 0.23 (low) vs market 0.46 → AI confidence low: not trading on it  
+  _I found no current tracker count for the Nov 17–24 window. A November pace of about 40 posts a day, a heavy first half of the window and a slower weekend point to a total around 290–305. The 280–299 band holds roughly a quarter of that spre_
+- **Will Alberto Núñez Feijóo be the next Prime Minister of Spain?**  
+  AI 0.79 (medium) vs market 0.89 → AI 0.79 vs market 0.89: agrees with market  
+  _A snap election is on 29 Nov 2026, and nearly all final polls give PP+Vox 187–199 seats against 176 needed. Feijóo would likely be invested with Vox's support or abstention. The remaining risks are polling error (as in 2023) and a stalled i_
+- **Will Chiang Wan-an win the next Taipei Mayor election?**  
+  AI 0.57 (low) vs market 0.69 → AI confidence low: not trading on it  
+  _Taipei's final pre-blackout polls are split: TVBS, ETtoday and China Times have Chiang ahead, while Taiwan Brain Trust, TIA and others have Shen ahead. Taipei's blue lean, high older-voter turnout and concerns about green-leaning poll sampl_
 - **Will Elon Musk post 115-139 tweets from November 21 to November 23, 2026?**  
   AI 0.24 (low) vs market 0.19 → AI confidence low: not trading on it  
   _Musk's recent pace of about 46–50 counted posts a day implies roughly 95–105 posts in the 48-hour window. The 115–139 bucket needs a faster pace, which is plausible given his busy weekend but is the upper-middle of the distribution. I could_
@@ -59,27 +68,10 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 - **Will the Democratic Progressive Party (DPP) win the most head of local government election**  
   AI 0.57 (low) vs market 0.23 → AI confidence low: not trading on it  
   _Templeman's ratings have the KMT ahead 10 to 7 with four toss-ups and one independent-leaning race. However, momentum has moved sharply toward the DPP, and the DPP wins any tie under the alphabetical rule. I estimate roughly even odds, tilt_
-- **Will Puma Shen win the next Taipei Mayor election?**  
-  AI 0.41 (medium) vs market 0.35 → AI 0.41 vs market 0.35: agrees with market  
-  _The race is a near toss-up. The last published polls split 3–3, with Shen up in some and Chiang up in others. Chiang's incumbency, the city's blue lean, and older voters' higher turnout give him a slight edge, while Shen has had strong mome_
-- **Israel x Iran ceasefire continues through November 30?**  
-  AI 0.85 (medium) vs market 0.82 → AI 0.85 vs market 0.82: agrees with market  
-  _No direct Israel–Iran strikes on each other's territory have been reported recently, and Trump says he is not deciding on new strikes until 2027. The main risk is a sudden joint US–Israeli strike, which CBS says could launch within 2–4 days_
-- **Will Kai Cenat finish his GTA VI marathon by November 28?**  
-  AI 0.55 (low) vs market 0.83 → AI confidence low: not trading on it  
-  _Kai started the GTA VI playthrough on Nov 18 with a stated goal of 100% completion, and one report says the stream is slated to run through Thanksgiving night (Nov 26). He is pacing fast (27% in 12 hours), but 100% is estimated at 100–200 h_
 
 ## Activity log (latest 40)
 
 ```
-2026-11-23T17:50:18+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
-2026-11-23T18:20:20+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-23T18:20:25+00:00  [scan] 40 markets pass filters, 36 not recently researched
-2026-11-23T18:20:25+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
-2026-11-23T18:50:27+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-23T18:50:30+00:00  [scan] 41 markets pass filters, 37 not recently researched
-2026-11-23T18:50:30+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
-2026-11-23T19:20:33+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-23T19:20:37+00:00  [scan] 40 markets pass filters, 36 not recently researched
 2026-11-23T19:20:37+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
 2026-11-23T19:50:39+00:00  === run start (paper mode) cash $17.60, 1 open ===
@@ -112,4 +104,12 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-23T23:51:48+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-23T23:51:52+00:00  [scan] 36 markets pass filters, 32 not recently researched
 2026-11-23T23:51:52+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
+2026-11-24T00:21:54+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-24T00:21:58+00:00  [scan] 41 markets pass filters, 39 not recently researched
+2026-11-24T00:21:58+00:00  [research] Will Chiang Wan-an win the next Taipei Mayor election?
+2026-11-24T00:22:12+00:00  [decide] AI 0.57 (low) vs market 0.69 -> skip: AI confidence low: not trading on it
+2026-11-24T00:22:12+00:00  [research] Will Alberto Núñez Feijóo be the next Prime Minister of Spain?
+2026-11-24T00:22:25+00:00  [decide] AI 0.79 (medium) vs market 0.89 -> skip: AI 0.79 vs market 0.89: agrees with market
+2026-11-24T00:22:25+00:00  [research] Will Elon Musk post 280-299 tweets from November 17 to November 24, 2026?
+2026-11-24T00:22:45+00:00  [decide] AI 0.23 (low) vs market 0.46 -> skip: AI confidence low: not trading on it
 ```
