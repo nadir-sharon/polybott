@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-24T00:53:36+00:00 UTC_
+_Updated 2026-11-24T01:23:43+00:00 UTC_
 
 ## Scoreboard
 
@@ -72,9 +72,6 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 ## Activity log (latest 40)
 
 ```
-2026-11-23T20:50:52+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-23T20:50:56+00:00  [scan] 37 markets pass filters, 33 not recently researched
-2026-11-23T20:50:56+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
 2026-11-23T21:20:58+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-23T21:21:03+00:00  [scan] 33 markets pass filters, 29 not recently researched
 2026-11-23T21:21:03+00:00  [budget] daily AI budget $1.00 reached (spent $1.02)
@@ -112,4 +109,7 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-24T00:53:21+00:00  [decide] AI 0.33 (low) vs market 0.22 -> skip: AI confidence low: not trading on it
 2026-11-24T00:53:21+00:00  [research] Will Pedro Sánchez be the next Prime Minister of Spain?
 2026-11-24T00:53:36+00:00  [decide] AI 0.08 (medium) vs market 0.11 -> skip: AI 0.08 vs market 0.11: agrees with market
+2026-11-24T01:23:38+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-24T01:23:43+00:00  [scan] 40 markets pass filters, 34 not recently researched
+2026-11-24T01:23:43+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)
 ```

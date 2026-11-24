@@ -2341,9 +2341,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-19T01:00:59+00:00  === run start (paper mode) cash $17.60, 1 open ===",
-  "2026-11-19T01:01:04+00:00  [scan] 35 markets pass filters, 31 not recently researched",
-  "2026-11-19T01:01:04+00:00  [research] Will Chiang Wan-an win the next Taipei Mayor election?",
   "2026-11-19T01:01:17+00:00  [decide] AI 0.52 (low) vs market 0.59 -> skip: AI confidence low: not trading on it",
   "2026-11-19T01:01:17+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
   "2026-11-19T01:31:19+00:00  === run start (paper mode) cash $17.60, 1 open ===",
@@ -3140,6 +3137,9 @@
   "2026-11-24T00:53:05+00:00  [research] Will Trump speak to Emmanuel Macron by November 30?",
   "2026-11-24T00:53:21+00:00  [decide] AI 0.33 (low) vs market 0.22 -> skip: AI confidence low: not trading on it",
   "2026-11-24T00:53:21+00:00  [research] Will Pedro S\u00e1nchez be the next Prime Minister of Spain?",
-  "2026-11-24T00:53:36+00:00  [decide] AI 0.08 (medium) vs market 0.11 -> skip: AI 0.08 vs market 0.11: agrees with market"
+  "2026-11-24T00:53:36+00:00  [decide] AI 0.08 (medium) vs market 0.11 -> skip: AI 0.08 vs market 0.11: agrees with market",
+  "2026-11-24T01:23:38+00:00  === run start (paper mode) cash $17.60, 1 open ===",
+  "2026-11-24T01:23:43+00:00  [scan] 40 markets pass filters, 34 not recently researched",
+  "2026-11-24T01:23:43+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)"
  ]
 }
