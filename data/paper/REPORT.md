@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-25T04:33:13+00:00 UTC_
+_Updated 2026-11-25T04:33:37+00:00 UTC_
 
 ## Scoreboard
 
@@ -72,9 +72,6 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 ## Activity log (latest 40)
 
 ```
-2026-11-25T00:00:26+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-25T00:00:31+00:00  [scan] 46 markets pass filters, 40 not recently researched
-2026-11-25T00:00:31+00:00  [research] Will Elon Musk post <40 tweets from November 23 to November 25, 2026?
 2026-11-25T00:00:45+00:00  [decide] AI 0.02 (medium) vs market 0.16 -> skip: NO edge +0.037 after fees < 0.05
 2026-11-25T00:00:45+00:00  [research] Will PP win the most seats in the 2026 Spanish general election?
 2026-11-25T00:00:58+00:00  [decide] AI 0.87 (medium) vs market 0.74 -> skip: YES edge +0.029 after fees < 0.05
@@ -112,4 +109,7 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-25T04:33:08+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-25T04:33:13+00:00  [scan] 41 markets pass filters, 35 not recently researched
 2026-11-25T04:33:13+00:00  [budget] daily AI budget $1.00 reached (spent $0.95)
+2026-11-25T04:33:32+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-25T04:33:37+00:00  [scan] 41 markets pass filters, 35 not recently researched
+2026-11-25T04:33:37+00:00  [budget] daily AI budget $1.00 reached (spent $0.95)
 ```
