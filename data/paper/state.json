@@ -881,7 +881,8 @@
    "cost": 0.3233,
    "decision": "AI 0.80 vs market 0.86: agrees with market",
    "traded": false,
-   "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
+   "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
+   "yes_payout": 1.0
   },
   {
    "ts": "2026-11-10T00:26:57+00:00",
@@ -1184,7 +1185,8 @@
    "cost": 0.1855,
    "decision": "AI 0.81 vs market 0.85: agrees with market",
    "traded": false,
-   "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
+   "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
+   "yes_payout": 1.0
   },
   {
    "ts": "2026-11-13T00:28:48+00:00",
@@ -1336,7 +1338,8 @@
    "cost": 0.1979,
    "decision": "AI 0.86 vs market 0.90: agrees with market",
    "traded": false,
-   "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"
+   "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
+   "yes_payout": 1.0
   },
   {
    "ts": "2026-11-15T00:20:28+00:00",
@@ -2469,9 +2472,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-20T21:50:32+00:00  [budget] daily AI budget $1.00 reached (spent $0.97)",
-  "2026-11-20T22:20:34+00:00  === run start (paper mode) cash $17.60, 1 open ===",
-  "2026-11-20T22:20:39+00:00  [scan] 36 markets pass filters, 30 not recently researched",
   "2026-11-20T22:20:39+00:00  [budget] daily AI budget $1.00 reached (spent $0.97)",
   "2026-11-20T22:50:41+00:00  === run start (paper mode) cash $17.60, 1 open ===",
   "2026-11-20T22:50:46+00:00  [scan] 38 markets pass filters, 32 not recently researched",
@@ -3268,6 +3268,9 @@
   "2026-11-25T21:39:03+00:00  [budget] daily AI budget $1.00 reached (spent $0.95)",
   "2026-11-25T22:09:05+00:00  === run start (paper mode) cash $17.60, 1 open ===",
   "2026-11-25T22:09:10+00:00  [scan] 46 markets pass filters, 40 not recently researched",
-  "2026-11-25T22:09:10+00:00  [budget] daily AI budget $1.00 reached (spent $0.95)"
+  "2026-11-25T22:09:10+00:00  [budget] daily AI budget $1.00 reached (spent $0.95)",
+  "2026-11-25T22:39:12+00:00  === run start (paper mode) cash $17.60, 1 open ===",
+  "2026-11-25T22:39:16+00:00  [scan] 38 markets pass filters, 32 not recently researched",
+  "2026-11-25T22:39:16+00:00  [budget] daily AI budget $1.00 reached (spent $0.95)"
  ]
 }
