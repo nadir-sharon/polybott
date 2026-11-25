@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-25T05:03:45+00:00 UTC_
+_Updated 2026-11-25T05:33:52+00:00 UTC_
 
 ## Scoreboard
 
@@ -72,9 +72,6 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 ## Activity log (latest 40)
 
 ```
-2026-11-25T00:00:58+00:00  [research] Will Kuomintang (KMT) win the most head of local government elections in the 2026 Taiwan l
-2026-11-25T00:01:23+00:00  [decide] AI 0.79 (medium) vs market 0.77 -> skip: AI 0.79 vs market 0.77: agrees with market
-2026-11-25T00:31:25+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-25T00:31:30+00:00  [scan] 46 markets pass filters, 41 not recently researched
 2026-11-25T00:31:30+00:00  [research] Will Chiang Wan-an win the next Taipei Mayor election?
 2026-11-25T00:31:44+00:00  [decide] AI 0.63 (medium) vs market 0.64 -> skip: AI 0.63 vs market 0.64: agrees with market
@@ -112,4 +109,7 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-25T05:03:39+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-25T05:03:45+00:00  [scan] 41 markets pass filters, 35 not recently researched
 2026-11-25T05:03:45+00:00  [budget] daily AI budget $1.00 reached (spent $0.95)
+2026-11-25T05:33:47+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-25T05:33:52+00:00  [scan] 43 markets pass filters, 37 not recently researched
+2026-11-25T05:33:52+00:00  [budget] daily AI budget $1.00 reached (spent $0.95)
 ```
