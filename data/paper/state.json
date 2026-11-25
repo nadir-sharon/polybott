@@ -2370,6 +2370,70 @@
    "decision": "AI 0.79 vs market 0.77: agrees with market",
    "traded": false,
    "url": "https://polymarket.com/event/2026-taiwanese-local-elections-party-winner"
+  },
+  {
+   "ts": "2026-11-25T00:31:44+00:00",
+   "market_id": "3580932",
+   "question": "Will Chiang Wan-an win the next Taipei Mayor election?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.63,
+   "confidence": "medium",
+   "market_mid": 0.635,
+   "summary": "Chiang is the KMT incumbent in a blue-leaning city, with Taiwan People's Party voters overwhelmingly behind him. Final polls are split: DPP-leaning and independent pollsters show Shen ahead, while TVBS, ETtoday and China Times show Chiang ahead. Shen has real momentum, so the race is close but Chiang is a modest favorite.",
+   "sources": [
+    "https://www.taiwannews.com.tw/news/6476596",
+    "https://prediction.com/news/who-will-win-the-taipei-mayoral-election",
+    "https://www.chinatimes.com/realtimenews/20261116002256-260407",
+    "https://www.mirrormedia.mg/external/setn_1940273",
+    "https://tw.news.yahoo.com/%E5%8F%B0%E5%8C%97%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E6%9C%80%E6%96%B0%E6%B0%91%E8%AA%BF%E9%9C%87%E6%92%BC%E5%87%BA%E7%88%90-%E8%94%A3%E8%90%AC%E5%AE%8949-%E9%A0%98%E5%85%88%E6%B2%88%E4%BC%AF%E6%B4%8B41-103344658.html"
+   ],
+   "cost": 0.1457,
+   "decision": "AI 0.63 vs market 0.64: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100"
+  },
+  {
+   "ts": "2026-11-25T00:32:02+00:00",
+   "market_id": "2695686",
+   "question": "Will Alberto N\u00fa\u00f1ez Feij\u00f3o be the next Prime Minister of Spain?",
+   "end_date": "2026-11-30T04:59:00+00:00",
+   "ai_prob": 0.78,
+   "confidence": "medium",
+   "market_mid": 0.885,
+   "summary": "A general election is set for 29 Nov 2026, and nearly all final polls show the PP winning with a PP+Vox majority (roughly 187\u2013199 seats against 176 needed). Feij\u00f3o is very likely to be invested if that holds, since Vox is expected to back him, but polling error or a PP\u2013Vox deadlock could prevent it.",
+   "sources": [
+    "https://www.que.es/2026/11/24/encuestas-29n-feijoo-mayoria-pp-vox/",
+    "https://www.eldestapeweb.com/internacionales/encuestas-espana-pp-lidera-vox-crece-derecha-supera-mayoria-176-escanos-casi-todos-sondeos-20261123173654",
+    "https://www.elindependiente.com/espana/2026/11/21/coalicion-feijoo-o-tutela-dura-desde-congreso-lgran-reflexion-abascal/",
+    "https://eldiario.es/politica/feijoo-anticipa-condiciones-vox-si-negociar-29n-ministros-experiencia-respeto-autonomias_1_13679615.html",
+    "https://www.libertaddigital.com/espana/politica/2026-10-05/en-directo-sanchez-anuncia-hoy-si-adelanta-las-elecciones-tras-la-crisis-de-vivienda-7470111/"
+   ],
+   "cost": 0.1549,
+   "decision": "NO edge +0.026 after fees < 0.05",
+   "traded": false,
+   "url": "https://polymarket.com/event/next-prime-minister-of-spain-20260625005215443"
+  },
+  {
+   "ts": "2026-11-25T00:32:19+00:00",
+   "market_id": "3580995",
+   "question": "Will Su Chiao-hui win the next New Taipei Mayor election?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.56,
+   "confidence": "low",
+   "market_mid": 0.585,
+   "summary": "Polls are split: DPP-friendly and some neutral polls show Su ahead by up to 15 points, while KMT-leaning outlets show Lee ahead by 4 to 5 points. The trend over the campaign favors Su, and TVBS's final poll flipped to a narrow Su lead. It is still close to a toss-up, with a slight edge to Su.",
+   "sources": [
+    "https://ctinews.com/news/items/gGaMkmJlnK",
+    "https://www.chinatimes.com/realtimenews/20261115002960-260407",
+    "https://world.storm.mg/articles/1181236",
+    "https://world.storm.mg/articles/1179865",
+    "https://www.taipeitimes.com/News/taiwan/archives/2026/11/17/2003867880",
+    "https://tw.news.yahoo.com/%E6%96%B0%E5%8C%97%E5%B8%82%E9%95%B7%E6%9C%80%E6%96%B0%E6%B0%91%E8%AA%BF%E5%87%BA%E7%88%90-%E6%9D%8E%E5%9B%9B%E5%B7%9D%E6%94%AF%E6%8C%81%E5%BA%A643-1-%E7%9C%8B%E5%A5%BD%E5%BA%A644-2-052647472.html"
+   ],
+   "cost": 0.2357,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/new-taipei-mayor-election-winner-20260813125857200"
   }
  ],
  "ai_spend": {
@@ -2396,7 +2460,7 @@
   "2026-11-22": 0.897574,
   "2026-11-23": 1.017216,
   "2026-11-24": 0.978586,
-  "2026-11-25": 0.41691
+  "2026-11-25": 0.95326
  },
  "realized_by_day": {
   "2026-11-16": -1.4649,
@@ -2404,14 +2468,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-20T00:11:11+00:00  [decide] AI 0.12 (medium) vs market 0.21 -> skip: AI 0.12 vs market 0.21: agrees with market",
-  "2026-11-20T00:11:11+00:00  [research] Will Elon Musk post 340-359 tweets from November 13 to November 20, 2026?",
-  "2026-11-20T00:11:30+00:00  [decide] AI 0.04 (low) vs market 0.24 -> skip: AI confidence low: not trading on it",
-  "2026-11-20T00:11:30+00:00  [research] Next White House Press Secretary announced by November 30, 2026?",
-  "2026-11-20T00:11:48+00:00  [decide] AI 0.22 (medium) vs market 0.16 -> skip: AI 0.22 vs market 0.16: agrees with market",
-  "2026-11-20T00:41:50+00:00  === run start (paper mode) cash $17.60, 1 open ===",
-  "2026-11-20T00:41:56+00:00  [scan] 45 markets pass filters, 39 not recently researched",
-  "2026-11-20T00:41:56+00:00  [research] Israel x Iran ceasefire continues through November 30?",
   "2026-11-20T00:42:14+00:00  [decide] AI 0.78 (medium) vs market 0.83 -> skip: AI 0.78 vs market 0.83: agrees with market",
   "2026-11-20T00:42:14+00:00  [research] Will Puma Shen win the next Taipei Mayor election?",
   "2026-11-20T00:42:28+00:00  [decide] AI 0.45 (medium) vs market 0.40 -> skip: AI 0.45 vs market 0.40: agrees with market",
@@ -3203,6 +3259,14 @@
   "2026-11-25T00:00:45+00:00  [research] Will PP win the most seats in the 2026 Spanish general election?",
   "2026-11-25T00:00:58+00:00  [decide] AI 0.87 (medium) vs market 0.74 -> skip: YES edge +0.029 after fees < 0.05",
   "2026-11-25T00:00:58+00:00  [research] Will Kuomintang (KMT) win the most head of local government elections in the 2026 Taiwan l",
-  "2026-11-25T00:01:23+00:00  [decide] AI 0.79 (medium) vs market 0.77 -> skip: AI 0.79 vs market 0.77: agrees with market"
+  "2026-11-25T00:01:23+00:00  [decide] AI 0.79 (medium) vs market 0.77 -> skip: AI 0.79 vs market 0.77: agrees with market",
+  "2026-11-25T00:31:25+00:00  === run start (paper mode) cash $17.60, 1 open ===",
+  "2026-11-25T00:31:30+00:00  [scan] 46 markets pass filters, 41 not recently researched",
+  "2026-11-25T00:31:30+00:00  [research] Will Chiang Wan-an win the next Taipei Mayor election?",
+  "2026-11-25T00:31:44+00:00  [decide] AI 0.63 (medium) vs market 0.64 -> skip: AI 0.63 vs market 0.64: agrees with market",
+  "2026-11-25T00:31:44+00:00  [research] Will Alberto N\u00fa\u00f1ez Feij\u00f3o be the next Prime Minister of Spain?",
+  "2026-11-25T00:32:02+00:00  [decide] AI 0.78 (medium) vs market 0.89 -> skip: NO edge +0.026 after fees < 0.05",
+  "2026-11-25T00:32:02+00:00  [research] Will Su Chiao-hui win the next New Taipei Mayor election?",
+  "2026-11-25T00:32:19+00:00  [decide] AI 0.56 (low) vs market 0.58 -> skip: AI confidence low: not trading on it"
  ]
 }

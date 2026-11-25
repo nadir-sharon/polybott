@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-25T00:01:23+00:00 UTC_
+_Updated 2026-11-25T00:32:19+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-25T00:01:23+00:00 UTC_
 | Cash now | $17.60 |
 | In open bets (at cost) | $3.04 (1 bets) |
 | Realized profit/loss | **$0.64** |
-| AI research spent | $21.75 |
-| Profit after AI costs | **-$21.10** |
+| AI research spent | $22.28 |
+| Profit after AI costs | **-$21.64** |
 | Settled bets | 2 (1 won, win rate 50%) |
 
 ## Is the AI better than the market?
@@ -38,6 +38,15 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 
 ## Latest AI research (10)
 
+- **Will Su Chiao-hui win the next New Taipei Mayor election?**  
+  AI 0.56 (low) vs market 0.58 → AI confidence low: not trading on it  
+  _Polls are split: DPP-friendly and some neutral polls show Su ahead by up to 15 points, while KMT-leaning outlets show Lee ahead by 4 to 5 points. The trend over the campaign favors Su, and TVBS's final poll flipped to a narrow Su lead. It i_
+- **Will Alberto Núñez Feijóo be the next Prime Minister of Spain?**  
+  AI 0.78 (medium) vs market 0.89 → NO edge +0.026 after fees < 0.05  
+  _A general election is set for 29 Nov 2026, and nearly all final polls show the PP winning with a PP+Vox majority (roughly 187–199 seats against 176 needed). Feijóo is very likely to be invested if that holds, since Vox is expected to back h_
+- **Will Chiang Wan-an win the next Taipei Mayor election?**  
+  AI 0.63 (medium) vs market 0.64 → AI 0.63 vs market 0.64: agrees with market  
+  _Chiang is the KMT incumbent in a blue-leaning city, with Taiwan People's Party voters overwhelmingly behind him. Final polls are split: DPP-leaning and independent pollsters show Shen ahead, while TVBS, ETtoday and China Times show Chiang a_
 - **Will Kuomintang (KMT) win the most head of local government elections in the 2026 Taiwan l**  
   AI 0.79 (medium) vs market 0.77 → AI 0.79 vs market 0.77: agrees with market  
   _Templeman's latest ratings put the KMT at 10 seats and the DPP at 7, with four toss-ups. The KMT has to win strictly more than the DPP, because a tie goes to the DPP alphabetically. The national mood favors the DPP, but the KMT is the likel_
@@ -59,27 +68,10 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 - **Will Elon Musk post 280-299 tweets from November 17 to November 24, 2026?**  
   AI 0.23 (low) vs market 0.46 → AI confidence low: not trading on it  
   _I found no current tracker count for the Nov 17–24 window. A November pace of about 40 posts a day, a heavy first half of the window and a slower weekend point to a total around 290–305. The 280–299 band holds roughly a quarter of that spre_
-- **Will Alberto Núñez Feijóo be the next Prime Minister of Spain?**  
-  AI 0.79 (medium) vs market 0.89 → AI 0.79 vs market 0.89: agrees with market  
-  _A snap election is on 29 Nov 2026, and nearly all final polls give PP+Vox 187–199 seats against 176 needed. Feijóo would likely be invested with Vox's support or abstention. The remaining risks are polling error (as in 2023) and a stalled i_
-- **Will Chiang Wan-an win the next Taipei Mayor election?**  
-  AI 0.57 (low) vs market 0.69 → AI confidence low: not trading on it  
-  _Taipei's final pre-blackout polls are split: TVBS, ETtoday and China Times have Chiang ahead, while Taiwan Brain Trust, TIA and others have Shen ahead. Taipei's blue lean, high older-voter turnout and concerns about green-leaning poll sampl_
-- **Will Elon Musk post 115-139 tweets from November 21 to November 23, 2026?**  
-  AI 0.24 (low) vs market 0.19 → AI confidence low: not trading on it  
-  _Musk's recent pace of about 46–50 counted posts a day implies roughly 95–105 posts in the 48-hour window. The 115–139 bucket needs a faster pace, which is plausible given his busy weekend but is the upper-middle of the distribution. I could_
 
 ## Activity log (latest 40)
 
 ```
-2026-11-24T18:58:56+00:00  [scan] 46 markets pass filters, 42 not recently researched
-2026-11-24T18:58:56+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)
-2026-11-24T19:28:58+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-24T19:29:03+00:00  [scan] 46 markets pass filters, 42 not recently researched
-2026-11-24T19:29:03+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)
-2026-11-24T19:59:05+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-24T19:59:10+00:00  [scan] 45 markets pass filters, 41 not recently researched
-2026-11-24T19:59:10+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)
 2026-11-24T20:29:12+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-24T20:29:17+00:00  [scan] 47 markets pass filters, 43 not recently researched
 2026-11-24T20:29:17+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)
@@ -112,4 +104,12 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-25T00:00:58+00:00  [decide] AI 0.87 (medium) vs market 0.74 -> skip: YES edge +0.029 after fees < 0.05
 2026-11-25T00:00:58+00:00  [research] Will Kuomintang (KMT) win the most head of local government elections in the 2026 Taiwan l
 2026-11-25T00:01:23+00:00  [decide] AI 0.79 (medium) vs market 0.77 -> skip: AI 0.79 vs market 0.77: agrees with market
+2026-11-25T00:31:25+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-25T00:31:30+00:00  [scan] 46 markets pass filters, 41 not recently researched
+2026-11-25T00:31:30+00:00  [research] Will Chiang Wan-an win the next Taipei Mayor election?
+2026-11-25T00:31:44+00:00  [decide] AI 0.63 (medium) vs market 0.64 -> skip: AI 0.63 vs market 0.64: agrees with market
+2026-11-25T00:31:44+00:00  [research] Will Alberto Núñez Feijóo be the next Prime Minister of Spain?
+2026-11-25T00:32:02+00:00  [decide] AI 0.78 (medium) vs market 0.89 -> skip: NO edge +0.026 after fees < 0.05
+2026-11-25T00:32:02+00:00  [research] Will Su Chiao-hui win the next New Taipei Mayor election?
+2026-11-25T00:32:19+00:00  [decide] AI 0.56 (low) vs market 0.58 -> skip: AI confidence low: not trading on it
 ```
