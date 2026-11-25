@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-25T05:33:52+00:00 UTC_
+_Updated 2026-11-25T06:03:59+00:00 UTC_
 
 ## Scoreboard
 
@@ -72,9 +72,6 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 ## Activity log (latest 40)
 
 ```
-2026-11-25T00:31:30+00:00  [scan] 46 markets pass filters, 41 not recently researched
-2026-11-25T00:31:30+00:00  [research] Will Chiang Wan-an win the next Taipei Mayor election?
-2026-11-25T00:31:44+00:00  [decide] AI 0.63 (medium) vs market 0.64 -> skip: AI 0.63 vs market 0.64: agrees with market
 2026-11-25T00:31:44+00:00  [research] Will Alberto Núñez Feijóo be the next Prime Minister of Spain?
 2026-11-25T00:32:02+00:00  [decide] AI 0.78 (medium) vs market 0.89 -> skip: NO edge +0.026 after fees < 0.05
 2026-11-25T00:32:02+00:00  [research] Will Su Chiao-hui win the next New Taipei Mayor election?
@@ -112,4 +109,7 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-25T05:33:47+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-25T05:33:52+00:00  [scan] 43 markets pass filters, 37 not recently researched
 2026-11-25T05:33:52+00:00  [budget] daily AI budget $1.00 reached (spent $0.95)
+2026-11-25T06:03:54+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-25T06:03:59+00:00  [scan] 40 markets pass filters, 34 not recently researched
+2026-11-25T06:03:59+00:00  [budget] daily AI budget $1.00 reached (spent $0.95)
 ```
