@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-24T23:30:24+00:00 UTC_
+_Updated 2026-11-25T00:01:23+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-24T23:30:24+00:00 UTC_
 | Cash now | $17.60 |
 | In open bets (at cost) | $3.04 (1 bets) |
 | Realized profit/loss | **$0.64** |
-| AI research spent | $21.33 |
-| Profit after AI costs | **-$20.69** |
+| AI research spent | $21.75 |
+| Profit after AI costs | **-$21.10** |
 | Settled bets | 2 (1 won, win rate 50%) |
 
 ## Is the AI better than the market?
@@ -38,6 +38,15 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 
 ## Latest AI research (10)
 
+- **Will Kuomintang (KMT) win the most head of local government elections in the 2026 Taiwan l**  
+  AI 0.79 (medium) vs market 0.77 → AI 0.79 vs market 0.77: agrees with market  
+  _Templeman's latest ratings put the KMT at 10 seats and the DPP at 7, with four toss-ups. The KMT has to win strictly more than the DPP, because a tie goes to the DPP alphabetically. The national mood favors the DPP, but the KMT is the likel_
+- **Will PP win the most seats in the 2026 Spanish general election?**  
+  AI 0.87 (medium) vs market 0.74 → YES edge +0.029 after fees < 0.05  
+  _The election is confirmed for 29 Nov 2026. Nearly all final polls put the PP ahead of the PSOE by about 3 points and 10–20 seats, with a few outliers (Cluster17, CIS) favouring the PSOE. A polling miss large enough to flip the result is pos_
+- **Will Elon Musk post <40 tweets from November 23 to November 25, 2026?**  
+  AI 0.02 (medium) vs market 0.16 → NO edge +0.037 after fees < 0.05  
+  _Musk averaged about 40 posts a day in November and posted about 118 times on Nov 23. The window is more than 60% elapsed, so the count is very likely already at or above 40. I did not see the live tracker figure for this exact window._
 - **Will Pedro Sánchez be the next Prime Minister of Spain?**  
   AI 0.08 (medium) vs market 0.11 → AI 0.08 vs market 0.11: agrees with market  
   _Spain votes on 29 Nov 2026, and nearly every poll gives PP plus Vox a clear absolute majority (about 187–196 seats against 176 needed). Sánchez would need a large polling miss or a hung parliament to be re-invested before March 2028._
@@ -59,27 +68,10 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 - **Will Elon Musk post 115-139 tweets from November 21 to November 23, 2026?**  
   AI 0.24 (low) vs market 0.19 → AI confidence low: not trading on it  
   _Musk's recent pace of about 46–50 counted posts a day implies roughly 95–105 posts in the 48-hour window. The 115–139 bucket needs a faster pace, which is plausible given his busy weekend but is the upper-middle of the distribution. I could_
-- **Will Puma Shen win the next Taipei Mayor election?**  
-  AI 0.42 (low) vs market 0.29 → AI confidence low: not trading on it  
-  _The Taipei race is very close. Final pre-blackout polls split 3-3 along pollster lines: green-leaning pollsters had Shen ahead and blue-leaning ones had Chiang ahead. I give Chiang a slight edge because he is the incumbent and the KMT and T_
-- **Next White House Press Secretary announced by November 30, 2026?**  
-  AI 0.09 (medium) vs market 0.15 → AI 0.09 vs market 0.15: agrees with market  
-  _The press secretary job has been vacant since Zacharia's Oct 16 exit, and as of Nov 22 no replacement had been named. Trump says he has 4-5 finalists but gave no timeline when asked about naming one before the new year, so an announcement i_
-- **Spain General Election: PP + Vox Majority?**  
-  AI 0.86 (medium) vs market 0.90 → AI 0.86 vs market 0.90: agrees with market  
-  _All final-week polls project PP plus Vox at about 187–210 seats, well above the 176 needed, with a poll-of-polls average of about 194. The main risks are a repeat of the 2023 polling miss that overstated the right, and UPN seats not countin_
 
 ## Activity log (latest 40)
 
 ```
-2026-11-24T17:58:19+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)
-2026-11-24T18:28:20+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-24T18:28:24+00:00  [scan] 47 markets pass filters, 43 not recently researched
-2026-11-24T18:28:24+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)
-2026-11-24T18:28:44+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-24T18:28:48+00:00  [scan] 47 markets pass filters, 43 not recently researched
-2026-11-24T18:28:48+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)
-2026-11-24T18:58:50+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-24T18:58:56+00:00  [scan] 46 markets pass filters, 42 not recently researched
 2026-11-24T18:58:56+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)
 2026-11-24T19:28:58+00:00  === run start (paper mode) cash $17.60, 1 open ===
@@ -112,4 +104,12 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-24T23:30:19+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-24T23:30:24+00:00  [scan] 45 markets pass filters, 39 not recently researched
 2026-11-24T23:30:24+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)
+2026-11-25T00:00:26+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-25T00:00:31+00:00  [scan] 46 markets pass filters, 40 not recently researched
+2026-11-25T00:00:31+00:00  [research] Will Elon Musk post <40 tweets from November 23 to November 25, 2026?
+2026-11-25T00:00:45+00:00  [decide] AI 0.02 (medium) vs market 0.16 -> skip: NO edge +0.037 after fees < 0.05
+2026-11-25T00:00:45+00:00  [research] Will PP win the most seats in the 2026 Spanish general election?
+2026-11-25T00:00:58+00:00  [decide] AI 0.87 (medium) vs market 0.74 -> skip: YES edge +0.029 after fees < 0.05
+2026-11-25T00:00:58+00:00  [research] Will Kuomintang (KMT) win the most head of local government elections in the 2026 Taiwan l
+2026-11-25T00:01:23+00:00  [decide] AI 0.79 (medium) vs market 0.77 -> skip: AI 0.79 vs market 0.77: agrees with market
 ```

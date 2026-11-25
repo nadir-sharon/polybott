@@ -2309,6 +2309,67 @@
    "decision": "AI 0.08 vs market 0.11: agrees with market",
    "traded": false,
    "url": "https://polymarket.com/event/next-prime-minister-of-spain-20260625005215443"
+  },
+  {
+   "ts": "2026-11-25T00:00:45+00:00",
+   "market_id": "7233465",
+   "question": "Will Elon Musk post <40 tweets from November 23 to November 25, 2026?",
+   "end_date": "2026-11-25T17:00:00+00:00",
+   "ai_prob": 0.02,
+   "confidence": "medium",
+   "market_mid": 0.1645,
+   "summary": "Musk averaged about 40 posts a day in November and posted about 118 times on Nov 23. The window is more than 60% elapsed, so the count is very likely already at or above 40. I did not see the live tracker figure for this exact window.",
+   "sources": [
+    "https://tweetstream.io/elon/stats",
+    "https://www.youtube.com/watch?v=r24Nl4pRhWA",
+    "https://x.com/elonmusk/status/2124872664938602736",
+    "https://www.xtracker.io/"
+   ],
+   "cost": 0.1064,
+   "decision": "NO edge +0.037 after fees < 0.05",
+   "traded": false,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-23-november-25-2026"
+  },
+  {
+   "ts": "2026-11-25T00:00:58+00:00",
+   "market_id": "5336561",
+   "question": "Will PP win the most seats in the 2026 Spanish general election?",
+   "end_date": "2026-11-30T04:59:00+00:00",
+   "ai_prob": 0.87,
+   "confidence": "medium",
+   "market_mid": 0.745,
+   "summary": "The election is confirmed for 29 Nov 2026. Nearly all final polls put the PP ahead of the PSOE by about 3 points and 10\u201320 seats, with a few outliers (Cluster17, CIS) favouring the PSOE. A polling miss large enough to flip the result is possible but unlikely.",
+   "sources": [
+    "https://mapaelectoral.es/encuestas/",
+    "https://es-us.noticias.yahoo.com/sondeo-29n-feij%C3%B3o-aventaja-20-160033857.html",
+    "https://www.democrata.es/encuestas/elecciones-generales/tracking-encuesta-29n-hoy-40db-23-noviembre-2026/",
+    "https://en.wikipedia.org/wiki/2026_Spanish_general_election",
+    "https://www.vozpopuli.com/espana/encuestas-elecciones-generales-del-29-n-resultado-de-psoe-pp-vox-y-frente-amplio-y-ganador-segun-los-ultimos-sondeos.html"
+   ],
+   "cost": 0.123,
+   "decision": "YES edge +0.029 after fees < 0.05",
+   "traded": false,
+   "url": "https://polymarket.com/event/spain-general-election-winner"
+  },
+  {
+   "ts": "2026-11-25T00:01:23+00:00",
+   "market_id": "814612",
+   "question": "Will Kuomintang (KMT) win the most head of local government elections in the 2026 Taiwan local elections?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.79,
+   "confidence": "medium",
+   "market_mid": 0.765,
+   "summary": "Templeman's latest ratings put the KMT at 10 seats and the DPP at 7, with four toss-ups. The KMT has to win strictly more than the DPP, because a tie goes to the DPP alphabetically. The national mood favors the DPP, but the KMT is the likely winner of the most seats.",
+   "sources": [
+    "https://www.kharistempleman.com/blog/taiwans-2026-local-elections-state-of-the-race-one-month-out",
+    "https://www.taipeitimes.com/News/taiwan/archives/2026/11/17/2003867880",
+    "https://www.kharistempleman.com/blog/taiwan-2026-local-elections-preview-5-wrap-up",
+    "https://taiwaninsight.org/2026/11/12/battle-of-north-taiwan-what-does-victory-mean-to-both-sides/"
+   ],
+   "cost": 0.1876,
+   "decision": "AI 0.79 vs market 0.77: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/2026-taiwanese-local-elections-party-winner"
   }
  ],
  "ai_spend": {
@@ -2334,7 +2395,8 @@
   "2026-11-21": 0.884106,
   "2026-11-22": 0.897574,
   "2026-11-23": 1.017216,
-  "2026-11-24": 0.978586
+  "2026-11-24": 0.978586,
+  "2026-11-25": 0.41691
  },
  "realized_by_day": {
   "2026-11-16": -1.4649,
@@ -2342,14 +2404,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-19T23:10:32+00:00  [scan] 34 markets pass filters, 29 not recently researched",
-  "2026-11-19T23:10:32+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
-  "2026-11-19T23:40:34+00:00  === run start (paper mode) cash $17.60, 1 open ===",
-  "2026-11-19T23:40:47+00:00  [scan] 40 markets pass filters, 35 not recently researched",
-  "2026-11-19T23:40:47+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
-  "2026-11-20T00:10:49+00:00  === run start (paper mode) cash $17.60, 1 open ===",
-  "2026-11-20T00:10:56+00:00  [scan] 43 markets pass filters, 38 not recently researched",
-  "2026-11-20T00:10:56+00:00  [research] Will PSOE win the most seats in the 2026 Spanish general election?",
   "2026-11-20T00:11:11+00:00  [decide] AI 0.12 (medium) vs market 0.21 -> skip: AI 0.12 vs market 0.21: agrees with market",
   "2026-11-20T00:11:11+00:00  [research] Will Elon Musk post 340-359 tweets from November 13 to November 20, 2026?",
   "2026-11-20T00:11:30+00:00  [decide] AI 0.04 (low) vs market 0.24 -> skip: AI confidence low: not trading on it",
@@ -3141,6 +3195,14 @@
   "2026-11-24T23:29:58+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)",
   "2026-11-24T23:30:19+00:00  === run start (paper mode) cash $17.60, 1 open ===",
   "2026-11-24T23:30:24+00:00  [scan] 45 markets pass filters, 39 not recently researched",
-  "2026-11-24T23:30:24+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)"
+  "2026-11-24T23:30:24+00:00  [budget] daily AI budget $1.00 reached (spent $0.98)",
+  "2026-11-25T00:00:26+00:00  === run start (paper mode) cash $17.60, 1 open ===",
+  "2026-11-25T00:00:31+00:00  [scan] 46 markets pass filters, 40 not recently researched",
+  "2026-11-25T00:00:31+00:00  [research] Will Elon Musk post <40 tweets from November 23 to November 25, 2026?",
+  "2026-11-25T00:00:45+00:00  [decide] AI 0.02 (medium) vs market 0.16 -> skip: NO edge +0.037 after fees < 0.05",
+  "2026-11-25T00:00:45+00:00  [research] Will PP win the most seats in the 2026 Spanish general election?",
+  "2026-11-25T00:00:58+00:00  [decide] AI 0.87 (medium) vs market 0.74 -> skip: YES edge +0.029 after fees < 0.05",
+  "2026-11-25T00:00:58+00:00  [research] Will Kuomintang (KMT) win the most head of local government elections in the 2026 Taiwan l",
+  "2026-11-25T00:01:23+00:00  [decide] AI 0.79 (medium) vs market 0.77 -> skip: AI 0.79 vs market 0.77: agrees with market"
  ]
 }
