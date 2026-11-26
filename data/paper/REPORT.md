@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-25T23:39:30+00:00 UTC_
+_Updated 2026-11-26T00:10:21+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-25T23:39:30+00:00 UTC_
 | Cash now | $17.60 |
 | In open bets (at cost) | $3.04 (1 bets) |
 | Realized profit/loss | **$0.64** |
-| AI research spent | $22.28 |
-| Profit after AI costs | **-$21.64** |
+| AI research spent | $22.76 |
+| Profit after AI costs | **-$22.11** |
 | Settled bets | 2 (1 won, win rate 50%) |
 
 ## Is the AI better than the market?
@@ -38,6 +38,15 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 
 ## Latest AI research (10)
 
+- **Will Puma Shen win the 2026 Taipei Mayoral Election by 8% or more?**  
+  AI 0.10 (medium) vs market 0.13 → AI 0.10 vs market 0.13: agrees with market  
+  _The Taipei race is essentially a toss-up. Published polls split between a Shen lead of up to 5 points and a Chiang lead of up to 7. An 8-point or larger Shen win is a tail outcome, which I put at about 10%._
+- **Will Pedro Sánchez be the next Prime Minister of Spain?**  
+  AI 0.13 (medium) vs market 0.11 → AI 0.13 vs market 0.11: agrees with market  
+  _Spain votes on 29 Nov 2026, and nearly all polls show PP plus Vox with a clear majority (about 187–196 seats), so Feijóo is the likely next PM. Sánchez would need a polling miss or a hung parliament, and Junts has reportedly said it won't b_
+- **Will Puma Shen win the next Taipei Mayor election?**  
+  AI 0.39 (medium) vs market 0.43 → AI 0.39 vs market 0.43: agrees with market  
+  _Final pre-blackout polls were split, with Shen ahead in four of seven and mostly within the margin of error. Taipei's blue-leaning electorate, the incumbent's satisfaction ratings and the turnout uncertainty favor Chiang slightly. Shen wins_
 - **Will Su Chiao-hui win the next New Taipei Mayor election?**  
   AI 0.56 (low) vs market 0.58 → AI confidence low: not trading on it  
   _Polls are split: DPP-friendly and some neutral polls show Su ahead by up to 15 points, while KMT-leaning outlets show Lee ahead by 4 to 5 points. The trend over the campaign favors Su, and TVBS's final poll flipped to a narrow Su lead. It i_
@@ -59,27 +68,10 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 - **Will Pedro Sánchez be the next Prime Minister of Spain?**  
   AI 0.08 (medium) vs market 0.11 → AI 0.08 vs market 0.11: agrees with market  
   _Spain votes on 29 Nov 2026, and nearly every poll gives PP plus Vox a clear absolute majority (about 187–196 seats against 176 needed). Sánchez would need a large polling miss or a hung parliament to be re-invested before March 2028._
-- **Will Trump speak to Emmanuel Macron by November 30?**  
-  AI 0.33 (low) vs market 0.21 → AI confidence low: not trading on it  
-  _Ukraine peace diplomacy is active and Trump called into a Europe-leaders meeting on Nov 19, so another call is plausible. But no scheduled meeting or announced call falls in the 7-day window, and reported bilateral calls come every few week_
-- **Will Puma Shen win the next Taipei Mayor election?**  
-  AI 0.39 (medium) vs market 0.32 → AI 0.39 vs market 0.32: agrees with market  
-  _The final published polls are split: Shen leads in about three of them and Chiang in about three. Chiang has structural advantages from older-voter turnout, incumbency and TPP support, but Shen has momentum, so the race is close with Chiang_
-- **Will Elon Musk post 280-299 tweets from November 17 to November 24, 2026?**  
-  AI 0.23 (low) vs market 0.46 → AI confidence low: not trading on it  
-  _I found no current tracker count for the Nov 17–24 window. A November pace of about 40 posts a day, a heavy first half of the window and a slower weekend point to a total around 290–305. The 280–299 band holds roughly a quarter of that spre_
 
 ## Activity log (latest 40)
 
 ```
-2026-11-25T17:37:46+00:00  [budget] daily AI budget $1.00 reached (spent $0.95)
-2026-11-25T18:07:48+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-25T18:07:53+00:00  [scan] 47 markets pass filters, 42 not recently researched
-2026-11-25T18:07:53+00:00  [budget] daily AI budget $1.00 reached (spent $0.95)
-2026-11-25T18:37:55+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-25T18:38:01+00:00  [scan] 51 markets pass filters, 45 not recently researched
-2026-11-25T18:38:01+00:00  [budget] daily AI budget $1.00 reached (spent $0.95)
-2026-11-25T19:08:03+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-25T19:08:08+00:00  [scan] 50 markets pass filters, 44 not recently researched
 2026-11-25T19:08:08+00:00  [budget] daily AI budget $1.00 reached (spent $0.95)
 2026-11-25T19:38:10+00:00  === run start (paper mode) cash $17.60, 1 open ===
@@ -112,4 +104,12 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-25T23:39:25+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-25T23:39:30+00:00  [scan] 38 markets pass filters, 32 not recently researched
 2026-11-25T23:39:30+00:00  [budget] daily AI budget $1.00 reached (spent $0.95)
+2026-11-26T00:09:32+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-26T00:09:37+00:00  [scan] 43 markets pass filters, 39 not recently researched
+2026-11-26T00:09:37+00:00  [research] Will Puma Shen win the next Taipei Mayor election?
+2026-11-26T00:09:54+00:00  [decide] AI 0.39 (medium) vs market 0.43 -> skip: AI 0.39 vs market 0.43: agrees with market
+2026-11-26T00:09:54+00:00  [research] Will Pedro Sánchez be the next Prime Minister of Spain?
+2026-11-26T00:10:09+00:00  [decide] AI 0.13 (medium) vs market 0.11 -> skip: AI 0.13 vs market 0.11: agrees with market
+2026-11-26T00:10:09+00:00  [research] Will Puma Shen win the 2026 Taipei Mayoral Election by 8% or more?
+2026-11-26T00:10:21+00:00  [decide] AI 0.10 (medium) vs market 0.13 -> skip: AI 0.10 vs market 0.13: agrees with market
 ```
