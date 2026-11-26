@@ -2500,6 +2500,70 @@
    "decision": "AI 0.10 vs market 0.13: agrees with market",
    "traded": false,
    "url": "https://polymarket.com/event/2026-taipei-mayoral-election-margin-of-victory-20261103233704870"
+  },
+  {
+   "ts": "2026-11-26T00:40:42+00:00",
+   "market_id": "3580932",
+   "question": "Will Chiang Wan-an win the next Taipei Mayor election?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.58,
+   "confidence": "low",
+   "market_mid": 0.575,
+   "summary": "Taipei's mayoral race is a genuine toss-up. Final pre-blackout polls split 3-3 between Chiang and Shen, and Shen had momentum earlier. Chiang gets a modest edge from the city's blue-white structural majority, TPP voters consolidating behind him, and the pattern that landline polls and enthusiasm can overstate DPP support.",
+   "sources": [
+    "https://www.taiwannews.com.tw/news/6476596",
+    "https://www.rti.org.tw/en/news?uid=3&pid=1051920",
+    "https://prediction.com/news/who-will-win-the-taipei-mayoral-election",
+    "https://world.storm.mg/articles/1184588",
+    "https://focustaiwan.tw/politics/202611150014"
+   ],
+   "cost": 0.1404,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100"
+  },
+  {
+   "ts": "2026-11-26T00:41:02+00:00",
+   "market_id": "2695686",
+   "question": "Will Alberto N\u00fa\u00f1ez Feij\u00f3o be the next Prime Minister of Spain?",
+   "end_date": "2026-11-30T04:59:00+00:00",
+   "ai_prob": 0.78,
+   "confidence": "medium",
+   "market_mid": 0.885,
+   "summary": "Spain votes on 29 Nov 2026, and most polls show the PP well ahead, with PP+Vox+UPN above or near the 176-seat majority. The risks are a polling miss like 2023, a PP\u2013Vox deadlock over entering government, or the left pulling off a coalition. The 2028 deadline leaves time for repeat votes or a new election.",
+   "sources": [
+    "https://es-us.noticias.yahoo.com/sondeo-29n-feij%C3%B3o-aventaja-20-160033857.html",
+    "https://www.democrata.es/encuestas/elecciones-generales/tracking-encuesta-29n-hoy-40db-23-noviembre-2026/",
+    "https://doblelectura.es/guia/quien-forma-gobierno-29-n-pactos",
+    "https://www.eldebate.com/espana/20261123/feijoo-abre-puerta-pactar-vox-29n-fija-limites-nadie-puede-firmar-acuerdos-ilegales_484365.html",
+    "https://www.aljazeera.com/news/2026/10/5/spanish-prime-minister-pedro-sanchez-announces-snap-election",
+    "https://democrata.es/elecciones-generales-espana/entrevista-santiago-abascal-vox-feijoo-inmigracion-29n"
+   ],
+   "cost": 0.1867,
+   "decision": "NO edge +0.026 after fees < 0.05",
+   "traded": false,
+   "url": "https://polymarket.com/event/next-prime-minister-of-spain-20260625005215443"
+  },
+  {
+   "ts": "2026-11-26T00:41:20+00:00",
+   "market_id": "7109769",
+   "question": "Will Elon Musk post 240-259 tweets from November 20 to November 27, 2026?",
+   "end_date": "2026-11-27T17:00:00+00:00",
+   "ai_prob": 0.2,
+   "confidence": "low",
+   "market_mid": 0.115,
+   "summary": "I couldn't find the live tracker count for Nov 20\u201327. Musk's recent pace of about 30\u201340 posts a day implies a total of roughly 210\u2013280, and 240\u2013259 sits near the center but is only a 20-post-wide bucket.",
+   "sources": [
+    "https://tweetstream.io/elon/stats",
+    "https://polystrike.xyz/history",
+    "https://www.youtube.com/watch?v=Ob8_1bQEzD8",
+    "https://elonmuskbrief.com/",
+    "https://predictiontape.com/markets/tech/elon-musk-tweet-count/"
+   ],
+   "cost": 0.2335,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-november-20-november-27-2026"
   }
  ],
  "ai_spend": {
@@ -2527,7 +2591,7 @@
   "2026-11-23": 1.017216,
   "2026-11-24": 0.978586,
   "2026-11-25": 0.95326,
-  "2026-11-26": 0.474462
+  "2026-11-26": 1.035078
  },
  "realized_by_day": {
   "2026-11-16": -1.4649,
@@ -2535,14 +2599,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-21T00:21:23+00:00  [research] Will WTI Crude Oil (WTI) hit (LOW) $80 in November?",
-  "2026-11-21T00:21:40+00:00  [decide] AI 0.58 (medium) vs market 0.57 -> skip: AI 0.58 vs market 0.57: agrees with market",
-  "2026-11-21T00:21:40+00:00  [research] Will Kai Cenat finish his GTA VI marathon by November 26?",
-  "2026-11-21T00:22:05+00:00  [decide] AI 0.40 (low) vs market 0.53 -> skip: AI confidence low: not trading on it",
-  "2026-11-21T00:22:24+00:00  === run start (paper mode) cash $17.60, 1 open ===",
-  "2026-11-21T00:22:29+00:00  [scan] 32 markets pass filters, 25 not recently researched",
-  "2026-11-21T00:22:29+00:00  [research] Will Kai Cenat finish his GTA VI marathon by November 28?",
-  "2026-11-21T00:22:54+00:00  [decide] AI 0.55 (low) vs market 0.83 -> skip: AI confidence low: not trading on it",
   "2026-11-21T00:22:54+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
   "2026-11-21T00:52:56+00:00  === run start (paper mode) cash $17.60, 1 open ===",
   "2026-11-21T00:53:01+00:00  [scan] 35 markets pass filters, 29 not recently researched",
@@ -3334,6 +3390,14 @@
   "2026-11-26T00:09:54+00:00  [research] Will Pedro S\u00e1nchez be the next Prime Minister of Spain?",
   "2026-11-26T00:10:09+00:00  [decide] AI 0.13 (medium) vs market 0.11 -> skip: AI 0.13 vs market 0.11: agrees with market",
   "2026-11-26T00:10:09+00:00  [research] Will Puma Shen win the 2026 Taipei Mayoral Election by 8% or more?",
-  "2026-11-26T00:10:21+00:00  [decide] AI 0.10 (medium) vs market 0.13 -> skip: AI 0.10 vs market 0.13: agrees with market"
+  "2026-11-26T00:10:21+00:00  [decide] AI 0.10 (medium) vs market 0.13 -> skip: AI 0.10 vs market 0.13: agrees with market",
+  "2026-11-26T00:40:23+00:00  === run start (paper mode) cash $17.60, 1 open ===",
+  "2026-11-26T00:40:27+00:00  [scan] 42 markets pass filters, 38 not recently researched",
+  "2026-11-26T00:40:27+00:00  [research] Will Chiang Wan-an win the next Taipei Mayor election?",
+  "2026-11-26T00:40:42+00:00  [decide] AI 0.58 (low) vs market 0.57 -> skip: AI confidence low: not trading on it",
+  "2026-11-26T00:40:42+00:00  [research] Will Alberto N\u00fa\u00f1ez Feij\u00f3o be the next Prime Minister of Spain?",
+  "2026-11-26T00:41:02+00:00  [decide] AI 0.78 (medium) vs market 0.89 -> skip: NO edge +0.026 after fees < 0.05",
+  "2026-11-26T00:41:02+00:00  [research] Will Elon Musk post 240-259 tweets from November 20 to November 27, 2026?",
+  "2026-11-26T00:41:20+00:00  [decide] AI 0.20 (low) vs market 0.11 -> skip: AI confidence low: not trading on it"
  ]
 }
