@@ -667,7 +667,8 @@
    "cost": 0.2021,
    "decision": "AI confidence low: not trading on it",
    "traded": false,
-   "url": "https://polymarket.com/event/new-zealand-legislative-election-winner"
+   "url": "https://polymarket.com/event/new-zealand-legislative-election-winner",
+   "yes_payout": 0.0
   },
   {
    "ts": "2026-11-07T00:06:59+00:00",
@@ -2687,9 +2688,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-22T03:01:28+00:00  [scan] 33 markets pass filters, 27 not recently researched",
-  "2026-11-22T03:01:28+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)",
-  "2026-11-22T03:31:29+00:00  === run start (paper mode) cash $17.60, 1 open ===",
   "2026-11-22T03:31:33+00:00  [scan] 36 markets pass filters, 30 not recently researched",
   "2026-11-22T03:31:33+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)",
   "2026-11-22T04:01:35+00:00  === run start (paper mode) cash $17.60, 1 open ===",
@@ -3486,6 +3484,9 @@
   "2026-11-27T02:20:55+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)",
   "2026-11-27T02:50:57+00:00  === run start (paper mode) cash $16.23, 2 open ===",
   "2026-11-27T02:51:04+00:00  [scan] 56 markets pass filters, 52 not recently researched",
-  "2026-11-27T02:51:04+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)"
+  "2026-11-27T02:51:04+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)",
+  "2026-11-27T03:21:06+00:00  === run start (paper mode) cash $16.23, 2 open ===",
+  "2026-11-27T03:21:13+00:00  [scan] 57 markets pass filters, 54 not recently researched",
+  "2026-11-27T03:21:13+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)"
  ]
 }
