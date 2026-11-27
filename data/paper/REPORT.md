@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-27T00:19:54+00:00 UTC_
+_Updated 2026-11-27T00:50:02+00:00 UTC_
 
 ## Scoreboard
 
@@ -73,9 +73,6 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 ## Activity log (latest 40)
 
 ```
-2026-11-26T19:17:26+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
-2026-11-26T19:47:28+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-26T19:47:32+00:00  [scan] 57 markets pass filters, 53 not recently researched
 2026-11-26T19:47:32+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
 2026-11-26T20:17:34+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-26T20:17:38+00:00  [scan] 59 markets pass filters, 55 not recently researched
@@ -113,4 +110,7 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-27T00:19:36+00:00  [research] Will it be confirmed that a software or configuration error caused the FAA's nationwide gr
 2026-11-27T00:19:54+00:00  [decide] AI 0.80 (medium) vs market 0.19 -> TRADE YES: edge found
 2026-11-27T00:19:54+00:00  [order] PAPER BUY YES 7.04 sh @ 0.188 = $1.38  (edge +0.206)  Will it be confirmed that a software or configuration error 
+2026-11-27T00:49:56+00:00  === run start (paper mode) cash $16.23, 2 open ===
+2026-11-27T00:50:02+00:00  [scan] 65 markets pass filters, 61 not recently researched
+2026-11-27T00:50:02+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)
 ```
