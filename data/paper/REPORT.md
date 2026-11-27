@@ -1,17 +1,17 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-26T23:48:56+00:00 UTC_
+_Updated 2026-11-27T00:19:54+00:00 UTC_
 
 ## Scoreboard
 
 | | |
 |---|---|
 | Starting bankroll | $20.00 |
-| Cash now | $17.60 |
-| In open bets (at cost) | $3.04 (1 bets) |
+| Cash now | $16.23 |
+| In open bets (at cost) | $4.42 (2 bets) |
 | Realized profit/loss | **$0.64** |
-| AI research spent | $23.32 |
-| Profit after AI costs | **-$22.67** |
+| AI research spent | $24.22 |
+| Profit after AI costs | **-$23.58** |
 | Settled bets | 2 (1 won, win rate 50%) |
 
 ## Is the AI better than the market?
@@ -27,6 +27,7 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 
 | Opened | Side | Cost | Price | AI / market | Ends | Market |
 |---|---|---|---|---|---|---|
+| 2026-11-27T00:19 | YES | $1.38 | 0.19 | 0.80 / 0.19 | 2026-12-01 | [Will it be confirmed that a software or configuration error caused the](https://polymarket.com/event/what-technical-failure-caused-the-faas-nationwide-ground-stop) |
 | 2026-11-18T00:20 | NO | $3.04 | 0.59 | 0.07 / 0.41 | 2026-11-22 | [US x Iran Effective Ceasefire by November 22?](https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108) |
 
 ## Settled bets (latest 20)
@@ -38,6 +39,15 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 
 ## Latest AI research (10)
 
+- **Will it be confirmed that a software or configuration error caused the FAA's nationwide gr**  
+  AI 0.80 (medium) vs market 0.19 → edge found  
+  _Officials have blamed a newly installed L3Harris/Juniper router flooding the FAA network. A Nov 24 CNN report, citing an unnamed source, says investigators found an overlooked router setting and expect software patches to fix it. An on-the-_
+- **Will Lee Shu-chuan win the next New Taipei Mayor election?**  
+  AI 0.46 (low) vs market 0.39 → AI confidence low: not trading on it  
+  _New Taipei's mayoral race is a genuine toss-up. Final-week polls are mixed, and the latest TVBS poll has Su Chiao-hui ahead by 0.6 points. KMT structural advantages roughly offset a slight late polling edge for Su, so Lee Shu-chuan is sligh_
+- **Will Puma Shen win the next Taipei Mayor election?**  
+  AI 0.40 (medium) vs market 0.39 → AI 0.40 vs market 0.39: agrees with market  
+  _Taipei's mayoral race is a near toss-up. The final pre-blackout polls split 3-3 between Shen and Chiang, with the larger Shen leads coming from pollsters who tend to favor the DPP. Chiang has incumbency, the Ko Wen-je/TPP endorsement and th_
 - **Will Elon Musk post 240-259 tweets from November 20 to November 27, 2026?**  
   AI 0.20 (low) vs market 0.12 → AI confidence low: not trading on it  
   _I couldn't find the live tracker count for Nov 20–27. Musk's recent pace of about 30–40 posts a day implies a total of roughly 210–280, and 240–259 sits near the center but is only a 20-post-wide bucket._
@@ -59,28 +69,10 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 - **Will Su Chiao-hui win the next New Taipei Mayor election?**  
   AI 0.56 (low) vs market 0.58 → AI confidence low: not trading on it  
   _Polls are split: DPP-friendly and some neutral polls show Su ahead by up to 15 points, while KMT-leaning outlets show Lee ahead by 4 to 5 points. The trend over the campaign favors Su, and TVBS's final poll flipped to a narrow Su lead. It i_
-- **Will Alberto Núñez Feijóo be the next Prime Minister of Spain?**  
-  AI 0.78 (medium) vs market 0.89 → NO edge +0.026 after fees < 0.05  
-  _A general election is set for 29 Nov 2026, and nearly all final polls show the PP winning with a PP+Vox majority (roughly 187–199 seats against 176 needed). Feijóo is very likely to be invested if that holds, since Vox is expected to back h_
-- **Will Chiang Wan-an win the next Taipei Mayor election?**  
-  AI 0.63 (medium) vs market 0.64 → AI 0.63 vs market 0.64: agrees with market  
-  _Chiang is the KMT incumbent in a blue-leaning city, with Taiwan People's Party voters overwhelmingly behind him. Final polls are split: DPP-leaning and independent pollsters show Shen ahead, while TVBS, ETtoday and China Times show Chiang a_
-- **Will Kuomintang (KMT) win the most head of local government elections in the 2026 Taiwan l**  
-  AI 0.79 (medium) vs market 0.77 → AI 0.79 vs market 0.77: agrees with market  
-  _Templeman's latest ratings put the KMT at 10 seats and the DPP at 7, with four toss-ups. The KMT has to win strictly more than the DPP, because a tie goes to the DPP alphabetically. The national mood favors the DPP, but the KMT is the likel_
 
 ## Activity log (latest 40)
 
 ```
-2026-11-26T17:47:06+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
-2026-11-26T18:17:08+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-26T18:17:13+00:00  [scan] 60 markets pass filters, 55 not recently researched
-2026-11-26T18:17:13+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
-2026-11-26T18:47:15+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-26T18:47:20+00:00  [scan] 57 markets pass filters, 52 not recently researched
-2026-11-26T18:47:20+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
-2026-11-26T19:17:21+00:00  === run start (paper mode) cash $17.60, 1 open ===
-2026-11-26T19:17:26+00:00  [scan] 52 markets pass filters, 47 not recently researched
 2026-11-26T19:17:26+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
 2026-11-26T19:47:28+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-26T19:47:32+00:00  [scan] 57 markets pass filters, 53 not recently researched
@@ -112,4 +104,13 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-26T23:48:51+00:00  === run start (paper mode) cash $17.60, 1 open ===
 2026-11-26T23:48:56+00:00  [scan] 51 markets pass filters, 46 not recently researched
 2026-11-26T23:48:56+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)
+2026-11-27T00:18:58+00:00  === run start (paper mode) cash $17.60, 1 open ===
+2026-11-27T00:19:05+00:00  [scan] 58 markets pass filters, 55 not recently researched
+2026-11-27T00:19:05+00:00  [research] Will Puma Shen win the next Taipei Mayor election?
+2026-11-27T00:19:20+00:00  [decide] AI 0.40 (medium) vs market 0.39 -> skip: AI 0.40 vs market 0.39: agrees with market
+2026-11-27T00:19:20+00:00  [research] Will Lee Shu-chuan win the next New Taipei Mayor election?
+2026-11-27T00:19:36+00:00  [decide] AI 0.46 (low) vs market 0.39 -> skip: AI confidence low: not trading on it
+2026-11-27T00:19:36+00:00  [research] Will it be confirmed that a software or configuration error caused the FAA's nationwide gr
+2026-11-27T00:19:54+00:00  [decide] AI 0.80 (medium) vs market 0.19 -> TRADE YES: edge found
+2026-11-27T00:19:54+00:00  [order] PAPER BUY YES 7.04 sh @ 0.188 = $1.38  (edge +0.206)  Will it be confirmed that a software or configuration error 
 ```

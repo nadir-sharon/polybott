@@ -1,7 +1,7 @@
 {
  "created": "2026-11-02T17:29:00+00:00",
  "starting_bankroll": 20.0,
- "cash": 17.604128,
+ "cash": 16.2271,
  "positions": {
   "5ea5d69299": {
    "id": "5ea5d69299",
@@ -22,6 +22,28 @@
    "ai_prob": 0.07,
    "confidence": "medium",
    "market_mid": 0.415,
+   "order_id": "paper",
+   "mode": "paper"
+  },
+  "e9a8268321": {
+   "id": "e9a8268321",
+   "opened_at": "2026-11-27T00:19:54+00:00",
+   "market_id": "7023983",
+   "event_id": "1382473",
+   "condition_id": "0x44317caf2a759734ed21c83f569376f592b1d06777fc8ce55685e36b5506d73f",
+   "question": "Will it be confirmed that a software or configuration error caused the FAA's nationwide ground stop on November 13?",
+   "url": "https://polymarket.com/event/what-technical-failure-caused-the-faas-nationwide-ground-stop",
+   "end_date": "2026-12-01T04:59:00+00:00",
+   "side": "YES",
+   "token_id": "6787766512998346377451974700677212188765886875764320186356560064222996847211",
+   "shares": 7.039057,
+   "avg_price": 0.188,
+   "cost": 1.377,
+   "fair_prob": 0.4019,
+   "edge": 0.2062,
+   "ai_prob": 0.8,
+   "confidence": "medium",
+   "market_mid": 0.1875,
    "order_id": "paper",
    "mode": "paper"
   }
@@ -2564,6 +2586,71 @@
    "decision": "AI confidence low: not trading on it",
    "traded": false,
    "url": "https://polymarket.com/event/elon-musk-of-tweets-november-20-november-27-2026"
+  },
+  {
+   "ts": "2026-11-27T00:19:20+00:00",
+   "market_id": "3580933",
+   "question": "Will Puma Shen win the next Taipei Mayor election?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.4,
+   "confidence": "medium",
+   "market_mid": 0.3925,
+   "summary": "Taipei's mayoral race is a near toss-up. The final pre-blackout polls split 3-3 between Shen and Chiang, with the larger Shen leads coming from pollsters who tend to favor the DPP. Chiang has incumbency, the Ko Wen-je/TPP endorsement and the city's blue lean, so he gets a slight edge.",
+   "sources": [
+    "https://www.taipeitimes.com/News/front/archives/2026/11/17/2003867865",
+    "https://www.rti.org.tw/en/news?uid=3&pid=1051920",
+    "https://world.storm.mg/articles/1184132",
+    "https://www.taipeitimes.com/News/taiwan/archives/2026/11/26/2003868442",
+    "https://www.taiwannews.com.tw/news/6476596"
+   ],
+   "cost": 0.266,
+   "decision": "AI 0.40 vs market 0.39: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100"
+  },
+  {
+   "ts": "2026-11-27T00:19:36+00:00",
+   "market_id": "3580994",
+   "question": "Will Lee Shu-chuan win the next New Taipei Mayor election?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.46,
+   "confidence": "low",
+   "market_mid": 0.39,
+   "summary": "New Taipei's mayoral race is a genuine toss-up. Final-week polls are mixed, and the latest TVBS poll has Su Chiao-hui ahead by 0.6 points. KMT structural advantages roughly offset a slight late polling edge for Su, so Lee Shu-chuan is slightly under 50%.",
+   "sources": [
+    "https://zh.wikipedia.org/zh-hant/2026%E5%B9%B4%E6%96%B0%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89",
+    "https://www.taipeitimes.com/News/taiwan/archives/2026/11/17/2003867880",
+    "https://udn.com/news/story/124652/9865460",
+    "https://news.nextapple.com/politics/20261113/8FCE5A5936B2973371CE4208413A24E5",
+    "https://www.chinatimes.com/realtimenews/20261115002960-260407",
+    "https://jamestown.org/local-elections-to-set-stage-for-taiwans-next-president",
+    "https://news.ltn.com.tw/news/politics/breakingnews/5639187"
+   ],
+   "cost": 0.2438,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/new-taipei-mayor-election-winner-20260813125857200"
+  },
+  {
+   "ts": "2026-11-27T00:19:54+00:00",
+   "market_id": "7023983",
+   "question": "Will it be confirmed that a software or configuration error caused the FAA's nationwide ground stop on November 13?",
+   "end_date": "2026-12-01T04:59:00+00:00",
+   "ai_prob": 0.8,
+   "confidence": "medium",
+   "market_mid": 0.1875,
+   "summary": "Officials have blamed a newly installed L3Harris/Juniper router flooding the FAA network. A Nov 24 CNN report, citing an unnamed source, says investigators found an overlooked router setting and expect software patches to fix it. An on-the-record official statement of the cause hadn't yet appeared in my results, and the announcement or the Dec 2 hearing could fall after the Nov 30 cutoff.",
+   "sources": [
+    "https://cnn.com/2026/11/24/politics/faa-identifies-cause-nationwide-ground-stop",
+    "https://www.cnn.com/2026/11/17/us/faa-ground-stop-juniper-router-installations",
+    "https://qz.com/faa-reveal-cause-router-outage-ground-stop-112026",
+    "https://aviationweek.com/air-transport/safety-ops-regulation/faa-says-router-malfunction-led-ground-stop",
+    "https://commerce.senate.gov/press/rep/release/preventing-the-next-ground-stop-modernizing-americas-air-traffic-control-system"
+   ],
+   "cost": 0.3917,
+   "decision": "edge found",
+   "traded": true,
+   "url": "https://polymarket.com/event/what-technical-failure-caused-the-faas-nationwide-ground-stop"
   }
  ],
  "ai_spend": {
@@ -2591,7 +2678,8 @@
   "2026-11-23": 1.017216,
   "2026-11-24": 0.978586,
   "2026-11-25": 0.95326,
-  "2026-11-26": 1.035078
+  "2026-11-26": 1.035078,
+  "2026-11-27": 0.901438
  },
  "realized_by_day": {
   "2026-11-16": -1.4649,
@@ -2599,15 +2687,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-21T23:59:18+00:00  [budget] daily AI budget $1.00 reached (spent $0.88)",
-  "2026-11-22T00:29:19+00:00  === run start (paper mode) cash $17.60, 1 open ===",
-  "2026-11-22T00:29:23+00:00  [scan] 39 markets pass filters, 37 not recently researched",
-  "2026-11-22T00:29:23+00:00  [research] Israel x Iran ceasefire continues through November 30?",
-  "2026-11-22T00:29:40+00:00  [decide] AI 0.85 (medium) vs market 0.82 -> skip: AI 0.85 vs market 0.82: agrees with market",
-  "2026-11-22T00:29:40+00:00  [research] Will Puma Shen win the next Taipei Mayor election?",
-  "2026-11-22T00:29:54+00:00  [decide] AI 0.41 (medium) vs market 0.35 -> skip: AI 0.41 vs market 0.35: agrees with market",
-  "2026-11-22T00:29:54+00:00  [research] Will the Democratic Progressive Party (DPP) win the most head of local government election",
-  "2026-11-22T00:30:24+00:00  [decide] AI 0.57 (low) vs market 0.23 -> skip: AI confidence low: not trading on it",
   "2026-11-22T01:00:26+00:00  === run start (paper mode) cash $17.60, 1 open ===",
   "2026-11-22T01:00:30+00:00  [scan] 40 markets pass filters, 35 not recently researched",
   "2026-11-22T01:00:30+00:00  [research] Will Chiang Wan-an win the next Taipei Mayor election?",
@@ -3398,6 +3477,15 @@
   "2026-11-26T23:18:49+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)",
   "2026-11-26T23:48:51+00:00  === run start (paper mode) cash $17.60, 1 open ===",
   "2026-11-26T23:48:56+00:00  [scan] 51 markets pass filters, 46 not recently researched",
-  "2026-11-26T23:48:56+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)"
+  "2026-11-26T23:48:56+00:00  [budget] daily AI budget $1.00 reached (spent $1.04)",
+  "2026-11-27T00:18:58+00:00  === run start (paper mode) cash $17.60, 1 open ===",
+  "2026-11-27T00:19:05+00:00  [scan] 58 markets pass filters, 55 not recently researched",
+  "2026-11-27T00:19:05+00:00  [research] Will Puma Shen win the next Taipei Mayor election?",
+  "2026-11-27T00:19:20+00:00  [decide] AI 0.40 (medium) vs market 0.39 -> skip: AI 0.40 vs market 0.39: agrees with market",
+  "2026-11-27T00:19:20+00:00  [research] Will Lee Shu-chuan win the next New Taipei Mayor election?",
+  "2026-11-27T00:19:36+00:00  [decide] AI 0.46 (low) vs market 0.39 -> skip: AI confidence low: not trading on it",
+  "2026-11-27T00:19:36+00:00  [research] Will it be confirmed that a software or configuration error caused the FAA's nationwide gr",
+  "2026-11-27T00:19:54+00:00  [decide] AI 0.80 (medium) vs market 0.19 -> TRADE YES: edge found",
+  "2026-11-27T00:19:54+00:00  [order] PAPER BUY YES 7.04 sh @ 0.188 = $1.38  (edge +0.206)  Will it be confirmed that a software or configuration error "
  ]
 }
