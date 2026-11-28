@@ -1,6 +1,6 @@
 # Polybot report: PAPER mode
 
-_Updated 2026-11-28T00:28:23+00:00 UTC_
+_Updated 2026-11-28T00:58:49+00:00 UTC_
 
 ## Scoreboard
 
@@ -10,8 +10,8 @@ _Updated 2026-11-28T00:28:23+00:00 UTC_
 | Cash now | $16.23 |
 | In open bets (at cost) | $4.42 (2 bets) |
 | Realized profit/loss | **$0.64** |
-| AI research spent | $25.01 |
-| Profit after AI costs | **-$24.36** |
+| AI research spent | $25.31 |
+| Profit after AI costs | **-$24.66** |
 | Settled bets | 2 (1 won, win rate 50%) |
 
 ## Is the AI better than the market?
@@ -39,6 +39,9 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 
 ## Latest AI research (10)
 
+- **Will Puma Shen win the next Taipei Mayor election?**  
+  AI 0.40 (low) vs market 0.44 → AI confidence low: not trading on it  
+  _No results were available at the time of searching. Final pre-blackout polls were split, with Shen ahead in four and Chiang ahead in three, mostly within the margin of error. Chiang's incumbency and Taipei's KMT lean, plus TPP support, give_
 - **Will Puma Shen win the 2026 Taipei Mayoral Election by 8% or more?**  
   AI 0.07 (medium) vs market 0.13 → AI 0.07 vs market 0.13: agrees with market  
   _The race was polled as roughly a toss-up, with a spread from Chiang +6 to Shen +15 on raw numbers. The most careful turnout-adjusted estimate ranged from Shen +3.7 to Chiang +4.2. An 8-plus-point Shen win would need a large polling miss in _
@@ -66,18 +69,10 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 - **Will Chiang Wan-an win the next Taipei Mayor election?**  
   AI 0.58 (low) vs market 0.57 → AI confidence low: not trading on it  
   _Taipei's mayoral race is a genuine toss-up. Final pre-blackout polls split 3-3 between Chiang and Shen, and Shen had momentum earlier. Chiang gets a modest edge from the city's blue-white structural majority, TPP voters consolidating behind_
-- **Will Puma Shen win the 2026 Taipei Mayoral Election by 8% or more?**  
-  AI 0.10 (medium) vs market 0.13 → AI 0.10 vs market 0.13: agrees with market  
-  _The Taipei race is essentially a toss-up. Published polls split between a Shen lead of up to 5 points and a Chiang lead of up to 7. An 8-point or larger Shen win is a tail outcome, which I put at about 10%._
 
 ## Activity log (latest 40)
 
 ```
-2026-11-27T19:26:11+00:00  [scan] 60 markets pass filters, 56 not recently researched
-2026-11-27T19:26:11+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)
-2026-11-27T19:56:13+00:00  === run start (paper mode) cash $16.23, 2 open ===
-2026-11-27T19:56:18+00:00  [scan] 60 markets pass filters, 56 not recently researched
-2026-11-27T19:56:18+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)
 2026-11-27T20:26:20+00:00  === run start (paper mode) cash $16.23, 2 open ===
 2026-11-27T20:26:25+00:00  [scan] 60 markets pass filters, 56 not recently researched
 2026-11-27T20:26:25+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)
@@ -113,4 +108,9 @@ This is the number that matters: if the AI isn't beating the market here, wins a
 2026-11-28T00:28:07+00:00  [decide] AI 0.08 (medium) vs market 0.12 -> skip: AI 0.08 vs market 0.12: agrees with market
 2026-11-28T00:28:07+00:00  [research] Will Puma Shen win the 2026 Taipei Mayoral Election by 8% or more?
 2026-11-28T00:28:23+00:00  [decide] AI 0.07 (medium) vs market 0.13 -> skip: AI 0.07 vs market 0.13: agrees with market
+2026-11-28T00:58:25+00:00  === run start (paper mode) cash $16.23, 2 open ===
+2026-11-28T00:58:29+00:00  [scan] 63 markets pass filters, 58 not recently researched
+2026-11-28T00:58:29+00:00  [research] Will Puma Shen win the next Taipei Mayor election?
+2026-11-28T00:58:49+00:00  [decide] AI 0.40 (low) vs market 0.44 -> skip: AI confidence low: not trading on it
+2026-11-28T00:58:49+00:00  [budget] daily AI budget $1.00 reached (spent $1.09)
 ```
