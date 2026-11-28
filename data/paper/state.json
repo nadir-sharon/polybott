@@ -2654,6 +2654,68 @@
    "decision": "edge found",
    "traded": true,
    "url": "https://polymarket.com/event/what-technical-failure-caused-the-faas-nationwide-ground-stop"
+  },
+  {
+   "ts": "2026-11-28T00:27:54+00:00",
+   "market_id": "3580932",
+   "question": "Will Chiang Wan-an win the next Taipei Mayor election?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.57,
+   "confidence": "low",
+   "market_mid": 0.555,
+   "summary": "The election is on Nov 28 and no results were available when I searched. Final polls split roughly evenly between Chiang and Shen. KMT/TPP fundamentals and incumbency give Chiang a slight edge, but Shen had strong late momentum.",
+   "sources": [
+    "https://www.taipeitimes.com/News/front/archives/2026/11/17/2003867865",
+    "https://www.taipeitimes.com/News/front/archives/2026/11/28/2003868526",
+    "https://www.rti.org.tw/en/news?uid=3&pid=1051920",
+    "https://www.yahoo.com/news/politics/articles/taiwans-capital-may-elect-mayor-022123121.html",
+    "https://thediplomat.com/2026/11/the-taipei-mayor-election-is-not-about-china/"
+   ],
+   "cost": 0.3854,
+   "decision": "AI confidence low: not trading on it",
+   "traded": false,
+   "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100"
+  },
+  {
+   "ts": "2026-11-28T00:28:07+00:00",
+   "market_id": "2695678",
+   "question": "Will Pedro S\u00e1nchez be the next Prime Minister of Spain?",
+   "end_date": "2026-11-30T04:59:00+00:00",
+   "ai_prob": 0.08,
+   "confidence": "medium",
+   "market_mid": 0.1215,
+   "summary": "Spain votes on 29 Nov; nearly all polls show a PP-Vox absolute majority (~187-195 seats) and S\u00e1nchez's bloc around 150-158. S\u00e1nchez would need a large polling miss like 2023 to be re-invested, so the chance is low but not negligible.",
+   "sources": [
+    "https://leprivatebanker.com/2026/11/27/spain-votes-sunday-with-final-polls-pointing-to-a-pp-vox-majority-as-inflation-and-housing-dominate-the-campaign/",
+    "https://www.thestar.com.my/news/world/2026/11/27/explainer-spain039s-snap-election---why-it-matters-and-who-might-win",
+    "https://www.elindependiente.com/espana/2026/11/23/sanchez-sin-remontada-ultimas-encuestas-escanos-seis-dias-elecciones/",
+    "https://pollar.news/en/event/spain-election-snchez-defies-polls"
+   ],
+   "cost": 0.0956,
+   "decision": "AI 0.08 vs market 0.12: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/next-prime-minister-of-spain-20260625005215443"
+  },
+  {
+   "ts": "2026-11-28T00:28:23+00:00",
+   "market_id": "6976265",
+   "question": "Will Puma Shen win the 2026 Taipei Mayoral Election by 8% or more?",
+   "end_date": "2026-11-29T04:59:00+00:00",
+   "ai_prob": 0.07,
+   "confidence": "medium",
+   "market_mid": 0.1305,
+   "summary": "The race was polled as roughly a toss-up, with a spread from Chiang +6 to Shen +15 on raw numbers. The most careful turnout-adjusted estimate ranged from Shen +3.7 to Chiang +4.2. An 8-plus-point Shen win would need a large polling miss in his favor, and I found no actual results.",
+   "sources": [
+    "https://www.taiwannews.com.tw/news/6476596",
+    "https://news.tvbs.com.tw/politics/4051318",
+    "https://theinitium.com/20261117-whatsnew-taipei-mayor-election-final-polls/",
+    "https://www.rti.org.tw/en/news?uid=3&pid=1051920",
+    "https://news.ltn.com.tw/news/Taipei/paper/1778748"
+   ],
+   "cost": 0.3083,
+   "decision": "AI 0.07 vs market 0.13: agrees with market",
+   "traded": false,
+   "url": "https://polymarket.com/event/2026-taipei-mayoral-election-margin-of-victory-20261103233704870"
   }
  ],
  "ai_spend": {
@@ -2682,7 +2744,8 @@
   "2026-11-24": 0.978586,
   "2026-11-25": 0.95326,
   "2026-11-26": 1.035078,
-  "2026-11-27": 0.901438
+  "2026-11-27": 0.901438,
+  "2026-11-28": 0.789296
  },
  "realized_by_day": {
   "2026-11-16": -1.4649,
@@ -2690,14 +2753,6 @@
  },
  "halted": null,
  "log": [
-  "2026-11-23T00:06:31+00:00  [scan] 34 markets pass filters, 30 not recently researched",
-  "2026-11-23T00:06:31+00:00  [research] Will Elon Musk post 65-89 tweets from November 21 to November 23, 2026?",
-  "2026-11-23T00:06:50+00:00  [decide] AI 0.43 (low) vs market 0.17 -> skip: AI confidence low: not trading on it",
-  "2026-11-23T00:06:50+00:00  [research] Spain General Election: PP + Vox Majority?",
-  "2026-11-23T00:07:02+00:00  [decide] AI 0.86 (medium) vs market 0.90 -> skip: AI 0.86 vs market 0.90: agrees with market",
-  "2026-11-23T00:07:02+00:00  [research] Next White House Press Secretary announced by November 30, 2026?",
-  "2026-11-23T00:07:19+00:00  [decide] AI 0.09 (medium) vs market 0.15 -> skip: AI 0.09 vs market 0.15: agrees with market",
-  "2026-11-23T00:37:20+00:00  === run start (paper mode) cash $17.60, 1 open ===",
   "2026-11-23T00:37:25+00:00  [scan] 29 markets pass filters, 24 not recently researched",
   "2026-11-23T00:37:25+00:00  [research] Will Puma Shen win the next Taipei Mayor election?",
   "2026-11-23T00:37:33+00:00  [decide] AI 0.42 (low) vs market 0.29 -> skip: AI confidence low: not trading on it",
@@ -3489,6 +3544,14 @@
   "2026-11-27T23:27:23+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)",
   "2026-11-27T23:57:24+00:00  === run start (paper mode) cash $16.23, 2 open ===",
   "2026-11-27T23:57:29+00:00  [scan] 67 markets pass filters, 63 not recently researched",
-  "2026-11-27T23:57:29+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)"
+  "2026-11-27T23:57:29+00:00  [budget] daily AI budget $1.00 reached (spent $0.90)",
+  "2026-11-28T00:27:31+00:00  === run start (paper mode) cash $16.23, 2 open ===",
+  "2026-11-28T00:27:35+00:00  [scan] 65 markets pass filters, 63 not recently researched",
+  "2026-11-28T00:27:35+00:00  [research] Will Chiang Wan-an win the next Taipei Mayor election?",
+  "2026-11-28T00:27:54+00:00  [decide] AI 0.57 (low) vs market 0.56 -> skip: AI confidence low: not trading on it",
+  "2026-11-28T00:27:54+00:00  [research] Will Pedro S\u00e1nchez be the next Prime Minister of Spain?",
+  "2026-11-28T00:28:07+00:00  [decide] AI 0.08 (medium) vs market 0.12 -> skip: AI 0.08 vs market 0.12: agrees with market",
+  "2026-11-28T00:28:07+00:00  [research] Will Puma Shen win the 2026 Taipei Mayoral Election by 8% or more?",
+  "2026-11-28T00:28:23+00:00  [decide] AI 0.07 (medium) vs market 0.13 -> skip: AI 0.07 vs market 0.13: agrees with market"
  ]
 }
